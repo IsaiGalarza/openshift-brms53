@@ -1,0 +1,3764 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: BvCqm/KlHpe1JMu1+MJPHJe32lQ=
+Created-By: 1.6.0_20 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: nG+0eW42vp1KdayqoiN4yzsD6xs=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/btn-over-bg.gif
+SHA1-Digest: z2b7utoGppHkYuFBW+TPV9e9On0=
+
+Name: images/disk_multi.png
+SHA1-Digest: odTJncQNIFkElzcNq9HK4hK4eAU=
+
+Name: lib/ext-2.0.2/resources/images/default/shadow-lr.png
+SHA1-Digest: nPwhIrdmgsyTXUCHBR5e0z9ONKI=
+
+Name: stencilsets/epn/icons/association.undirected.png
+SHA1-Digest: IrtRKCo1AaZLKyDg3iiAfi9ukQk=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid3-hrow-over.gif
+SHA1-Digest: AZiVA+hXK4DiQAYuYO5Mv2nXc1M=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/DefaultProfil
+ eImpl.class
+SHA1-Digest: v6DlMyQTlNNkvvLAKMdJSENk1ws=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-prev-disabled.g
+ if
+SHA1-Digest: XzU2g5Wv1Hy0OsqWVSuIZXfVq10=
+
+Name: lib/ext-2.0.2/adapter/yui/yui-utilities.js
+SHA1-Digest: Dv12yLbDUfjZei8JKkZWtGMUAIk=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/se-handle.gif
+SHA1-Digest: Gu9N7V2tAbq6pW8QJ2+bFwf1Uxo=
+
+Name: images/toolbar_next.png
+SHA1-Digest: ZtAESHgsTimje8ldm5Uh4FTCPJA=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/Thumbs.db
+SHA1-Digest: foHhBO7C/EHOTak9Oh2f7OKmY64=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.timer.png
+SHA1-Digest: pHtYwH6RsR2zzh3DvbwBKUF4UEU=
+
+Name: js/Core/StencilSet/stencil.js
+SHA1-Digest: rurR7UENXa0ILVFH81khZjKa0cY=
+
+Name: WEB-INF/lib/smack-3.0.4.jar
+SHA1-Digest: pjTDWlSs+8IFlcD/3cKOfUnoMkI=
+
+Name: lib/ext-2.0.2/resources/css/borders.css
+SHA1-Digest: nrcUfJWZ5sLl2AzKmSAz+DSgSu0=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hmenu-asc.gif
+SHA1-Digest: ClX/0oI1yjr2HIEgP+kFD5kfhhA=
+
+Name: WEB-INF/classes/org/jbpm/designer/epn/impl/EpnJsonUnmarshaller.c
+ lass
+SHA1-Digest: YJLVtOrtss/3DJcUK5bdbyiJZnM=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-strip-btm-bg.gif
+SHA1-Digest: gtfS8Kl2evmx5/+mIJbIMGHnrtc=
+
+Name: js/Plugins/cpnsupport.js
+SHA1-Digest: 4R801vzM6D9uvCffEc/gIjqFK/o=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/tb-bg.gif
+SHA1-Digest: 8EUYzaYuyK6wsHksWPBNGxp3ucY=
+
+Name: WEB-INF/lib/closure-compiler-r1741.jar
+SHA1-Digest: pwuCn+2UKOvhdLOxIuo47ZJNO/E=
+
+Name: WEB-INF/lib/batik-ext-1.6-1.jar
+SHA1-Digest: BD6+j1gyWq9YQ6uUwHHJLNZAHyo=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/link.png
+SHA1-Digest: 7EJNtScc1R5dH7WNd3AjdVdQ/S8=
+
+Name: lib/ext-2.0.2/resources/images/default/box/corners.gif
+SHA1-Digest: wWmgxdPI1m17IGDuh8oUfNB7sKU=
+
+Name: images/epml_export_icon.png
+SHA1-Digest: wjHu4Qj+NqVVENFYdYH45HOWn38=
+
+Name: lib/ext-2.0.2/resources/css/date-picker.css
+SHA1-Digest: 50/yUz7+UyYZi1dkv1gENGVe8TM=
+
+Name: lib/ext-2.0.2/resources/resources.jsb
+SHA1-Digest: 4zpqgW57r4fCLK2xXlsuNCPUQsE=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/sw-handle-dark.gif
+SHA1-Digest: CZlUgznP6MnJkZSZkVEH+0aPeus=
+
+Name: images/crystal/misc.png
+SHA1-Digest: NF1gwDhfJe3KeOh5sDoa0Fc6trw=
+
+Name: js/Plugins/bpmnResourcesSoDShow.js
+SHA1-Digest: e6ERskBxw2oV6r2JVVkiUVTNAqs=
+
+Name: stencilsets/epn/view/messageflow.svg
+SHA1-Digest: CcGp+ahR/qHQapM9TMDidjZIz7M=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/nw-handle-dark.gif
+SHA1-Digest: XWzG1SvWUHU1KR1/x757pdqAQ6c=
+
+Name: images/colorpicker.gif
+SHA1-Digest: GoWjuB/uPKMGsOBzbkC3kyuG968=
+
+Name: js/Plugins/servicenodeeditor.js
+SHA1-Digest: qxEm3aciJ7xNc0yKI9ZDrxzqZUo=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/multiple.png
+SHA1-Digest: tejbbN3lomVSw1K3OIg6pO5tG5U=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/LocalResource.
+ class
+SHA1-Digest: xC3Vt+15eaNfbC+ZsSS3vYsi77I=
+
+Name: js/Core/edge.js
+SHA1-Digest: k9ipPA7dWwFecHzK2xPyA4P9Mww=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/stick.gif
+SHA1-Digest: BXOEt/YwbO+UdZAz+uNqFBBb+0o=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/escalation.png
+SHA1-Digest: y3dXA2FDu5QDWvTOxIuel31JaY4=
+
+Name: js/Plugins/AutoLayouter/bin/libexpat.dll
+SHA1-Digest: Kw8uEPQhLfnN1mSIji0d9xRs2+A=
+
+Name: js/Plugins/bpmnResourcesBoDAdd.js
+SHA1-Digest: 8pUhRyAruEF7uvSslH5VjvRGjAA=
+
+Name: images/add.png
+SHA1-Digest: ktpsCd+XipRvhj/Oq6d61ebXbnE=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/RdfJsonTransformation.c
+ lass
+SHA1-Digest: wcLNDa+jRQ4FuS4eKCJT/sQ0dHw=
+
+Name: js/Plugins/nodeXMLViewer.js
+SHA1-Digest: mRGssbjHdGaQW89PYYAM/gwFzJE=
+
+Name: js/cmcss.js
+SHA1-Digest: BrVHD+TnwDmNEtOdazcn94V5F+k=
+
+Name: images/HPDTRP_logo.jpg
+SHA1-Digest: MkjKfbSJudlGJgPeI0smmI+WM4g=
+
+Name: lib/ext-2.0.2/resources/css/ext-all.css
+SHA1-Digest: yM6LJxWUTEi9rVm43Khe0ZAVDEU=
+
+Name: execution/bindings.xml
+SHA1-Digest: 3TvrpoFuwcIZ0ic8GdtMxaDcaRw=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/filter/ConfigurableFilterC
+ onfig.class
+SHA1-Digest: V4hejnP9vvVRd/254oktil2BSpY=
+
+Name: lib/bpmn20/BPMN20.xsd
+SHA1-Digest: 1Xs+eBuRG8CAQ/EET/781DBz4Yw=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/top-bottom.gif
+SHA1-Digest: 2aHOD6qcp8gwg6T/ueJUJPfefT8=
+
+Name: lib/ext-2.0.2/resources/images/vista/toolbar/tb-btn-sprite.gif
+SHA1-Digest: aeo+iXqcVX+oW0Exo47b7i90110=
+
+Name: stencilsets/extensions/bpmn2.0jbpmminimal/bpmn2.0jbpmminimalsubs
+ et.json
+SHA1-Digest: cwYC+7jaFrqLrRtxCh5jRblNOJY=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/Bounded.class
+SHA1-Digest: TCq8baOvX3nkX43eWAbfwQfv1uc=
+
+Name: lib/ext-2.0.2/adapter/jquery/ext-jquery-adapter.js
+SHA1-Digest: iwc/pIp9p24FmJXvNMaW2Q5ulXA=
+
+Name: images/originals/new_arr2.svg
+SHA1-Digest: bXMvjPCKAzt8kfYZCaCn8pFNKj8=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/expand.gif
+SHA1-Digest: RfnpPDd6p2uEqSacgqb1b+4DifU=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/loading-balls.gif
+SHA1-Digest: Fgo4XukLEPf57e+LOorxWUdI1Ls=
+
+Name: lib/ext-2.0.2/resources/images/default/window/right-corners.psd
+SHA1-Digest: 2Tt/4LlzRh01+MXW6nqQzezsCGE=
+
+Name: WEB-INF/lib/avalon-framework-4.1.4.jar
+SHA1-Digest: puox6WJrtLvyosjpOEtrG6Uyqzk=
+
+Name: images/information.png
+SHA1-Digest: ELihYpmYGwGAn1HLgbYbvcVh1e4=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/white-corners-sprit
+ e.gif
+SHA1-Digest: XbAx/ecPqnTnbcy2qDZJnPyc9sE=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/LocalPluginImp
+ l.class
+SHA1-Digest: MM0mf17r5LGBQmHWMHjRET1+18Y=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/IDiagramStencil
+ SetFactory.class
+SHA1-Digest: 4dWfdr5qf3Q7rMOJFHvo1U25JfQ=
+
+Name: lib/ext-2.0.2/resources/images/default/form/trigger-tpl.gif
+SHA1-Digest: mnM/EwDW7F394ysasUSobJTO2bg=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/drop-add.gif
+SHA1-Digest: VzvyNQVkwHMNWDvEyFq55/5MSfY=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetJSONPServlet.
+ class
+SHA1-Digest: RJM0ccQ4m/7d8KH8rW+1eSkoa9U=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/scroll-right.gif
+SHA1-Digest: wssT9kYUiY3FwxUn5xLWdV+mOek=
+
+Name: stencilsets/bpmn2.0jbpm/icons/artifact/group.png
+SHA1-Digest: AQbGMAbzf+rvufDw2MKitxQRU20=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/link.throwing.svg
+SHA1-Digest: 6lwiyg6QS6sNzenJ2KfcOoTP/0I=
+
+Name: js/Plugins/dragdropresize.js
+SHA1-Digest: pQ2ajetNqj1jUrx5w44+T6Cize8=
+
+Name: js/Plugins/bpmnLayouter.js
+SHA1-Digest: vH9UDfa0zkzVHgv1GV2QSGS0U1E=
+
+Name: xslt/RDF2BPEL4Chor_Topology.xslt
+SHA1-Digest: /Ax8DBaOJofVDzF3BnWNkwCYXxU=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/none.png
+SHA1-Digest: 0bT1w+dUnIf2kr+N2fEXVRRnnxs=
+
+Name: lib/ext-2.0.2/resources/css/grid.css
+SHA1-Digest: X/kssDqMJSbxwhavRPIcqDozkng=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/tab-close-on.gif
+SHA1-Digest: nWh7kzvNSd5u5KKgt7syvZWaW2c=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/e-handle.gif
+SHA1-Digest: r13xN8CNjgeX1DS9xrCo6bDE9MU=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/subprocess.embedded.svg
+SHA1-Digest: 0rRpDCU1LRwNx4H5pN3E+Pt61Do=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/top-bottom.png
+SHA1-Digest: bAL/d0ABOPFvVjsQik54hO4E8Fg=
+
+Name: js/Plugins/edit.js
+SHA1-Digest: T2b/1ZqtR1mVlqtkfQ9PZieu1Zg=
+
+Name: images/aris_import_icon.png
+SHA1-Digest: LQB9mTDsroZGnHGTCC86DgkrtRc=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/complex.png
+SHA1-Digest: If05kUJh+syE6ub8vzedQc9nvV4=
+
+Name: images/originals/new_ste.png
+SHA1-Digest: sQ4Ah4LjxoZZ5yFN8ePM38UwUS8=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-first-disabled.
+ gif
+SHA1-Digest: QeYOJfrqhpCh1csDBzvEAnbUUg4=
+
+Name: lib/ext-2.0.2/INCLUDE_ORDER.txt
+SHA1-Digest: DijaCk5NK4IDNyvsp/9NMm1gjq0=
+
+Name: WEB-INF/classes/org/jbpm/designer/epn/impl/EpnJsonMarshaller.cla
+ ss
+SHA1-Digest: FQV41ccTsVGEtGa3/QMk+p+2qYo=
+
+Name: js/Plugins/canvastitle.js
+SHA1-Digest: vaIa3tAjaDFsVhr8B4xgweWrIMo=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/batikprotocolhandler/Guvno
+ rParsedURLData.class
+SHA1-Digest: D1FwiFaYhAWM1Oo6EzYlky1EXyg=
+
+Name: images/arrow-top.png
+SHA1-Digest: TleTz8oUx+T9yra58krHyqDEqMc=
+
+Name: WEB-INF/lib/json-20090211.jar
+SHA1-Digest: 70X+od+TfhGGcjRKtgEkv+mgWcg=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/nw-handle.gif
+SHA1-Digest: m4aY0SI5otmv40nn6vuqgMjiUPs=
+
+Name: lib/ext-2.0.2/resources/css/window.css
+SHA1-Digest: BPv7MInyRJq7PMb4sIq+6trpEZY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/signal.png
+SHA1-Digest: +TzNcj+o6M9kHoVKbjPg5H6Ex5k=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/exclusive.databased.png
+SHA1-Digest: nooMysmwQhhNo3ZX32ml2aEsSXk=
+
+Name: stencilsets/bpmn2.0jbpm/icons/swimlane/process.participant.png
+SHA1-Digest: eLUuQwKIuOJfbiVZ15mUD2Hyqac=
+
+Name: images/shape_move_forwards.png
+SHA1-Digest: VvXZkj5jsM2uqbvztF+ZsYHuMn4=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-plus.gif
+SHA1-Digest: 79jDs2BdwZlNLN8O3DBjiDGxjPA=
+
+Name: stencilsets/bpmn2.0jbpm/icons/dataobject/list/input.png
+SHA1-Digest: WARoR3cSd0D0nD6PPuupGLXfiZ8=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/arrow-right-white.gi
+ f
+SHA1-Digest: bpkC4jf5mxKFwLeyDRFn42ikymk=
+
+Name: images/export.png
+SHA1-Digest: vc6zs/tSnW5ZhjWQ8VY+j+tOvU8=
+
+Name: images/soundness_checker/asterisk_yellow.png
+SHA1-Digest: stygZanKHpWuc8SxVSuhXIcWGH8=
+
+Name: css/xforms_default.css
+SHA1-Digest: ORZ8tlKtY7fJ/cmp8jJWiO5gamA=
+
+Name: lib/ext-2.0.2/resources/css/reset.css
+SHA1-Digest: P5+W68Z6HMQ6QU6SfY5FMqbJevI=
+
+Name: stencilsets/bpmn2.0jbpm/view/connector/association.bidirectional
+ .svg
+SHA1-Digest: /bd728A/084Eb5Gk0xEiIvF8bL8=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/cancel.png
+SHA1-Digest: Ncuvi8TWtJv9iOquIk8sns3zX4U=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/terminate.svg
+SHA1-Digest: vhARKSWWnrzAn9PvsmG7O0+cM8k=
+
+Name: stencilsets/epn/icons/producer.png
+SHA1-Digest: T47xM9wXiA81kn2IAh/TRS0cqT4=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/TaskFormsServlet.cl
+ ass
+SHA1-Digest: vEyY2iMF6t8vqS9zchll2ZvLnGg=
+
+Name: js/Plugins/AutoLayouter/src/rdfrena.rb
+SHA1-Digest: Hh2PgD8J3c7dKJ4U6HTKep/H/v0=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/expand.gif
+SHA1-Digest: Ov/ZmDS81KR/FEzIuEmP/ALFpjk=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-next-disabled.g
+ if
+SHA1-Digest: 4Sf7IG0lWQ2YkrSQdH1N7limwtQ=
+
+Name: xslt/BPMN2XForms.xslt
+SHA1-Digest: 2H5OqA2cZXZdso2UQ9NqDnUKm10=
+
+Name: js/Plugins/arrangement.js
+SHA1-Digest: 8sdzwK8QhUH1ih2PR3Lk03cwC/E=
+
+Name: stencilsets/bpmn2.0jbpm/icons/dataobject/message.png
+SHA1-Digest: GdeQwN+gWGvpiYNDVjNPZ3N81NI=
+
+Name: stencilsets/bpmn2.0jbpm/view/connector/messageflow.svg
+SHA1-Digest: wvrlZeIUFQ2KF8VcSdT+9bi5Kt4=
+
+Name: js/Plugins/treeGraphSupport.js
+SHA1-Digest: IKj76hnaINvMDRbJoNa6+Oe79Sk=
+
+Name: images/arrow-left.png
+SHA1-Digest: hig9TVPqZRRSles9QHPzh7P6lPc=
+
+Name: WEB-INF/lib/batik-util-1.6-1.jar
+SHA1-Digest: 8/nrNaCXKkW52EAICcty2qjsmp4=
+
+Name: taskforms/processtaskform.st
+SHA1-Digest: P/hsUf/kBiKSy7GpH8OJ9rawGGY=
+
+Name: stencilsets/epn/icons/messageflow.png
+SHA1-Digest: j0xebiIMy3kkVXgGx9ucJCuDBNQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/RDF2JSONServlet.class
+SHA1-Digest: qDehnu9mfmd3bIQqILVRWAliIks=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/multiple.parallel.png
+SHA1-Digest: lpHhAXAX88Yx0kEHE693wZVjE64=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/ProcessInfoServlet.
+ class
+SHA1-Digest: AoKzvVkSKBpkrMJuE3l5ym5WuHM=
+
+Name: images/originals/new_act.png
+SHA1-Digest: ovzlAW8p67xrLMiVUTYSCcGjgbY=
+
+Name: js/Plugins/AutoLayouter/tests/create_pic.rb
+SHA1-Digest: NPML3SioxB4+cWPKN3/Vv0J+BBI=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/subprocess.adhoc.svg
+SHA1-Digest: pzNA63keYwiNfnTwMWQrpw8ZZdk=
+
+Name: images/controls/button.png
+SHA1-Digest: wYmdKfQQ79sLUoYOqVPbssKbghI=
+
+Name: images/originals/new_arr.png
+SHA1-Digest: /BNu2uEm4rj2cadP0m8h0E1f/oM=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMXMLSaveImpl
+ $JBPMLookup.class
+SHA1-Digest: r8C3nDk/stYZdYoNFerkQLLmc7Q=
+
+Name: js/Core/StencilSet/rules.js
+SHA1-Digest: Ibzra7cLB1vc5JKIk9zDomjVeRE=
+
+Name: lib/ext-2.0.2/resources/images/vista/qtip/bg.gif
+SHA1-Digest: CB6G0HyhnawPCOnGMYGhJfYTaaE=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/sort_desc.gif
+SHA1-Digest: 7MBHS3Zz7epTl9ztroUBqzID6Cs=
+
+Name: js/Plugins/jpdlSupport.js
+SHA1-Digest: MA/EZm/dCYwdSvanu1lP3vBG6Ec=
+
+Name: images/pdf.gif
+SHA1-Digest: xBn0l5rS7NXW8SNGwhh0y5wo/Ac=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/messageflow.png
+SHA1-Digest: XN1xeSQuMy7OE+TGhQ+4Ff82hNw=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/se-handle-dark.gif
+SHA1-Digest: 3pdylAqU3mQISemSPNyWNMTirDI=
+
+Name: images/email_go.png
+SHA1-Digest: 5ZXf4xi/D2MTLKMLJYZwhRzKkr4=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/btn-arrow.gif
+SHA1-Digest: 32FF8Sd90NrOO6eOGKreV0g/H6I=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/ProfileServic
+ eImpl.class
+SHA1-Digest: NMnAqUS1K/k3O5QdS80VCFaA75U=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/escalation.png
+SHA1-Digest: z1tmtxtkLs9b0szTniXoUItJoOQ=
+
+Name: js/Plugins/bpmn2yawl.js
+SHA1-Digest: IKAknB+42XyHkj6DLx2D6BskiGA=
+
+Name: lib/ext-2.0.2/color-field.js
+SHA1-Digest: vrv96xTc72PY6mpckC0eaLtZcp0=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/Stencil.class
+SHA1-Digest: JKk6c3PtRRTAfDbR8AEqxpkXuwA=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/mi.sequential.png
+SHA1-Digest: zLo2upRKhOcyKZvv3uGOg9INEPE=
+
+Name: META-INF/maven/org.jboss.drools/process-designer/pom.xml
+SHA1-Digest: TIBff7xC/Rd5EL8dwI0h3AYkf0U=
+
+Name: WEB-INF/lib/batik-extension-1.6-1.jar
+SHA1-Digest: s9AAJzpMes+Qkr8IGOJXTV9JFTE=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/warning.gif
+SHA1-Digest: D6qbQqbsPoaXN3t6iRRYJG4SUYg=
+
+Name: js/Plugins/stepThroughPlugin.js
+SHA1-Digest: tAy0TwSexbu4XOUL+0Smd9ddgEY=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/btn-arrow-light.g
+ if
+SHA1-Digest: Dkf4WNNEGI5SmP7siJrlt75qNT4=
+
+Name: images/jbpm_logo.png
+SHA1-Digest: tVPSIGaYjtwIFsT8FQ5BZwhHEaE=
+
+Name: js/Plugins/adHocCC.js
+SHA1-Digest: u76Nv8qrngm5I3WZkq1rWYOEV3Y=
+
+Name: images/diff.gif
+SHA1-Digest: PcEnFPVcZv069CLyGI0R+a5ETvw=
+
+Name: editor.html
+SHA1-Digest: 33RgaODvrjGS1HHhETwqEq/V+GU=
+
+Name: WEB-INF/lib/commons-lang-2.5.jar
+SHA1-Digest: Xg74feBVswtlWAOert24k8XdWf8=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/bg-right.gif
+SHA1-Digest: nhmsdr+1XdUda8sEvO/NnrI/V1o=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/group-by.gif
+SHA1-Digest: TME3OypxrxfT6PD8AGMJloTikZE=
+
+Name: stencilsets/epn/icons/agent.png
+SHA1-Digest: VWEkYuOnZzY5KORHa/UpRHbr97Y=
+
+Name: lib/ext-2.0.2/resources/images/default/shadow-c.png
+SHA1-Digest: NpNVI9ktJgbDqWwJvnVNZrMFRlQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/AlternativesRenderer.cl
+ ass
+SHA1-Digest: xD2bHArLHbTZIhGdw7Vvercaji8=
+
+Name: images/exportarrow.png
+SHA1-Digest: VMQ3idv/ERlkOizthAhq3x3hJk8=
+
+Name: images/checker_validation.png
+SHA1-Digest: sWh+tbyubOuVD0vSlwqb4vjKckA=
+
+Name: images/share.gif
+SHA1-Digest: lPzzPaGy67FOJpSVxgCAz2IYrUw=
+
+Name: js/Plugins/autoLayout.js
+SHA1-Digest: b1G4q6UgvTePPn0ePCeWq92CkjQ=
+
+Name: WEB-INF/lib/org.eclipse.emf.common-2.6.0.v20100614-1136.jar
+SHA1-Digest: Qk8ED05aDhWK7v7a6nzvxcS1Grc=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/mso-hd.gif
+SHA1-Digest: I33Iio+/Q7Tg5JverYh48+g/rmE=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/Shape.class
+SHA1-Digest: Ngymij+D3LjJyqc3AQhcuoHuyMo=
+
+Name: js/Plugins/plugins.xml
+SHA1-Digest: eM6xMnWSX25THuRys9FRpBJlcKc=
+
+Name: js/Plugins/dictionary.js
+SHA1-Digest: z2ECD6k2envhtiiIPEDWpsBn6pg=
+
+Name: js/Plugins/ibpmn2bpmn.js
+SHA1-Digest: NBVFijk98FvyFYMGXialLR1FVzw=
+
+Name: js/Plugins/validator.js
+SHA1-Digest: UeCQfaAhoJtTyWxzYvZ3LHq3br4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.error.png
+SHA1-Digest: u8bpUdV2atQFTABJ0QUQiPxMCFo=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/bg-center.gif
+SHA1-Digest: oYpVWMt7pWDZClwgJf0sGgAve7Q=
+
+Name: js/datamanager.js
+SHA1-Digest: 63QB2L5nvgeJ56VThl7p3V6tWVk=
+
+Name: images/originals/new_stp.svg
+SHA1-Digest: fdLH4ZixPXMBFBcEmUlLwGtuNqw=
+
+Name: js/Plugins/AutoLayouter/src/rdfparser.rb
+SHA1-Digest: xanJqNlYL4Msn81jt1qImkmKj0k=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/Activator$3.class
+SHA1-Digest: GAqvDwTutx2S0kEnu/VMADdz7c8=
+
+Name: WEB-INF/lib/commons-compress-1.0.jar
+SHA1-Digest: sn5MBBEIIlK33WhgRglfFTnYzhA=
+
+Name: i18n/translation_ja.js
+SHA1-Digest: GzNLkAddZrL5EFZGmN2ZneVZaFE=
+
+Name: images/source.png
+SHA1-Digest: 2TnEPz91cL6ky/gUB/MzSZyXbvM=
+
+Name: images/design-thinking/author.jpg
+SHA1-Digest: 08+3EulYFCmUEIfzI8jwOTOo+io=
+
+Name: images/epc_check.png
+SHA1-Digest: OiWP5uwzQvjeEMhIzEc5TTLWScs=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/panel-title-bg.gif
+SHA1-Digest: ZuDqhkj8bRxR2spB+8ij1DCjRcU=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/IDiagramPluginServi
+ ce.class
+SHA1-Digest: v+uTfgJGKGXMr4IiHcDNnveIp+M=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/scroll-left.gif
+SHA1-Digest: NZ+IgkjwwBMSye1CM9lQwdwby2I=
+
+Name: WEB-INF/lib/xmlgraphics-commons-1.4.jar
+SHA1-Digest: m9Ndeir2QEWOESmhVGj4UydBBYo=
+
+Name: images/shape_ungroup.png
+SHA1-Digest: jPzULdlh1xAZbCbOoqKETpqVmZ4=
+
+Name: images/bpel_layout_enable.png
+SHA1-Digest: SBk4UP7o+Xnc7XSAZZBHljJNLDU=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/IDiagramPlugin.clas
+ s
+SHA1-Digest: Ehy2fqRdXtBQRrfFA7GjIPJMBL8=
+
+Name: lib/ext-2.0.2/resources/images/default/window/right-corners.png
+SHA1-Digest: WmVVp0QG5d58xuq5vTUENwWaQ+8=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/workitems/workitem.orig
+SHA1-Digest: U3uZiFZzYJYgnYqxnNoK0VSJLi0=
+
+Name: WEB-INF/lib/batik-svggen-1.6-1.jar
+SHA1-Digest: YlK15AKPlTfDf1QiZJl0RGzD/BA=
+
+Name: defaults/BPMN2-DefaultProcess.json
+SHA1-Digest: PeXjY9CrxzoOIrHwGV3a24OYKb8=
+
+Name: js/Plugins/bpmn2xhtml.js
+SHA1-Digest: kP9OLV2XrNJ4v+0Bn66HrKg68VI=
+
+Name: lib/ext-2.0.2/resources/images/default/menu/menu.gif
+SHA1-Digest: 5AJMKeBs2uzEE2vtU5lIJcl75SI=
+
+Name: js/Plugins/DataAssignment/extendedDataAssignmentEditor.js
+SHA1-Digest: Gw4s5b0JJQXzgHTp9xz7OlX9E6Y=
+
+Name: images/checker_syntax.png
+SHA1-Digest: yRiKOc5LYWvk4h9KxKvBN7p460o=
+
+Name: js/Plugins/AutoLayouter/bin/png.dll
+SHA1-Digest: 6WTAkpcy1juOxqmmaVLtz9X+6rA=
+
+Name: images/design-thinking/reviewer.jpg
+SHA1-Digest: wf47wo+vseS22gwuFAxY0tdvtYc=
+
+Name: xslt/EPML2AML_2.xslt
+SHA1-Digest: ZoFsTddQ9AOFayUa7i0SIKWxfy0=
+
+Name: js/Plugins/shapemenu.js
+SHA1-Digest: fBAU91DHt3eSzouuQFrAYl5DcsE=
+
+Name: images/feedback/pointer.png
+SHA1-Digest: Wc+7rDxa8+mqruPmK6qylPF1wXA=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/ns-collapse.gif
+SHA1-Digest: yH+8bSCCj/pij9VL0Z7rwgJ6XTU=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/ne-handle-dark.gif
+SHA1-Digest: sGGKcKyJsFqkodGcIfKNhMH96Bg=
+
+Name: images/originals/new_action.bmp
+SHA1-Digest: q2aDCXvSJ4ahQW7uagKjfto3ALY=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler.class
+SHA1-Digest: jkm9qEpmM+i/uh6rKesY0VcLOFU=
+
+Name: js/Plugins/addssextension.js
+SHA1-Digest: uf4qIOLPSpg1U+KzFPmPJoeddTg=
+
+Name: js/Plugins/syntaxchecker.js
+SHA1-Digest: rgh0VH0ToolOb9HsARUcjbCYBRU=
+
+Name: images/page_white_javascript.png
+SHA1-Digest: C3ujLB97VcG5Xx95XHJ1mjzF254=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/message.png
+SHA1-Digest: 2nfCJbezYAt4z11nqnIuHTdxTy8=
+
+Name: lib/path_parser.js
+SHA1-Digest: O3R2BOB+qpO7rfpVjMSsbGu+Tz4=
+
+Name: WEB-INF/lib/jdom-1.1.jar
+SHA1-Digest: TbPTY5cuL9/kV6lLD9IV1NVTQo0=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/compensation.catc
+ hing.svg
+SHA1-Digest: AvrW2h2KTGGA+bBDFL1Aiydzbt0=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/compensation.png
+SHA1-Digest: WYrTLHL4ZcObDp4wXbTu1ju/b5k=
+
+Name: js/Core/SVG/svgmarker.js
+SHA1-Digest: gHgZs1oYmAeKtWddj3s2f0jVBpk=
+
+Name: images/xforms_export.png
+SHA1-Digest: 0JsoHNNrqKtBmuVSYDvvaXu4Pow=
+
+Name: images/originals/new_arr.bmp
+SHA1-Digest: nGD+Vw/PqawEzHR3QqPLONt/brw=
+
+Name: WEB-INF/lib/commons-logging-1.0.4.jar
+SHA1-Digest: UVyHTZKi6go67YQIBLBRH3hD7v8=
+
+Name: js/Plugins/regexTextEditor.js
+SHA1-Digest: ceCOA0BHgwEAz+pHGZG/Rd02WQA=
+
+Name: WEB-INF/lib/jaxb1-impl-2.2.jar
+SHA1-Digest: AmbTTkQhINCWvnsExjt6K+SC1t4=
+
+Name: js/Plugins/dragTracker/laneDragTracker.js
+SHA1-Digest: CzDukTvBDwhE2AD/zLFNCqRaDmY=
+
+Name: images/soundness_checker/Thumbs.db
+SHA1-Digest: Jv5jkAxvKnygqqkHg5Upz2zE/zE=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/StreamReadThread.class
+SHA1-Digest: Bz/uFT3+6bUn5uAR8PD/O9giIBo=
+
+Name: images/exclamation.png
+SHA1-Digest: mjHk25UwZjhIP0H9EchcxPs77gc=
+
+Name: images/crystal/firefox_alt.png
+SHA1-Digest: zGsB1nWCq06UXE+/yBqRewdVO/0=
+
+Name: images/image.png
+SHA1-Digest: jZf6l464+Egp7eVgkzXag1LN/k8=
+
+Name: stencilsets/epn/icons/consumer.png
+SHA1-Digest: yF47y9135rgPrflwtioJEdF+MTU=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/SimpleStorageServlet.cl
+ ass
+SHA1-Digest: eOS4Z062fYSpAw3YLbwSsFoMXjQ=
+
+Name: js/Plugins/DataAssignment/FieldDataAssignmentEditors.js
+SHA1-Digest: lI8nOP94POTxjpI0nOx8V16WXeA=
+
+Name: lib/ext-2.0.2/resources/images/default/dd/drop-add.gif
+SHA1-Digest: 17M0zIPqYWEAv30sctBbJGS1xhM=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/UUIDBasedRepository
+ Servlet$1.class
+SHA1-Digest: aoDOq4xBKJw75pbZXX/lskZUmp0=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/scroll-left.gif
+SHA1-Digest: WQD29o5MDLeJb+p7H8Ou2JeGcUM=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/repository/IUUIDBasedRepos
+ itoryService.class
+SHA1-Digest: ljuIf2C9EonYTABCTyKxWmpH7ak=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfile.cl
+ ass
+SHA1-Digest: k4FKkYoJD77BMcxvxHwRcSGeFWY=
+
+Name: stencilsets/bpmn2.0jbpm/view/gateway/exclusive.databased.svg
+SHA1-Digest: seKVj/J1yFFlGGCxJ5XY2Q4zihQ=
+
+Name: js/cmhtmlmixed.js
+SHA1-Digest: tacPdTClBDXep224qd1d7cJJF08=
+
+Name: lib/ext-2.0.2/resources/images/default/editor/tb-sprite.gif
+SHA1-Digest: 5goseYVfKhaKX+pJKq2UW2d4qMg=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/left-corners.png
+SHA1-Digest: mNIGGIN2R6z2WeH7s4Wux5ABLe8=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/link.catching.svg
+SHA1-Digest: H0MgmCz54Bi48zEYFMGYz0vYAz4=
+
+Name: lib/ext-2.0.2/resources/css/layout.css
+SHA1-Digest: rE2IwXg3NvCtpCAMo1+Dp2bIVT4=
+
+Name: WEB-INF/lib/batik-script-1.6-1.jar
+SHA1-Digest: 7hg/Mk+cpzs22rgSSsOoKdhR7gc=
+
+Name: css/feedback.css
+SHA1-Digest: HY3yalnH/GTMaTezqe9iHnfXsDg=
+
+Name: images/erdf_export_icon.png
+SHA1-Digest: l4Ki2jryBmZLvdwUpBwF9Pi7voI=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/event.subprocess.svg
+SHA1-Digest: Ib1TJTP/O2fnUdihZdsj0QJYXds=
+
+Name: taskforms/usertaskformjavascript.st
+SHA1-Digest: w7dT0FoBrDQSVOHil4Cl1FInc4Y=
+
+Name: js/Core/command.js
+SHA1-Digest: bImZGVBHCfYxweTPJgmb7bYV+J8=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/folder-open.gif
+SHA1-Digest: bUINNs+CkhREtRvsr9fdhYyAcoQ=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-btm-inactive-left-b
+ g.gif
+SHA1-Digest: yHlhIoL6fHyxlrnarUdMRjNyKz4=
+
+Name: lib/ext-2.0.2/resources/images/default/box/r.gif
+SHA1-Digest: /3ON+XP7BqdfnqRb2b6skuId81Q=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/impl/Bpmn20Stencil.class
+SHA1-Digest: T3M74WnbV53QxVv/S5ctbkcicRE=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/escalation.png
+SHA1-Digest: IqVL9nPalhDwnNpEc4tp12oEJnQ=
+
+Name: images/design-thinking/human-role.png
+SHA1-Digest: X/AZgiWf2/IpvV6FtuHzFvH2JFM=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/gradient-bg.gif
+SHA1-Digest: bbMWT0Uxj7APnU8hm09WJymiiSg=
+
+Name: stencilsets/bpmn2.0jbpm/icons/artifact/text.annotation.png
+SHA1-Digest: n8uGrQfS5y6EuHne327cUp1t5GQ=
+
+Name: stencilsets/bpmn2.0jbpm/stencildata/bpmn2.0jbpm.orig
+SHA1-Digest: 0XAuO5Pp8KSYdHqHQM/rjvQLx2Q=
+
+Name: images/bpmn2pn_deploy.png
+SHA1-Digest: vNYEn2txCGn/KJy6lVlAKkLDslA=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/repository/impl/UUIDBasedF
+ ileRepository.class
+SHA1-Digest: sMo/6JVqDQwrDqROE3cRdJXrTuM=
+
+Name: images/shape_align_bottom.png
+SHA1-Digest: 7qw1oxHm96dxGDzd0roBCguZObs=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hmenu-lock.gif
+SHA1-Digest: rLE8rK8C0UdJSNTSzu4UNiJfM78=
+
+Name: images/ajax-loader.gif
+SHA1-Digest: X5XbmoT2b0nReZwhnBsXhakk2KY=
+
+Name: js/Plugins/bpmn2xforms.js
+SHA1-Digest: q9eOgirbsDUwWF8lk6hAtxr8lQc=
+
+Name: stencilsets/bpmn2.0jbpm/view/artifact/group.svg
+SHA1-Digest: shVQo/UMGmTZeigoxHcg0oauyBU=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/cancel.svg
+SHA1-Digest: 4u9Cb3FFEfq+BsPtvNmW9OF3cF4=
+
+Name: js/Plugins/bpmn2xpdl20.js
+SHA1-Digest: gsFLv0kil/w5c1pu7SWdxVBe+PA=
+
+Name: images/page_save.png
+SHA1-Digest: 9+A8gkJ2HjDK103w61u8sSsfDyA=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/message.svg
+SHA1-Digest: aCfjweff419FzN8Zv2Kz+weDuGQ=
+
+Name: js/Plugins/workflownets.js
+SHA1-Digest: yicnsgg91gAfLva2hOqnTlGZNEI=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/none.svg
+SHA1-Digest: LqRHb+sm3SiZOtj5d4sClRy8ALI=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/Activator$2.class
+SHA1-Digest: S0lb6toFPJRCeYlGBMnA+6b/5F0=
+
+Name: repository/README
+SHA1-Digest: fGJlXIdAR9cVd2k7TM9vrfnEaG8=
+
+Name: images/page_copy.png
+SHA1-Digest: xCmJ/CycjVsKYagoESN5lxkeFJk=
+
+Name: js/Plugins/xformsexportorbeon.js
+SHA1-Digest: iTxKrC0xoPRZfKCW/NsM9erkLKg=
+
+Name: lib/extract-rdf.xsl
+SHA1-Digest: ohmxKANK/FnPhg5MJDqbu9lCIzA=
+
+Name: lib/ext-2.0.2/resources/images/default/box/tb-blue.gif
+SHA1-Digest: QB6Hw3h9CDI1QNn/mkjTPrNFhmg=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/CalledElementServle
+ t.class
+SHA1-Digest: gv7mkIF0fBspMy8fia6DX3Gni6E=
+
+Name: WEB-INF/lib/drools-compiler-5.3.0.BRMS-ER9.jar
+SHA1-Digest: usYSqm0lwXbammKlWzb2ZqKnLzY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/cancel.png
+SHA1-Digest: o1mzi0yQgddxIwZY9pDBpEVVsKA=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/escalation.throwi
+ ng.svg
+SHA1-Digest: VOUkz8E9e9BKr3goJ3u2pLY1fjo=
+
+Name: lib/ext-2.0.2/resources/images/default/form/trigger.psd
+SHA1-Digest: +H/xe1H+5F1CjpfREFKte916N7c=
+
+Name: WEB-INF/lib/batik-bridge-1.6-1.jar
+SHA1-Digest: njteoU3rl8XcxGbKRrMbqczlrhE=
+
+Name: lib/ext-2.0.2/resources/images/gray/s.gif
+SHA1-Digest: ssO2QYUfWP86hASDkWyiSGZ5NI8=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/s-handle-dark.gif
+SHA1-Digest: o0rz004aUIJnMMc5ApOohOZlE8A=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/scroller-bg.gif
+SHA1-Digest: CtOepUBFt+Fw44Exvmtvy1zG7/g=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/multiple.png
+SHA1-Digest: 7mPWrbvFIT6/IwdnGe7hRr8IQu8=
+
+Name: js/Plugins/toolbar.js
+SHA1-Digest: 2W83znD8TtgxN855gAsf+9FyfKc=
+
+Name: images/auto_layout.png
+SHA1-Digest: Zj4LVLn7qAh81Cgtz3QzhTBt+9s=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/scroller-bg.gif
+SHA1-Digest: TjaJY3dX5+FzDxciVnfFocw34yk=
+
+Name: js/Core/Controls/magnet.js
+SHA1-Digest: Ye3pumh7+pJjEGvPnLe6kQ2modU=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/panel-close.gif
+SHA1-Digest: zGFtxbvCyc8UwQBkWZVQyIzrVfA=
+
+Name: js/Plugins/epcSupport.js
+SHA1-Digest: ++Ff+P/tCJ0s59J/HBCloTesS7M=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/EngineProxy.class
+SHA1-Digest: f59arwTrPlSzoL0RZol2UbEpIY8=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceS
+ ervlet.class
+SHA1-Digest: maTZCxoG2ytPGbkedNFCYUp8Km8=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/EPCUpload.class
+SHA1-Digest: ZfTJXDaMdc7JgE6RPSHBNqXkNBE=
+
+Name: lib/ext-2.0.2/resources/css/progress.css
+SHA1-Digest: gc46yXb5zfbDaeTDDz4f80KncKc=
+
+Name: css/codemirror.css
+SHA1-Digest: sVoUqVLw5cETfMudCD29k+eJobc=
+
+Name: WEB-INF/lib/jsr305-1.3.9.jar
+SHA1-Digest: YLepVSV6vbTl0+uZs8XF49/uUr0=
+
+Name: WEB-INF/lib/fop-0.95.jar
+SHA1-Digest: AhLek0kj0RZDbgZYo+XwRtWu7hE=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/w-handle.gif
+SHA1-Digest: kMfQ4JWfIOkw6iP4l1nHRLFLjEY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/list/type.expression.png
+SHA1-Digest: eoJYLJ8M4U43+sMCTDQujgqX5Vo=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/multiple.png
+SHA1-Digest: UXvdEE+n0ltUzPvT+0XAQUC0Eb4=
+
+Name: lib/ext-2.0.2/resources/css/resizable.css
+SHA1-Digest: CpTfDtPucXGQLlidoeUBNrsjC9I=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/StencilSet
+ ServiceImpl.class
+SHA1-Digest: 2DrEfaHwnao0PjumbG6F6jZBe2o=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/FileStoreServlet.cl
+ ass
+SHA1-Digest: icAL4R4lrHfWwMwwZsblS04yQYg=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-end-minus.gif
+SHA1-Digest: E/PhU3Ll3tFVebots/y9JCB7P5E=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/compensation.png
+SHA1-Digest: BHvrTuWaYciO2OPq+wka8VTZWA0=
+
+Name: lib/ext-2.0.2/resources/images/default/window/icon-warning.gif
+SHA1-Digest: 6NeWxJL39awCoUV+GYHevHY6ifc=
+
+Name: WEB-INF/lib/commons-configuration-1.6.jar
+SHA1-Digest: EkEC/bfRMYC0/Zuo7MznblnPnGM=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/icon-warning.gif
+SHA1-Digest: Ph4PuYBlnDlkQTSJ4Qi0E3GbhpU=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/wait.gif
+SHA1-Digest: 0y3eBqPBfNB/mJiIigS/wwBvX7w=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/e-handle-dark.gif
+SHA1-Digest: PphStY0eP9T03UxH9WML/pxzDSk=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/error.svg
+SHA1-Digest: Z3GbahvSmAg8kMmEYdqcKirLdPk=
+
+Name: js/Core/Math/math.js
+SHA1-Digest: MQ2Cr5p93ze95uV+pDYMaRuhbvc=
+
+Name: META-INF/BPMN20.xsd
+SHA1-Digest: lAFtwW9Jxuwh5sIiIBPkevCbJ4E=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preference/IDiagramPrefere
+ nceService.class
+SHA1-Digest: 6GoOFpGkx1lWJxCqSRP/MoNlPBw=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
+ ceImpl.class
+SHA1-Digest: ZETweJVIyhciMWz/RBDm5g9Bll8=
+
+Name: images/export2.png
+SHA1-Digest: US4SYsYo4YdqNIerqkr8vu0l1rM=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/IDiagramPrep
+ rocessingUnit.class
+SHA1-Digest: 2KBfOpJuiT75YW2AsX2F1z4Qn/o=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/loading.gif
+SHA1-Digest: fNlGO4FIyusddMGGUEGsEYZGHes=
+
+Name: images/originals/new_act.bmp
+SHA1-Digest: /X0ubtdP4W0aCgZup+fnAotv8JA=
+
+Name: stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.png
+SHA1-Digest: aPzjQfh5qXmOwziDsEOtOSFuGNI=
+
+Name: lib/ext-2.0.2/ext-core.js
+SHA1-Digest: IIZ7N4yirkwDtIakKjw903o+TPo=
+
+Name: xslt/BPMN2DTRP-XMI.xslt
+SHA1-Digest: MmfPT1q5h9xtrMc6iKXFb6Spe70=
+
+Name: js/Plugins/transformationDownloadDialog.js
+SHA1-Digest: BpUUFgN5iGE/5btGOxT8NP+JVFI=
+
+Name: js/Core/uiobject.js
+SHA1-Digest: RGX1Pfi7gWy9OWW/FrnKRRkbWBM=
+
+Name: WEB-INF/lib/mvel2-2.1.0.drools16.jar
+SHA1-Digest: J9C0SJIWLut+KTzPecE++ALDH/o=
+
+Name: lib/ext-2.0.2/resources/css/toolbar.css
+SHA1-Digest: iL8SGVlUOO3u2WnkyOnEoUtbypo=
+
+Name: images/design-thinking/corrections_for_article.png
+SHA1-Digest: QjNY6/bMaG7zSnidj5lkOymyshw=
+
+Name: lib/ext-2.0.2/resources/images/default/dd/drop-no.gif
+SHA1-Digest: NuY4mQ/Knr1acZQ0I4Qa4yTzTOQ=
+
+Name: lib/ext-2.0.2/resources/images/vista/toolbar/gray-bg.gif
+SHA1-Digest: PaPj3WWdcTYe3kVyUfgnRUVsMoo=
+
+Name: profiles/jbpm.xml
+SHA1-Digest: gz22uZul6b5Jj9X0tS23tb8DL2c=
+
+Name: images/crystal/empty.png
+SHA1-Digest: hXxohud5L/pJmOhGLtVNCc1uAVw=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.manual.png
+SHA1-Digest: s/PtgNF1VsO+yThlpegiSPbhd7E=
+
+Name: js/Plugins/bpmnResourceAssignment.js
+SHA1-Digest: 1bE0ImPl4L6NzvPJTSAER076s/Y=
+
+Name: lib/ext-2.0.2/adapter/prototype/effects.js
+SHA1-Digest: cPheJHmU5fdbJl1AJmQMTuPJ6o4=
+
+Name: images/disk_multiple_disabled.png
+SHA1-Digest: WwJXM+f8UWCh38cffagCWA3nLH4=
+
+Name: images/bpel_export_icon.png
+SHA1-Digest: yc45QXGhglmA3HeRv4Deu9uZaSU=
+
+Name: stencilsets/epn/view/association.unidirectional.svg
+SHA1-Digest: hxwMNBfGC5mcmLM1b/mgklMLHkY=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/event.subprocess.collapsed
+ .svg
+SHA1-Digest: tAHn00wbx20P56S57k6UDLOF/bY=
+
+Name: js/Plugins/AutoLayouter/tests/profile_layouter.rb
+SHA1-Digest: c5NoDekGBQzcWhZUqxipsK5Ir/g=
+
+Name: js/Core/abstractLayouter.js
+SHA1-Digest: h3E9nn9yDa/RP7Pkkpe5HYwXDrQ=
+
+Name: js/CFInstall.min.js
+SHA1-Digest: 0CV8ICD8kia0wFgq/2vpoFKvHzY=
+
+Name: WEB-INF/lib/batik-dom-1.6-1.jar
+SHA1-Digest: OaUS2LKaIbk0OvQGB8SkHXviG34=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceI
+ mpl$1.class
+SHA1-Digest: QMAL7m8As8EkYj7CkO+qEdpoTlQ=
+
+Name: WEB-INF/lib/args4j-2.0.12.jar
+SHA1-Digest: UaCjYGLvtGhvyFiNv9+eZp53LHg=
+
+Name: images/popup.gif
+SHA1-Digest: 1Jd9cJ5/FcN9hJ3Wx5OsAmZabQM=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/task.svg
+SHA1-Digest: e6C6a7oreiXP4MiAxAf66H++rIM=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/e-handle-dark.gif
+SHA1-Digest: NKUDZ+5czGSu6/6W0q33FVDtIrc=
+
+Name: js/Plugins/simplepnmlexport.js
+SHA1-Digest: BtUF6pZuQc8NYlRBx4IJESdiAio=
+
+Name: js/hintjbpm.js
+SHA1-Digest: QGQ0fG/g2Qru83ncx+CRnEOZuNw=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/TaskFormsEditorServ
+ let.class
+SHA1-Digest: DQ+avnyrvYIUQnO+rzztPp/iqfk=
+
+Name: images/arrow-right.png
+SHA1-Digest: tc1vRQj9qZaaPtC3QyN0KXRsymQ=
+
+Name: stencilsets/bpmn2.0jbpm/icons/diagram.png
+SHA1-Digest: krmWxPc+lB2BFW2KOsfXN7GdFCc=
+
+Name: xslt/BPMN2XPDL.xslt
+SHA1-Digest: kRahMwupaHNsM53ySuyY2zfXGmI=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/left-right.png
+SHA1-Digest: y+6mf3MBmEek7mcMqVfOBD2Nlug=
+
+Name: js/cm.js
+SHA1-Digest: zCgFVK3AD3YECF2AcUO/ifCMuM4=
+
+Name: images/adhoc.gif
+SHA1-Digest: kKpEZ3bRTdEzsWCE49YeoNYFvFY=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/top-bottom.gif
+SHA1-Digest: WGh6HuV2G58af3f7NnPdAMmVeVQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/JbpmProfileIm
+ pl$1.class
+SHA1-Digest: 7xEGzLZgl2rHFmgZUsElFwgWfs8=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/StencilSet
+ ServiceImpl$1.class
+SHA1-Digest: Lmf2K3lIC3ebjhEaCChUq0kwuAk=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/repository/impl/UUIDBasedJ
+ bpmRepository.class
+SHA1-Digest: lswEGSFgMPxENQks5pVYDEjmQjU=
+
+Name: stencilsets/bpmn2.0jbpm/view/swimlane/lane.svg
+SHA1-Digest: h6YMFfhZ9Zz1lrkjYt9+OvRMNLk=
+
+Name: WEB-INF/lib/commons-io-1.4.jar
+SHA1-Digest: ii7FsYe+MZu2V/wUyAoQIhEnYnE=
+
+Name: js/Plugins/AutoLayouter/tests/test_rdfrena.rb
+SHA1-Digest: 27bIuaHht+b+h/npm6dtDXwOk4A=
+
+Name: js/Plugins/dockerCreation.js
+SHA1-Digest: 1KiFLX4Fqm/9SGSNILZlrRuGX7U=
+
+Name: WEB-INF/lib/rome-0.9.jar
+SHA1-Digest: x1uLJeSonXaECSOFG3Aa2eiGd2w=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/tab-close-on.gif
+SHA1-Digest: fkbObBqrX9q+yhANtWrncpeBUJU=
+
+Name: images/taskforms/jbpmlogo.png
+SHA1-Digest: h2LIpuji8rbx905Y+JPwb1GeeJA=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/calendar.gif
+SHA1-Digest: yE+L7D8qu/nW63VmqXpZKXa99PQ=
+
+Name: lib/ext-2.0.2/resources/images/vista/qtip/tip-sprite.gif
+SHA1-Digest: EQa5h4FDhyfVf9NcSUAebJ2WeM0=
+
+Name: images/edges.png
+SHA1-Digest: LBUg9NB2zJbPOypKUhePJu4kr6Q=
+
+Name: images/vector_delete.png
+SHA1-Digest: 1NG9+fAF12ExGon5/a0gKw8ENlk=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/row-expand-sprite.gi
+ f
+SHA1-Digest: RSPW8+JZEWTa8Grs/YHObEWvvKc=
+
+Name: js/Plugins/amlSupport.js
+SHA1-Digest: tk+3IJ2g9BxwoC4jZ3dUmv83Yt4=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-strip-bg.png
+SHA1-Digest: tqD4RaD3rQN0Sh/xMG39jOU3Lu4=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/compensation.thro
+ wing.svg
+SHA1-Digest: OeikubKxJ6ZzsnoxXWOqtSKybMM=
+
+Name: lib/ext-2.0.2/resources/css/tree.css
+SHA1-Digest: uZRBVWYBwXhHeqB4EckRR6xyBq8=
+
+Name: images/page_white_copy.png
+SHA1-Digest: fgHHLopyWSBFZ2N1hUD9yfOQTqs=
+
+Name: js/Plugins/dragTracker/poolDragTracker.js
+SHA1-Digest: XvxE2g25JWVx4FFBKX8S3fAXCH8=
+
+Name: js/Core/SVG/editpathhandler.js
+SHA1-Digest: wME458ibrhJQ+E2wDmo0emhcxuM=
+
+Name: WEB-INF/lib/xmappr-0.9.3.jar
+SHA1-Digest: dETXnQpNQ54bjzeYqUMrFn2RfOA=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-blue-split.gif
+SHA1-Digest: ptNovQBTXMud9H09DXRX3JP2rLg=
+
+Name: js/Plugins/AutoLayouter/Installation_notes.txt
+SHA1-Digest: MdTlmO810tZlo5N2cSTAkYIZNjg=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/right-corners.png
+SHA1-Digest: gyMPtxjbyeyoUfX2m5qpzC9zNNg=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/message.png
+SHA1-Digest: 1p6MK+T9nxdJP/8pWRT2hTmDovo=
+
+Name: lib/ext-2.0.2/resources/images/gray/qtip/bg.gif
+SHA1-Digest: +szHo2pvq7d4pBLgGTzqyEC0Z+w=
+
+Name: stencilsets/bpmn2.0jbpm/view/gateway/complex.svg
+SHA1-Digest: Uxk4AJVLmVn1qnRquUBT/sHwpDc=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/stuck.gif
+SHA1-Digest: PBVaOLFD5/xRa7RElf8zzsWbOyE=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/ResourceList.class
+SHA1-Digest: mi6mwsJ0ZEVwCDt0RIqgVzAA9hg=
+
+Name: js/Plugins/keysMove.js
+SHA1-Digest: CCFbH2G1IzZ9ATbXB+Z8k2Vlfr4=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/tab-close.gif
+SHA1-Digest: V24mCRBl9uH86Jwr0NqfpUjiMFI=
+
+Name: images/design-thinking/final_article.png
+SHA1-Digest: rpugHQ/nz2F5bhpPQAeIyoCABxU=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/subprocess.multiple.svg
+SHA1-Digest: K8UtW7xeu0F5k5GzrhKA79nyugM=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-btm-inactive-rig
+ ht-bg.gif
+SHA1-Digest: TSXPOGqis1oOF5X5wjAIu337BZc=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/tool-sprites.gif
+SHA1-Digest: rcwtetMUijEESCiNB9xQb8u2DFg=
+
+Name: lib/ext-2.0.2/resources/images/default/window/top-bottom.psd
+SHA1-Digest: txfbM+BcdPEvuerIxWUYs/YDWco=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/ServiceComposerServlet$
+ PortType.class
+SHA1-Digest: qrKqjo12yk05Fwy9zafWGJM2OQE=
+
+Name: lib/ext-2.0.2/resources/images/default/box/tb.gif
+SHA1-Digest: vBOxcx9ZbiOeKEtNJ7SFQk8k0M8=
+
+Name: lib/ext-2.0.2/resources/images/default/dd/drop-yes.gif
+SHA1-Digest: gwG8Bz1RmoBNMIrdUubFlmZ2/Wc=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/left-corners.pspimage
+SHA1-Digest: MkRTvlDSaNepawcgtMPJOMyv9QE=
+
+Name: lib/bpmn20/Semantic.xsd
+SHA1-Digest: HnYi1u1CpgahSmL2RQIS2Va4ukY=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/timer.svg
+SHA1-Digest: +yvJu8dX6wCohC64ZcB+wHWDrlk=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid3-hrow.gif
+SHA1-Digest: INWU98YocKfT3rooMMnmXu0qra0=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/Point.class
+SHA1-Digest: MrBwRbekKCY9biMtnI+ndDsNDpM=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
+ ceFactoryImpl.class
+SHA1-Digest: B6hyOCi4pH7i+/z7lbwHGIJ+m8M=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/IDiagramStencil
+ Set.class
+SHA1-Digest: 3nZ1TKohYZnoHh1KZAuQpWU7LDI=
+
+Name: images/sod.png
+SHA1-Digest: iF/NVcNmrhShxAuJ3L/2pRKBj8Q=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/drop-under.gif
+SHA1-Digest: lxAagT69R7t12koRFZeIrNpwx64=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.send.png
+SHA1-Digest: IGnS7Z9+coXWzx6yKM7gJ0yqGA0=
+
+Name: js/Plugins/bpmn2bpel.js
+SHA1-Digest: e/v1P/Q45hpL4rUic9olkN+Kpqg=
+
+Name: lib/ext-2.0.2/resources/images/gray/gradient-bg.gif
+SHA1-Digest: +zriiD9rsDXHtxNNXUl76B4XDik=
+
+Name: stencilsets/bpmn2.0jbpm/view/conversations/participant.svg
+SHA1-Digest: mIxDkCM8yAvIQ5YcMJXdV6GokOc=
+
+Name: images/controls/background.bmp
+SHA1-Digest: xAabWuwbmzjDe2fcZnrGa+c/p1c=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/SyntaxErrorException.cl
+ ass
+SHA1-Digest: qAnWGd7I1rzmHjGteI2EYp1/TFI=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-first.gif
+SHA1-Digest: R8Gbc778L19LvMBjWmcVKhrB+f4=
+
+Name: lib/ext-2.0.2/resources/images/default/form/search-trigger.gif
+SHA1-Digest: bBTjDSXDgW7IQEjPaUtC6WcRhS0=
+
+Name: WEB-INF/lib/stringtemplate-3.2.1.jar
+SHA1-Digest: tfYFsG1Lz/SDeqNoMoaxvt22I9Y=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/filter/impl/FilterChainImp
+ l.class
+SHA1-Digest: Iss3IvOYqMzy4jrj20T+1hIORlg=
+
+Name: js/Plugins/file.js
+SHA1-Digest: GAXdxCIdEujFl1Ph4I2fEhKdQSM=
+
+Name: images/rotate_right.png
+SHA1-Digest: EJDNbw168llENlXpA9uf2Qt3bOQ=
+
+Name: images/control_rewind.png
+SHA1-Digest: vRTCVO78vD82sdA/WygDdj7KREk=
+
+Name: images/colorize.png
+SHA1-Digest: XrZweZX8oqkCsAxhRHHpKf31pjc=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/arrow-left-white.gif
+SHA1-Digest: qnFB9HXD5uAacq3wp+eszreOhpQ=
+
+Name: js/Core/abstractshape.js
+SHA1-Digest: aX4P9jYMTwJI39ttRWBGgsZ2ADA=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/parallel.png
+SHA1-Digest: bTixKab6bE3MTQZL7zRyuZPg5V4=
+
+Name: lib/ext-2.0.2/resources/legacy/basic-dialog.css
+SHA1-Digest: /pLTAfX3tYx7kuik3iwcAwR018o=
+
+Name: css/theme_norm.css
+SHA1-Digest: oS08dIeWwBFl0qdzSmsGoBBz7mQ=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/bg.gif
+SHA1-Digest: DkEUHJR/WAZwBnE2utwY97yrBvM=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/repository/IUUIDBasedRepos
+ itory.class
+SHA1-Digest: bxPn2nEownbOhMtpkBUiG4f0hhs=
+
+Name: js/Plugins/rdfExport.js
+SHA1-Digest: tNvTHQ05fddbIJn1mp897cmibjQ=
+
+Name: js/Plugins/overlayexample.js
+SHA1-Digest: lAFcQHUwZPj0CC8xqOLUgjhf3FU=
+
+Name: images/cpn/cpn_import.png
+SHA1-Digest: Vos7efGc7zdGQYEcqgLm6xbJJqM=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/bg-left.gif
+SHA1-Digest: axhxFRcL1660H7WIrPgZ0/yrDdM=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/compensation.svg
+SHA1-Digest: pehXfRYqb/F2q/jNFzc2qi64LV0=
+
+Name: js/Plugins/canvasResize.js
+SHA1-Digest: YbnUXStEZhPxPRbz0qyc5IIukx8=
+
+Name: images/png.gif
+SHA1-Digest: GLPioa9jMtgObzI0xAkjHDHmJbo=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfile$ID
+ iagramMarshaller.class
+SHA1-Digest: 6sIrVcCYRtZ4+pZnAjvMS/psoVI=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-btm-inactive-lef
+ t-bg.gif
+SHA1-Digest: z9SsA6XpEqvERecSK37s1CGFpJQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/epn/EpnMarshallerHelper.class
+SHA1-Digest: XO5y6lYNoGvraKafuBBkILOV78E=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/refresh.gif
+SHA1-Digest: Gee+3h1a7j4mTnDz0rQM9dJPHCU=
+
+Name: js/Plugins/bpmnplusLayout.js
+SHA1-Digest: Ko7aPKvOsPYa5rMgURUsYBtflMg=
+
+Name: lib/ext-2.0.2/resources/images/default/progress/progress-bg.gif
+SHA1-Digest: vK6/pEdWigvB226Cp8MI6pnVRh0=
+
+Name: images/shape_move_front.png
+SHA1-Digest: 2BEfr8wIj3mvyy2X/2NIv1kd7Gw=
+
+Name: js/Plugins/processinfo.js
+SHA1-Digest: xEAPvZYkVeowUBM5Q17ZbSlHKGE=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
+ l$1.class
+SHA1-Digest: JYyZt6WdV7IXsbNP/J9vpbiK8FQ=
+
+Name: lib/ext-2.0.2/resources/images/default/window/icon-question.gif
+SHA1-Digest: pd+x8EogbRJacV3KR7bPHomDLOY=
+
+Name: images/taskforms/human-icon.png
+SHA1-Digest: WPntuvvb/Vv81QZqyGT6uh8vi3Q=
+
+Name: defaults/defaultemailicon.gif
+SHA1-Digest: o3R5qJb8io/z9jH+p5pFL1Si6s8=
+
+Name: stencilsets/bpmn2.0jbpm/icons/swimlane/pool.png
+SHA1-Digest: v5vSBGWnHp0kKOkctyKOgJMFLJ8=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/signal.png
+SHA1-Digest: EQGsLR2BftBIpQKzNaBsK9FeUCY=
+
+Name: lib/ext-2.0.2/resources/images/gray/qtip/close.gif
+SHA1-Digest: S5zPLo9deL2iRaWqWIW+NbmECcg=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/ne-handle.gif
+SHA1-Digest: eEJZ+snD+HelvmOq9RNqnn8OFuY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/mi.parallel.png
+SHA1-Digest: FMGFUALOFTkFryKgrslPOl0/DPs=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/drop-no.gif
+SHA1-Digest: wjSxwW+aCco8aRpaQj1VAq9WiPY=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/error.svg
+SHA1-Digest: X5ZRFSTLeaQ3HxjuwNLyPGmJF50=
+
+Name: WEB-INF/lib/js-1.7R2.jar
+SHA1-Digest: 9mb+9ttDS37k84YXshpc80IpME8=
+
+Name: WEB-INF/lib/commons-httpclient-3.1.jar
+SHA1-Digest: 3cKTKV4YTKR7JN2zF30eItnBrJQ=
+
+Name: WEB-INF/lib/jackson-mapper-asl-1.7.4.jar
+SHA1-Digest: +AH0b+W5UzJkTn16sZjKCG9iyNI=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/Worklist.class
+SHA1-Digest: AWyI3k62zPieMibanQvOKRm77EQ=
+
+Name: lib/bpmn20/DiagramDefinition.xsd
+SHA1-Digest: aen3mBObtKG4kHkds+8eBMwcRwk=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/none.svg
+SHA1-Digest: 6Fc1hpgc2NaDSuPVLZUc+uj/1gI=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/StencilSet
+ ServiceServlet.class
+SHA1-Digest: 7AkcsyTJqEw8N55ym/Y35S0uoj8=
+
+Name: images/page_white_picture.png
+SHA1-Digest: 84kk/PnZM58l8IlsZSqZfdGdsXw=
+
+Name: images/import.png
+SHA1-Digest: c/4q2PIDpP8Tj/AHC38eWCVxK+U=
+
+Name: images/crystal/readme.txt
+SHA1-Digest: xFEXAtuM+yR3Uxv4/QMS7meZvvM=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hmenu-unlock.gif
+SHA1-Digest: w1A04Qy5i3MNyW55u21DyS91QbY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/timer.png
+SHA1-Digest: rhpV1YWsDEAVMgKXzU2ZK3Xw1NM=
+
+Name: images/magnifier_zoom_out.png
+SHA1-Digest: sQlyK22yxN9AfU4Y80iEdBfSPtA=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-strip-bg.gif
+SHA1-Digest: ukdPhjGzb44ojf2uEtTu7q5MWAg=
+
+Name: js/Plugins/bpmn2.0/bpmn2.0.js
+SHA1-Digest: 5983z4NoAFTdYxRIMMEBAZsBxj4=
+
+Name: lib/ext-2.0.2/resources/images/default/form/clear-trigger.psd
+SHA1-Digest: VDWwKntgKniCkOn6iHnrIZ5XuFI=
+
+Name: stencilsets/bpmn2.0jbpm/view/swimlane/process.participant.svg
+SHA1-Digest: UnXTqKn0mHhZPduY5BwZBP9j+bg=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler$1.class
+SHA1-Digest: dfmjEbqvUB06BvugL6oRj3sZ0Ok=
+
+Name: stencilsets/extensions/extensions.json
+SHA1-Digest: QRDmnFeFXooz6wqJbOAK4suvnas=
+
+Name: WEB-INF/lib/protobuf-java-2.4.1.jar
+SHA1-Digest: Z/vxxGwvuF1R523KSEx86AvEbn8=
+
+Name: images/moving1.png
+SHA1-Digest: CGQfH0HIRDz6gBUlWwBYt+zdpOs=
+
+Name: stencilsets/epn/view/channel.svg
+SHA1-Digest: gZFSaZUDL3VW4KnGOSxy+XGp9WM=
+
+Name: stencilsets/bpmn2.0jbpm/src/icons.psd
+SHA1-Digest: XNKrqMxrLEaVzBx/QaYoQtYILGM=
+
+Name: images/originals/new_enp.png
+SHA1-Digest: BgZeLF9z+IGiI3cf8AQG0mqwlv4=
+
+Name: jbpm.gif
+SHA1-Digest: AQx/L6zHIIWi4zgYFvjqBDGO8ac=
+
+Name: xslt/BPMNplus2XPDL4Chor.xslt
+SHA1-Digest: SGxZI96C1VfAhkfRb0CsxfMRtB4=
+
+Name: js/Plugins/addDocker.js
+SHA1-Digest: e6675lYnrhU8HIEKtmMK5Ft1+EI=
+
+Name: stencilsets/epn/view/association.undirected.svg
+SHA1-Digest: 2ONH7fbJfsH5bfxQpG0QjWI8XDo=
+
+Name: images/processimagepreview.png
+SHA1-Digest: mF1htm2yi4jkWnDpc6K1mUycyFY=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/DefaultProfil
+ eImpl$2.class
+SHA1-Digest: 0WAppin051aTsH+5VkFIoU+wTcY=
+
+Name: images/magnifier_zoom_in.png
+SHA1-Digest: rocojRK7jhtqsHqX+MUVTBtfD4k=
+
+Name: lib/ext-2.0.2/resources/images/vista/tabs/tab-btm-inactive-right
+ -bg.gif
+SHA1-Digest: FAOiMP88GzAe18FkeiDbKM+QNTc=
+
+Name: js/Plugins/bpmnResourcesBoDShow.js
+SHA1-Digest: 4AAt5czjbfemQ5O71BO5sJxnYY8=
+
+Name: stencilsets/bpmn2.0jbpm/view/dataobject/data.store.svg
+SHA1-Digest: 075kYv+dbDNZ/H7psdL/OmjO7A8=
+
+Name: lib/ext-2.0.2/resources/raw-images/shadow.psd
+SHA1-Digest: 1corUCuhArnDqxJgJ9cPuvoFJdM=
+
+Name: WEB-INF/lib/jbpm-flow-builder-5.3.0.BRMS-ER9.jar
+SHA1-Digest: EspScacnIfla03eclegLxi71y1Y=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/done.gif
+SHA1-Digest: hiyGatagMWMz/Ib3ctWXnmpTmos=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.signal.png
+SHA1-Digest: /Bv0eDQNilkn+yiQzB45s+s8smw=
+
+Name: images/rotation2.png
+SHA1-Digest: aoHEXSpEMbEEv15w4lGW3FqbS8w=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/conditional.svg
+SHA1-Digest: +EYBXmApv4mhQOEetRynvLXS8/g=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-close.gif
+SHA1-Digest: ymjV2OndADSgqhef8ea0ygfUkM4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/message.png
+SHA1-Digest: fgg6md2/mi0N52ePH5U7TRx2jAk=
+
+Name: xslt/RDF2BPEL.xslt
+SHA1-Digest: t4gtv9++EAdToKvOtugaAELFPHM=
+
+Name: images/cut.png
+SHA1-Digest: jPbiSCpLIE2aZE/9D4/D4O6R4Co=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/Diagram.class
+SHA1-Digest: Tv2zDMR/czT5sz3b+UWPKX7fKlU=
+
+Name: images/control_play.png
+SHA1-Digest: WzNj3UrMMhR5+soJ7d5u+BBCupU=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/repository/UUIDBasedEpnRep
+ ository.class
+SHA1-Digest: x5aqvLay66cpm/2Vaccey7jToyc=
+
+Name: WEB-INF/lib/jbpm-bpmn2-5.3.0.BRMS-ER9.jar
+SHA1-Digest: UBDjvhMki9lPAnk7Wlj1JgaxeE0=
+
+Name: lib/ext-2.0.2/LICENSE.txt
+SHA1-Digest: sqP9e1uCtnqDEfBvJisjr1bigVg=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/hd-sprite.gif
+SHA1-Digest: SxP2oZL/WLI6BYt7smQoGorKi54=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/filter/ConfigurableFilterC
+ onfig$1.class
+SHA1-Digest: 6U7p8BYkxFV0f/1X/WGzEWAW7MY=
+
+Name: stencilsets/epn/epn.png
+SHA1-Digest: /7Ug422YmaoReHotvVfbS3oiNGY=
+
+Name: taskforms/resultsform.st
+SHA1-Digest: k9fr/Z3XsadOJz1bSrxPuhz17mw=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tabs-sprite.gif
+SHA1-Digest: /4JqfTyk52tsM9N43eKEKlCv8hQ=
+
+Name: images/page_white_acrobat.png
+SHA1-Digest: WFqW8WH5odfoH1b/2ISGjSO746s=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/columns.gif
+SHA1-Digest: rqQefyBdALD1bWorCvkHRUUnXAU=
+
+Name: xslt/AML2EPML_2.xslt
+SHA1-Digest: vVCtYXMRvoroWADKhkqLmHJaR/o=
+
+Name: js/Plugins/bpmn2.0/bpmn2.0choreography.js
+SHA1-Digest: zLBfQ41p/e9QoAVEbcrs5EonCsM=
+
+Name: WEB-INF/lib/jbpmmigration-0.11.jar
+SHA1-Digest: D1vpjK8Zp6YcE1IpMGJI1O1/+yc=
+
+Name: images/textfield.png
+SHA1-Digest: 7BSx3P9L0epmdDRQ5EG5QFbQAu0=
+
+Name: stencilsets/epn/view/agent.svg
+SHA1-Digest: TPy8miXIIEF6Sr0kZ6i3vMTcg8I=
+
+Name: js/Plugins/general/feedbackPlugin.js
+SHA1-Digest: Sm7XhOIRHnuwydZQSoU7KDDVwxo=
+
+Name: images/disk.png
+SHA1-Digest: CKYOiWJgX+/amlqITxwQJqDgxOk=
+
+Name: WEB-INF/lib/ant-launcher-1.8.2.jar
+SHA1-Digest: 9vIXPFUXrgJbS5KgnS5ZGC4mG6k=
+
+Name: js/Plugins/bpmn11.js
+SHA1-Digest: age6RvUf1f0et5ReOScKGbW4hw8=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-btm-right-bg.gif
+SHA1-Digest: c7Mhbs+hrAp0Z957OxPIJt82uOc=
+
+Name: images/cpn/add.png
+SHA1-Digest: mKcpdsZALYPIyjuzJ1r1JsmxYwY=
+
+Name: xslt/RDF2EPML.xslt
+SHA1-Digest: BtrltLbN+PRBwicUrwpaMpOqry0=
+
+Name: js/js_files.json
+SHA1-Digest: TsTpCKYID1RIiH3Btgqp4Q5seCg=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-next.gif
+SHA1-Digest: hInk83udGGnVduSBfwKwD3MMQTw=
+
+Name: js/Plugins/bpmn.js
+SHA1-Digest: +7bttSXm6QS3nR7nunZrzFfQxDw=
+
+Name: lib/ext-2.0.2/resources/images/default/box/corners-blue.gif
+SHA1-Digest: PJJH6ber/0q77ylscHUYj8xafIg=
+
+Name: WEB-INF/lib/jaxb-impl-2.2.jar
+SHA1-Digest: P/FWVrY04cY0XdVf1Im9tYP6UpI=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/multiple.svg
+SHA1-Digest: TeBES+JxlnkSr0zwHSfLluZSxQ0=
+
+Name: js/Plugins/bpmn2dtrp-xmi.js
+SHA1-Digest: qoPillPQ7l3IAd4peXRFowA3rGk=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/multiple.svg
+SHA1-Digest: oI0XdyXHHKkOpjxRGuctDpfBzyI=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.script.png
+SHA1-Digest: JEbQ0BYxoMaR1SSOWtb5osDxOcA=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
+ l.class
+SHA1-Digest: cumBOZEj8yBqGvcCVynVLvKwWsU=
+
+Name: js/debug.js
+SHA1-Digest: sAaWJOmuYpESWyb2r+QPTOMHQbM=
+
+Name: js/Plugins/desynchronizabilityOverlay.js
+SHA1-Digest: 0O2GDpQ5x9VUdBvYdKemnoQ4Oqc=
+
+Name: stencilsets/epn/epn.json
+SHA1-Digest: W+TSShchiHgeqQeHjoHpgu0ZDqQ=
+
+Name: images/sod_view.png
+SHA1-Digest: Fzi9Hb+sHkVjXPHTINV9uVTrTi4=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/col-move-bottom.gif
+SHA1-Digest: 3qhglT3kEg8Q11Rg4Avaq5b14Z8=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/signal.svg
+SHA1-Digest: M9ogmB2dgoFYcpNBht0fEccDwJs=
+
+Name: lib/prototype-1.5.1.js
+SHA1-Digest: sJIWbiSlr/kvkauyxi3b+esT+/g=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-btm-left-bg.gif
+SHA1-Digest: VK2kkcxGMsqMWP0jDfFcBzAFQQo=
+
+Name: js/Plugins/AutoLayouter/src/constants.rb
+SHA1-Digest: ahywDClvaggqC4QcVKG2w6iYTmI=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/mini-left.gif
+SHA1-Digest: 1sFNqNVjHZNFcFv7kXWF3/dxIP4=
+
+Name: js/config.js
+SHA1-Digest: Vi6sXXGp5C5ihRBzpKzBL3PI530=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/multiple.parallel.svg
+SHA1-Digest: Pf3b8cY9JrflTDOEirXfgXLZgTc=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/StencilSet.clas
+ s
+SHA1-Digest: +oShx1/954oeknHybPzifrXgLio=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/gray-bg.gif
+SHA1-Digest: ShQKHXZ37b6rbtb/mU6HjW7XEfg=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/StencilType.cla
+ ss
+SHA1-Digest: 1JBpSTCC2dmgVDxyGBI3sfK313Y=
+
+Name: js/Plugins/jsonSupport.js
+SHA1-Digest: o9g9q4TTU1CiUoADXPMqplNtZOs=
+
+Name: stencilsets/bpmn2.0jbpm/view/gateway/parallel.svg
+SHA1-Digest: vACvSDH1bKKPbDINsYAipNSvn1c=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid3-special-col-se
+ l-bg.gif
+SHA1-Digest: lrieQ/xo1LG4Tl5cEHX8lZWsfzE=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.conditional.pn
+ g
+SHA1-Digest: id9JNstFMDOHJwRZpHBXyHrAGEY=
+
+Name: js/Plugins/theme.js
+SHA1-Digest: 8oFBOLmYrBK9h9L2VsrQBfCNf8s=
+
+Name: WEB-INF/lib/commons-exec-1.0.1.jar
+SHA1-Digest: pjWTSUx0e3KyvUJvMFcq4RZb9q8=
+
+Name: images/epml_import_icon.png
+SHA1-Digest: X75DgltOdtoGdmPzIsd2T4oXzXI=
+
+Name: js/Core/StencilSet/stencilsets.js
+SHA1-Digest: Wajs/i9JDlIf64EAbw69u1L9Fc4=
+
+Name: WEB-INF/lib/antlr-runtime-3.3.jar
+SHA1-Digest: OJLrTBnYtZaMoUpSSQeWaZMQdAw=
+
+Name: lib/ext-2.0.2/resources/images/default/form/date-trigger.gif
+SHA1-Digest: RinDrSyo3Zg72J119R05jKIL4EU=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-strip-btm-bg.gif
+SHA1-Digest: T4gvLa592IeVz3Nb8Sj/x9vnWm4=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler$1$1.class
+SHA1-Digest: xTqvDoQUgAzx+wMA10gGA+BaH/0=
+
+Name: lib/ext-2.0.2/resources/images/default/s.gif
+SHA1-Digest: noecR/9ry/LaVNJIhPYlwo2XFEk=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/large-loading.gif
+SHA1-Digest: 7VmxsyyH934oLu+Jvsa/t0YgbvA=
+
+Name: lib/ext-2.0.2/resources/images/default/menu/group-checked.gif
+SHA1-Digest: JVh+NEMjMceaJIu9fkALNYbrZdo=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/SimpleStorageServlet$1.
+ class
+SHA1-Digest: TNUqcwfA6rZU0kISLdwuGF3obd0=
+
+Name: js/Plugins/bpel4chor2bpelSupport.js
+SHA1-Digest: gJYsO3P8VMRv6o4JUx9f/Qv/t0Q=
+
+Name: js/Plugins/pluginLoader.js
+SHA1-Digest: S/aT15GKdmmmKTe6C9vhbnjXvik=
+
+Name: stencilsets/bpmn2.0jbpm/icons/dataobject/data.object.png
+SHA1-Digest: NSAYvlDZigplvQsTxewrYsMFRYM=
+
+Name: stencilsets/bpmn2.0jbpm/icons/blank.gif
+SHA1-Digest: 8Dmw+WMppDoxh7O/zGIkrzSv4cg=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/dirty.gif
+SHA1-Digest: nKlNPxg/xis6DAds9wJ70Bw3oEw=
+
+Name: images/dictionary.png
+SHA1-Digest: g1TzyAKsM6pdSmroHKVv4CRrcPc=
+
+Name: js/Plugins/bpmn2xpdl.js
+SHA1-Digest: FZjaxOzAQzk4TLT5zaNuftoDSpU=
+
+Name: lib/ext-2.0.2/resources/images/default/form/clear-trigger.gif
+SHA1-Digest: WF1jd4I8BCoAMCSEe90CSv4i8SU=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/multiple.parallel
+ .svg
+SHA1-Digest: gV81fmwHLkqq7BuzX9+t3IZMz/E=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.user.png
+SHA1-Digest: i3qYfVWv9RB8JI3wTCWKwB/PX0c=
+
+Name: js/kickstart.js
+SHA1-Digest: pasL2GAks/OgqdNPnydNnMmFDn0=
+
+Name: lib/ext-2.0.2/resources/images/vista/tabs/tab-sprite.gif
+SHA1-Digest: 0apV/p/j6iaRlqmt1GXSLq90u6E=
+
+Name: META-INF/maven/org.jboss.drools/process-designer/pom.properties
+SHA1-Digest: cXyddFciB8p33ScFfyZ0DIwH3rY=
+
+Name: WEB-INF/lib/batik-parser-1.6-1.jar
+SHA1-Digest: l8tenviUxDONdD6wZOFckFXC8ms=
+
+Name: stencilsets/bpmn2.0jbpm/icons/dataobject/it.system.png
+SHA1-Digest: cqFY5wAnTH6kLxiL1IOmhEbU8z8=
+
+Name: js/Core/StencilSet/propertyitem.js
+SHA1-Digest: tMd46Wa6gm9ESOwMOXfpCopvz2I=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/list/eventbased.parallel.p
+ ng
+SHA1-Digest: hE7s+rvzCdn7kQ3zPqi45/TumNY=
+
+Name: js/Plugins/AutoLayouter/tests/test_layout.rb
+SHA1-Digest: SHIxEJGnz8Cx4pGb7vLyifMSuAI=
+
+Name: images/shapemenu_highlight.png
+SHA1-Digest: SmWzExbObulHEVSLYwkvjxIza0U=
+
+Name: WEB-INF/lib/xml-apis-1.3.04.jar
+SHA1-Digest: 2TNcfAV5eWI6y2N3fHQrW7J5B30=
+
+Name: js/Plugins/transformationDownloadDialogForBPEL4Chor.js
+SHA1-Digest: s5WeTvfMlPrJq970gJT183ZiHTg=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-btm-inactive-right-
+ bg.gif
+SHA1-Digest: g5F9GUWifwJ7oIDpXs+j/u76EVE=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/tb-bg.gif
+SHA1-Digest: 0IGop99xAFiaZJgmV/Anr7REjTo=
+
+Name: WEB-INF/lib/xmlParserAPIs-2.0.2.jar
+SHA1-Digest: BKlBsFAc/YqS+4O/jAWt0xkMCfM=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfileSer
+ vice.class
+SHA1-Digest: cT7MtXKf2xL/cHiYXG3xCYa9kEw=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/Repository.class
+SHA1-Digest: ic8mXULxK6kvXH1cNosMCK/AU7E=
+
+Name: images/cpn/cpn_export.png
+SHA1-Digest: CDx9XwQt1LP1MKyjtegABcmZkQY=
+
+Name: WEB-INF/lib/velocity-1.6.4.jar
+SHA1-Digest: axgDnnwFvzC+GwXrl6jpUccbwNU=
+
+Name: js/Plugins/AutoLayouter/bin/freetype6.dll
+SHA1-Digest: O9nc5WQOeifomZNwLJ8lSTSqaMI=
+
+Name: images/folder_page_white.png
+SHA1-Digest: u9BTnNZMiCPqvuvyiIy0w/402PQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/taskforms/TaskFormOutput.class
+SHA1-Digest: Q+1TPiIbbnqcDIilxCYpGxnC3+E=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.receive.png
+SHA1-Digest: VTR5ii8oGW5TY3/EoR9xd8EPbxY=
+
+Name: images/page_world.png
+SHA1-Digest: JCl9Vk4GShl2h56nLIvVMq9yqBY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/subprocess.png
+SHA1-Digest: D/ZYPb5MHiNFLdOR8cyBjpoDJiQ=
+
+Name: lib/ext-2.0.2/resources/images/gray/button/btn-sprite.gif
+SHA1-Digest: 1ej0/zEccDRTfOHkTezX9nBD8Fo=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/pick-button.gif
+SHA1-Digest: NsuI0hGTROH5bV16WUfatLKcysU=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfileFac
+ tory.class
+SHA1-Digest: 7kzS8fs80FH7AHglkztQtaADY6I=
+
+Name: images/shape_move_backwards.png
+SHA1-Digest: flgzeoxg7NZXmVEEI/lvQ4j8/YA=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/tool-sprite-tpl.gif
+SHA1-Digest: 4lYVULtSHW0E9nOI+4o/67jjONQ=
+
+Name: stencilsets/epn/icons/diagram.png
+SHA1-Digest: +JpABbMF0smVFfpOoG6FOlemMjw=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/invalid_line.gif
+SHA1-Digest: 3abMfi0hOIkrP1DV7K5B3kUXyf4=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetExtensionGene
+ rator.class
+SHA1-Digest: e3G6mpJlwhSzuRyU0NUyu3ZGa1k=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/AutoLayouterServlet.cla
+ ss
+SHA1-Digest: PYWeLRpGdfpwqr/TflhuPZg+yL8=
+
+Name: js/Plugins/AutoLayouter/bin/zlib1.dll
+SHA1-Digest: +xUyjO61Mx2rr00B8aZtmnnk3TI=
+
+Name: WEB-INF/lib/drools-core-5.3.0.BRMS-ER9.jar
+SHA1-Digest: Wajt4bL5B5tpzzNk1LW0ml3SM2E=
+
+Name: js/diff_match_patch.js
+SHA1-Digest: MYF5z8dJ6viRXHxaq3yYsj0E5+0=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/tb-btn-sprite.gif
+SHA1-Digest: I9I1mF8CvSIFjzBkKnIkvDz9tBg=
+
+Name: js/Plugins/xformsexport.js
+SHA1-Digest: AlYed3M47lhaGErru+XDGtVbLbE=
+
+Name: lib/ext-2.0.2/resources/images/default/box/r-blue.gif
+SHA1-Digest: KTFtV6PsSTRz+XGkIvWO8LQDwGA=
+
+Name: images/originals/new_startend.bmp
+SHA1-Digest: 9CMkrpN8x8gpOx5lpMTbydKD0JY=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/top-bottom.png
+SHA1-Digest: 1KxCmbl4iIGy7oHHZx6FYxzdFIo=
+
+Name: js/Plugins/epc2bpmn.js
+SHA1-Digest: x95HbzoJTSGy2QsHYGkXOKJODEc=
+
+Name: images/printer.png
+SHA1-Digest: NEPy4/DZviaJKC/D2cbZLbv7mm4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/swimlane/lane.png
+SHA1-Digest: n3gC/97u+ReF57HoPQJQkXU1zkk=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/escalation.svg
+SHA1-Digest: QgrrFX4XnAT5r18Cbfj2oQWeZzU=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/mini-top.gif
+SHA1-Digest: wx/tnidJXTCeEguK2GV8w5bsvO8=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/Activator.class
+SHA1-Digest: 6n5fVcc0jo4LbKQMreXjNRifu90=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/mini-right.gif
+SHA1-Digest: 3Lx7Ic1ryyzo2t+Dge3sATyHzvs=
+
+Name: images/BPEL.png
+SHA1-Digest: oBDNVVveFOTSiE1FW+I8G1ZkA04=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/Activator$4.class
+SHA1-Digest: Qv+VX8LIbS0OXemdP2VvRsyl0Rg=
+
+Name: js/Plugins/AutoLayouter/src/layoutprog.rb
+SHA1-Digest: nJZRcD+EV4a1ddAC7oZsvVZzkgs=
+
+Name: images/repository_rep.gif
+SHA1-Digest: 3wIUZxghS0H1v4KA9Lguq8UFw7U=
+
+Name: js/panelcollapsedtitle.js
+SHA1-Digest: 3NgVI/UcYrNQhTvHpM5pKCjjewM=
+
+Name: lib/ext-2.0.2/resources/css/xtheme-gray.css
+SHA1-Digest: cIMAYCCryRbBkLsNuRaZT53A2cc=
+
+Name: images/intalio_connect.png
+SHA1-Digest: 3qGVEw/fjoRoR1GMv2uxqTb2rZw=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/collapse.gif
+SHA1-Digest: X+hdBhGCPaty8OLa2YZWRG9ypvE=
+
+Name: WEB-INF/classes/org/jbpm/designer/taskforms/TaskFormInput.class
+SHA1-Digest: /vh+6asMhVzBgnxkiE9lgdanuu0=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/row-over.gif
+SHA1-Digest: YwzViNjyvMdjWuX5b1uRsOC4r2w=
+
+Name: js/Plugins/AutoLayouter/src/layout.rb
+SHA1-Digest: HU0frBhSSl0CWItCmcLe4TtKzx0=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/JbpmServiceReposito
+ ryServlet.class
+SHA1-Digest: Mh10OALG5swrWWaeaJ78+4g36PA=
+
+Name: js/Plugins/AutoLayouter/bin/ttf.dll
+SHA1-Digest: FQEreTHVxZTvVj+0lB+KpNwexDY=
+
+Name: lib/ext-2.0.2/resources/css/qtips.css
+SHA1-Digest: zYHI5dUECU7lXSrFLplwCeUzYnI=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/footer-bg.gif
+SHA1-Digest: kLHOzJCqi0lCIywYQI8bA90UGWc=
+
+Name: js/Plugins/bpmnClearSodBodHighlights.js
+SHA1-Digest: 0lQQwZQV2OGeq5HcJfHqcZRl7Gs=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/panel-title-bg.gif
+SHA1-Digest: WrgjHy6bHAFNyBdmwt/TYBfii3M=
+
+Name: execution/form.xml
+SHA1-Digest: AboHU+/8ZaxCZZNfZ6M6hh3iWi8=
+
+Name: stencilsets/epn/view/sequenceflow.svg
+SHA1-Digest: bK5vcbEKtC+a5f/WtSCU8RxzNoc=
+
+Name: defaults/defaultservicenodeicon.png
+SHA1-Digest: c73d0BWZkpv265OzT7j/9y0b0CE=
+
+Name: lib/ext-2.0.2/resources/images/default/form/search-trigger.psd
+SHA1-Digest: +qjVEzxCqBEK/Z4wtOW+GmOq5Lg=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/white-left-right.gi
+ f
+SHA1-Digest: bUYqdhS34IiwbOekPPMGLBItb8g=
+
+Name: WEB-INF/lib/xercesImpl-2.9.1.jar
+SHA1-Digest: yMmjUYVqIOJBFc94Nbs9T9UPrek=
+
+Name: js/Plugins/AutoLayouter/tests/test_shape.rb
+SHA1-Digest: eb40NoVDIgroGI7im47QwcYL6Mc=
+
+Name: WEB-INF/lib/antlr-3.3.jar
+SHA1-Digest: I9xt8RJT73tSSOwCpgaawn/9e+8=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetUtil.class
+SHA1-Digest: 4zlq/ro6toY/w/a6minP6LCe+jo=
+
+Name: WEB-INF/lib/mail-1.4.1.jar
+SHA1-Digest: uj4xVCOdIy0gw2ZQ+LJEfWyw8lw=
+
+Name: images/bpel_layout_disable.png
+SHA1-Digest: 6GCYZhKPL6MZzXiDgydZopINX5E=
+
+Name: images/labs/script.png
+SHA1-Digest: BhYa7Ww6cqhq91UAc4V3t9MhKik=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/timer.svg
+SHA1-Digest: ngB7RUDXYH38qVM99hbxlZVg2ao=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/BpmnMarshallerHelper.cla
+ ss
+SHA1-Digest: wvu52s60RoVIrciEdvpl9HsSeuM=
+
+Name: images/originals/new_enp.svg
+SHA1-Digest: nzk+cz/g3aGn92P8UVYJBCmfA7I=
+
+Name: stencilsets/bpmn2.0jbpm/icons/dataobject/list/output.png
+SHA1-Digest: auT+dg0ugvssOUnaFpJHdRyIjbs=
+
+Name: images/human_task.gif
+SHA1-Digest: DKUb6jm4s390XPLU/BXinuFfR1I=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/SyntaxCheckerServle
+ t.class
+SHA1-Digest: Jz/IckSM7i/DqVBK5ix1OBJYIQs=
+
+Name: lib/ext-2.0.2/resources/images/vista/tabs/tab-btm-right-bg.gif
+SHA1-Digest: mNhmoxWc2lSInn2d3U+8Pdx9iE4=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/corners-sprite.gif
+SHA1-Digest: UJGvJodwqkSt5sgRoWiJ5d8AtKw=
+
+Name: images/bpel4chor_import_icon.png
+SHA1-Digest: 4vzQa3LQnTfNbr/63jTptwY7j1A=
+
+Name: js/Plugins/propertywindow.js
+SHA1-Digest: 3VmjQ/2dLfod7scRqp+2IWfe8q8=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/link.png
+SHA1-Digest: 28cO+rJR5DeXf0sVD2Eylnfh8lQ=
+
+Name: js/Plugins/shapeConnector.js
+SHA1-Digest: ijdzdNWddC9RA0GPvKkhMPlhbdo=
+
+Name: images/folder_page.png
+SHA1-Digest: Hbfb+k0DDvHo2YshjhMUYf9Md7s=
+
+Name: lib/ext-2.0.2/resources/css/editor.css
+SHA1-Digest: zNRC4AG8TZAtDpsvpOwCYqso4Ak=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hd-pop.gif
+SHA1-Digest: J4cZz1hp4akV3eYxXJTvhJrNUco=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/se-handle.gif
+SHA1-Digest: DOvQGYEa5KMrm+HBx5304xKrUo4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/expanded.subprocess.png
+SHA1-Digest: 7nEIHu/SRPrpoL1p4G+6DL5iNg0=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/close.gif
+SHA1-Digest: utRIm3V2kMIEHaF14PNvnf5jDcA=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/subprocess.collapsed.svg
+SHA1-Digest: bcaIjxkZ9je1DbEmjNQcM013Y8E=
+
+Name: i18n/translation_es.js
+SHA1-Digest: 75LouXVcgnF0tOsUCQZkYYoXhxo=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/filter/impl/PluggableFilte
+ r.class
+SHA1-Digest: bavVQEq6eqGhbbZ0dEe0WW3PE9w=
+
+Name: WEB-INF/lib/jbpt-0.1.0.jar
+SHA1-Digest: FBe4QWn/uPd10APyAQB1X0hLbUo=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-close.gif
+SHA1-Digest: 7Frv9/wBdC2MbeewBKUn/W9laKA=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetExtensionGene
+ ratorServlet.class
+SHA1-Digest: utkEG3Dcez64e96TwHwHfuOh5DE=
+
+Name: lib/ext-2.0.2/resources/legacy/grid.css
+SHA1-Digest: liqUV7zfSnLSvZwA0Af9qb8zgLU=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/tool-sprite-tpl.gif
+SHA1-Digest: wr53CyGEMPJ8TMgJ367kk+sBOP0=
+
+Name: taskforms/genericstyle.st
+SHA1-Digest: p/a8zqUBgutuGFe09lNlcGibx/U=
+
+Name: xslt/BPMN2XHTML-extended.xslt
+SHA1-Digest: P5hpeCeKlQzLTNUU97/O7KQRHys=
+
+Name: stencilsets/bpmn2.0jbpm/view/connector/association.unidirectiona
+ l.svg
+SHA1-Digest: 7XqLMuqT34dNUnvzctkDDBCkguI=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/ne-handle.gif
+SHA1-Digest: qvjhBdeYqKcjh/hqOq+cFufa3qg=
+
+Name: WEB-INF/lib/batik-xml-1.6-1.jar
+SHA1-Digest: SPVoMZ9EyqfbDo/asU5vg5zbBro=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/MultiDownloader.class
+SHA1-Digest: uek/gTxovTweHqvQTcfzLhToOxE=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-end-minus-nl.g
+ if
+SHA1-Digest: rZ0CQ9SceT3wI6J3A1CyGA7Ianc=
+
+Name: i18n/translation_de.js
+SHA1-Digest: odRP+b4Co4KMoGrb5P3vQ6sDOk8=
+
+Name: images/shape_align_size.png
+SHA1-Digest: APA/2CrNNDPEXJKR1iGhx50+Ho8=
+
+Name: images/originals/new_act.svg
+SHA1-Digest: xdg+NmS5a8ZlEkmMWJgXBtoMm9A=
+
+Name: images/disk_multiple.png
+SHA1-Digest: BoUCLmqaksHGnwUN2Jr5YqDHhVs=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.compensation.p
+ ng
+SHA1-Digest: Hcqt6+wkrD1jXkz4dAtJhPN39RU=
+
+Name: stencilsets/bpmn2.0jbpm/view/dataobject/message.svg
+SHA1-Digest: 1bd9+nuFjzbDcprpWJIVaxmPc4A=
+
+Name: lib/ext-2.0.2/resources/images/default/window/left-right.psd
+SHA1-Digest: xItFnJEHEsBje6wSFFedf/ilnL4=
+
+Name: images/export_multi.png
+SHA1-Digest: bu5e2YtoBLQcqGIfEAJ21S4nXJI=
+
+Name: WEB-INF/lib/batik-gvt-1.6-1.jar
+SHA1-Digest: Ip6StqDYZpahqy61jOxKqt3T9B4=
+
+Name: WEB-INF/lib/atlas-1.0.0.jar
+SHA1-Digest: eoPw8xTlo7eiywvkQ6XwrepSXT8=
+
+Name: stencilsets/bpmn2.0jbpm/view/gateway/inclusive.svg
+SHA1-Digest: OjrYYQNDRrMLX9vpirDwOlSIjpE=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/bg.gif
+SHA1-Digest: CqYWIc4z/XQRRjmziAC4MuO0+qo=
+
+Name: lib/ext-2.0.2/resources/images/vista/gradient-bg.gif
+SHA1-Digest: NgVnu/nKuak/qiatdmCbyPmWvyg=
+
+Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.0.BRMS-ER9.jar
+SHA1-Digest: W3Bn/J/NUS7gXs+F7h9kQ+4Za9w=
+
+Name: images/pencil_go.png
+SHA1-Digest: NeATBid7tXgvbfRCWc4I1AjLbNY=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/right-btn.gif
+SHA1-Digest: I2/IHAzQ6t5/PEnnkAmWR4PaWpU=
+
+Name: images/bod.png
+SHA1-Digest: PGM3nGcpZoOsX4jr31oa2kGHXR8=
+
+Name: js/Plugins/AutoLayouter/src/node.rb
+SHA1-Digest: sluL6ykDX54eMrbvJT/s9wO9wzo=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/square.gif
+SHA1-Digest: TbBNo/HSspqPoDpC+K/GiBGaCX0=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/IDiagramPluginFacto
+ ry.class
+SHA1-Digest: Q5rqDUywIneSz8998UlprJG2AhU=
+
+Name: lib/ext-2.0.2/resources/css/dd.css
+SHA1-Digest: aOQlhiLz2aHhwrCn87jiOtPZiwc=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/panel-title-light-
+ bg.gif
+SHA1-Digest: cvtYldWsKYNHnIznKHz6MSTsTMM=
+
+Name: WEB-INF/lib/slf4j-api-1.5.8.jar
+SHA1-Digest: maps3VrHYHoLlhJy1tuQVlueWgs=
+
+Name: js/boot.js
+SHA1-Digest: hlMPS6On0RQ2zA77Zpff40xD110=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/Preproc
+ essingServiceImpl.class
+SHA1-Digest: ewcgUmGJ9CHzE9OqdjxMZdicTFc=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/drop-no.gif
+SHA1-Digest: UYFmB2KIv+Qpglatmf+Hx2voWdo=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/multiple.png
+SHA1-Digest: GJsc/HjCID7SQez6D3gNQH4iCfA=
+
+Name: i18n/translation_ru.js
+SHA1-Digest: 4W35lfQqxw7JmrU6BQe+zE5Gmtg=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/ServiceComposerServlet$
+ Operation.class
+SHA1-Digest: cwgckBztg5q4se+77PM6RezaXYs=
+
+Name: WEB-INF/lib/knowledge-api-5.3.0.BRMS-ER9.jar
+SHA1-Digest: muiKOzkgmf2Uml0kSjian9xsirs=
+
+Name: images/rotate_left.png
+SHA1-Digest: L1952w0mudnYR+zslLIPzsthSW0=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/message.png
+SHA1-Digest: 4Y14KaCZPOiCq9f15xNXzfTKYj4=
+
+Name: META-INF/LICENSE
+SHA1-Digest: xZ5b42ZzMKqUAVAs1Nu77jdYQcY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/timer.png
+SHA1-Digest: t8ZQpmFTEP4vHK6dvavbp8zuMk8=
+
+Name: WEB-INF/lib/jbpm-flow-5.3.0.BRMS-ER9.jar
+SHA1-Digest: TWdE3nJPs0aLPZjQTaitS+FduvQ=
+
+Name: images/jpdl_import_icon.png
+SHA1-Digest: ZfXdmXUIJN8WxN+MZWYOBSGCkqM=
+
+Name: js/Plugins/AutoLayouter/tests/medium_sample
+SHA1-Digest: fEePOS4Hn4ZhwWD0LzBFnTo5mzs=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/panel-close.gif
+SHA1-Digest: Odzs78binHbzdm35GeBXPHzYfIk=
+
+Name: lib/ext-2.0.2/resources/images/default/gradient-bg.gif
+SHA1-Digest: sleRM22O6yU7slU/nVgmVSKoQmY=
+
+Name: js/Core/shape.js
+SHA1-Digest: 1LPzwK126JvbzPDdQsO4lxBSkkA=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-prev.gif
+SHA1-Digest: JDHr0Yh+T0Sh5Dzqc0Acf0VY9NI=
+
+Name: xslt/BPEL2eRDF.xslt
+SHA1-Digest: H7Z6c+tjayJ5+8crVCdc34p7GkQ=
+
+Name: WEB-INF/lib/slf4j-jdk14-1.5.6.jar
+SHA1-Digest: zpEhgmsJshCq1xq9lj4tcLwzXXw=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-end-plus.gif
+SHA1-Digest: HWC/V0JiC35tZY+R9337VvfOyKI=
+
+Name: js/Plugins/dragDocker.js
+SHA1-Digest: /23g8wj31Qf58SzsLQWonSGxiRU=
+
+Name: images/view.png
+SHA1-Digest: NT9xoB31Oq7ilEEMl8yoyXfHYU8=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/row-check-sprite.gif
+SHA1-Digest: PdV+qZW6C5sWuv0DIJ4QBdJ5M28=
+
+Name: lib/bpmn20/BpmnDi.xsd
+SHA1-Digest: OFmAHYjY2K3LzikWFBOT/+wOeGQ=
+
+Name: favicon.ico
+SHA1-Digest: HrixCNzkpAJSy7TPoCOrqzB6UyM=
+
+Name: js/Plugins/AutoLayouter/src/dot.rb
+SHA1-Digest: gxfPWRu3o0Vdps+aHPElmStzXV4=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/JSONBuilder.cla
+ ss
+SHA1-Digest: AUvvolGNyfOdp2VqzL4XmCpml4g=
+
+Name: stencilsets/bpmn2.0jbpm/view/connector/association.undirected.sv
+ g
+SHA1-Digest: Tne2k1AwLKK/UIpMknS7O798qfc=
+
+Name: images/bpel_import_icon.png
+SHA1-Digest: FDygXf1OXM6ukqpdugiDYzQmuwo=
+
+Name: js/Plugins/rowlayouting.js
+SHA1-Digest: EBjO25InJ+xgNemLZyfgDy1WFSU=
+
+Name: js/Plugins/AutoLayouter/src/shape.rb
+SHA1-Digest: XnyCWe70qVSi+PTuVq8ew0V4LLQ=
+
+Name: js/Core/svgDrag.js
+SHA1-Digest: 6wXai7Qfg3p7sIf3igLmuPQlcp4=
+
+Name: js/Plugins/AutoLayouter/src/container.rb
+SHA1-Digest: pOO88EUnEYTjOsS7E/Fj/aqV/vQ=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/se-handle-dark.gif
+SHA1-Digest: JWOBFP0anNhQCbMwLi1ngas/hDo=
+
+Name: WEB-INF/classes/org/jbpm/designer/epn/impl/EpnStencil.class
+SHA1-Digest: T7FtpGAdoOvWni760MT1Rqtb1vI=
+
+Name: images/crystal/connect_to_network.png
+SHA1-Digest: RayRxRYZb0W1H2ogRZBaoKWnE6A=
+
+Name: lib/ext-2.0.2/CHANGES.txt
+SHA1-Digest: fshgfQnX7Iyiv7PmDafuQxs8NUA=
+
+Name: js/Plugins/AutoLayouter/tests/test_all.rb
+SHA1-Digest: RK5MJie1Z9XFiiZ0e2M1vIYynn0=
+
+Name: WEB-INF/jboss-web.xml
+SHA1-Digest: KGQr9IAKvwRb/7rXFMAeRbtcteM=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.message.png
+SHA1-Digest: QnqaSTBtUXi9EHDi1xc9DU81tGM=
+
+Name: taskforms/usertaskform.st
+SHA1-Digest: tIQb4lhqtXpnTTlg7PgZE9Bw3LU=
+
+Name: js/Plugins/processLink.js
+SHA1-Digest: US7J/c+0CavYJ+wPfyDUJPlcPgw=
+
+Name: js/Plugins/view.js
+SHA1-Digest: HhCI/fWUjh/Gkg/PWb+nQcaykRI=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/nw-handle-dark.gif
+SHA1-Digest: +t1gzFdRrrhN3DdPGKUejRIeWkk=
+
+Name: images/sod+.png
+SHA1-Digest: XoGN8TjKZGPyn6Z7QESbc81ZGYA=
+
+Name: stencilsets/bpmn2.0jbpm/icons/dataobject/data.store.png
+SHA1-Digest: 05JlWgiXVDg7wMkibu1nFoxftd8=
+
+Name: images/page_white_code.png
+SHA1-Digest: x5SJNxiVnm+wlxu3jubew5+m6Rk=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/multiple.parallel.png
+SHA1-Digest: JLp5uzWpKeiK1Ri0nCOrug0GOwg=
+
+Name: lib/ext-2.0.2/resources/images/default/window/left-right.png
+SHA1-Digest: C5Psh6b8QxmBGKu79GWcwEYxF/Q=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.escalation.png
+SHA1-Digest: oz+3N4N6uec3d8eYh3PgcCbdsX0=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/icon-info.gif
+SHA1-Digest: 3XGgjpp7A5ljNCNG7tg/9VY2JD4=
+
+Name: defaults/WorkDefinitions.wid.st
+SHA1-Digest: VRbqv3oTLqpaXuHva8W9SkgHD/A=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/multiple.catching
+ .svg
+SHA1-Digest: ABs5qWvpt7Rl5pK2bD8KgKNJX3M=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/left-right.gif
+SHA1-Digest: ZDoPDB+65NJpIOKEd6KiUtm0Nbw=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/ProcessDiffServiceS
+ ervlet.class
+SHA1-Digest: jRGxMC3n5+4DoaKQkiY/X1IUelg=
+
+Name: js/Core/StencilSet/complexpropertyitem.js
+SHA1-Digest: zVU6WIuE+ZrLFu+ELpBDB9WlqQc=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/icon-question.gif
+SHA1-Digest: WPaKdM9uufApWdodxUARFe3DqhA=
+
+Name: images/originals/new_arr.svg
+SHA1-Digest: dO5nVIi10tbseKPKDpZ61rTeuoE=
+
+Name: lib/ext-2.0.2/resources/images/default/menu/item-over.gif
+SHA1-Digest: 0a/1/iWNWxTc9pYf8QH3zXzxOsc=
+
+Name: js/Core/abstractDragTracker.js
+SHA1-Digest: ErqkvTGhkKlKj8vYAIzPqIsgmMk=
+
+Name: images/xforms_orbeon_export.png
+SHA1-Digest: 3yB3RjE0YrjryQb21hHzSa2H54Q=
+
+Name: js/Plugins/xforms.js
+SHA1-Digest: +MUjtELEfrtVIOFPL00nP2Ke+Go=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/drop-yes.gif
+SHA1-Digest: UUHk6QId4J7DIElOkQeyo/aOg3E=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/tools-sprites-trans.gi
+ f
+SHA1-Digest: PxjMlpWQs7WOjr5K60S0LYYwVUc=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-blue-hd.gif
+SHA1-Digest: 8796b/IOqFEs69OnFQh2qYjFjfA=
+
+Name: profiles/epn.xml
+SHA1-Digest: sHfDSrmYCBOa9wVcsOMeX0broIs=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.multiple.paral
+ lel.png
+SHA1-Digest: /RYCEiKyDSSAyLGIr3dFrZ+Jqoo=
+
+Name: lib/ext-2.0.2/resources/images/default/qtip/tip-sprite.gif
+SHA1-Digest: iYalqu50Ef7KKFXMG4rtrtKLsXs=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/expand.gif
+SHA1-Digest: MAU+NvDqAYSarMEHH9t0d+BcUbI=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
+ l$2.class
+SHA1-Digest: dAz/mz3TJBdAA7sb5lcSMFXqKRw=
+
+Name: lib/ext-2.0.2/resources/images/gray/window/icon-error.gif
+SHA1-Digest: JTiDKGuxDjet7LVPROAtpc2Hr3U=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMXMLSaveImpl
+ .class
+SHA1-Digest: BTvQvCIugkTX7gzKlmwuK/sQaiU=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/UUIDBasedRepository
+ Servlet.class
+SHA1-Digest: cfPrUSdqfetnmRr3ToWFse2kXJY=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/Default
+ PreprocessingUnit.class
+SHA1-Digest: FVQA6r5O72nDpn8UWi3GOh3XfRg=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-btm-right-bg.gif
+SHA1-Digest: 7uYW37WY5krGv8KrHeI1eGJdV+w=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/ns-expand.gif
+SHA1-Digest: gZwJVLP9HLz0PYvc+TwkR1ewdE0=
+
+Name: images/crystal/firefox.png
+SHA1-Digest: nB1wwJY7wm9sWt6TztF1vlqy5As=
+
+Name: js/Plugins/pnmlexport.js
+SHA1-Digest: t3yyH9th7DquZwI6Pq9lUPqOeFo=
+
+Name: images/page_white_world.png
+SHA1-Digest: EPsYBz1piwl+iIyAYzBJpmNA4Uc=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceI
+ mpl.class
+SHA1-Digest: 6U/g3ETaARcujokN9fXubBeLvg8=
+
+Name: images/bod_view.png
+SHA1-Digest: tU25DN2bDLi8W45735WZec6y9d4=
+
+Name: lib/ext-2.0.2/resources/css/debug.css
+SHA1-Digest: H0qmDW9Drmx5MKwI12VSNApT114=
+
+Name: js/Core/SVG/pointspathhandler.js
+SHA1-Digest: PL6fD2qQ7Nmx/bymokKODnWmC84=
+
+Name: WEB-INF/lib/batik-transcoder-1.6-1.jar
+SHA1-Digest: evmWrq+TITciYj6Tu9igWXzrIFI=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/event.subprocess.png
+SHA1-Digest: ljzEUArIIAu6PDXhCtD3RXO5uBs=
+
+Name: stencilsets/epn/view/consumer.svg
+SHA1-Digest: VaMAdk5UOChNNu2BKpAygCuzKRs=
+
+Name: images/zoom_standard.png
+SHA1-Digest: ozZW565EqWDGZlulL2HEbS0/Jp4=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/multiple.throwing
+ .svg
+SHA1-Digest: WGcuACvy8VDQaSXaFbk3rSOdTx8=
+
+Name: lib/ext-2.0.2/adapter/ext/ext-base.js
+SHA1-Digest: 0DCdAkZZc+IvJ8KbWSG6y2Rgih0=
+
+Name: js/Plugins/undo.js
+SHA1-Digest: h/+zMl3OJULaL31T/eemD8u0eY0=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/ServiceComposerServlet.
+ class
+SHA1-Digest: 135OAqmu/qnqhgD/uZP7G8j/vh8=
+
+Name: images/epc_export.png
+SHA1-Digest: dZ4nArCxQq6cSvbZ/K0O3XQG1rE=
+
+Name: images/arrow_undo.png
+SHA1-Digest: FGGbPLJurP2yPEgypu10MgcT9x0=
+
+Name: lib/ext-2.0.2/resources/images/default/box/l-blue.gif
+SHA1-Digest: LqMbcEqoGhHN2IaAF3HZMlAfB0o=
+
+Name: taskforms/processtaskformstyle.st
+SHA1-Digest: 3ftKxtXyoogaiNEPoGxLYuq9kZo=
+
+Name: js/Core/bounds.js
+SHA1-Digest: Mxjx2KUQgYHTrhlWqGG8XRAdEnQ=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/task.png
+SHA1-Digest: /m7QEgs29Fa95PDkxKT8b8SpzZ8=
+
+Name: WEB-INF/lib/batik-awt-util-1.6-1.jar
+SHA1-Digest: gTtvnR5XtSysSFQhkfvHUXFfg44=
+
+Name: images/jpdl_export_icon.png
+SHA1-Digest: WASbYLyQkTVgJOR8cUdO30FocEo=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/left-right.gif
+SHA1-Digest: 14gfP7XRaNtE4JWtELuyUSc3r80=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hmenu-desc.gif
+SHA1-Digest: s6d15nPdWgE9ixDi9X31uSaz90E=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/loading.gif
+SHA1-Digest: sD2X99nrHq3ESoSzeUywbUx1aFI=
+
+Name: lib/ext-2.0.2/resources/css/form.css
+SHA1-Digest: QEBy4SKN7L8gWIKWPG3luFDHV2g=
+
+Name: js/Plugins/epcLayouter.js
+SHA1-Digest: b6fh6HucfwR4jMqWuTrZ6nxyHAQ=
+
+Name: js/Core/canvas.js
+SHA1-Digest: sUG9vhckxZYqp3FI7GNrp2J9qas=
+
+Name: i18n/translation_en.js
+SHA1-Digest: EP6x1rX9kQp2d0lbKa7yA/o4Ocs=
+
+Name: images/box.png
+SHA1-Digest: p1976rLd9o5T2BtMPtrI5/w2DG4=
+
+Name: defaults/defaultlogicon.gif
+SHA1-Digest: mjtkkhqy/y5+hFexNvRgVFGlyKI=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/event.subprocess.collapse
+ d.png
+SHA1-Digest: nuHbhfGRP4wBB/5b7lbZHz6oSZE=
+
+Name: jsc/README
+SHA1-Digest: RGNCDZe5WN6QIgIGIXLNpleqytw=
+
+Name: lib/ext-2.0.2/resources/images/gray/button/btn-arrow.gif
+SHA1-Digest: 3EstQpV2bkJJNevxbuWvUiywZZA=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/s-handle.gif
+SHA1-Digest: pKmvw4sWvkXCTKFIwE468+XlZDs=
+
+Name: js/Plugins/bpel4chorSupport.js
+SHA1-Digest: i0jyCoipa5REqeJboNm70iiop0A=
+
+Name: js/Plugins/addstencilset.js
+SHA1-Digest: 1FPpxVVQxtTllFRpG7d7ndVtnwM=
+
+Name: js/Plugins/feedback.js
+SHA1-Digest: ij6uljYpt7bIy4wSuI6Th9tfhrA=
+
+Name: images/toolbar_prev.png
+SHA1-Digest: jRFmctn+SwS44V+ni2f96Cf1+SE=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/impl/Bpmn2JsonUnmarshall
+ er.class
+SHA1-Digest: lRLv/hpwa0Pokxel/uk9oLdiw+k=
+
+Name: images/epc_import.png
+SHA1-Digest: 72YoGN+2L/wfmo80BTToJQxFP0o=
+
+Name: images/oryx.small.gif
+SHA1-Digest: Z2EbSJEJ6o6LJxtVMIjI1XL+8eo=
+
+Name: lib/bpmn20/DiagramInterchange.xsd
+SHA1-Digest: mh9339KrPV2RN5hHpLh7pAklBVs=
+
+Name: lib/ext-2.0.2/resources/images/default/form/text-bg.gif
+SHA1-Digest: 1dzltpei42xEvNv67gUIRf2EsLc=
+
+Name: images/originals/pile.bmp
+SHA1-Digest: H7E8UMIZ55Ui6kQImigoiSdkh7o=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/glass-bg.gif
+SHA1-Digest: cJDo8zlv9RXRUUQdLGwfC4BFQYA=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/sequenceflow.png
+SHA1-Digest: g+7i13rLfGHC50/pBosCSUCsYQA=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/terminate.png
+SHA1-Digest: D0HQ1nP5/tWGwCBSwb0TlO1Ww64=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/LocalStenc
+ ilSetImpl.class
+SHA1-Digest: oK9j5bJmLeOHAhc06G3J6kHrU4M=
+
+Name: js/Core/node.js
+SHA1-Digest: 69XXRINgCWik7gbd6y7cApglZLs=
+
+Name: lib/ext-2.0.2/resources/images/default/menu/menu-parent.gif
+SHA1-Digest: 4U7raR5zWRUyYV4ZoCeTCud+UTk=
+
+Name: images/design-thinking/admin.png
+SHA1-Digest: /tJgY3+Ml52XVjVqIsuHtn9giYk=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/error.png
+SHA1-Digest: 1d/jVFaljD1BEgYuKfGTgQdHzKU=
+
+Name: images/wrench_orange.png
+SHA1-Digest: VfJXN8YbWKHm0oRsGcyW7lOQAnc=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/ne-handle-dark.gif
+SHA1-Digest: hd0e0BUa+s7Qp56gDmxMcKFT2A0=
+
+Name: js/Plugins/AutoLayouter/bin/dot.exe
+SHA1-Digest: YirvSr7ssLWg96xUAakwmQ+WBCQ=
+
+Name: WEB-INF/lib/batik-css-1.6-1.jar
+SHA1-Digest: OJccyMscY9iBV4ZjxJ3CslDvSmc=
+
+Name: images/page_white.png
+SHA1-Digest: MkzICpCX9A4nGPL6oXPtXzfZufo=
+
+Name: images/shape_align_right.png
+SHA1-Digest: AmyfghOasKEiby1oz8Z7ZC32zMI=
+
+Name: lib/ext-2.0.2/adapter/prototype/ext-prototype-adapter.js
+SHA1-Digest: +CZcKJxFrFNRAOc2nQCFnExLv5w=
+
+Name: lib/ext-2.0.2/adapter/prototype/scriptaculous.js
+SHA1-Digest: TFIQd4CduLQj1h4VhcSYPA4PA8s=
+
+Name: defaults/themes.json
+SHA1-Digest: s5WrkvE2xyhOp6kUe4rPBOWxS8A=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hmenu-unlock.png
+SHA1-Digest: rRMdbP4MRG0DON/oSkPMSww8mPE=
+
+Name: images/arrow_redo.png
+SHA1-Digest: rejr1cJFVtpYZuBi0vcUqoA+GgI=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/signal.throwing.s
+ vg
+SHA1-Digest: maGE4XYt8bnhEGAznld4R3EwCjg=
+
+Name: images/crystal/database.png
+SHA1-Digest: dNymOdJQ+t0bAbzJqoO90tiXek8=
+
+Name: js/Plugins/bpmnplus2bpel4chor.js
+SHA1-Digest: ghR5TqeQ4tkIQfneQHFfdq0RjqQ=
+
+Name: images/crystal/error.png
+SHA1-Digest: 4lNz0ha8nmEvg8bNxQdoMt8IDrQ=
+
+Name: js/Plugins/AutoLayouter/tests/test_oryxrdfdoc.rb
+SHA1-Digest: Pg02yR6Y8wKmKDdJA475GxGCU+Y=
+
+Name: WEB-INF/classes/org/jbpm/designer/taskforms/TaskFormTemplateMana
+ ger.class
+SHA1-Digest: pxjpLGjg6YCe4zPirlnolnS8BO0=
+
+Name: lib/ext-2.0.2/adapter/prototype/prototype.js
+SHA1-Digest: 5fhaiP/5u9szLFAscw0YqMVhL8Q=
+
+Name: stencilsets/bpmn2.0jbpm/view/activity/subprocess.expanded.svg
+SHA1-Digest: tNeI5dLnqPb22SMg0NemZS7INaY=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/col-move-top.gif
+SHA1-Digest: 8wHvjlOt9MkRL1Zv1cLY+PoC03I=
+
+Name: js/Core/main.js
+SHA1-Digest: dtsEC9CKho994pioflbVIKgIg3A=
+
+Name: images/originals/new_stp.png
+SHA1-Digest: byRPLMSTJja/Ml6/4gKjtsK7d0I=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/list/type.default.png
+SHA1-Digest: AlWOrBb7NBwE1NuRyhxtReJMZZ4=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/escalation.catchi
+ ng.svg
+SHA1-Digest: /9yGRs7i/TRpeT3p/w+Vl6jvnVY=
+
+Name: stencilsets/bpmn2.0jbpm/view/gateway/eventbased.svg
+SHA1-Digest: cbmV4H11sxzplxm7vglB8Zf9ltQ=
+
+Name: images/servicenode.png
+SHA1-Digest: FhQrkUxJXQd9fgjJ/bXTsYLScq4=
+
+Name: WEB-INF/lib/serializer-2.7.1.jar
+SHA1-Digest: vNJQnCqAqG/tTpCg3Iw1cd+5ELA=
+
+Name: images/bg.gif
+SHA1-Digest: X5mBSxWYJBkULGvMsklBBtzZBNc=
+
+Name: js/Plugins/AutoLayouter/bin/z.dll
+SHA1-Digest: 90jNe7Kz4hWw4BjlEv0Rjbtumi8=
+
+Name: lib/ext-2.0.2/resources/images/default/window/top-bottom.png
+SHA1-Digest: +rt44MM4q/C+NxKKqKHx9I0zyiQ=
+
+Name: images/readme.html
+SHA1-Digest: HnP7PeHC/MiPnmCssh96N41oOHU=
+
+Name: js/Core/StencilSet/stencilset.js
+SHA1-Digest: 632k+wDtbnuOMi+7lPPEDnGvviw=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/cancel.svg
+SHA1-Digest: mGtEtwk3v2JpxVzdn5b8gI7ZCwI=
+
+Name: stencilsets/epn/icons/channel.png
+SHA1-Digest: J+Ey0jHmHgHbkhX8oCeZVLEYDTQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/Activator$1.class
+SHA1-Digest: dKeubGumifbuLo+29Hp/5SIh9ok=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/top-bottom.png
+SHA1-Digest: EKjWNZTM0t/8vmBJmNmQHKL792c=
+
+Name: js/cmjs.js
+SHA1-Digest: ml3vNlWklZwwPNytIW/Ae1kqI+s=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/DictionaryServlet.c
+ lass
+SHA1-Digest: wC9kmjOgZjr2W7e/3sr4ZIiTYAY=
+
+Name: stencilsets/bpmn2.0jbpm/view/conversations/connector/conversatio
+ nlink.svg
+SHA1-Digest: 2DlzGrhl5Kujk1fMKzp8WU5nolo=
+
+Name: lib/ext-2.0.2/adapter/jquery/jquery.js
+SHA1-Digest: /H3smYyjwg8KzT+VjT2udzc1nGA=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/row-sel.gif
+SHA1-Digest: M2g3vfLXlX+SruVLIRKzpOSYTM0=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-end-plus-nl.gi
+ f
+SHA1-Digest: kcFMh/ZXIAfwYmrJqFFHj6ajLYM=
+
+Name: images/design-thinking/publisher.jpg
+SHA1-Digest: Gd1QC45zmmarPVHJHB51c2WgqLs=
+
+Name: stencilsets/bpmn2.0jbpm/icons/conversations/participant.png
+SHA1-Digest: RA3vn7ASidgFSQrQfZr3KgbgIng=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/ExternalInfo.
+ class
+SHA1-Digest: Fiob3/NcQmtXHI0E2Q0oYikxtDs=
+
+Name: images/door.png
+SHA1-Digest: e4zMakUtRX2TUO7AItFJ4jhC8hU=
+
+Name: images/page_white_code_red.png
+SHA1-Digest: E11VU3P36Fr8UVlsFpzHhCoUD6I=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/validation/SyntaxChecker
+ .class
+SHA1-Digest: 6XsAbGlS1FV3NNZhabBT3bMDG1k=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/hd-sprite.gif
+SHA1-Digest: yV5xM7IVvgHs7G+BsWnfRxJnMm8=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/none.png
+SHA1-Digest: ytYpd/sZc9Ynp+KcLJ2A3LOQAUM=
+
+Name: js/closetags.js
+SHA1-Digest: Tavrm5p+U5cTRMCnoVu6N+eXCWY=
+
+Name: stencilsets/bpmn2.0jbpm/bpmn2.0jbpmconversation.json
+SHA1-Digest: 0QpSikngfemllHJlYbhPe8HYQak=
+
+Name: images/report.png
+SHA1-Digest: RsMYBJSqTLO4l/ikeF36kcOEmG4=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/collapse.gif
+SHA1-Digest: PmUP4NMjUkqY4wqdHxwXSFOoACU=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/se-handle.gif
+SHA1-Digest: k7GsCzag+vNunEaSD7TVrYdyzL8=
+
+Name: lib/ext-2.0.2/resources/images/default/form/exclamation.gif
+SHA1-Digest: qTz6lVdH4IEeayXJBLOVyaIsv6o=
+
+Name: xslt/BPMN2XHTML.xslt
+SHA1-Digest: X6DZU/ya9pSDRKIftflZCIPzWz0=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/JbpmProfileIm
+ pl.class
+SHA1-Digest: 6Y8VEsocCvAlGcgTFEobWOX6Fr4=
+
+Name: images/bpmn2xforms.png
+SHA1-Digest: NPCIQe86PodqdiLHSoVuANnPN5Q=
+
+Name: images/controls/button_active.png
+SHA1-Digest: W7AkcmUNH9dRQPK31KHpK9UXNFI=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/batikprotocolhandler/Guvno
+ rParsedURLProtocolHandler.class
+SHA1-Digest: RLc4AakJ8OXM7T7gUnePFGO4TZ4=
+
+Name: lib/ext-2.0.2/resources/images/default/button/btn-sprite.gif
+SHA1-Digest: hQLveYMfCMKpRXmVJC2d0skMX+0=
+
+Name: js/Plugins/fileRepository.js
+SHA1-Digest: vuDkpW5V49GIRAlwv9UloKbkBCM=
+
+Name: xslt/BPMN2InteractionDiagram-dot.xslt
+SHA1-Digest: NK86eiIEoEtF7zs1QZBp35K1tjQ=
+
+Name: images/bpel4chor_export_icon.png
+SHA1-Digest: heql1YTRgwZmcfGU024KXs26UZ8=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/compensation.png
+SHA1-Digest: EHch55PEaNrRhu2MOmdUuTrk+sg=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/signal.svg
+SHA1-Digest: Mbxptn9ytze8m+5lC1cmcP7d/ts=
+
+Name: lib/ext-2.0.2/resources/css/panel.css
+SHA1-Digest: X6tuGdw0bXMmhhHnNPsbf9+604E=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/tools-sprites-trans
+ .gif
+SHA1-Digest: dMzad3ZRScLpvnRn+r4iqBk7Q6M=
+
+Name: stencilsets/bpmn2.0jbpm/view/diagram.svg
+SHA1-Digest: rjqzCDA0vybo6yar/9GDEUu3F8I=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/message.catching.
+ svg
+SHA1-Digest: YFHooNZgLzSljVohli/BfCF8//U=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/gradient-bg.gif
+SHA1-Digest: 41ZGk3jCcxV4MhL+sv6ERcoi4go=
+
+Name: images/page_white_paste.png
+SHA1-Digest: Y/oM14unoz+Ji30wbEV89HNwLSA=
+
+Name: lib/ext-2.0.2/resources/css/tabs.css
+SHA1-Digest: zmdGY4MZWsM4qwZ491aq3F2Jtac=
+
+Name: WEB-INF/lib/commons-fileupload-1.2.1.jar
+SHA1-Digest: JfzkhYBd0YpAXzaPSUm/dwLs5Mg=
+
+Name: images/erdf_import_icon.png
+SHA1-Digest: XVvwyfekJgQPpRzcOlLxaDjFRb8=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/hmenu-lock.png
+SHA1-Digest: xW4mnLEweWig5QMj/JPoB9372Uk=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/ThemeServlet.class
+SHA1-Digest: XCQKftZth8O8vtQVQ+PG19CpR+k=
+
+Name: images/cpn/delete.png
+SHA1-Digest: Ns/k5iO6v8zTMyhSR/lcr4Tv/Uo=
+
+Name: js/Plugins/erdfSupport.js
+SHA1-Digest: 5k0CuIsgDQvB7hUDAXwV157Tk7Q=
+
+Name: stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+SHA1-Digest: Qf1qW/gnNzprdbbVLHDzv8UCfWk=
+
+Name: js/hint.js
+SHA1-Digest: pkPYWZI6BddOa28D86AnxJaUjXY=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/ServletUtil.class
+SHA1-Digest: bDZqF3d9crTwd9YWlMAYRKS1hcI=
+
+Name: lib/ext-2.0.2/resources/images/default/qtip/close.gif
+SHA1-Digest: BOZQI7BR5TIzLmUoIWcF3O5RZD4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/conditional.png
+SHA1-Digest: /5yn89W0XPXo32Ys52ZG6ssf/yg=
+
+Name: WEB-INF/lib/avalon-framework-api-4.3.1.jar
+SHA1-Digest: rQbRSfLyQzhnLVrbc1eZ03pw2os=
+
+Name: lib/ext-2.0.2/resources/images/default/form/date-trigger.psd
+SHA1-Digest: kohJuxZLG6d3u2PlYBWBZZYsmJg=
+
+Name: WEB-INF/lib/log4j-over-slf4j-1.5.8.jar
+SHA1-Digest: rMxu9qqPC2+Vd884HjDOcePMJlg=
+
+Name: stencilsets/epn/view/diagram.svg
+SHA1-Digest: JnyOPA1W1pRCtkdXOey6vuhRIIc=
+
+Name: js/Core/Controls/control.js
+SHA1-Digest: S0WtPaNMZ4+g7YobB8XHo4Otj9E=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-loading.gif
+SHA1-Digest: 134NSc2y8sWAURveIosn3EHqVfc=
+
+Name: WEB-INF/lib/xstream-1.3.1.jar
+SHA1-Digest: zRQuSwoK6NLcp74S0tdMdOSiG3A=
+
+Name: js/Plugins/Layouter/edgeLayouter.js
+SHA1-Digest: mv3ZKPG6Xps0nDLJ1PMU77icQRo=
+
+Name: js/Core/StencilSet/property.js
+SHA1-Digest: N1lH9K7BowFvx5k9NyY/HF567gE=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/compensation.png
+SHA1-Digest: jJbaDQgA0LnGh9um2fB/BGSF/5c=
+
+Name: stencilsets/bpmn2.0jbpm/view/conversations/subconversation.svg
+SHA1-Digest: Ce8X38Ftr+4O7o59XV9e+VZOvNM=
+
+Name: js/Plugins/selectionframe.js
+SHA1-Digest: P0JqdsKvyK+Zn76ffnH3vDmYKLE=
+
+Name: js/Plugins/bpmnplusSerialization.js
+SHA1-Digest: 5sOwjwu1WvKk76z1Y96wG9enPuA=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/DiagramBuilder.
+ class
+SHA1-Digest: 8X7MTFP0esA8kMH9tlDf7ekk/Wc=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/looptype.standard.pn
+ g
+SHA1-Digest: KkPxbC7RmEFId0FQQYZTEYCeUF0=
+
+Name: js/Plugins/overlay.js
+SHA1-Digest: m4269GE4txrxdZyydLPRuir7KA0=
+
+Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/dlg-bg.gif
+SHA1-Digest: 1Nf8ev/XFdAQXZaZ6EiwzmaBi/k=
+
+Name: js/Plugins/bpmnResourcesSoDAdd.js
+SHA1-Digest: 2UNVbmlVNUq9kDlfxAHqOPJurgM=
+
+Name: images/soundness_checker/exclamation.png
+SHA1-Digest: gDdMW0JeQYi9a4M5khTIclMkJVw=
+
+Name: stencilsets/bpmn2.0jbpm/view/artifact/text.annotation.svg
+SHA1-Digest: /uJpM8bM82qite4uTZWKl54tb5k=
+
+Name: images/sod_bod_view_clear.png
+SHA1-Digest: VQvdCZgvrieaVrUww1WTKVQ8Bfg=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/left-btn.gif
+SHA1-Digest: WGQXhe19eodxo5UKFn9VkEnsPgM=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/folder.gif
+SHA1-Digest: rYy6URKvuWsWSITCBa7lembLAVE=
+
+Name: lib/ext-2.0.2/resources/images/default/menu/checked.gif
+SHA1-Digest: gIAIdEU1Kl9MMLFCh/uerUsHzn4=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preference/IDiagramPrefere
+ nce.class
+SHA1-Digest: 2i8NeQP67zSOMmQMTMiOBceq/64=
+
+Name: js/Plugins/labelLayout.js
+SHA1-Digest: 2fE24CVibFHtdxEKtrRhhWwJw8c=
+
+Name: lib/ext-2.0.2/resources/images/default/shadow.png
+SHA1-Digest: TGn4xOwih/gu4YNYlYvVDsTGSIQ=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/mini-bottom.gif
+SHA1-Digest: RcW8ABFe5eYML1oXJDUdcVcDr/A=
+
+Name: images/shape_group.png
+SHA1-Digest: 8/W/yXcNZf00n19C529YnrgS7Js=
+
+Name: stencilsets/bpmn2.0jbpm/view/conversations/communication.svg
+SHA1-Digest: sOwiM2IH79BS/8UrCJD0LbMM1/0=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/drop-yes.gif
+SHA1-Digest: AvljvGFO6AMrLVovCFEwiTUqdFs=
+
+Name: js/Plugins/loading.js
+SHA1-Digest: wNVAkUKGhvZLbuEeW/V0vnNrrIA=
+
+Name: stencilsets/stencilsets.json
+SHA1-Digest: 50z0PGJD9KSJTQjDNkKqLlWp53c=
+
+Name: js/Plugins/selectssperspective.js
+SHA1-Digest: vqYx8sWYcjQjYHOBxa3w2XXzVLA=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/tb-btn-sprite.gif
+SHA1-Digest: v160AFTRn6+nJOJ29iMgdPjTZGM=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid3-hd-btn.gif
+SHA1-Digest: zwZSkj/mtx7W12B76aAgmlwE+6E=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-split.gif
+SHA1-Digest: Tg7vuPYcvjnWEdTce1nffzztYSM=
+
+Name: lib/ext-2.0.2/resources/images/default/window/icon-error.gif
+SHA1-Digest: Jocp0/b215lJp69qYeVOsrYMekQ=
+
+Name: images/soundness_checker/accept.png
+SHA1-Digest: H7TaMlg5EKVt+QjEASLV/w6AAQ0=
+
+Name: stencilsets/bpmn2.0jbpm/view/dataobject/data.object.svg
+SHA1-Digest: GrkvGiNFRchB036utuxCRmZlJrw=
+
+Name: taskforms/processtaskformjavascript.st
+SHA1-Digest: DLYzlRuPRt6tYMQsMK6hZo8fimY=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-last.gif
+SHA1-Digest: wtQ6tNe7uzg9cSAA1TB8aMx5lMk=
+
+Name: images/header_bg.small.gif
+SHA1-Digest: fNUeU8U2ycud5GJJbmWa4HtqkO8=
+
+Name: WEB-INF/web.xml
+SHA1-Digest: VVrAkKeDAgZ+wO3P90fGsfOWPqg=
+
+Name: lib/ext-2.0.2/resources/images/default/window/left-corners.psd
+SHA1-Digest: ofs7nUs+g5gHvnZsJdSwMPOrOdY=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/group-expand-sprite.
+ gif
+SHA1-Digest: bb+dvO50LtzhTXriLIX5w9kdBAg=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/DefaultProfil
+ eImpl$1.class
+SHA1-Digest: vnlIQwgwDp2A9g4aQoWPZQlE+vg=
+
+Name: images/cpn/cpn_button.png
+SHA1-Digest: Z0pfdc5MaN7YYbTIWY86865Rwxs=
+
+Name: WEB-INF/lib/antlr-2.7.7.jar
+SHA1-Digest: mABPlIfUkxESE7Rn8vqBVCg2wJM=
+
+Name: stencilsets/bpmn2.0jbpm/view/swimlane/collapsed.pool.svg
+SHA1-Digest: 1yrMoSr+ZBDNB14czI/uEFunTCI=
+
+Name: js/Plugins/cpntoolsSupport.js
+SHA1-Digest: BAXpEqj158VvvnZ+X9TL/2nkPcU=
+
+Name: js/ext.js
+SHA1-Digest: TFMBNhxZxoJrZnCmXBbN+TKvVT8=
+
+Name: lib/ext-2.0.2/resources/images/default/window/icon-info.gif
+SHA1-Digest: hJAbzAby/U+zsHkQFu1UAs16l/Q=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-minus-nl.gif
+SHA1-Digest: GaXeGA4T2MsnVOgCdlaZu37AV0A=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
+ processingUnit.class
+SHA1-Digest: a+m5raITSUJmEKOAD0+9H4hSH7o=
+
+Name: js/oryx.js
+SHA1-Digest: F7e96CY3muBzruX5Ck44goX2/3Q=
+
+Name: lib/ext-2.0.2/resources/images/vista/grid/grid-vista-hd.gif
+SHA1-Digest: c/tNksh0Zwlj/nPupbJaKAuqVrY=
+
+Name: lib/ext-2.0.2/resources/images/default/form/color-trigger.gif
+SHA1-Digest: 82UZS+71hOWZhieszBUs+j1vHsE=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/ns-expand.gif
+SHA1-Digest: JcczGLFfwhH/ly8lNrz945v+bbI=
+
+Name: lib/ext-2.0.2/resources/images/vista/tabs/tab-btm-inactive-left-
+ bg.gif
+SHA1-Digest: TkDXMmHfa3fpPvbh2oIXQvUAF64=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/sw-handle.gif
+SHA1-Digest: RGlDUPCL/pEN6VL1LWHLsHlg9T0=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/s.gif
+SHA1-Digest: VUcxqBRH9wTsVRPO/gzFxDXgsE8=
+
+Name: lib/ext-2.0.2/resources/css/core.css
+SHA1-Digest: WUrNBTRMJSyk6Erh3os0yq4M9dk=
+
+Name: lib/ext-2.0.2/resources/css/README.txt
+SHA1-Digest: LkEAKqNpIO9uL0MwzOfIqtJKmek=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/validation/SyntaxChecker
+ Utils.class
+SHA1-Digest: nAo7LKztzawCrh0RhTK3HDkWGDs=
+
+Name: WEB-INF/lib/jbpm-workitems-5.3.0.BRMS-ER9.jar
+SHA1-Digest: 0IU1Tl0LsRILZF7hBTJUphe9mUc=
+
+Name: lib/ext-2.0.2/ext-all.js
+SHA1-Digest: M6HQNSlukWa1euYBCsLtyTIxsjA=
+
+Name: lib/ext-2.0.2/resources/images/gray/qtip/tip-sprite.gif
+SHA1-Digest: kVWY0WmGvEFtqxA5gWi/MKErxB0=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/signal.png
+SHA1-Digest: Jmh65NfJQTT5FKNbYG0lb9+qYkg=
+
+Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-btm-left-bg.gif
+SHA1-Digest: AsXO7/rCyY0ozFBBn7vV7De3tAI=
+
+Name: js/Plugins/AutoLayouter/tests/simple_sample
+SHA1-Digest: 1xm9Wl5YrNuk+Av4tmrNeR8ip+Q=
+
+Name: js/Plugins/bpmn2pn.js
+SHA1-Digest: 16/wRo8HZwpMfc1Np1wYX1Z0zU4=
+
+Name: images/shape_align_left.png
+SHA1-Digest: GvWtd0glhxGILPzYEyl41d/qAqs=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/signal.png
+SHA1-Digest: YdCB20Jhc4jTzR33rgTlyD+e2+s=
+
+Name: js/Plugins/grouping.js
+SHA1-Digest: MKKcXsAgZSddjG/maXzUbmanijQ=
+
+Name: taskforms/usertaskformstyle.st
+SHA1-Digest: ELQRUa4+kK3uVPAoWpNzMztN1DQ=
+
+Name: images/moving2.png
+SHA1-Digest: KzGwVArJCUFl0KflmOplFDnsF4E=
+
+Name: js/Plugins/AutoLayouter/bin/libexpatw.dll
+SHA1-Digest: t2ZLR4Jxws7yRP4tlMW+wuV35rU=
+
+Name: images/vector_add.png
+SHA1-Digest: VlsYrPEaWrFYYVb0k11ZFEGfip4=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/JbpmProfileIm
+ pl$2.class
+SHA1-Digest: 6jRyvcRu4Amhd9N2xkEgEY2N1dc=
+
+Name: lib/ext-2.0.2/resources/images/default/form/error-tip-corners.gi
+ f
+SHA1-Digest: zcM6FFv5kYBSf+cYiwSb/aBg85Y=
+
+Name: js/Core/SVG/label.js
+SHA1-Digest: 0zYeGhuR+5PD0Atzt7jLEF+dVX0=
+
+Name: WEB-INF/lib/activation-1.1.jar
+SHA1-Digest: 5STnr5Q4ZUtIoIQR3eOwEpUCvOU=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/escalation.svg
+SHA1-Digest: ZEqbJTgnRjmmVckcb5SEHdAAD+k=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.business.rule.p
+ ng
+SHA1-Digest: MFRoFGNyXk4SUvLaQx3bnE+O+/Q=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/conditional.svg
+SHA1-Digest: xuzgYhyqi/GXwFe6lFJXA7zmXig=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/white-top-bottom.gif
+SHA1-Digest: GlQjSJJDoaK5qmHdqliCn49mssk=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/white-corners-sprite.g
+ if
+SHA1-Digest: OerdiAZXacomD+oN/mg1x5nmW+0=
+
+Name: stencilsets/bpmn2.0jbpm/icons/conversations/communication.png
+SHA1-Digest: pYVbW/JGDgLxJxmoXak0lpQRqsk=
+
+Name: stencilsets/bpmn2.0jbpm/icons/conversations/connector/conversati
+ onlink.png
+SHA1-Digest: r4wNC5C4LuqoVVF/oOC+1nOMC/4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/none.png
+SHA1-Digest: KYKJbbEsP/k8xjH8Wk7dqPjutoM=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/scroll-right.gif
+SHA1-Digest: ofyWjmguYCaq2U6ssbhD3DPlo0Q=
+
+Name: js/Core/abstractPlugin.js
+SHA1-Digest: XaToGCtVF5+ngO0AGWx4isjZG5k=
+
+Name: js/Plugins/bpmn2.0/bpmn2.0serialization.js
+SHA1-Digest: mCRyy6GJ9ldb+6hbNALAPVSFOoM=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/validation/BPMN2SyntaxCh
+ ecker.class
+SHA1-Digest: iEI5fjW6h5N098JI7GXKLhB/i6Q=
+
+Name: js/Plugins/AutoLayouter/src/oryxrdfdoc.rb
+SHA1-Digest: /fNtqAIAP/56ciulcRlUjpkG0cY=
+
+Name: js/Plugins/shapeHighlighting.js
+SHA1-Digest: U5y3C2xBa7OPF1KAuoidEO4q/wc=
+
+Name: images/shape_handles.png
+SHA1-Digest: p8ZYwRYuAmp+r6Q60ZB0i27nNAY=
+
+Name: lib/ext-2.0.2/resources/images/default/layout/collapse.gif
+SHA1-Digest: DOIF4CAB8MbKRT6a04556e09IIw=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/message.svg
+SHA1-Digest: jh16sBWSzD+u+Jp1z/bsC/5cmkM=
+
+Name: images/rotation.png
+SHA1-Digest: CyBVhYscfIpNauRfnWeOkRA9Puo=
+
+Name: js/itemdeleter.js
+SHA1-Digest: MQgyjuZpQhzxrEn+Snjr2wrKY3U=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-plus-nl.gif
+SHA1-Digest: MHILrxp+3w8O367AKjIAHKafysU=
+
+Name: stencilsets/epn/view/producer.svg
+SHA1-Digest: iU9vDx1QTvnMPwHlc+3IvieKggo=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/drop-over.gif
+SHA1-Digest: XVpLkdToRbwDZ47ct1tf68oKiL4=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.multiple.png
+SHA1-Digest: +vM1sjuz8JUGXcd1czZIZhEKU90=
+
+Name: WEB-INF/lib/jackson-core-asl-1.7.4.jar
+SHA1-Digest: lHTyaWbigxyCdM/jZB27Zv3+tF4=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
+ processingUnit$ThemeInfo.class
+SHA1-Digest: IE498zpkpBcIHOwvl4PyrKwQ4yE=
+
+Name: images/human_task_form.png
+SHA1-Digest: MtdY3iQqtwD+kCtXDijfD+tiF88=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/error.svg
+SHA1-Digest: NoyKZ0pwD+ZEANyDn77XmeaoLlA=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-strip-bg.gif
+SHA1-Digest: egfRz2K0RKxUhDaSoqrPrpL0M4I=
+
+Name: lib/ext-2.0.2/resources/images/default/window/left-corners.png
+SHA1-Digest: uCaCHCtqnvYHiHP+rQ1h/0CohnA=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/impl/Bpmn2JsonMarshaller
+ .class
+SHA1-Digest: u3tf99KhAaY7KdK1Mm6e7SBj1Ok=
+
+Name: images/page_paste.png
+SHA1-Digest: o/FXQ74FP2DlTdvnQI7UBV8ofvE=
+
+Name: js/Plugins/footer.js
+SHA1-Digest: j0SlvlBa480wNYJ5ZXiv/P4x4eY=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/diagram/Bounds.class
+SHA1-Digest: p0zyEBisjROXOs6roQps2j7L6VU=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/eventbased.png
+SHA1-Digest: lb9SnkUowRBImuPuQBEia9iWkDs=
+
+Name: images/indicator.medium.gif
+SHA1-Digest: CgkPTCMUeogYx0dTJO+D09EjJj0=
+
+Name: images/powered_by_hpi.png
+SHA1-Digest: 1OkE5ptHh9++EpeQ5US9mH+rxLQ=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/sw-handle.gif
+SHA1-Digest: WYzxPp2l9UHpL18KJuOXovke9Rc=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-minus.gif
+SHA1-Digest: 5CoWVZDq6Q7woJWHdQvQOEfBkIE=
+
+Name: lib/ext-2.0.2/adapter/yui/ext-yui-adapter.js
+SHA1-Digest: X6wESrcjFbsY7n2SHBx5joJ9sKw=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/sort_asc.gif
+SHA1-Digest: 42rbcmNT8OoZEsre5SOQJulLPYo=
+
+Name: js/Plugins/renameShapes.js
+SHA1-Digest: BgQpZBBGl0LXtjOAE51Gs9fvKPE=
+
+Name: js/Plugins/queryevaluator.js
+SHA1-Digest: lDkaGXQfIslFW9XxTd4lfrtk2Ds=
+
+Name: WEB-INF/lib/batik-svg-dom-1.6-1.jar
+SHA1-Digest: tATwYBlX6uZXZdkHNI26PoMfmtw=
+
+Name: images/aris_export_icon.png
+SHA1-Digest: 0VIT7eYpN7OV0S/NsZTQnp19I5E=
+
+Name: js/utils.js
+SHA1-Digest: eecwTqAlNlQyGHuJgvsq1WHC6V8=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/filter/IFilterFactory.clas
+ s
+SHA1-Digest: RCyzVQBZ4bL47xqJEreh6bb9hsk=
+
+Name: js/Plugins/servicerepo.js
+SHA1-Digest: JwHxmydB54ZWi1Hwqs/o3wDI2JY=
+
+Name: js/Plugins/enforceabilityOverlay.js
+SHA1-Digest: 7o3BHFseQDLMEN0uZKoP4r4oeuo=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/btn-arrow-light.gif
+SHA1-Digest: BxAZ8VD/SOOMvRkanwIriEI/88c=
+
+Name: stencilsets/bpmn2.0jbpm/view/startevent/none.svg
+SHA1-Digest: Y+sBG4hINvwEO892zNAB+gDC+iw=
+
+Name: WEB-INF/lib/org.eclipse.emf.ecore-2.6.0.v20100614-1136.jar
+SHA1-Digest: 342BKySYkB/lznnMlrUcUzA9qgI=
+
+Name: images/bod+.png
+SHA1-Digest: 0CMnML+ZyMCDJ/Y32UCMqKI0shc=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/e-handle.gif
+SHA1-Digest: Rklv8aKuR4mHSPRnFB5NIs1Gvx0=
+
+Name: js/erdfparser.js
+SHA1-Digest: YUmijUpxqfCRAZubl1/bYdYb/u8=
+
+Name: js/Plugins/AutoLayouter/src/startlayout.rb
+SHA1-Digest: pAwb+GoIkN5BbQ4yj7m0vtSJYuA=
+
+Name: js/jsonpath.js
+SHA1-Digest: fjNnKa/oTRI6TigbGCStTQ1thSo=
+
+Name: lib/ext-2.0.2/resources/images/default/box/l.gif
+SHA1-Digest: VuFsxdmA/pOXn4rSJ93aYKKhMEs=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/page-last-disabled.g
+ if
+SHA1-Digest: 9hKNfjYXYDHuw0LB7c0dFOQE0yU=
+
+Name: lib/ext-2.0.2/resources/images/default/button/btn-arrow.gif
+SHA1-Digest: WhOiZP8n2m5+qvaDVz6dyz6PlAI=
+
+Name: js/cmclike.js
+SHA1-Digest: 8S1CVz3HopSNFFom9SO+C1pwVN8=
+
+Name: lib/ext-2.0.2/resources/license.txt
+SHA1-Digest: rdEOsVPSGrpU5YsIAqdDlhz9ims=
+
+Name: images/arrow-bottom.png
+SHA1-Digest: pUZGkWIb2+kPdKyhGpP+v5AOw1I=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/stick.gif
+SHA1-Digest: CBxbIL8ccoOSN9MEmSlcNVGp6Lg=
+
+Name: WEB-INF/classes/org/jbpm/designer/stencilset/Beautifier.class
+SHA1-Digest: r1AsS9z5+oLyjG/j88ZhFDLMw18=
+
+Name: images/shape_move_back.png
+SHA1-Digest: PVRnGp2dgmr+aC+6H8bgaxFtsUo=
+
+Name: lib/ext-2.0.2/resources/images/vista/s.gif
+SHA1-Digest: tccZq+vDoW9W/MgBHowYYelwFHg=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/nw-handle.gif
+SHA1-Digest: yCLicXk0A03uXIDkjmpnKAzJ9ic=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/inclusive.png
+SHA1-Digest: RqrY71eiRLx+aUYm2ik1yt2jI90=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/ServiceComposerServlet$
+ Service.class
+SHA1-Digest: KnA6C/FWG2qtPXvfkfMBiCZCY0k=
+
+Name: stencilsets/epn/icons/association.bidirectional.png
+SHA1-Digest: Fvt7ubkDu0w+UowMjNnuADLmeF8=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/light-hd.gif
+SHA1-Digest: 90O6CNE8TcxAYCJz8xwgaLL/rkw=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/ns-collapse.gif
+SHA1-Digest: 4xDrDOOEvUrDtM+hgGn9cRCOIdE=
+
+Name: lib/ext-2.0.2/resources/images/vista/tabs/tab-btm-left-bg.gif
+SHA1-Digest: J0x9hm+8oY8E+hF06LJJDctOIuI=
+
+Name: images/bpel4chor2bpel_export_icon.png
+SHA1-Digest: xoE3NoqY+ok3nfRs2tTvu1QhgS8=
+
+Name: js/Plugins/uml.js
+SHA1-Digest: +I72vssiXXxn9dao1yPafsTx+OI=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/association.bidirectiona
+ l.png
+SHA1-Digest: YgBN2qt+MX8UoSpDAZhl3q6tbZo=
+
+Name: lib/ext-2.0.2/resources/css/box.css
+SHA1-Digest: 37k4piPp4IL/Pce+qBEPURkA+sM=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/tool-sprites.gif
+SHA1-Digest: kbDfSH1DmDYrA3IbBWz9vzIOTIg=
+
+Name: images/shape_align_center.png
+SHA1-Digest: Arh3ZFT0JVO5Mt866Cu6WEu7Txw=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/btn-arrow.gif
+SHA1-Digest: J7aWhWKAASlhisMZl0rn+elYnzg=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/server/TransformerServlet.
+ class
+SHA1-Digest: 9WccZxoLxzrqeCeU+AIqYKAhAZo=
+
+Name: js/Plugins/petrinet.js
+SHA1-Digest: 0wj4dwj32FkXSC9eFxeeDtE3ogE=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/tab-close.gif
+SHA1-Digest: bqwFdCMCvdWBjnAeb0RJLbuAOEk=
+
+Name: images/cross.png
+SHA1-Digest: +1qlp38iCF5Jnq2MiBXbY3ORaRI=
+
+Name: stencilsets/bpmn2.0jbpm/icons/throwing/escalation.png
+SHA1-Digest: n3TKRELgql7BIQY9KTIbPO/Vskw=
+
+Name: js/Plugins/inlinetaskformeditor.js
+SHA1-Digest: MLTykiDIbSmoH/gMoV/JpfQp+Cs=
+
+Name: images/page_white_gear.png
+SHA1-Digest: P1XX3DsFD8AvhOdLCQtxlhw/7dE=
+
+Name: stencilsets/epn/icons/association.unidirectional.png
+SHA1-Digest: aHHNd2SiG9/++JRW95iDBXUKb00=
+
+Name: WEB-INF/classes/org/jbpm/designer/taskforms/TaskFormInfo.class
+SHA1-Digest: PRT6RZxrZKSJE3oZUuVA4KfqoDo=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/arrows.gif
+SHA1-Digest: 6KXRwmIrPXJbDwOnu3stm046/eQ=
+
+Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
+ ceImpl$1.class
+SHA1-Digest: KSR8/SX3D7ZhP4WvMxf4lJPvWTc=
+
+Name: WEB-INF/lib/xalan-2.7.1.jar
+SHA1-Digest: 0Jy067DbEQGg6Cndf3KeDE+nuMc=
+
+Name: stencilsets/bpmn2.0jbpm/icons/catching/error.png
+SHA1-Digest: hwqIeCU2whYShDvenVNq93tMrtA=
+
+Name: WEB-INF/lib/guava-10.0.1.jar
+SHA1-Digest: 5Yoj44hDhmuN6xK3gsW8dop6F8I=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/leaf.gif
+SHA1-Digest: G+aQZrGIuqX3x9RUgCSPAerLt7Q=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-hrow.gif
+SHA1-Digest: GOtLuz8MSaK/v6D/F6vD1jbhU9E=
+
+Name: WEB-INF/lib/ecj-3.5.1.jar
+SHA1-Digest: +IoQNJgQXEhb2ObN3ZH/5iVgmpw=
+
+Name: WEB-INF/lib/jarjar-1.1.jar
+SHA1-Digest: Tw1jm0aHH8l7m06W0+DBCBQDgKA=
+
+Name: images/labs/script_add.png
+SHA1-Digest: lw/gK7mSaj9Mv5yW5vGSWOWaSy4=
+
+Name: xslt/RDF2BPEL4Chor_Grounding.xslt
+SHA1-Digest: psKEs986zwYlfCaTXzKAymq4XHs=
+
+Name: lib/ext-2.0.2/resources/css/button.css
+SHA1-Digest: +auBNofbLsW2g+nr0gmD3r0mkjY=
+
+Name: stencilsets/bpmn2.0jbpm/icons/startevent/conditional.png
+SHA1-Digest: CHtP0jJJHcmQpbCCuE8DmubZKYY=
+
+Name: js/Plugins/constraintExpressionEditor.js
+SHA1-Digest: K80qs7r/gt6HcPLkIe97p1JjnoU=
+
+Name: js/Plugins/xformsimport.js
+SHA1-Digest: XuYLtKKsEqoEbIxFEvUN75w14FQ=
+
+Name: images/shape_align_middle.png
+SHA1-Digest: nN29WC5yxM5x+dbF1GgwTJYsEEg=
+
+Name: lib/ext-2.0.2/resources/css/combo.css
+SHA1-Digest: u+tj8yT/8AXtrrvDmQz0Gv+qvuA=
+
+Name: js/Plugins/AutoLayouter/bin/jpeg.dll
+SHA1-Digest: 0ZkBI/n+Wqy11djRS8p4kz1Uu6U=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/association.unidirection
+ al.png
+SHA1-Digest: W3Ea5+fWFRoB6FzxBpZ6rUe+3D0=
+
+Name: js/Plugins/bpelSupport.js
+SHA1-Digest: SPWBUJcdA7X1gPM7hhhvikFj1es=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tabs-sprite.gif
+SHA1-Digest: YqcG3+eNZrjpBppiqciBpVZuqTE=
+
+Name: js/Core/SVG/svgshape.js
+SHA1-Digest: 542MJk6mKFfjsaJK/X+sB3FpVW0=
+
+Name: lib/ext-2.0.2/resources/images/default/tabs/tab-strip-bg.png
+SHA1-Digest: I3XEtRjwuAzw+3LTdqqdBfofblY=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/white-top-bottom.gi
+ f
+SHA1-Digest: Zcnt6GL7oMtbdH3FpJZk+FTkc68=
+
+Name: lib/ext-2.0.2/resources/images/vista/layout/panel-title-light-bg
+ .gif
+SHA1-Digest: ynSUZYewpuebdBQ9Ap/HjAODh8g=
+
+Name: js/Plugins/Layouter/containerLayouter.js
+SHA1-Digest: f/Igs3UYM0tDzFAB3znJmNxgO1Q=
+
+Name: stencilsets/epn/view/association.bidirectional.svg
+SHA1-Digest: sIuy+v10YbvkAtSMEe/eAP8Vws0=
+
+Name: lib/ext-2.0.2/resources/images/default/menu/unchecked.gif
+SHA1-Digest: 4B+jFeqymZO1vLMO19BWZmvPV3k=
+
+Name: WEB-INF/lib/commons-collections-3.2.1.jar
+SHA1-Digest: ju+FRdH9QDpKfC5doi3PgsxL4hI=
+
+Name: images/design-thinking/raw_article.png
+SHA1-Digest: +05RY88pTkUDbi+6ECGp4cCRKvc=
+
+Name: js/Plugins/bpmn2.0/bpmn2conversation.js
+SHA1-Digest: 5RCwKLkQfkTiLUoeJYmPD+iJQyo=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow.gif
+SHA1-Digest: T5yC300ZMufLEBf2JehIFQhT51U=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-vista-hd.gif
+SHA1-Digest: op3kjHiw5abG4AHpbGaxXzL/k6s=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/IDiagramPrep
+ rocessingService.class
+SHA1-Digest: BItdFpndJtLUK08lDqxgiu32rsY=
+
+Name: images/hr.png
+SHA1-Digest: LLUkMoPkn57vLLdMn1QY1jVY31E=
+
+Name: stencilsets/bpmn2.0jbpm/view/dataobject/it.system.svg
+SHA1-Digest: JEQEcXv3dXH6G1kGNylYg0ZQOD8=
+
+Name: xslt/EPML2eRDF.xslt
+SHA1-Digest: ckVFYgfyAUQ8+pNdTSfzFlQRbaw=
+
+Name: js/Plugins/jpdlmigration.js
+SHA1-Digest: 9BQltUpsDwPewQ8hzAQmX29crk8=
+
+Name: lib/ext-2.0.2/ext-all-debug.js
+SHA1-Digest: IAkqLTx7QoKqz2qNFMSUkZWMksY=
+
+Name: stencilsets/bpmn2.0jbpm/view/connector/sequenceflow.svg
+SHA1-Digest: /TZT8MVOAKb6xtOThKLpyqY6nic=
+
+Name: js/Plugins/tbpmsupport.js
+SHA1-Digest: F8wqnBJEhHhbm76ZGhRWedN9Jjg=
+
+Name: images/bpmn2bpel_icon.png
+SHA1-Digest: piy+QIjYGdlv1f77y0OrtSwnHpo=
+
+Name: WEB-INF/lib/commons-net-2.0.jar
+SHA1-Digest: FmRYkLZqwgkic7QSSt2RdTYJuVI=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/s-handle.gif
+SHA1-Digest: m1alFPRDx0dQv0bRqWNKyL9FQEs=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/message.throwing.
+ svg
+SHA1-Digest: dRifX+bwA1wsO3CLxwV8yHVC9p0=
+
+Name: js/imageviewer.js
+SHA1-Digest: p1lx/ULJjI90f6tOfkVwQzk9m1s=
+
+Name: js/Plugins/queryResultHighlighter.js
+SHA1-Digest: sD6TOrcZPqQwNo+gcHaGJSZhkfs=
+
+Name: stencilsets/bpmn2.0jbpm/view/endevent/compensation.svg
+SHA1-Digest: JbwqyThYrxIhu3yMliVFdKJYdg0=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-line.gif
+SHA1-Digest: 8LAs4us02WTCS0FjTCDgioDK5ZM=
+
+Name: images/feedback/gradient.png
+SHA1-Digest: GfCgj6KPfWD5/RLQ7DcOVy/DaUI=
+
+Name: stencilsets/epn/icons/sequenceflow.png
+SHA1-Digest: uzw/U3eUg6/9PVN+DTkiv/nO9u4=
+
+Name: images/remove.gif
+SHA1-Digest: KGfNhSVcjHS/hq8LNCzv9ESpS0o=
+
+Name: lib/ext-2.0.2/resources/images/vista/sizer/s-handle.gif
+SHA1-Digest: o4lUMNa9bXmBbN9eBGh6r1szFiM=
+
+Name: profiles/default.xml
+SHA1-Digest: 72xnB2lRrNUlWpU6DeyBDEngpzE=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/elbow-end.gif
+SHA1-Digest: /Sbjp9uw8rkVlar0ENhWprhrSlQ=
+
+Name: images/feedback.png
+SHA1-Digest: EXIieAndzEN/IB0C6HrpLQDrEOE=
+
+Name: lib/ext-2.0.2/resources/images/default/form/color-trigger.png
+SHA1-Digest: JuftHWfE6yTsLZykA9p9WU24VHo=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/IDiagramStencil
+ SetService.class
+SHA1-Digest: EGqBcaZu6bvvUKHKwGrqBU3csn8=
+
+Name: lib/ext-2.0.2/resources/css/reset-min.css
+SHA1-Digest: IW1233a2WW9mecD/M9jlg8eP+F0=
+
+Name: js/Plugins/uuidRepository.js
+SHA1-Digest: tT+xVVbNv1y7FWl04J94A5AF6EE=
+
+Name: images/soundness_checker/loading.gif
+SHA1-Digest: mcG2ZhakB9rFgEVH3lY+bn5EQ0g=
+
+Name: lib/ext-2.0.2/resources/images/gray/toolbar/gray-bg.gif
+SHA1-Digest: NC4YTCvOl1OUrkEELyDhWrwZRyc=
+
+Name: images/xforms_import.png
+SHA1-Digest: 4wk3RMJ0KR+kil+/AsScgxj3hXw=
+
+Name: images/wrench.png
+SHA1-Digest: wd2xonaTozwUC1SHrN4RQjF0b8E=
+
+Name: lib/ext-2.0.2/resources/images/default/panel/light-hd.gif
+SHA1-Digest: OAvrnvD2cGm656I7gA+HCQBAL6Y=
+
+Name: js/Plugins/AutoLayouter/bin/ft.dll
+SHA1-Digest: wdnvS7JEkaPaToSp93fZAJ0N6Js=
+
+Name: js/clazz.js
+SHA1-Digest: dijQ2y46TYf+IttUqHvu1OeHExQ=
+
+Name: lib/ext-2.0.2/resources/images/default/tree/drop-between.gif
+SHA1-Digest: 6tTVUsl20agGVn5k+bO0c9EyEWs=
+
+Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/signal.catching.s
+ vg
+SHA1-Digest: 8o7BiGOtXu/QLpN9kQbZfHEgk/k=
+
+Name: images/page_white_convert.png
+SHA1-Digest: ewESg7dPW7BJ/yre7oeI9Hnkow4=
+
+Name: js/Core/Controls/docker.js
+SHA1-Digest: kVq+HMYdp/x8LMqkXWZIg2r04Gc=
+
+Name: js/Plugins/profiles.xml
+SHA1-Digest: TVwUOLnMXwMckfZjzgpdDPGyEzU=
+
+Name: stencilsets/bpmn2.0jbpm/icons/endevent/error.png
+SHA1-Digest: ECfiXzDraDUaV39a9SGhP01AJXQ=
+
+Name: WEB-INF/lib/org.eclipse.bpmn2-0.7.0.010.jar
+SHA1-Digest: 9DfFStKq/MJY1OeUKlSEEEPA1eU=
+
+Name: WEB-INF/lib/ant-1.8.2.jar
+SHA1-Digest: oItFxW4BDaYmqbVhmBdgkzHOrEA=
+
+Name: lib/ext-2.0.2/resources/images/vista/grid/grid-split.gif
+SHA1-Digest: ugNZbX/QjWKfQUAvKBA96gZx53w=
+
+Name: stencilsets/bpmn2.0jbpm/icons/conversations/subconversation.png
+SHA1-Digest: a5nU4qU4aHEwKnMw0WKJ+YPMyYw=
+
+Name: lib/ext-2.0.2/ext-core-debug.js
+SHA1-Digest: kgfGj313QWC3ngH5hxm1Q+mDl+g=
+
+Name: images/shape_align_top.png
+SHA1-Digest: C9RK6uGh1lwUThkUp/7Nk/RAdw0=
+
+Name: WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846.jar
+SHA1-Digest: LxHE7R5Hau661RQqti5KnxR6UcY=
+
+Name: js/cmxml.js
+SHA1-Digest: g6Q0k3xPKUBKUer2Lt1BbsUszL0=
+
+Name: js/Plugins/bpelLayout.js
+SHA1-Digest: ByKDsMWkL6UTr/Lm/YKWTL6OzgY=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/sw-handle-dark.gif
+SHA1-Digest: roE6lFwdLA0yevwnz40lVHkglMc=
+
+Name: WEB-INF/lib/SuperCSV-1.52.jar
+SHA1-Digest: uLvEwH7ekRF0LjPaZLwjInrsjuM=
+
+Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfile$ID
+ iagramUnmarshaller.class
+SHA1-Digest: 4WASTC3vockXNImMEOCQ4T3G+QE=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/e-handle.gif
+SHA1-Digest: GA035kCSEOjUnGQwN5VueT/vYpE=
+
+Name: js/Plugins/shaperepository.js
+SHA1-Digest: 9pD9NZ1EkoNDqJ4M+LU17u2unN4=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/nowait.gif
+SHA1-Digest: 9NMqkSp3Del/u/LBE+JTouYnFx0=
+
+Name: lib/ext-2.0.2/resources/images/default/qtip/bg.gif
+SHA1-Digest: wSaXclrPPzMyyl9Jgzx2qddTer0=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid3-special-col-bg
+ .gif
+SHA1-Digest: 4btk/U3lUDc043saSiUy1P1sT68=
+
+Name: js/Plugins/AutoLayouter/bin/iconv.dll
+SHA1-Digest: OVBZdofP1B3mkLPooeDCLLhdtF0=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/white-left-right.gif
+SHA1-Digest: W8+BBpjwn/i+GXe3d3y8Y/Fm4YA=
+
+Name: js/Plugins/vardefsEditor.js
+SHA1-Digest: Hd6ItK6/vjb4zPvJF+1/9DbJ/pE=
+
+Name: js/Core/SVG/minmaxpathhandler.js
+SHA1-Digest: lG0juSospfHfAJV10/e5JoUIIHI=
+
+Name: stencilsets/bpmn2.0jbpm/icons/connector/association.undirected.p
+ ng
+SHA1-Digest: w3+MGbVr8tX8FGYRQi83+GfLGKw=
+
+Name: stencilsets/bpmn2.0jbpm/view/swimlane/pool.svg
+SHA1-Digest: ffScTH3UzTAeZfu0QElM/aAU4Q4=
+
+Name: images/controls/button_hover.png
+SHA1-Digest: tt8AsUsXXxDVzPWQGmy4Xqv0At8=
+
+Name: lib/ext-2.0.2/resources/images/default/sizer/s-handle-dark.gif
+SHA1-Digest: kB3/1hhjLFmgtIP/yxrh9ya1cPk=
+
+Name: lib/ext-2.0.2/resources/css/dialog.css
+SHA1-Digest: i+1e06XXmfJNT6FA5Ma/q1pWJvE=
+
+Name: js/Plugins/bpel2bpmn.js
+SHA1-Digest: /Q5VMf2ojMgpGbcjveOzjNswjig=
+
+Name: js/Plugins/petriNetSoundnessChecker.js
+SHA1-Digest: 3PdYiODq/Ws0EeSnJmnTK9z/eoU=
+
+Name: WEB-INF/classes/org/jbpm/designer/server/AMLSupport.class
+SHA1-Digest: qZgRlDtcM/VmW2Eb0UAIKxpwcmQ=
+
+Name: stencilsets/bpmn2.0jbpm/icons/activity/list/type.service.png
+SHA1-Digest: MnSDgLOsVzLhcSC7BCymasQIjQM=
+
+Name: stencilsets/bpmn2.0jbpm/icons/gateway/list/eventbased.exclusive.
+ png
+SHA1-Digest: j7omZT1SxeAUeET48ENevb9KSYQ=
+
+Name: lib/ext-2.0.2/resources/images/gray/panel/corners-sprite.gif
+SHA1-Digest: tOyP5y+DKxXbWbpcFhRyCpY7O6k=
+
+Name: lib/ext-2.0.2/resources/images/default/toolbar/btn-over-bg.gif
+SHA1-Digest: eT19eI2LlLxxUMulIT/NOeSw7g4=
+
+Name: lib/ext-2.0.2/resources/images/default/shared/blue-loading.gif
+SHA1-Digest: c9zFy+FdQllFRP/tJWLXXPUfkGU=
+
+Name: lib/ext-2.0.2/resources/css/menu.css
+SHA1-Digest: NRik4ouTFidU1+CumY4WBr2vw8I=
+
+Name: WEB-INF/lib/osgi-3.5.0.v20090520.jar
+SHA1-Digest: aP+cbmGNbMM6iUrYKszV7twFKLo=
+
+Name: lib/ext-2.0.2/resources/images/default/form/trigger.gif
+SHA1-Digest: Ytg2Yaosbv0wl13jX9diRxsCGLs=
+
