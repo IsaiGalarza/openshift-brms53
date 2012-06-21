@@ -20,7 +20,7 @@
         <property name="properties">
             <key>org.drools.repository.configurator</key><value>org.drools.repository.jackrabbit.JackrabbitRepositoryConfigurator</value>
             <!--  the root directory for the repo storage the directory must exist. -->
-            <!--  <key>repository.root.directory</key><value>/opt/yourpath</value>  -->
+            <key>repository.root.directory</key><value>${env.OPENSHIFT_DATA_DIR}/repository</value>
         </property>
 
         <!-- ModeShape 
