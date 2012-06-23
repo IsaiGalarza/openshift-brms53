@@ -1,7 +1,7 @@
 Signature-Version: 1.0
-SHA1-Digest-Manifest-Main-Attributes: BvCqm/KlHpe1JMu1+MJPHJe32lQ=
+SHA1-Digest-Manifest-Main-Attributes: OH8CPf0/86UKSK6BgFfaexLAQc8=
 Created-By: 1.6.0_20 (Sun Microsystems Inc.)
-SHA1-Digest-Manifest: nG+0eW42vp1KdayqoiN4yzsD6xs=
+SHA1-Digest-Manifest: XRoEOeQtoC3NFU7iOXJtKqeyU48=
 
 Name: lib/ext-2.0.2/resources/images/gray/toolbar/btn-over-bg.gif
 SHA1-Digest: z2b7utoGppHkYuFBW+TPV9e9On0=
@@ -20,7 +20,7 @@ SHA1-Digest: AZiVA+hXK4DiQAYuYO5Mv2nXc1M=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/DefaultProfil
  eImpl.class
-SHA1-Digest: v6DlMyQTlNNkvvLAKMdJSENk1ws=
+SHA1-Digest: Enm3eyEu5xQ+qpWyLSUWiEoibgE=
 
 Name: lib/ext-2.0.2/resources/images/default/grid/page-prev-disabled.g
  if
@@ -45,7 +45,7 @@ Name: js/Core/StencilSet/stencil.js
 SHA1-Digest: rurR7UENXa0ILVFH81khZjKa0cY=
 
 Name: WEB-INF/lib/smack-3.0.4.jar
-SHA1-Digest: pjTDWlSs+8IFlcD/3cKOfUnoMkI=
+SHA1-Digest: WqBG8VXZiNO5O2cY9JOtc1sgfEI=
 
 Name: lib/ext-2.0.2/resources/css/borders.css
 SHA1-Digest: nrcUfJWZ5sLl2AzKmSAz+DSgSu0=
@@ -67,10 +67,10 @@ Name: lib/ext-2.0.2/resources/images/gray/toolbar/tb-bg.gif
 SHA1-Digest: 8EUYzaYuyK6wsHksWPBNGxp3ucY=
 
 Name: WEB-INF/lib/closure-compiler-r1741.jar
-SHA1-Digest: pwuCn+2UKOvhdLOxIuo47ZJNO/E=
+SHA1-Digest: vQMpkOMdapTYTWUHK6EaptKrvM0=
 
 Name: WEB-INF/lib/batik-ext-1.6-1.jar
-SHA1-Digest: BD6+j1gyWq9YQ6uUwHHJLNZAHyo=
+SHA1-Digest: 94RIt53PHSREC6tWRHV3ezsQvU4=
 
 Name: stencilsets/bpmn2.0jbpm/icons/throwing/link.png
 SHA1-Digest: 7EJNtScc1R5dH7WNd3AjdVdQ/S8=
@@ -137,6 +137,9 @@ Name: WEB-INF/classes/org/jbpm/designer/server/RdfJsonTransformation.c
  lass
 SHA1-Digest: wcLNDa+jRQ4FuS4eKCJT/sQ0dHw=
 
+Name: WEB-INF/lib/jbpm-flow-5.3.0.BRMS.jar
+SHA1-Digest: s+L2LOArBWJ6KtyhyvLK+adDGGM=
+
 Name: js/Plugins/nodeXMLViewer.js
 SHA1-Digest: mRGssbjHdGaQW89PYYAM/gwFzJE=
 
@@ -154,7 +157,7 @@ SHA1-Digest: 3TvrpoFuwcIZ0ic8GdtMxaDcaRw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/filter/ConfigurableFilterC
  onfig.class
-SHA1-Digest: V4hejnP9vvVRd/254oktil2BSpY=
+SHA1-Digest: TNVUhNh074nEcf5ad8jXH69cXBk=
 
 Name: lib/bpmn20/BPMN20.xsd
 SHA1-Digest: 1Xs+eBuRG8CAQ/EET/781DBz4Yw=
@@ -188,7 +191,7 @@ Name: lib/ext-2.0.2/resources/images/default/window/right-corners.psd
 SHA1-Digest: 2Tt/4LlzRh01+MXW6nqQzezsCGE=
 
 Name: WEB-INF/lib/avalon-framework-4.1.4.jar
-SHA1-Digest: puox6WJrtLvyosjpOEtrG6Uyqzk=
+SHA1-Digest: cRDDQS7rZXCppltjT3gRP2ZmecU=
 
 Name: images/information.png
 SHA1-Digest: ELihYpmYGwGAn1HLgbYbvcVh1e4=
@@ -285,7 +288,7 @@ Name: images/arrow-top.png
 SHA1-Digest: TleTz8oUx+T9yra58krHyqDEqMc=
 
 Name: WEB-INF/lib/json-20090211.jar
-SHA1-Digest: 70X+od+TfhGGcjRKtgEkv+mgWcg=
+SHA1-Digest: TR7T9q/xbNPjVIXN/x516P0vb5I=
 
 Name: lib/ext-2.0.2/resources/images/default/sizer/nw-handle.gif
 SHA1-Digest: m4aY0SI5otmv40nn6vuqgMjiUPs=
@@ -373,7 +376,7 @@ Name: images/arrow-left.png
 SHA1-Digest: hig9TVPqZRRSles9QHPzh7P6lPc=
 
 Name: WEB-INF/lib/batik-util-1.6-1.jar
-SHA1-Digest: 8/nrNaCXKkW52EAICcty2qjsmp4=
+SHA1-Digest: bZ3wrUo0663Nr/s1Lt8v+URYoYc=
 
 Name: taskforms/processtaskform.st
 SHA1-Digest: P/hsUf/kBiKSy7GpH8OJ9rawGGY=
@@ -399,6 +402,9 @@ SHA1-Digest: NPML3SioxB4+cWPKN3/Vv0J+BBI=
 
 Name: stencilsets/bpmn2.0jbpm/view/activity/subprocess.adhoc.svg
 SHA1-Digest: pzNA63keYwiNfnTwMWQrpw8ZZdk=
+
+Name: WEB-INF/lib/jbpm-bpmn2-5.3.0.BRMS.jar
+SHA1-Digest: arGYfFzG3v4hdU5yJnOzhdXTXdg=
 
 Name: images/controls/button.png
 SHA1-Digest: wYmdKfQQ79sLUoYOqVPbssKbghI=
@@ -457,10 +463,10 @@ Name: stencilsets/bpmn2.0jbpm/icons/activity/list/mi.sequential.png
 SHA1-Digest: zLo2upRKhOcyKZvv3uGOg9INEPE=
 
 Name: META-INF/maven/org.jboss.drools/process-designer/pom.xml
-SHA1-Digest: TIBff7xC/Rd5EL8dwI0h3AYkf0U=
+SHA1-Digest: 1aAYPz+NkK/wa6SNV+i2iwS7+WY=
 
 Name: WEB-INF/lib/batik-extension-1.6-1.jar
-SHA1-Digest: s9AAJzpMes+Qkr8IGOJXTV9JFTE=
+SHA1-Digest: /A7zGXtCl9JUqB3PQNusz4D1Abw=
 
 Name: lib/ext-2.0.2/resources/images/default/shared/warning.gif
 SHA1-Digest: D6qbQqbsPoaXN3t6iRRYJG4SUYg=
@@ -485,7 +491,7 @@ Name: editor.html
 SHA1-Digest: 33RgaODvrjGS1HHhETwqEq/V+GU=
 
 Name: WEB-INF/lib/commons-lang-2.5.jar
-SHA1-Digest: Xg74feBVswtlWAOert24k8XdWf8=
+SHA1-Digest: 8sFCy9sOmqn/PAb4NXXRNp0DOyk=
 
 Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/bg-right.gif
 SHA1-Digest: nhmsdr+1XdUda8sEvO/NnrI/V1o=
@@ -516,7 +522,7 @@ Name: js/Plugins/autoLayout.js
 SHA1-Digest: b1G4q6UgvTePPn0ePCeWq92CkjQ=
 
 Name: WEB-INF/lib/org.eclipse.emf.common-2.6.0.v20100614-1136.jar
-SHA1-Digest: Qk8ED05aDhWK7v7a6nzvxcS1Grc=
+SHA1-Digest: akWFVquwwnffPMnv95WVWSE/Vs0=
 
 Name: lib/ext-2.0.2/resources/images/default/grid/mso-hd.gif
 SHA1-Digest: I33Iio+/Q7Tg5JverYh48+g/rmE=
@@ -555,7 +561,7 @@ Name: WEB-INF/classes/org/jbpm/designer/web/Activator$3.class
 SHA1-Digest: GAqvDwTutx2S0kEnu/VMADdz7c8=
 
 Name: WEB-INF/lib/commons-compress-1.0.jar
-SHA1-Digest: sn5MBBEIIlK33WhgRglfFTnYzhA=
+SHA1-Digest: OiO8A8o8mWmaYNDZ51Zj9EzbwdU=
 
 Name: i18n/translation_ja.js
 SHA1-Digest: GzNLkAddZrL5EFZGmN2ZneVZaFE=
@@ -580,7 +586,7 @@ Name: lib/ext-2.0.2/resources/images/default/tabs/scroll-left.gif
 SHA1-Digest: NZ+IgkjwwBMSye1CM9lQwdwby2I=
 
 Name: WEB-INF/lib/xmlgraphics-commons-1.4.jar
-SHA1-Digest: m9Ndeir2QEWOESmhVGj4UydBBYo=
+SHA1-Digest: 2YsYe2Pc0edfsUry4uEAPBGTlko=
 
 Name: images/shape_ungroup.png
 SHA1-Digest: jPzULdlh1xAZbCbOoqKETpqVmZ4=
@@ -599,7 +605,7 @@ Name: stencilsets/bpmn2.0jbpm/view/activity/workitems/workitem.orig
 SHA1-Digest: U3uZiFZzYJYgnYqxnNoK0VSJLi0=
 
 Name: WEB-INF/lib/batik-svggen-1.6-1.jar
-SHA1-Digest: YlK15AKPlTfDf1QiZJl0RGzD/BA=
+SHA1-Digest: lF/E33o/noLY4rpnkRXFCRP9nPU=
 
 Name: defaults/BPMN2-DefaultProcess.json
 SHA1-Digest: PeXjY9CrxzoOIrHwGV3a24OYKb8=
@@ -641,7 +647,7 @@ Name: images/originals/new_action.bmp
 SHA1-Digest: q2aDCXvSJ4ahQW7uagKjfto3ALY=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler.class
-SHA1-Digest: jkm9qEpmM+i/uh6rKesY0VcLOFU=
+SHA1-Digest: 351p0DW1pgc+p2aNNIfQSusafu4=
 
 Name: js/Plugins/addssextension.js
 SHA1-Digest: uf4qIOLPSpg1U+KzFPmPJoeddTg=
@@ -659,7 +665,7 @@ Name: lib/path_parser.js
 SHA1-Digest: O3R2BOB+qpO7rfpVjMSsbGu+Tz4=
 
 Name: WEB-INF/lib/jdom-1.1.jar
-SHA1-Digest: TbPTY5cuL9/kV6lLD9IV1NVTQo0=
+SHA1-Digest: zETU36Cs5KKCb1Y7pik2FcDrf+M=
 
 Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/compensation.catc
  hing.svg
@@ -678,13 +684,13 @@ Name: images/originals/new_arr.bmp
 SHA1-Digest: nGD+Vw/PqawEzHR3QqPLONt/brw=
 
 Name: WEB-INF/lib/commons-logging-1.0.4.jar
-SHA1-Digest: UVyHTZKi6go67YQIBLBRH3hD7v8=
+SHA1-Digest: vHQrlIP8Sc24YzM45r1Lm+2RSEY=
 
 Name: js/Plugins/regexTextEditor.js
 SHA1-Digest: ceCOA0BHgwEAz+pHGZG/Rd02WQA=
 
 Name: WEB-INF/lib/jaxb1-impl-2.2.jar
-SHA1-Digest: AmbTTkQhINCWvnsExjt6K+SC1t4=
+SHA1-Digest: LAD+hqkL4o2TfM5NYClbwtLsaY0=
 
 Name: js/Plugins/dragTracker/laneDragTracker.js
 SHA1-Digest: CzDukTvBDwhE2AD/zLFNCqRaDmY=
@@ -709,7 +715,7 @@ SHA1-Digest: yF47y9135rgPrflwtioJEdF+MTU=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/SimpleStorageServlet.cl
  ass
-SHA1-Digest: eOS4Z062fYSpAw3YLbwSsFoMXjQ=
+SHA1-Digest: S0ojtoWBx13HVILtEiUhVbQ/GM8=
 
 Name: js/Plugins/DataAssignment/FieldDataAssignmentEditors.js
 SHA1-Digest: lI8nOP94POTxjpI0nOx8V16WXeA=
@@ -751,7 +757,7 @@ Name: lib/ext-2.0.2/resources/css/layout.css
 SHA1-Digest: rE2IwXg3NvCtpCAMo1+Dp2bIVT4=
 
 Name: WEB-INF/lib/batik-script-1.6-1.jar
-SHA1-Digest: 7hg/Mk+cpzs22rgSSsOoKdhR7gc=
+SHA1-Digest: d0YCXnqNPRrqYN5egxewKUQoCFM=
 
 Name: css/feedback.css
 SHA1-Digest: HY3yalnH/GTMaTezqe9iHnfXsDg=
@@ -858,9 +864,6 @@ Name: WEB-INF/classes/org/jbpm/designer/web/server/CalledElementServle
  t.class
 SHA1-Digest: gv7mkIF0fBspMy8fia6DX3Gni6E=
 
-Name: WEB-INF/lib/drools-compiler-5.3.0.BRMS-ER9.jar
-SHA1-Digest: usYSqm0lwXbammKlWzb2ZqKnLzY=
-
 Name: stencilsets/bpmn2.0jbpm/icons/catching/cancel.png
 SHA1-Digest: o1mzi0yQgddxIwZY9pDBpEVVsKA=
 
@@ -872,7 +875,7 @@ Name: lib/ext-2.0.2/resources/images/default/form/trigger.psd
 SHA1-Digest: +H/xe1H+5F1CjpfREFKte916N7c=
 
 Name: WEB-INF/lib/batik-bridge-1.6-1.jar
-SHA1-Digest: njteoU3rl8XcxGbKRrMbqczlrhE=
+SHA1-Digest: Prfu3nXmkw1wq2PEguooh0+hvVA=
 
 Name: lib/ext-2.0.2/resources/images/gray/s.gif
 SHA1-Digest: ssO2QYUfWP86hASDkWyiSGZ5NI8=
@@ -898,6 +901,9 @@ SHA1-Digest: TjaJY3dX5+FzDxciVnfFocw34yk=
 Name: js/Core/Controls/magnet.js
 SHA1-Digest: Ye3pumh7+pJjEGvPnLe6kQ2modU=
 
+Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.0.BRMS.jar
+SHA1-Digest: tybfiarQLMb6yI2k/7Dk3kDppsU=
+
 Name: lib/ext-2.0.2/resources/images/vista/layout/panel-close.gif
 SHA1-Digest: zGFtxbvCyc8UwQBkWZVQyIzrVfA=
 
@@ -921,10 +927,10 @@ Name: css/codemirror.css
 SHA1-Digest: sVoUqVLw5cETfMudCD29k+eJobc=
 
 Name: WEB-INF/lib/jsr305-1.3.9.jar
-SHA1-Digest: YLepVSV6vbTl0+uZs8XF49/uUr0=
+SHA1-Digest: rrhvpWWJd/SvFN50alN5I+EzXuQ=
 
 Name: WEB-INF/lib/fop-0.95.jar
-SHA1-Digest: AhLek0kj0RZDbgZYo+XwRtWu7hE=
+SHA1-Digest: mAs8dHZ8Rk9sx+OBZ8YK2SMSpnE=
 
 Name: lib/ext-2.0.2/resources/images/vista/basic-dialog/w-handle.gif
 SHA1-Digest: kMfQ4JWfIOkw6iP4l1nHRLFLjEY=
@@ -940,7 +946,7 @@ SHA1-Digest: CpTfDtPucXGQLlidoeUBNrsjC9I=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/StencilSet
  ServiceImpl.class
-SHA1-Digest: 2DrEfaHwnao0PjumbG6F6jZBe2o=
+SHA1-Digest: bPJkAp0yd+ouleZohPXvDYKa0v4=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/FileStoreServlet.cl
  ass
@@ -956,7 +962,7 @@ Name: lib/ext-2.0.2/resources/images/default/window/icon-warning.gif
 SHA1-Digest: 6NeWxJL39awCoUV+GYHevHY6ifc=
 
 Name: WEB-INF/lib/commons-configuration-1.6.jar
-SHA1-Digest: EkEC/bfRMYC0/Zuo7MznblnPnGM=
+SHA1-Digest: 82uzrCybwFKMqF4jRv5avATazMc=
 
 Name: lib/ext-2.0.2/resources/images/gray/window/icon-warning.gif
 SHA1-Digest: Ph4PuYBlnDlkQTSJ4Qi0E3GbhpU=
@@ -982,7 +988,7 @@ SHA1-Digest: 6GoOFpGkx1lWJxCqSRP/MoNlPBw=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
  ceImpl.class
-SHA1-Digest: ZETweJVIyhciMWz/RBDm5g9Bll8=
+SHA1-Digest: 8ag/B8xjTaFDGSGKuXV/yQTSBbI=
 
 Name: images/export2.png
 SHA1-Digest: US4SYsYo4YdqNIerqkr8vu0l1rM=
@@ -1065,14 +1071,14 @@ Name: js/CFInstall.min.js
 SHA1-Digest: 0CV8ICD8kia0wFgq/2vpoFKvHzY=
 
 Name: WEB-INF/lib/batik-dom-1.6-1.jar
-SHA1-Digest: OaUS2LKaIbk0OvQGB8SkHXviG34=
+SHA1-Digest: V3EIafwFmv5p61ykXx2+SELqIU0=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceI
  mpl$1.class
 SHA1-Digest: QMAL7m8As8EkYj7CkO+qEdpoTlQ=
 
 Name: WEB-INF/lib/args4j-2.0.12.jar
-SHA1-Digest: UaCjYGLvtGhvyFiNv9+eZp53LHg=
+SHA1-Digest: muuDyDVvIoPKs5T1uzxicwjGxG4=
 
 Name: images/popup.gif
 SHA1-Digest: 1Jd9cJ5/FcN9hJ3Wx5OsAmZabQM=
@@ -1088,6 +1094,9 @@ SHA1-Digest: BtUF6pZuQc8NYlRBx4IJESdiAio=
 
 Name: js/hintjbpm.js
 SHA1-Digest: QGQ0fG/g2Qru83ncx+CRnEOZuNw=
+
+Name: WEB-INF/lib/jbpm-workitems-5.3.0.BRMS.jar
+SHA1-Digest: IlCZ6dUByqZpVIycqf9L0SQlZDA=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/TaskFormsEditorServ
  let.class
@@ -1130,7 +1139,7 @@ Name: stencilsets/bpmn2.0jbpm/view/swimlane/lane.svg
 SHA1-Digest: h6YMFfhZ9Zz1lrkjYt9+OvRMNLk=
 
 Name: WEB-INF/lib/commons-io-1.4.jar
-SHA1-Digest: ii7FsYe+MZu2V/wUyAoQIhEnYnE=
+SHA1-Digest: +9QtWi+Zovgk7ZPv75a2c0IENMU=
 
 Name: js/Plugins/AutoLayouter/tests/test_rdfrena.rb
 SHA1-Digest: 27bIuaHht+b+h/npm6dtDXwOk4A=
@@ -1139,7 +1148,7 @@ Name: js/Plugins/dockerCreation.js
 SHA1-Digest: 1KiFLX4Fqm/9SGSNILZlrRuGX7U=
 
 Name: WEB-INF/lib/rome-0.9.jar
-SHA1-Digest: x1uLJeSonXaECSOFG3Aa2eiGd2w=
+SHA1-Digest: A+irOTJaPJ1iRkh3eFtP4MCYFD4=
 
 Name: lib/ext-2.0.2/resources/images/vista/layout/tab-close-on.gif
 SHA1-Digest: fkbObBqrX9q+yhANtWrncpeBUJU=
@@ -1186,10 +1195,7 @@ Name: js/Core/SVG/editpathhandler.js
 SHA1-Digest: wME458ibrhJQ+E2wDmo0emhcxuM=
 
 Name: WEB-INF/lib/xmappr-0.9.3.jar
-SHA1-Digest: dETXnQpNQ54bjzeYqUMrFn2RfOA=
-
-Name: lib/ext-2.0.2/resources/images/default/grid/grid-blue-split.gif
-SHA1-Digest: ptNovQBTXMud9H09DXRX3JP2rLg=
+SHA1-Digest: mgHfJAmg9jR2aa6mOnUe7UsVZRY=
 
 Name: js/Plugins/AutoLayouter/Installation_notes.txt
 SHA1-Digest: MdTlmO810tZlo5N2cSTAkYIZNjg=
@@ -1199,6 +1205,9 @@ SHA1-Digest: gyMPtxjbyeyoUfX2m5qpzC9zNNg=
 
 Name: stencilsets/bpmn2.0jbpm/icons/throwing/message.png
 SHA1-Digest: 1p6MK+T9nxdJP/8pWRT2hTmDovo=
+
+Name: lib/ext-2.0.2/resources/images/default/grid/grid-blue-split.gif
+SHA1-Digest: ptNovQBTXMud9H09DXRX3JP2rLg=
 
 Name: lib/ext-2.0.2/resources/images/gray/qtip/bg.gif
 SHA1-Digest: +szHo2pvq7d4pBLgGTzqyEC0Z+w=
@@ -1253,6 +1262,9 @@ SHA1-Digest: HnYi1u1CpgahSmL2RQIS2Va4ukY=
 Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/timer.svg
 SHA1-Digest: +yvJu8dX6wCohC64ZcB+wHWDrlk=
 
+Name: WEB-INF/lib/drools-compiler-5.3.0.BRMS.jar
+SHA1-Digest: aseYep+GuEtd469YpGI898r0GEE=
+
 Name: lib/ext-2.0.2/resources/images/default/grid/grid3-hrow.gif
 SHA1-Digest: INWU98YocKfT3rooMMnmXu0qra0=
 
@@ -1299,7 +1311,7 @@ Name: lib/ext-2.0.2/resources/images/default/form/search-trigger.gif
 SHA1-Digest: bBTjDSXDgW7IQEjPaUtC6WcRhS0=
 
 Name: WEB-INF/lib/stringtemplate-3.2.1.jar
-SHA1-Digest: tfYFsG1Lz/SDeqNoMoaxvt22I9Y=
+SHA1-Digest: a4M3Yte6xi/BRtUtGxU232nDgWA=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/filter/impl/FilterChainImp
  l.class
@@ -1356,6 +1368,9 @@ SHA1-Digest: pehXfRYqb/F2q/jNFzc2qi64LV0=
 
 Name: js/Plugins/canvasResize.js
 SHA1-Digest: YbnUXStEZhPxPRbz0qyc5IIukx8=
+
+Name: WEB-INF/lib/jbpm-flow-builder-5.3.0.BRMS.jar
+SHA1-Digest: L9kHvtTNAyyrm9rtxGHzhSbI3lo=
 
 Name: images/png.gif
 SHA1-Digest: GLPioa9jMtgObzI0xAkjHDHmJbo=
@@ -1421,13 +1436,13 @@ Name: stencilsets/bpmn2.0jbpm/view/startevent/error.svg
 SHA1-Digest: X5ZRFSTLeaQ3HxjuwNLyPGmJF50=
 
 Name: WEB-INF/lib/js-1.7R2.jar
-SHA1-Digest: 9mb+9ttDS37k84YXshpc80IpME8=
+SHA1-Digest: y8OS01ZxDmxpnmbmXd4p5PfjKQI=
 
 Name: WEB-INF/lib/commons-httpclient-3.1.jar
-SHA1-Digest: 3cKTKV4YTKR7JN2zF30eItnBrJQ=
+SHA1-Digest: lPP59BEY+BkVZ0z0OYzyVK0jNHQ=
 
 Name: WEB-INF/lib/jackson-mapper-asl-1.7.4.jar
-SHA1-Digest: +AH0b+W5UzJkTn16sZjKCG9iyNI=
+SHA1-Digest: dwoqey1wjyoMCPXfocrmosBlmIk=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/Worklist.class
 SHA1-Digest: AWyI3k62zPieMibanQvOKRm77EQ=
@@ -1473,13 +1488,13 @@ Name: stencilsets/bpmn2.0jbpm/view/swimlane/process.participant.svg
 SHA1-Digest: UnXTqKn0mHhZPduY5BwZBP9j+bg=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler$1.class
-SHA1-Digest: dfmjEbqvUB06BvugL6oRj3sZ0Ok=
+SHA1-Digest: q3MdVq53YStcsUxlRnJ0WU1Ycxo=
 
 Name: stencilsets/extensions/extensions.json
 SHA1-Digest: QRDmnFeFXooz6wqJbOAK4suvnas=
 
 Name: WEB-INF/lib/protobuf-java-2.4.1.jar
-SHA1-Digest: Z/vxxGwvuF1R523KSEx86AvEbn8=
+SHA1-Digest: q5rdLt1mpHBr8omqRDI8rz+z+Uw=
 
 Name: images/moving1.png
 SHA1-Digest: CGQfH0HIRDz6gBUlWwBYt+zdpOs=
@@ -1528,9 +1543,6 @@ SHA1-Digest: 075kYv+dbDNZ/H7psdL/OmjO7A8=
 Name: lib/ext-2.0.2/resources/raw-images/shadow.psd
 SHA1-Digest: 1corUCuhArnDqxJgJ9cPuvoFJdM=
 
-Name: WEB-INF/lib/jbpm-flow-builder-5.3.0.BRMS-ER9.jar
-SHA1-Digest: EspScacnIfla03eclegLxi71y1Y=
-
 Name: lib/ext-2.0.2/resources/images/default/grid/done.gif
 SHA1-Digest: hiyGatagMWMz/Ib3ctWXnmpTmos=
 
@@ -1564,9 +1576,6 @@ SHA1-Digest: WzNj3UrMMhR5+soJ7d5u+BBCupU=
 Name: WEB-INF/classes/org/jbpm/designer/web/repository/UUIDBasedEpnRep
  ository.class
 SHA1-Digest: x5aqvLay66cpm/2Vaccey7jToyc=
-
-Name: WEB-INF/lib/jbpm-bpmn2-5.3.0.BRMS-ER9.jar
-SHA1-Digest: UBDjvhMki9lPAnk7Wlj1JgaxeE0=
 
 Name: lib/ext-2.0.2/LICENSE.txt
 SHA1-Digest: sqP9e1uCtnqDEfBvJisjr1bigVg=
@@ -1615,7 +1624,7 @@ Name: images/disk.png
 SHA1-Digest: CKYOiWJgX+/amlqITxwQJqDgxOk=
 
 Name: WEB-INF/lib/ant-launcher-1.8.2.jar
-SHA1-Digest: 9vIXPFUXrgJbS5KgnS5ZGC4mG6k=
+SHA1-Digest: 9Z2hu0doaVCP7ou81FczplR1RB0=
 
 Name: js/Plugins/bpmn11.js
 SHA1-Digest: age6RvUf1f0et5ReOScKGbW4hw8=
@@ -1642,7 +1651,7 @@ Name: lib/ext-2.0.2/resources/images/default/box/corners-blue.gif
 SHA1-Digest: PJJH6ber/0q77ylscHUYj8xafIg=
 
 Name: WEB-INF/lib/jaxb-impl-2.2.jar
-SHA1-Digest: P/FWVrY04cY0XdVf1Im9tYP6UpI=
+SHA1-Digest: d1yq0vUXcmcSBZfkH42BaECztx8=
 
 Name: stencilsets/bpmn2.0jbpm/view/startevent/multiple.svg
 SHA1-Digest: TeBES+JxlnkSr0zwHSfLluZSxQ0=
@@ -1658,7 +1667,7 @@ SHA1-Digest: JEbQ0BYxoMaR1SSOWtb5osDxOcA=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
  l.class
-SHA1-Digest: cumBOZEj8yBqGvcCVynVLvKwWsU=
+SHA1-Digest: sTl46Z0TsWRHJsoS1D8z1Zv494o=
 
 Name: js/debug.js
 SHA1-Digest: sAaWJOmuYpESWyb2r+QPTOMHQbM=
@@ -1725,7 +1734,7 @@ Name: js/Plugins/theme.js
 SHA1-Digest: 8oFBOLmYrBK9h9L2VsrQBfCNf8s=
 
 Name: WEB-INF/lib/commons-exec-1.0.1.jar
-SHA1-Digest: pjWTSUx0e3KyvUJvMFcq4RZb9q8=
+SHA1-Digest: dlpVlSotki3PZ2YGJRHxKNZKHpk=
 
 Name: images/epml_import_icon.png
 SHA1-Digest: X75DgltOdtoGdmPzIsd2T4oXzXI=
@@ -1734,7 +1743,7 @@ Name: js/Core/StencilSet/stencilsets.js
 SHA1-Digest: Wajs/i9JDlIf64EAbw69u1L9Fc4=
 
 Name: WEB-INF/lib/antlr-runtime-3.3.jar
-SHA1-Digest: OJLrTBnYtZaMoUpSSQeWaZMQdAw=
+SHA1-Digest: Cf5Rq0l/h1tBdYU2X/tqNi+mWHw=
 
 Name: lib/ext-2.0.2/resources/images/default/form/date-trigger.gif
 SHA1-Digest: RinDrSyo3Zg72J119R05jKIL4EU=
@@ -1796,10 +1805,10 @@ Name: lib/ext-2.0.2/resources/images/vista/tabs/tab-sprite.gif
 SHA1-Digest: 0apV/p/j6iaRlqmt1GXSLq90u6E=
 
 Name: META-INF/maven/org.jboss.drools/process-designer/pom.properties
-SHA1-Digest: cXyddFciB8p33ScFfyZ0DIwH3rY=
+SHA1-Digest: sEuLDpbFkwO+i51D9da3cESZGRw=
 
 Name: WEB-INF/lib/batik-parser-1.6-1.jar
-SHA1-Digest: l8tenviUxDONdD6wZOFckFXC8ms=
+SHA1-Digest: eLHoosefGJPjTHzgtHa3c43jByI=
 
 Name: stencilsets/bpmn2.0jbpm/icons/dataobject/it.system.png
 SHA1-Digest: cqFY5wAnTH6kLxiL1IOmhEbU8z8=
@@ -1818,7 +1827,7 @@ Name: images/shapemenu_highlight.png
 SHA1-Digest: SmWzExbObulHEVSLYwkvjxIza0U=
 
 Name: WEB-INF/lib/xml-apis-1.3.04.jar
-SHA1-Digest: 2TNcfAV5eWI6y2N3fHQrW7J5B30=
+SHA1-Digest: gn90weX9RJ94So5Aaf3rbnI4QRQ=
 
 Name: js/Plugins/transformationDownloadDialogForBPEL4Chor.js
 SHA1-Digest: s5WeTvfMlPrJq970gJT183ZiHTg=
@@ -1831,7 +1840,7 @@ Name: lib/ext-2.0.2/resources/images/default/toolbar/tb-bg.gif
 SHA1-Digest: 0IGop99xAFiaZJgmV/Anr7REjTo=
 
 Name: WEB-INF/lib/xmlParserAPIs-2.0.2.jar
-SHA1-Digest: BKlBsFAc/YqS+4O/jAWt0xkMCfM=
+SHA1-Digest: yXsJe2055SiQEanzvfAdWlucziY=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfileSer
  vice.class
@@ -1844,7 +1853,7 @@ Name: images/cpn/cpn_export.png
 SHA1-Digest: CDx9XwQt1LP1MKyjtegABcmZkQY=
 
 Name: WEB-INF/lib/velocity-1.6.4.jar
-SHA1-Digest: axgDnnwFvzC+GwXrl6jpUccbwNU=
+SHA1-Digest: YNe8lepfW9Lo7K4sCwIFu4M7qrg=
 
 Name: js/Plugins/AutoLayouter/bin/freetype6.dll
 SHA1-Digest: O9nc5WQOeifomZNwLJ8lSTSqaMI=
@@ -1897,9 +1906,6 @@ SHA1-Digest: PYWeLRpGdfpwqr/TflhuPZg+yL8=
 Name: js/Plugins/AutoLayouter/bin/zlib1.dll
 SHA1-Digest: +xUyjO61Mx2rr00B8aZtmnnk3TI=
 
-Name: WEB-INF/lib/drools-core-5.3.0.BRMS-ER9.jar
-SHA1-Digest: Wajt4bL5B5tpzzNk1LW0ml3SM2E=
-
 Name: js/diff_match_patch.js
 SHA1-Digest: MYF5z8dJ6viRXHxaq3yYsj0E5+0=
 
@@ -1934,7 +1940,7 @@ Name: lib/ext-2.0.2/resources/images/default/layout/mini-top.gif
 SHA1-Digest: wx/tnidJXTCeEguK2GV8w5bsvO8=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/Activator.class
-SHA1-Digest: 6n5fVcc0jo4LbKQMreXjNRifu90=
+SHA1-Digest: G52CQL9X+XTAZc73U668zJ6MX3M=
 
 Name: lib/ext-2.0.2/resources/images/default/layout/mini-right.gif
 SHA1-Digest: 3Lx7Ic1ryyzo2t+Dge3sATyHzvs=
@@ -2008,19 +2014,19 @@ Name: lib/ext-2.0.2/resources/images/default/panel/white-left-right.gi
 SHA1-Digest: bUYqdhS34IiwbOekPPMGLBItb8g=
 
 Name: WEB-INF/lib/xercesImpl-2.9.1.jar
-SHA1-Digest: yMmjUYVqIOJBFc94Nbs9T9UPrek=
+SHA1-Digest: QogZSJT6XyljUJAYn7+O04wtB+c=
 
 Name: js/Plugins/AutoLayouter/tests/test_shape.rb
 SHA1-Digest: eb40NoVDIgroGI7im47QwcYL6Mc=
 
 Name: WEB-INF/lib/antlr-3.3.jar
-SHA1-Digest: I9xt8RJT73tSSOwCpgaawn/9e+8=
+SHA1-Digest: tNOgHZHfhH++MYnyLGPRmBxFyE4=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetUtil.class
 SHA1-Digest: 4zlq/ro6toY/w/a6minP6LCe+jo=
 
 Name: WEB-INF/lib/mail-1.4.1.jar
-SHA1-Digest: uj4xVCOdIy0gw2ZQ+LJEfWyw8lw=
+SHA1-Digest: 4iov2Te2XoHg2T0NPp1FHHyEQYE=
 
 Name: images/bpel_layout_disable.png
 SHA1-Digest: 6GCYZhKPL6MZzXiDgydZopINX5E=
@@ -2095,7 +2101,7 @@ Name: WEB-INF/classes/org/jbpm/designer/web/filter/impl/PluggableFilte
 SHA1-Digest: bavVQEq6eqGhbbZ0dEe0WW3PE9w=
 
 Name: WEB-INF/lib/jbpt-0.1.0.jar
-SHA1-Digest: FBe4QWn/uPd10APyAQB1X0hLbUo=
+SHA1-Digest: n/MPQDKXc98HJb7ayvBdn56yt/Y=
 
 Name: lib/ext-2.0.2/resources/images/gray/tabs/tab-close.gif
 SHA1-Digest: 7Frv9/wBdC2MbeewBKUn/W9laKA=
@@ -2124,7 +2130,7 @@ Name: lib/ext-2.0.2/resources/images/default/sizer/ne-handle.gif
 SHA1-Digest: qvjhBdeYqKcjh/hqOq+cFufa3qg=
 
 Name: WEB-INF/lib/batik-xml-1.6-1.jar
-SHA1-Digest: SPVoMZ9EyqfbDo/asU5vg5zbBro=
+SHA1-Digest: dOGziWxxIy9ZNcvhS6RfSBndzy4=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/MultiDownloader.class
 SHA1-Digest: uek/gTxovTweHqvQTcfzLhToOxE=
@@ -2159,10 +2165,10 @@ Name: images/export_multi.png
 SHA1-Digest: bu5e2YtoBLQcqGIfEAJ21S4nXJI=
 
 Name: WEB-INF/lib/batik-gvt-1.6-1.jar
-SHA1-Digest: Ip6StqDYZpahqy61jOxKqt3T9B4=
+SHA1-Digest: V96zUmw2ziHwM1jcUehAadpLoQw=
 
 Name: WEB-INF/lib/atlas-1.0.0.jar
-SHA1-Digest: eoPw8xTlo7eiywvkQ6XwrepSXT8=
+SHA1-Digest: sSi/g9sCYll+qWoM8jd69qJhsnY=
 
 Name: stencilsets/bpmn2.0jbpm/view/gateway/inclusive.svg
 SHA1-Digest: OjrYYQNDRrMLX9vpirDwOlSIjpE=
@@ -2172,9 +2178,6 @@ SHA1-Digest: CqYWIc4z/XQRRjmziAC4MuO0+qo=
 
 Name: lib/ext-2.0.2/resources/images/vista/gradient-bg.gif
 SHA1-Digest: NgVnu/nKuak/qiatdmCbyPmWvyg=
-
-Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.0.BRMS-ER9.jar
-SHA1-Digest: W3Bn/J/NUS7gXs+F7h9kQ+4Za9w=
 
 Name: images/pencil_go.png
 SHA1-Digest: NeATBid7tXgvbfRCWc4I1AjLbNY=
@@ -2203,7 +2206,7 @@ Name: lib/ext-2.0.2/resources/images/default/layout/panel-title-light-
 SHA1-Digest: cvtYldWsKYNHnIznKHz6MSTsTMM=
 
 Name: WEB-INF/lib/slf4j-api-1.5.8.jar
-SHA1-Digest: maps3VrHYHoLlhJy1tuQVlueWgs=
+SHA1-Digest: /6yY7xIAwdRvI23oLUTXikyPSXY=
 
 Name: js/boot.js
 SHA1-Digest: hlMPS6On0RQ2zA77Zpff40xD110=
@@ -2225,9 +2228,6 @@ Name: WEB-INF/classes/org/jbpm/designer/server/ServiceComposerServlet$
  Operation.class
 SHA1-Digest: cwgckBztg5q4se+77PM6RezaXYs=
 
-Name: WEB-INF/lib/knowledge-api-5.3.0.BRMS-ER9.jar
-SHA1-Digest: muiKOzkgmf2Uml0kSjian9xsirs=
-
 Name: images/rotate_left.png
 SHA1-Digest: L1952w0mudnYR+zslLIPzsthSW0=
 
@@ -2239,9 +2239,6 @@ SHA1-Digest: xZ5b42ZzMKqUAVAs1Nu77jdYQcY=
 
 Name: stencilsets/bpmn2.0jbpm/icons/catching/timer.png
 SHA1-Digest: t8ZQpmFTEP4vHK6dvavbp8zuMk8=
-
-Name: WEB-INF/lib/jbpm-flow-5.3.0.BRMS-ER9.jar
-SHA1-Digest: TWdE3nJPs0aLPZjQTaitS+FduvQ=
 
 Name: images/jpdl_import_icon.png
 SHA1-Digest: ZfXdmXUIJN8WxN+MZWYOBSGCkqM=
@@ -2265,7 +2262,7 @@ Name: xslt/BPEL2eRDF.xslt
 SHA1-Digest: H7Z6c+tjayJ5+8crVCdc34p7GkQ=
 
 Name: WEB-INF/lib/slf4j-jdk14-1.5.6.jar
-SHA1-Digest: zpEhgmsJshCq1xq9lj4tcLwzXXw=
+SHA1-Digest: Il71WcZkJkaTFeckSp1iVgn91NU=
 
 Name: lib/ext-2.0.2/resources/images/default/tree/elbow-end-plus.gif
 SHA1-Digest: HWC/V0JiC35tZY+R9337VvfOyKI=
@@ -2436,7 +2433,7 @@ SHA1-Digest: BTvQvCIugkTX7gzKlmwuK/sQaiU=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/UUIDBasedRepository
  Servlet.class
-SHA1-Digest: cfPrUSdqfetnmRr3ToWFse2kXJY=
+SHA1-Digest: cvC9Rg71F4T6YMzYQxflX6WtivM=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/Default
  PreprocessingUnit.class
@@ -2459,7 +2456,7 @@ SHA1-Digest: EPsYBz1piwl+iIyAYzBJpmNA4Uc=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceI
  mpl.class
-SHA1-Digest: 6U/g3ETaARcujokN9fXubBeLvg8=
+SHA1-Digest: wECfoNqD2V/fElWTdnGl2wywYOk=
 
 Name: images/bod_view.png
 SHA1-Digest: tU25DN2bDLi8W45735WZec6y9d4=
@@ -2471,7 +2468,7 @@ Name: js/Core/SVG/pointspathhandler.js
 SHA1-Digest: PL6fD2qQ7Nmx/bymokKODnWmC84=
 
 Name: WEB-INF/lib/batik-transcoder-1.6-1.jar
-SHA1-Digest: evmWrq+TITciYj6Tu9igWXzrIFI=
+SHA1-Digest: Wl7X1TZQ/TisOnx0sgjPhxrnx2c=
 
 Name: stencilsets/bpmn2.0jbpm/icons/activity/event.subprocess.png
 SHA1-Digest: ljzEUArIIAu6PDXhCtD3RXO5uBs=
@@ -2515,7 +2512,7 @@ Name: stencilsets/bpmn2.0jbpm/icons/activity/task.png
 SHA1-Digest: /m7QEgs29Fa95PDkxKT8b8SpzZ8=
 
 Name: WEB-INF/lib/batik-awt-util-1.6-1.jar
-SHA1-Digest: gTtvnR5XtSysSFQhkfvHUXFfg44=
+SHA1-Digest: Nhwimi1iSOqgfKdp1wwpQ+DEF7A=
 
 Name: images/jpdl_export_icon.png
 SHA1-Digest: WASbYLyQkTVgJOR8cUdO30FocEo=
@@ -2626,7 +2623,7 @@ Name: js/Plugins/AutoLayouter/bin/dot.exe
 SHA1-Digest: YirvSr7ssLWg96xUAakwmQ+WBCQ=
 
 Name: WEB-INF/lib/batik-css-1.6-1.jar
-SHA1-Digest: OJccyMscY9iBV4ZjxJ3CslDvSmc=
+SHA1-Digest: CODju3HnDShYShkTam3yKxDTTts=
 
 Name: images/page_white.png
 SHA1-Digest: MkzICpCX9A4nGPL6oXPtXzfZufo=
@@ -2698,7 +2695,7 @@ Name: images/servicenode.png
 SHA1-Digest: FhQrkUxJXQd9fgjJ/bXTsYLScq4=
 
 Name: WEB-INF/lib/serializer-2.7.1.jar
-SHA1-Digest: vNJQnCqAqG/tTpCg3Iw1cd+5ELA=
+SHA1-Digest: PA7KM0mUgFK4RiGQRwXUEJetPaU=
 
 Name: images/bg.gif
 SHA1-Digest: X5mBSxWYJBkULGvMsklBBtzZBNc=
@@ -2797,7 +2794,7 @@ SHA1-Digest: X6DZU/ya9pSDRKIftflZCIPzWz0=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/JbpmProfileIm
  pl.class
-SHA1-Digest: 6Y8VEsocCvAlGcgTFEobWOX6Fr4=
+SHA1-Digest: +9kCAI/FUGqZo+3WcL7n8He6W30=
 
 Name: images/bpmn2xforms.png
 SHA1-Digest: NPCIQe86PodqdiLHSoVuANnPN5Q=
@@ -2851,7 +2848,7 @@ Name: lib/ext-2.0.2/resources/css/tabs.css
 SHA1-Digest: zmdGY4MZWsM4qwZ491aq3F2Jtac=
 
 Name: WEB-INF/lib/commons-fileupload-1.2.1.jar
-SHA1-Digest: JfzkhYBd0YpAXzaPSUm/dwLs5Mg=
+SHA1-Digest: OY69g+UickguFHigG68wEW+RTP0=
 
 Name: images/erdf_import_icon.png
 SHA1-Digest: XVvwyfekJgQPpRzcOlLxaDjFRb8=
@@ -2884,13 +2881,13 @@ Name: stencilsets/bpmn2.0jbpm/icons/catching/conditional.png
 SHA1-Digest: /5yn89W0XPXo32Ys52ZG6ssf/yg=
 
 Name: WEB-INF/lib/avalon-framework-api-4.3.1.jar
-SHA1-Digest: rQbRSfLyQzhnLVrbc1eZ03pw2os=
+SHA1-Digest: GVDKJe28pHJTmDnguL93j7V0gQE=
 
 Name: lib/ext-2.0.2/resources/images/default/form/date-trigger.psd
 SHA1-Digest: kohJuxZLG6d3u2PlYBWBZZYsmJg=
 
 Name: WEB-INF/lib/log4j-over-slf4j-1.5.8.jar
-SHA1-Digest: rMxu9qqPC2+Vd884HjDOcePMJlg=
+SHA1-Digest: IaLtYFXIw6yYUWR3x45JtwHCBwQ=
 
 Name: stencilsets/epn/view/diagram.svg
 SHA1-Digest: JnyOPA1W1pRCtkdXOey6vuhRIIc=
@@ -2902,7 +2899,7 @@ Name: lib/ext-2.0.2/resources/images/default/grid/grid-loading.gif
 SHA1-Digest: 134NSc2y8sWAURveIosn3EHqVfc=
 
 Name: WEB-INF/lib/xstream-1.3.1.jar
-SHA1-Digest: zRQuSwoK6NLcp74S0tdMdOSiG3A=
+SHA1-Digest: E7ePTl0U4DCHOi59DdIflx3KoSw=
 
 Name: js/Plugins/Layouter/edgeLayouter.js
 SHA1-Digest: mv3ZKPG6Xps0nDLJ1PMU77icQRo=
@@ -3033,7 +3030,7 @@ Name: images/cpn/cpn_button.png
 SHA1-Digest: Z0pfdc5MaN7YYbTIWY86865Rwxs=
 
 Name: WEB-INF/lib/antlr-2.7.7.jar
-SHA1-Digest: mABPlIfUkxESE7Rn8vqBVCg2wJM=
+SHA1-Digest: fFYFN03IRhjgQRfA1icLgVCanxM=
 
 Name: stencilsets/bpmn2.0jbpm/view/swimlane/collapsed.pool.svg
 SHA1-Digest: 1yrMoSr+ZBDNB14czI/uEFunTCI=
@@ -3052,7 +3049,7 @@ SHA1-Digest: GaXeGA4T2MsnVOgCdlaZu37AV0A=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
  processingUnit.class
-SHA1-Digest: a+m5raITSUJmEKOAD0+9H4hSH7o=
+SHA1-Digest: OFlc9C80SvYdfzf5Nzhtbdtxevs=
 
 Name: js/oryx.js
 SHA1-Digest: F7e96CY3muBzruX5Ck44goX2/3Q=
@@ -3086,11 +3083,11 @@ Name: WEB-INF/classes/org/jbpm/designer/bpmn2/validation/SyntaxChecker
  Utils.class
 SHA1-Digest: nAo7LKztzawCrh0RhTK3HDkWGDs=
 
-Name: WEB-INF/lib/jbpm-workitems-5.3.0.BRMS-ER9.jar
-SHA1-Digest: 0IU1Tl0LsRILZF7hBTJUphe9mUc=
-
 Name: lib/ext-2.0.2/ext-all.js
 SHA1-Digest: M6HQNSlukWa1euYBCsLtyTIxsjA=
+
+Name: WEB-INF/lib/drools-core-5.3.0.BRMS.jar
+SHA1-Digest: 2ZdfnUDvMOIlzuvQfVua/0EYbjE=
 
 Name: lib/ext-2.0.2/resources/images/gray/qtip/tip-sprite.gif
 SHA1-Digest: kVWY0WmGvEFtqxA5gWi/MKErxB0=
@@ -3140,7 +3137,7 @@ Name: js/Core/SVG/label.js
 SHA1-Digest: 0zYeGhuR+5PD0Atzt7jLEF+dVX0=
 
 Name: WEB-INF/lib/activation-1.1.jar
-SHA1-Digest: 5STnr5Q4ZUtIoIQR3eOwEpUCvOU=
+SHA1-Digest: sxpQKmCyFYyUCDtBUXMld+IK8P0=
 
 Name: stencilsets/bpmn2.0jbpm/view/startevent/escalation.svg
 SHA1-Digest: ZEqbJTgnRjmmVckcb5SEHdAAD+k=
@@ -3216,11 +3213,11 @@ Name: stencilsets/bpmn2.0jbpm/icons/activity/list/event.multiple.png
 SHA1-Digest: +vM1sjuz8JUGXcd1czZIZhEKU90=
 
 Name: WEB-INF/lib/jackson-core-asl-1.7.4.jar
-SHA1-Digest: lHTyaWbigxyCdM/jZB27Zv3+tF4=
+SHA1-Digest: NbJHNppYyZsTszpriK3tYZ2kJ7o=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
  processingUnit$ThemeInfo.class
-SHA1-Digest: IE498zpkpBcIHOwvl4PyrKwQ4yE=
+SHA1-Digest: NnvFtRJ7oHjfIt/ycufYNyF1S6k=
 
 Name: images/human_task_form.png
 SHA1-Digest: MtdY3iQqtwD+kCtXDijfD+tiF88=
@@ -3275,7 +3272,7 @@ Name: js/Plugins/queryevaluator.js
 SHA1-Digest: lDkaGXQfIslFW9XxTd4lfrtk2Ds=
 
 Name: WEB-INF/lib/batik-svg-dom-1.6-1.jar
-SHA1-Digest: tATwYBlX6uZXZdkHNI26PoMfmtw=
+SHA1-Digest: HkJtQOEWF5z5jO2v/KQ+7h+2p3A=
 
 Name: images/aris_export_icon.png
 SHA1-Digest: 0VIT7eYpN7OV0S/NsZTQnp19I5E=
@@ -3300,7 +3297,7 @@ Name: stencilsets/bpmn2.0jbpm/view/startevent/none.svg
 SHA1-Digest: Y+sBG4hINvwEO892zNAB+gDC+iw=
 
 Name: WEB-INF/lib/org.eclipse.emf.ecore-2.6.0.v20100614-1136.jar
-SHA1-Digest: 342BKySYkB/lznnMlrUcUzA9qgI=
+SHA1-Digest: Mz/Mb36DuYDVyo+mxSumirwtn0g=
 
 Name: images/bod+.png
 SHA1-Digest: 0CMnML+ZyMCDJ/Y32UCMqKI0shc=
@@ -3428,13 +3425,13 @@ Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
 SHA1-Digest: KSR8/SX3D7ZhP4WvMxf4lJPvWTc=
 
 Name: WEB-INF/lib/xalan-2.7.1.jar
-SHA1-Digest: 0Jy067DbEQGg6Cndf3KeDE+nuMc=
+SHA1-Digest: LCSZoNeHw9wq+Z1TQl5rUoWsF1Q=
 
 Name: stencilsets/bpmn2.0jbpm/icons/catching/error.png
 SHA1-Digest: hwqIeCU2whYShDvenVNq93tMrtA=
 
 Name: WEB-INF/lib/guava-10.0.1.jar
-SHA1-Digest: 5Yoj44hDhmuN6xK3gsW8dop6F8I=
+SHA1-Digest: 0E8map14JfPk1hTeMonC2yb+H1w=
 
 Name: lib/ext-2.0.2/resources/images/default/tree/leaf.gif
 SHA1-Digest: G+aQZrGIuqX3x9RUgCSPAerLt7Q=
@@ -3443,10 +3440,10 @@ Name: lib/ext-2.0.2/resources/images/default/grid/grid-hrow.gif
 SHA1-Digest: GOtLuz8MSaK/v6D/F6vD1jbhU9E=
 
 Name: WEB-INF/lib/ecj-3.5.1.jar
-SHA1-Digest: +IoQNJgQXEhb2ObN3ZH/5iVgmpw=
+SHA1-Digest: izAMMNxlnY8BjuDgYkKkGIHt6hU=
 
 Name: WEB-INF/lib/jarjar-1.1.jar
-SHA1-Digest: Tw1jm0aHH8l7m06W0+DBCBQDgKA=
+SHA1-Digest: ep571ah3hP5I0XYzWhgqo15jZ2M=
 
 Name: images/labs/script_add.png
 SHA1-Digest: lw/gK7mSaj9Mv5yW5vGSWOWaSy4=
@@ -3509,7 +3506,7 @@ Name: lib/ext-2.0.2/resources/images/default/menu/unchecked.gif
 SHA1-Digest: 4B+jFeqymZO1vLMO19BWZmvPV3k=
 
 Name: WEB-INF/lib/commons-collections-3.2.1.jar
-SHA1-Digest: ju+FRdH9QDpKfC5doi3PgsxL4hI=
+SHA1-Digest: hbYgXBSQi7rsr9/Y7g2LhA1S1rI=
 
 Name: images/design-thinking/raw_article.png
 SHA1-Digest: +05RY88pTkUDbi+6ECGp4cCRKvc=
@@ -3552,10 +3549,13 @@ Name: images/bpmn2bpel_icon.png
 SHA1-Digest: piy+QIjYGdlv1f77y0OrtSwnHpo=
 
 Name: WEB-INF/lib/commons-net-2.0.jar
-SHA1-Digest: FmRYkLZqwgkic7QSSt2RdTYJuVI=
+SHA1-Digest: HU4Oq5ybOkJVyCYPfKoQsKZ+jyc=
 
 Name: lib/ext-2.0.2/resources/images/default/sizer/s-handle.gif
 SHA1-Digest: m1alFPRDx0dQv0bRqWNKyL9FQEs=
+
+Name: WEB-INF/lib/knowledge-api-5.3.0.BRMS.jar
+SHA1-Digest: V3emkx1pxa4qHMUxBLHsCapiQRI=
 
 Name: stencilsets/bpmn2.0jbpm/view/intermediateevent/message.throwing.
  svg
@@ -3648,10 +3648,10 @@ Name: stencilsets/bpmn2.0jbpm/icons/endevent/error.png
 SHA1-Digest: ECfiXzDraDUaV39a9SGhP01AJXQ=
 
 Name: WEB-INF/lib/org.eclipse.bpmn2-0.7.0.010.jar
-SHA1-Digest: 9DfFStKq/MJY1OeUKlSEEEPA1eU=
+SHA1-Digest: gW0tOO7BNkKv0cMZcmbS41pL7QU=
 
 Name: WEB-INF/lib/ant-1.8.2.jar
-SHA1-Digest: oItFxW4BDaYmqbVhmBdgkzHOrEA=
+SHA1-Digest: RZ24GQ7Vf6KI+VO1M7hbM2huIYQ=
 
 Name: lib/ext-2.0.2/resources/images/vista/grid/grid-split.gif
 SHA1-Digest: ugNZbX/QjWKfQUAvKBA96gZx53w=
@@ -3666,7 +3666,7 @@ Name: images/shape_align_top.png
 SHA1-Digest: C9RK6uGh1lwUThkUp/7Nk/RAdw0=
 
 Name: WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846.jar
-SHA1-Digest: LxHE7R5Hau661RQqti5KnxR6UcY=
+SHA1-Digest: dw54htdIW13ptnE5XXFt3v6EdYU=
 
 Name: js/cmxml.js
 SHA1-Digest: g6Q0k3xPKUBKUer2Lt1BbsUszL0=
@@ -3678,7 +3678,7 @@ Name: lib/ext-2.0.2/resources/images/default/sizer/sw-handle-dark.gif
 SHA1-Digest: roE6lFwdLA0yevwnz40lVHkglMc=
 
 Name: WEB-INF/lib/SuperCSV-1.52.jar
-SHA1-Digest: uLvEwH7ekRF0LjPaZLwjInrsjuM=
+SHA1-Digest: IX59+PEmddz3XwUaIa8CD9wDLsQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/IDiagramProfile$ID
  iagramUnmarshaller.class
@@ -3757,7 +3757,7 @@ Name: lib/ext-2.0.2/resources/css/menu.css
 SHA1-Digest: NRik4ouTFidU1+CumY4WBr2vw8I=
 
 Name: WEB-INF/lib/osgi-3.5.0.v20090520.jar
-SHA1-Digest: aP+cbmGNbMM6iUrYKszV7twFKLo=
+SHA1-Digest: GHjs+5GK7YFSmQ9hL1PWMnim9JM=
 
 Name: lib/ext-2.0.2/resources/images/default/form/trigger.gif
 SHA1-Digest: Ytg2Yaosbv0wl13jX9diRxsCGLs=

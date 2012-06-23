@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
-Build-Jdk: 1.6.0_30
+Build-Jdk: 1.6.0_33
 Built-By: mockbuild
 Bundle-Name: Process Designer
 Bundle-SymbolicName: designer
-Bundle-Version: 2.2.0-DEV
+Bundle-Version: 2.2.1.Final
 Created-By: Apache Maven
 
 Name: META-INF/BPMN20.xsd
@@ -16,12 +16,12 @@ MD5-Digest: vzDFOcN8XoaGOHxut1k7ow==
 SHA1-Digest: 1KjBNzwSO6XX1GxLX4LxfP0/X4Q=
 
 Name: META-INF/maven/org.jboss.drools/process-designer/pom.properties
-MD5-Digest: YFj2pjkHzpMUtkgT2/ibag==
-SHA1-Digest: dUOF3FiyY1AEQPfnMl6Ji5rmzHQ=
+MD5-Digest: hmU6SBubVnzIKoa0WhAOkA==
+SHA1-Digest: 9GSM1g8hU8n3mi6hzy0JzpiiDmk=
 
 Name: META-INF/maven/org.jboss.drools/process-designer/pom.xml
-MD5-Digest: JOt5O4SWn0oZ2n2ytqzERw==
-SHA1-Digest: nU8rthsfqUEkeRBcgrPUozi0OL8=
+MD5-Digest: bUiV3gMkTQXKSLrDBysO1Q==
+SHA1-Digest: 1fQ+JMJz5yuCsFKMXp/wKoBgRoI=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/BpmnMarshallerHelper.cla
  ss
@@ -54,8 +54,8 @@ SHA1-Digest: bLyuegHyIVXeI1qqcag5+nnETR4=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
  ceImpl.class
-MD5-Digest: rJOebyRsY3g/r/saNWeIgQ==
-SHA1-Digest: zdpMQDq3hYCa2JoTuEu1GLZkCkI=
+MD5-Digest: qSMun1xUMuecmHAgD4F18A==
+SHA1-Digest: cgKzhSdC22gn4l738gMe8Fxi2t4=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMXMLSaveImpl
  $JBPMLookup.class
@@ -123,12 +123,12 @@ MD5-Digest: hTL9tVZcBBjJq/hnKjpeCw==
 SHA1-Digest: 7mqdCH2z/xswKqweSL6F3VDBQW0=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler$1.class
-MD5-Digest: RmRguAXVNUdlvV5YbLiGtQ==
-SHA1-Digest: js715+qvtSegHQfpbnIVyYx/lCY=
+MD5-Digest: u/xcnPfAcl/Pm90XlKxr6A==
+SHA1-Digest: Bdp35t4ds+tU/zJCT5U1INf4BZw=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler.class
-MD5-Digest: c/bZ0ZYQvRxOTxngkzZT/w==
-SHA1-Digest: Ufn0VIC2cUzebK69y5sXlOG51Lw=
+MD5-Digest: AC1dg5knfavGvuWV/9YSig==
+SHA1-Digest: +TrbsA9Ndelr9OxgqIqTijdK2Ds=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EngineProxy.class
 MD5-Digest: V9WTp9oLepZ1ea4kBdEpQA==
@@ -182,8 +182,8 @@ SHA1-Digest: BBPkXmEpztNq/QxdHbOsrXnnGig=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/SimpleStorageServlet.cl
  ass
-MD5-Digest: v/UHvmJ6/k1x//3HtvRbtw==
-SHA1-Digest: RJJbDlLHLTzZnAdmA2644JHdxrg=
+MD5-Digest: oBknJl3KNNS70BLMugdWfw==
+SHA1-Digest: 4o/P3eTCxOUhAVeNPPi0sz70eM0=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetExtensionGene
  rator.class
@@ -299,8 +299,8 @@ MD5-Digest: FyP3h9EbXvmWMwktL0kCZA==
 SHA1-Digest: 2dk/bHk0DZ/zQ9J6WWokjulrMVo=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/Activator.class
-MD5-Digest: vDSaSx79C08kmStR6r7J/g==
-SHA1-Digest: WlyyX+05TmCL5iyw7ZM+bUZcxX4=
+MD5-Digest: 19BjU0PYLZof0n6Jar2HsQ==
+SHA1-Digest: 7EswJjVJ+pNU9/34WPylhiNeMlc=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/batikprotocolhandler/Guvno
  rParsedURLData.class
@@ -319,8 +319,8 @@ SHA1-Digest: cCR6g81PBVocURhQu5zo9b/K1hg=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/filter/ConfigurableFilterC
  onfig.class
-MD5-Digest: w1e1gkzxSa9kpH5pxcHnWA==
-SHA1-Digest: jlnbJ/tNlQjxR+lCMtWKhL8wvuk=
+MD5-Digest: 7TwJi55GCgYzlfNa+I1+HQ==
+SHA1-Digest: e59dm8tmZTLw8jB0CUbYydSX9OA=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/filter/IFilterFactory.clas
  s
@@ -369,8 +369,8 @@ SHA1-Digest: znA7P4y88QdObWXFFZL07h4mpbU=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceI
  mpl.class
-MD5-Digest: loo605rofbzi7/O/sXWkeA==
-SHA1-Digest: eubb0qyA+m+QuWvrwOLgAse9KtI=
+MD5-Digest: n6ay62Y11oAwSHO/CoIRtQ==
+SHA1-Digest: P6U6Lc4cGr09nUXlovyz2xdmPAw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceS
  ervlet.class
@@ -404,13 +404,13 @@ SHA1-Digest: 5JpB9/EoQ5UgaHF92rmTwd9J3xs=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
  processingUnit$ThemeInfo.class
-MD5-Digest: hWzgLcWgYnbKpNI9pqM3SQ==
-SHA1-Digest: fqXxH95X7+XXpLDyMX7GTzLsKpA=
+MD5-Digest: mp4PhrEJpLGzrYpKlM9oeA==
+SHA1-Digest: FtcpMUTYgFdZ5C/xqpuMFYU04Yk=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
  processingUnit.class
-MD5-Digest: Q+l0o3dzfj/h/nYLacC/eA==
-SHA1-Digest: H4Qjj7GMSPYcFue2K1D+m+Z7AMc=
+MD5-Digest: salJhWW9rDv/+QttSjFhwA==
+SHA1-Digest: ER23uxJuHDEhslsfW+9zAUdOGls=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/Preproc
  essingServiceImpl.class
@@ -454,8 +454,8 @@ SHA1-Digest: 6PA2aHCK7x5LWBN2kz5x0aaoKdQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/DefaultProfil
  eImpl.class
-MD5-Digest: WEsCuWUMGd+WxghPK4h54Q==
-SHA1-Digest: IEk0OquguypXNJNOTWor0bPHxMw=
+MD5-Digest: MHFY8Da1jDmj49ikAiQJmQ==
+SHA1-Digest: xwYgHMUnf7xeMBawAm7Z1XUwUoA=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
  l$1.class
@@ -469,8 +469,8 @@ SHA1-Digest: 0QvRaw8LB1uzWgSSbclDoBZjfgw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
  l.class
-MD5-Digest: LnHWNyWOShYs6tGsNCrAgw==
-SHA1-Digest: PXyY20vU1BwlSwiEXi7W98kn2x4=
+MD5-Digest: 9tNRKbN78g6FRA0qcN156w==
+SHA1-Digest: oyOKqrNoKzL5esp0GYPEROUz168=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/ExternalInfo.
  class
@@ -489,8 +489,8 @@ SHA1-Digest: pQ5B53VDVeCXZ7JyDzHlWvrWrWQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/JbpmProfileIm
  pl.class
-MD5-Digest: wx6LiBbvpdCtGj/IUjabVg==
-SHA1-Digest: XRQRrwBEvI5rLtX5n2IUWNUbxfw=
+MD5-Digest: TLy5BsnWwHvKZQpB0t4bUg==
+SHA1-Digest: +STgKDZUZPmOEexH4vvDLnqzpD8=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/ProfileServic
  eImpl.class
@@ -587,8 +587,8 @@ SHA1-Digest: gmqhudJjBY7QFwTeXHrdChLIcDc=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/UUIDBasedRepository
  Servlet.class
-MD5-Digest: EeNJ0/LhxMh1k6z8dJYTfA==
-SHA1-Digest: 1LR+ddbgqPdKotTkyExsfim7GX8=
+MD5-Digest: T6dibZa1UtqOgvglQjejbQ==
+SHA1-Digest: qRRbHlPQ1UyPK2GEbSxx0qzJfTI=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/IDiagramStencil
  Set.class
@@ -617,8 +617,8 @@ SHA1-Digest: rqfA2WD4EUKdj0uJEGMhncp8SiA=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/StencilSet
  ServiceImpl.class
-MD5-Digest: K1Q4nOSE+8oefgR1k028Pg==
-SHA1-Digest: jqwCVYr1VP1BFdSXdaO4XBLefeM=
+MD5-Digest: XL8kDDceGlXT41BPULXPhA==
+SHA1-Digest: oyRWVoJzHw7+NXrdgPiRS6tYc+Y=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/stencilset/impl/StencilSet
  ServiceServlet.class
@@ -630,328 +630,328 @@ MD5-Digest: e12BEQTW7FNlarOVWh+azw==
 SHA1-Digest: 0zlwqyyu4hFiLZRGb9tDyU/+3wo=
 
 Name: WEB-INF/lib/SuperCSV-1.52.jar
-MD5-Digest: U3hoeG7DN7DQ2MqQKfvSUg==
-SHA1-Digest: V9r5frmR5slY5E2GQA9wC5p0ZM8=
+MD5-Digest: EhxgvOWPmeHwvyP59I8IvA==
+SHA1-Digest: yc1deESRZNNidVwtP1gEgBSVMjU=
 
 Name: WEB-INF/lib/activation-1.1.jar
-MD5-Digest: 73oAXbWRFMGQhzvf+MguDA==
-SHA1-Digest: moJqDjEvUctaOHA4EKcCcXkDEUc=
+MD5-Digest: MoQOst15++GcTgqyaXkWGA==
+SHA1-Digest: ZzgQ3EDfMvgrnujn327GilyiWo0=
 
 Name: WEB-INF/lib/ant-1.8.2.jar
-MD5-Digest: e1CuQXXeM2k/NkxVdw6KEg==
-SHA1-Digest: Tzd5IZoACqFi9ImsyxHHyeSsaNg=
+MD5-Digest: KeeU3E5xd+Ycbzv+Mfcxww==
+SHA1-Digest: SavTx3gxvO/Tr5svU3pjQNNM3hw=
 
 Name: WEB-INF/lib/ant-launcher-1.8.2.jar
-MD5-Digest: SzngU6RabwsN5cmiSYWNXQ==
-SHA1-Digest: PPUj0phNYUqg+WAU3VMjHxfdzQ8=
+MD5-Digest: np+aF4pydKAu4K3xquHSDQ==
+SHA1-Digest: 3QDApYXpSOz5nbUjVoYQvbVdtxQ=
 
 Name: WEB-INF/lib/antlr-2.7.7.jar
-MD5-Digest: KSjJ6Ooms7IL5MkpL4thhw==
-SHA1-Digest: sQ7U/EtzHCUG6nVmWXb/EdQiRGc=
+MD5-Digest: e8sQdF0H1brtpXTrNO357Q==
+SHA1-Digest: qGS0o0Ucu3TKaOT6nq8vbTrpCqw=
 
 Name: WEB-INF/lib/antlr-3.3.jar
-MD5-Digest: AICekZoMa14d+94b3E8PqQ==
-SHA1-Digest: kvmpXKUe6pVCwRwSlu354HCChbo=
+MD5-Digest: /Mfx+QA3zVihjueHo2IO3Q==
+SHA1-Digest: qXeWpKPh9uYbr1ZM0ImCEqpbe+Y=
 
 Name: WEB-INF/lib/antlr-runtime-3.3.jar
-MD5-Digest: r5t+A6ZC8QHxznc32wdflA==
-SHA1-Digest: XS9tGIkhnYnFrgSXZyF58BjcbtU=
+MD5-Digest: 4O5jGmgmrtKA1rXUdQyz7Q==
+SHA1-Digest: V45n1wZRcC0ws5ttdf7XnjDrBBo=
 
 Name: WEB-INF/lib/args4j-2.0.12.jar
-MD5-Digest: R4He8RLyzANx23Uj3jUMxA==
-SHA1-Digest: wiX+a4PXcYs9/WF4fk6jJ5ukZu8=
+MD5-Digest: 9E3sutKhC9gvEBgdu+U88A==
+SHA1-Digest: TQT9GkZb9QlR4TkyUnig1wo/0AM=
 
 Name: WEB-INF/lib/atlas-1.0.0.jar
-MD5-Digest: 73g3HME/NAg0w1ZJkTCvXA==
-SHA1-Digest: GWVTlb0VF1SujTxObsRTdIO9rgI=
+MD5-Digest: yXQJyHqRO9yUfSJ1b9Znqw==
+SHA1-Digest: DrJsncAnYkByk1P/XQQgpDSCDRg=
 
 Name: WEB-INF/lib/avalon-framework-4.1.4.jar
-MD5-Digest: CP9Kff4vIHvtcb6Mi61C2g==
-SHA1-Digest: caI/SduAMTofhcncVxOrp7AfoGg=
+MD5-Digest: nnHcnKSvcZOPrQ6nuMok0A==
+SHA1-Digest: h1ukkzwfTTbupcSTg+074CD/sC0=
 
 Name: WEB-INF/lib/avalon-framework-api-4.3.1.jar
-MD5-Digest: vKb3lnMYk1vjQS9c/ukxaw==
-SHA1-Digest: tV3BerDduSgUTxduUrlnQACBlRg=
+MD5-Digest: HU2Bg82CZRNsaQ7y8kmoIA==
+SHA1-Digest: LZAV3KZ+AMgizEDBREEv0bbFjmA=
 
 Name: WEB-INF/lib/batik-awt-util-1.6-1.jar
-MD5-Digest: mRs8qqPIjdFQHx/kCeNhag==
-SHA1-Digest: 8lfGZD3yscC+8OOgBw8TXSWMFls=
+MD5-Digest: YdSu3V/0FLalINEC/zvH7g==
+SHA1-Digest: 4Q0u+lghbUcxN4aEMRmUP5sKHSc=
 
 Name: WEB-INF/lib/batik-bridge-1.6-1.jar
-MD5-Digest: p+fHWw/kYWyBRXyw2VQAtQ==
-SHA1-Digest: hVoYKDfAAJY22KlsDJlBIEWY+bc=
+MD5-Digest: Uh/nxkjky7seG6cBjZ7VSw==
+SHA1-Digest: Y0H5QWAJ/b425ry90ZP7kIkSqYI=
 
 Name: WEB-INF/lib/batik-css-1.6-1.jar
-MD5-Digest: Q1iy0RwK+O6oJPTGgP9rYw==
-SHA1-Digest: zOm8+RoQvnC48CgyfzqQg16VUYA=
+MD5-Digest: iesvKOc2VfcCPj50GLWrJg==
+SHA1-Digest: AfROVoL0hhFb9Tqhv+LSL0ah/qQ=
 
 Name: WEB-INF/lib/batik-dom-1.6-1.jar
-MD5-Digest: k22GWB/izDYaC69eQk6K6A==
-SHA1-Digest: WSbpp26eJKsSG50TzYlFrciof1I=
+MD5-Digest: Q9fKqBF8wks0L0vo7g4Q+g==
+SHA1-Digest: Z29bdldXrTwn3HArWLaSP+DnOoM=
 
 Name: WEB-INF/lib/batik-ext-1.6-1.jar
-MD5-Digest: cSNr4JQnU3wMf5pjGQbpbA==
-SHA1-Digest: auW5ttZ2BZChf5+szyKSYn5u+y8=
+MD5-Digest: nFdaA9lQzniZ0r/lLNo5IQ==
+SHA1-Digest: XKy7FAl/VSklSbeVAaXsZU1eeys=
 
 Name: WEB-INF/lib/batik-extension-1.6-1.jar
-MD5-Digest: 0qWXcY9V5xPbVXxQiysWgQ==
-SHA1-Digest: oQE7QCTVfeHrPjvBLxZWUNR7LNU=
+MD5-Digest: t591MWtAEFRWhL39sUmZjA==
+SHA1-Digest: ZaXPBrGYP2smdLhFVNEuTYjoP6c=
 
 Name: WEB-INF/lib/batik-gvt-1.6-1.jar
-MD5-Digest: s7KNRM31lD2+P7k/FH4byw==
-SHA1-Digest: ishonjeC5wShiAZbneMF87RI1AM=
+MD5-Digest: QbzgpsqUbuqIzO1M0HWg0Q==
+SHA1-Digest: W/QneSba0/GfQqzApXPcEUPaYMs=
 
 Name: WEB-INF/lib/batik-parser-1.6-1.jar
-MD5-Digest: xG0C6Y+mD3EipQI0bhR23Q==
-SHA1-Digest: UFmLCGx2FioDkbF+5QAfrqGdZdM=
+MD5-Digest: Zfbj7r+Kc21aF3SNqOAmFA==
+SHA1-Digest: T2yjUy1Rl9sSA88tG53Jkc7xff8=
 
 Name: WEB-INF/lib/batik-script-1.6-1.jar
-MD5-Digest: Cloys+tiwcCgS8RmNkDLOQ==
-SHA1-Digest: jDTHzUNyCsgvk38IBO9ucdZZrp4=
+MD5-Digest: BvfyHsSHuOi4g/VZ5Xo7sw==
+SHA1-Digest: xNhCLmwV71sbP5SqysYmSOklZcs=
 
 Name: WEB-INF/lib/batik-svg-dom-1.6-1.jar
-MD5-Digest: HsHZ/iK1S9lccrbSZ3gaww==
-SHA1-Digest: jfczh9z7zuOFFHj40yiPdQfX2kw=
+MD5-Digest: 0VCUvuNV5b33rsEKQAKh5g==
+SHA1-Digest: neAE9co9diFqazwlmoXWXvevhLs=
 
 Name: WEB-INF/lib/batik-svggen-1.6-1.jar
-MD5-Digest: wWeW4b7Pn5iDTGBwHAEDJA==
-SHA1-Digest: O+UwZDxlj7FoKVdZsDyzSjF3H9A=
+MD5-Digest: cDY6E/OAE2IPoGpgC+XpHw==
+SHA1-Digest: Z9yhrT/pQajq7wVjaq1Mdb6TMZU=
 
 Name: WEB-INF/lib/batik-transcoder-1.6-1.jar
-MD5-Digest: Qeh0WhRngJQabT2NUAs/0w==
-SHA1-Digest: x7JIE3435DyxOypkhIFIRqVnj90=
+MD5-Digest: W26Bm38CbxGlKgIZWQK/PQ==
+SHA1-Digest: FTh9R/iaFhxxDpSdsD5nVSLAGbI=
 
 Name: WEB-INF/lib/batik-util-1.6-1.jar
-MD5-Digest: sKWAuLash3W6NG/JdJnnDg==
-SHA1-Digest: pUeVzasrYriF7gID2ZyFewnmtVA=
+MD5-Digest: IVO/Vxv8DIOjuwyeKhpzZQ==
+SHA1-Digest: hYOxSevwVBpruULZAerT0n2fjes=
 
 Name: WEB-INF/lib/batik-xml-1.6-1.jar
-MD5-Digest: 7ATe6PWYRhRtSnB23iRCeQ==
-SHA1-Digest: iniol5HTLGObXTXpRkfo1poaDBk=
+MD5-Digest: hlUkupn1SYCQTWJVmHW1LA==
+SHA1-Digest: tdV2aByAlqpHl/DW7tjKD69XE9o=
 
 Name: WEB-INF/lib/closure-compiler-r1741.jar
-MD5-Digest: F0OkvsQcffagmQkVl4AIpA==
-SHA1-Digest: UwOgf/3r5d4HHJ4bnGtlAdDFAw4=
+MD5-Digest: og4ZSWKJypO3RNo71fifgw==
+SHA1-Digest: jQ6R/+P84KKjQSyl3LeFj7h5azw=
 
 Name: WEB-INF/lib/commons-collections-3.2.1.jar
-MD5-Digest: YLVVK/4+ynvYH50pgbFw5Q==
-SHA1-Digest: aevV1YFKkzY1bDVf0ys9WbxhLLc=
+MD5-Digest: JDN0PqJGyrfz4zYKFVfphg==
+SHA1-Digest: TerKjAzr68EpgwgRri6VAUNbGpI=
 
 Name: WEB-INF/lib/commons-compress-1.0.jar
-MD5-Digest: Cg6BnpFNwnb8B0/Hy1IZvw==
-SHA1-Digest: eHJTDALi9Ucvg+ttR1DVsk7dJys=
+MD5-Digest: H+TlxEoxOb1Q4e0yNeNNTQ==
+SHA1-Digest: Zm5uDlHQxCtLRmnKB0rmya8moOE=
 
 Name: WEB-INF/lib/commons-configuration-1.6.jar
-MD5-Digest: qJ/WEMwI10MmtCvtSpSFnw==
-SHA1-Digest: r5MrZxT8kp0sw9GGDDVsmYiTZmM=
+MD5-Digest: mbf052XjhHQMS3eRnkZW8A==
+SHA1-Digest: 1J3v+vW9Cbb3PDM12Zzdi+E4az8=
 
 Name: WEB-INF/lib/commons-exec-1.0.1.jar
-MD5-Digest: tww8WnBZbRvOiQsOuYAfkw==
-SHA1-Digest: PYBZ6bTwJQ6JkdTcpuHLlnj+Nnk=
+MD5-Digest: YIdEtYCZwffxuCCSN8W39Q==
+SHA1-Digest: Pdzj0+aCGq2TkyQwKXJ3wJUMybY=
 
 Name: WEB-INF/lib/commons-fileupload-1.2.1.jar
-MD5-Digest: zHcklCjZCpGXPu/mx5yWug==
-SHA1-Digest: ISUb1B0DZy/Mt1O5LKBzhgCapYU=
+MD5-Digest: C0hjVN1N3q9VvuuGmnoWig==
+SHA1-Digest: iCrcudqPZuXEjkSsdO23YmARXX8=
 
 Name: WEB-INF/lib/commons-httpclient-3.1.jar
-MD5-Digest: v/Cf0PEYKDR1HB5HSKRK2A==
-SHA1-Digest: sxMZM9SSH88iRExNi07EvPEgo8w=
+MD5-Digest: HfYBC0lWB2PNIpQiP0wshg==
+SHA1-Digest: CdeQ3a1xOB1zsuFPr4uACt9/0b8=
 
 Name: WEB-INF/lib/commons-io-1.4.jar
-MD5-Digest: g4ZqDXyVq7AG2ko/qtwzbQ==
-SHA1-Digest: WEVjMdTmG7bIL16CherkrGx0B2k=
+MD5-Digest: wGRaCgD8tFD4cCl7/fMzrg==
+SHA1-Digest: n+pgVrOwKJIxCbBjpG542dR3UiU=
 
 Name: WEB-INF/lib/commons-lang-2.5.jar
-MD5-Digest: 9k9AV3wRcNIgyKiy30UIlg==
-SHA1-Digest: 6Vyo7P1Nw07sr8VZv2utfLkWh84=
+MD5-Digest: 7v9qrMN8KCYMrX3wukfsaA==
+SHA1-Digest: 9sSHk7FFq+xPD1qvxVLTNFt/lbU=
 
 Name: WEB-INF/lib/commons-logging-1.0.4.jar
-MD5-Digest: xT4fyy0Y4JzstX2GCVbA0Q==
-SHA1-Digest: czzrpe/lDTk8bAEKQpBHJ07D3yA=
+MD5-Digest: Ua7LV7LwBHKyNI13YhLhvg==
+SHA1-Digest: kPHhiG+WJt9OCZ3B7+KN6W4wZK4=
 
 Name: WEB-INF/lib/commons-net-2.0.jar
-MD5-Digest: hNmgh623/7UHjOqEnTHlRA==
-SHA1-Digest: gY7bQc+ihNd0CmlCWv2FX+PnlS4=
+MD5-Digest: hw+8/aq2PNhuWT7AGGEM4Q==
+SHA1-Digest: VYB3yyxNmi13P3cGvhcFcXzNwG8=
 
-Name: WEB-INF/lib/drools-compiler-5.3.0.BRMS-ER9.jar
-MD5-Digest: 22WU7X3RtbiALzb5w9EhPQ==
-SHA1-Digest: 36AvH6afxERaT0VSImToqaFUH90=
+Name: WEB-INF/lib/drools-compiler-5.3.0.BRMS.jar
+MD5-Digest: b94aWTNq8dVrPJRE0+Gguw==
+SHA1-Digest: 5uCliF/n2BXpwYvnqZWmx2vvjwQ=
 
-Name: WEB-INF/lib/drools-core-5.3.0.BRMS-ER9.jar
-MD5-Digest: WAT2ZS4PHfkpeLz4D8Yhlg==
-SHA1-Digest: QSgt+lzd0f0F6FDoT2gCqn96yxU=
+Name: WEB-INF/lib/drools-core-5.3.0.BRMS.jar
+MD5-Digest: VEbKj0HHQFQ+nMtWQLgeow==
+SHA1-Digest: /yB6cO9dUmqGVn0FPpfM/9LnEOc=
 
 Name: WEB-INF/lib/ecj-3.5.1.jar
-MD5-Digest: NJKTDoYscpL6WORwjOFrwQ==
-SHA1-Digest: sqSR/Eecozt7h91YOJCIp6EFFlM=
+MD5-Digest: 2pK4EaMbQrHif+M8gOXBOw==
+SHA1-Digest: hiBRZfQfXaC+BUOM5yq/oSDfceA=
 
 Name: WEB-INF/lib/fop-0.95.jar
-MD5-Digest: 1CnQZbtAwUY8pba2wrHCUA==
-SHA1-Digest: cH/Ydry14ac6BvyV0kAOrh7O0mw=
+MD5-Digest: nbdKW9JFQ7EuYwX7GSZtXA==
+SHA1-Digest: cbkAPLgnoRMXEitttKylxDKObzE=
 
 Name: WEB-INF/lib/guava-10.0.1.jar
-MD5-Digest: IHPNIQh/x4IwuB3FWXsNBQ==
-SHA1-Digest: ZWFIrlITplfxrAB4cRdl3n2KCNQ=
+MD5-Digest: 4z0peB6NUM6VExrMVgexSw==
+SHA1-Digest: dnjISe2zPQRhNlY5X6pgpmoWvhI=
 
 Name: WEB-INF/lib/jackson-core-asl-1.7.4.jar
-MD5-Digest: OAkeN8wRyIQtYZgFC6R6bw==
-SHA1-Digest: wuD7nTwJrToWgbUpDd2M9mps66s=
+MD5-Digest: 4MgTnVSLskm3lmaPjnFVag==
+SHA1-Digest: C2UrQXl52YlUvv42In+UWVIWbbw=
 
 Name: WEB-INF/lib/jackson-mapper-asl-1.7.4.jar
-MD5-Digest: i+OoimsgonvKg3HK6fAdQw==
-SHA1-Digest: fRed8OQRi2GGbcJDWKXGdLvUZXA=
+MD5-Digest: 2RPHM8fRC47gy87Zy/7JZQ==
+SHA1-Digest: IKOAmb/ICDkn+/BpBTtipGFG8pE=
 
 Name: WEB-INF/lib/jarjar-1.1.jar
-MD5-Digest: fS8VEhNOOthdP+3Apl9W9g==
-SHA1-Digest: g8FyqaECNKSvWlFs74j9d1MiT8w=
+MD5-Digest: aQwOL+IOqaep6z+aJ5UfUg==
+SHA1-Digest: 2VxzIll5/CXqBVPUWjT4SUFi24Q=
 
 Name: WEB-INF/lib/jaxb-impl-2.2.jar
-MD5-Digest: 6QlyIsXbBWHiMvRH7z+YZA==
-SHA1-Digest: iZIprTIzvuCVT6sDL5yIZCvSb1A=
+MD5-Digest: efdmXaOlBT1zca7Spp4kig==
+SHA1-Digest: K+MEgSF7gsjXu6CacG4jGT7cPi4=
 
 Name: WEB-INF/lib/jaxb1-impl-2.2.jar
-MD5-Digest: k3gRtO+IXRQJFncHPWzoBQ==
-SHA1-Digest: 2syq/Pssgjifm36jzSUIHEgkviw=
+MD5-Digest: /wXBpnjE5Ej5YIKH6L7DTA==
+SHA1-Digest: XN4s5wIf31Us1GVoFzhJsvoKy84=
 
-Name: WEB-INF/lib/jbpm-bpmn2-5.3.0.BRMS-ER9.jar
-MD5-Digest: gs/PiuH0IofrO1/41S+QwQ==
-SHA1-Digest: C8ybJwBupvNpja374P0LN/0Ab88=
+Name: WEB-INF/lib/jbpm-bpmn2-5.3.0.BRMS.jar
+MD5-Digest: kMjtw4C6/ABgvVcFmDtJ8Q==
+SHA1-Digest: D6wefENJhGEnKAV6gXp6m0p53p4=
 
-Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.0.BRMS-ER9.jar
-MD5-Digest: VNutyTq6XQzMNo6O6zkJmQ==
-SHA1-Digest: rSxRT39lhFGT5AT8oGhP0hZlurs=
+Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.0.BRMS.jar
+MD5-Digest: 0xxVV1v0xhdEnooUswTRuQ==
+SHA1-Digest: YXX8LW9avf5WQ+Lj0itXEQDdzKE=
 
-Name: WEB-INF/lib/jbpm-flow-5.3.0.BRMS-ER9.jar
-MD5-Digest: y/4IczxgFykxfSj8wVFh7A==
-SHA1-Digest: K1sm80GLKp2wIZgl59XFJRFYFms=
+Name: WEB-INF/lib/jbpm-flow-5.3.0.BRMS.jar
+MD5-Digest: HO0EfZtklVQkM7aJn5+riA==
+SHA1-Digest: RLqvHVNeVk9D6AYXL1gywt8ejPk=
 
-Name: WEB-INF/lib/jbpm-flow-builder-5.3.0.BRMS-ER9.jar
-MD5-Digest: 6k5Km4tQrw20ulCLxk775w==
-SHA1-Digest: ZyRiiygdAFl+dq6HzUhz6L1oTh0=
+Name: WEB-INF/lib/jbpm-flow-builder-5.3.0.BRMS.jar
+MD5-Digest: fy5PM112k56VqsEWh6pB0A==
+SHA1-Digest: z/PKFb72LwPUvNG72GrmQtA6Uso=
 
-Name: WEB-INF/lib/jbpm-workitems-5.3.0.BRMS-ER9.jar
-MD5-Digest: R2rU35kUUrhx1HwlQ0Jwag==
-SHA1-Digest: Q8IZsdLnG/gzOdHSwAWqEUEYsJ4=
+Name: WEB-INF/lib/jbpm-workitems-5.3.0.BRMS.jar
+MD5-Digest: JeQGjqcDz91m4WG8oPXiag==
+SHA1-Digest: Fa15XsGjbPOTJbRmmOFQSI0gzRk=
 
 Name: WEB-INF/lib/jbpmmigration-0.11.jar
 MD5-Digest: 2rj6scmx+YazKDH7FUfdzw==
 SHA1-Digest: 9FmhMGBjacCSo7DX1ZsG/SH2YJ0=
 
 Name: WEB-INF/lib/jbpt-0.1.0.jar
-MD5-Digest: PFnsIVJZu5cUpp2MwrYYyw==
-SHA1-Digest: lHO+FNyUY6HAy+e7AP/j5LuPPlE=
+MD5-Digest: vqjbAtXGaDUM8gmJ5gK11A==
+SHA1-Digest: oCcUnJ4bFJY3CXw/At1YI1vL1hA=
 
 Name: WEB-INF/lib/jdom-1.1.jar
-MD5-Digest: 5JU85yWdpi4ZqFD9hddNVg==
-SHA1-Digest: snYQYRvMwjeX41qLhOGBacxdNpw=
+MD5-Digest: 2QuRu/YmwQDAkoue+5TzqQ==
+SHA1-Digest: uZeI271F/N+5+7+V/6qdeSsOkrw=
 
 Name: WEB-INF/lib/js-1.7R2.jar
-MD5-Digest: hA0fYKph8LJ4zeCxvX3M0Q==
-SHA1-Digest: xwxNaIdk644AOa3/l4shogrubdY=
+MD5-Digest: Iio0LB7+1BRuexo7DZRwQA==
+SHA1-Digest: imrqB95ur9rUMiuZtfDKd5INoPw=
 
 Name: WEB-INF/lib/json-20090211.jar
-MD5-Digest: JkNNIdWgOBm+0cOclIAxKA==
-SHA1-Digest: ucZP667Mg17Vz2+an6G7NY8cB0I=
+MD5-Digest: KU5B86mzOCg7TGt28y0r+w==
+SHA1-Digest: Xr1sJXMHQMsiVh8hcMWsQOrSjoY=
 
 Name: WEB-INF/lib/jsr305-1.3.9.jar
-MD5-Digest: lgYnsUERkNTYQbN0t3wa1Q==
-SHA1-Digest: BZULX4HVSj3yTAjDLWfLLEndaSU=
+MD5-Digest: ylxUkt77wspqZsyLSPscSQ==
+SHA1-Digest: ykfgZqen/Z8BBi+VEQ2vzMhMEEM=
 
-Name: WEB-INF/lib/knowledge-api-5.3.0.BRMS-ER9.jar
-MD5-Digest: m258BFgrKylCQYkkxKQ1ow==
-SHA1-Digest: qO6+V4hijNrUMwIQ1mCCLiavNgk=
+Name: WEB-INF/lib/knowledge-api-5.3.0.BRMS.jar
+MD5-Digest: nWfGQ2ZpgHWUg9OS5uUTlQ==
+SHA1-Digest: pAI2fhJY167JgORSl5KsGv1BEh4=
 
 Name: WEB-INF/lib/log4j-over-slf4j-1.5.8.jar
-MD5-Digest: asw3mKBc7fESnTOJH+LpmQ==
-SHA1-Digest: eAKl/DpljUWzxuAozFP3j3HISZ0=
+MD5-Digest: L9yMEVjJc0vJq6RM6BlyPw==
+SHA1-Digest: smFa9y4pbwE+xjDGbjt2BcGI8Z4=
 
 Name: WEB-INF/lib/mail-1.4.1.jar
-MD5-Digest: 7M6DdMAkRUYfkiy0cG3woQ==
-SHA1-Digest: RcFSgWr9fsyN2yhpJ7cyXq0ZoBc=
+MD5-Digest: jQGzsosq/A8EDrkB8bdyYQ==
+SHA1-Digest: Gyrr32HHFy81J1hq9PAh0L31odw=
 
 Name: WEB-INF/lib/mvel2-2.1.0.drools16.jar
 MD5-Digest: sYMYCqghTwQ3WGx+Dl/MDA==
 SHA1-Digest: 3LsNTkLiycgkiBg4LF93GrqaRYY=
 
 Name: WEB-INF/lib/org.eclipse.bpmn2-0.7.0.010.jar
-MD5-Digest: RPSV1ykmqJU7GsTKBAdYcA==
-SHA1-Digest: msneqMgMH5UaL+2Twiupp8lVNgA=
+MD5-Digest: EbjQpcBWm+QLEEYLnZ40Rg==
+SHA1-Digest: 97L/TKK/VUsdjGyrl0aDlSn2JlA=
 
 Name: WEB-INF/lib/org.eclipse.emf.common-2.6.0.v20100614-1136.jar
-MD5-Digest: Iau214luWBsw8Ifm5Wb9tA==
-SHA1-Digest: qsPpIGEv3NB2URfNAjeCFX+R6NE=
+MD5-Digest: 50ozPoM5+u5jM/bWiVjAQA==
+SHA1-Digest: Rq9cjkS+bvYOcNkBNW7VtOUwXUQ=
 
 Name: WEB-INF/lib/org.eclipse.emf.ecore-2.6.0.v20100614-1136.jar
-MD5-Digest: LMiv2oZ/IYZSags7XcomKA==
-SHA1-Digest: tXimOQ80c40KteROcn89sP8fIHM=
+MD5-Digest: Fg2qEe/4VMBMIf8+FXuGuA==
+SHA1-Digest: kyXnOis619J06yoJNlN9LOr/vNk=
 
 Name: WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846.jar
-MD5-Digest: ZvfiybwnJtbIL+rapV/j5A==
-SHA1-Digest: FJjee2Iy44+soYsylVmPCP7r70E=
+MD5-Digest: aI7McDWr3pn70nNSyuOnGA==
+SHA1-Digest: RH9rageBrJmNxllBYSSfBFmWKBE=
 
 Name: WEB-INF/lib/osgi-3.5.0.v20090520.jar
-MD5-Digest: 5izV9LtV2kEEF+/TOmcbKg==
-SHA1-Digest: 1/usT5Uoe+ROWvM7HHnge9rGW9M=
+MD5-Digest: e+5IRvPGJp+y1dbP5L/Hlg==
+SHA1-Digest: cood8ONMAcG9u1kL1Z3PybP0bJE=
 
 Name: WEB-INF/lib/protobuf-java-2.4.1.jar
-MD5-Digest: xf7Mi7l8prXuDLuhN9Z6OQ==
-SHA1-Digest: ynEv/Lnr0zZATbbXpwOT3gV0MsI=
+MD5-Digest: sGLcHRur79ta840nxi2dYQ==
+SHA1-Digest: TxR8oNAeERpqMhuoKy3ZSWI0ZLg=
 
 Name: WEB-INF/lib/rome-0.9.jar
-MD5-Digest: qLIHDvcb8RDkO8YXgC4OwQ==
-SHA1-Digest: rXxFiq0nocUCcM1x0hK5tcDiEiA=
+MD5-Digest: qqraDy0PaEOJqSoZcdlArg==
+SHA1-Digest: duiKhYboGr1MHTptLKABo7aa6fk=
 
 Name: WEB-INF/lib/serializer-2.7.1.jar
-MD5-Digest: J7JUY5ngmeUtcmwk3I4LKg==
-SHA1-Digest: IxG6PTOglef3dmh7XJnXw/IS8FA=
+MD5-Digest: 7wucm1zot80gQTaLYTbF/A==
+SHA1-Digest: w0pZWu+SsXaF9f4S7yNYKHtRhZA=
 
 Name: WEB-INF/lib/slf4j-api-1.5.8.jar
-MD5-Digest: az1zIXHPeXRKZp5q5FZIvA==
-SHA1-Digest: JewhcEx3Ywl71HYaJuS7rRw8cmA=
+MD5-Digest: 6eyfqAYljzJ9HDYUdEsgjg==
+SHA1-Digest: 0E5dXzLZmDpdx4fMVCZYuZETVf4=
 
 Name: WEB-INF/lib/slf4j-jdk14-1.5.6.jar
-MD5-Digest: D3DsFfohniPkCmoxuKtaTg==
-SHA1-Digest: KhcWQsBcvnd6yYjcKapRTDF4Kcw=
+MD5-Digest: ULTbR+6Zs43/Bm29WAjXDQ==
+SHA1-Digest: BKkA4CllGtzvPBBzMrSZ9MeG6DI=
 
 Name: WEB-INF/lib/smack-3.0.4.jar
-MD5-Digest: sXt48fNSDBty39Ixru5Img==
-SHA1-Digest: FZ7XJsc+Tr4wvtUcfHQjC4R3nKA=
+MD5-Digest: tWUjrIHFkhEDHesKlLAJsA==
+SHA1-Digest: TYuE0HdRTbAbwqFO0yuPN8TZYCU=
 
 Name: WEB-INF/lib/stringtemplate-3.2.1.jar
-MD5-Digest: ppQLZDt3SgOTOmFO/fhyCQ==
-SHA1-Digest: DRkwn52QLhh6LU7wxhIcqk5pIBs=
+MD5-Digest: MkoJlTV3ZmBGtF05B9kEbQ==
+SHA1-Digest: 5vuAejM+9PwdemwTF38gg+sUu0E=
 
 Name: WEB-INF/lib/velocity-1.6.4.jar
-MD5-Digest: BqstoOWGsZExg7nw+X5iSg==
-SHA1-Digest: x25E1u9niqWgBnMgpZmehX/a3jI=
+MD5-Digest: TzhxeXeysDsziOJdaK6n6g==
+SHA1-Digest: btrss8EGiHMiAX2QvtY/ZEi8SFE=
 
 Name: WEB-INF/lib/xalan-2.7.1.jar
-MD5-Digest: 1KPVl2sWcOZQrT/CrWyOQQ==
-SHA1-Digest: Byu2qV6HUHX8S2zDdVXEkQqbTTk=
+MD5-Digest: 2Xe6eOIe5fmah66DlIveeA==
+SHA1-Digest: Cc4ZEEo+8KBM8HKEEE6flhHs+wA=
 
 Name: WEB-INF/lib/xercesImpl-2.9.1.jar
-MD5-Digest: 1hj8vmWjGzyoxE6I3IUAtA==
-SHA1-Digest: wPwRYwTY64ZaWQt53aASylMrGOU=
+MD5-Digest: GLGudFpCQ3+iG2ZOEAbY9g==
+SHA1-Digest: rtjXmH+rIIYEUCnkv9R/IGXQ/8M=
 
 Name: WEB-INF/lib/xmappr-0.9.3.jar
-MD5-Digest: 3tq7qp8lRV8cNTjtfiopQQ==
-SHA1-Digest: xJlG8VIeOr7XRa5a+hCn+Ogo5Ro=
+MD5-Digest: sLc6ttrd/oSm3Jtnm2UbLg==
+SHA1-Digest: KExR/+BvTAFg+duvkDMw71O3g28=
 
 Name: WEB-INF/lib/xml-apis-1.3.04.jar
-MD5-Digest: KDz6drYflwkrU3YhZyc7CA==
-SHA1-Digest: Crm5fPfpLgXJ/TL6sXa3yH9LRN0=
+MD5-Digest: fjKIPqvIjJZ5E4j7TLmB0A==
+SHA1-Digest: QVVHVc5EB/UjQdDkbklcfLAWSnU=
 
 Name: WEB-INF/lib/xmlParserAPIs-2.0.2.jar
-MD5-Digest: IaxX5YcoCYwc0cIk1DyB2A==
-SHA1-Digest: qvHNbkNz7aJSQDyd35p1xHwl8x4=
+MD5-Digest: zgiNhBLsFJSg45/W3KM4WQ==
+SHA1-Digest: 87jAkKs/I04pZfvl+mxhhuF3EIg=
 
 Name: WEB-INF/lib/xmlgraphics-commons-1.4.jar
-MD5-Digest: dpHwfFWHQNSCKLIz3dGdIw==
-SHA1-Digest: eYOqohA0H/Oek+RWrVhIkxrll0A=
+MD5-Digest: JAas8Hhwg9IU33CLmP8d/w==
+SHA1-Digest: cp6hgxCDzHrhQVHQxqcgG70GTCc=
 
 Name: WEB-INF/lib/xstream-1.3.1.jar
-MD5-Digest: bNeIW61BxHkIFBLzBUYHxA==
-SHA1-Digest: ZsGQUxaCifQARhlCNzOC0up0Kmw=
+MD5-Digest: LKj+KjPQ5A6xihvbzU5Zzw==
+SHA1-Digest: KVO/fgLC1e+V6eN9bg7ZYOPcRLo=
 
 Name: WEB-INF/web.xml
 MD5-Digest: bPCkvB5m3wwfKaSu/poKnQ==

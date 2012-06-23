@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.drools</groupId>
   <artifactId>process-designer</artifactId>
-  <version>2.2.0-DEV</version>
+  <version>2.2.1.Final</version>
   <packaging>war</packaging>
   
   <description>Designer</description>
@@ -25,14 +24,15 @@
   
   <scm>
   	<connection>scm:git:git@github.com:tsurdilo/process-designer.git</connection>
-    <developerConnection>scm:git:git@github.com:tsurdilo/process-designer.git</developerConnection>
     <url>https://github.com/tsurdilo/process-designer</url>
+    <developerConnection>scm:git:git@github.com:tsurdilo/process-designer.git</developerConnection>
+    <tag>2.2.1.Final</tag>
   </scm>
   
   <properties>
     <mvel.version>2.1.0.drools16</mvel.version>
-    <drools.version>5.3.0.BRMS-ER9</drools.version>
-    <jbpm.version>5.3.0.BRMS-ER9</jbpm.version>
+    <drools.version>5.3.0.BRMS</drools.version>
+    <jbpm.version>5.3.0.BRMS</jbpm.version>
     <batik.version>1.6-1</batik.version>
   </properties>
 
@@ -533,6 +533,11 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.2.1</version>
       </plugin>
     </plugins>
   </build>
