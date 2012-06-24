@@ -18,4 +18,4 @@ if [ ! -d "$OPENSHIFT_DATA_DIR/repository" ]; then
     mkdir $OPENSHIFT_DATA_DIR/repository
     echo Done!
 fi
-JAVA_OPTS="$JAVA_OPTS -Doryx.external.host=$OPENSHIFT_INTERNAL_IP:$OPENSHIFT_INTERNAL_PORT -Doryx.external.usr=admin -Doryx.external.pwd=brms"
+#JAVA_OPTS="$JAVA_OPTS -Doryx.external.host=$OPENSHIFT_INTERNAL_IP:$OPENSHIFT_INTERNAL_PORT -Doryx.external.usr=admin -Doryx.external.pwd=brms"
