@@ -12,3 +12,10 @@
 # prevent your application from stopping cleanly or starting at all.
 # Application start and stop is subject to different timeouts
 # throughout the system.
+echo Checking for jackrabbit repo...
+if [ ! -d "$OPENSHIFT_DATA_DIR/repository" ]; then
+    echo Did not find repo. Creating: $OPENSHIFT_DATA_DIR/repository
+    mkdir $OPENSHIFT_DATA_DIR/repository
+    echo Done!
+fi
+#JAVA_OPTS="$JAVA_OPTS -Doryx.external.host=$OPENSHIFT_INTERNAL_IP:$OPENSHIFT_INTERNAL_PORT -Doryx.external.usr=admin -Doryx.external.pwd=brms"
