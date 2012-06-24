@@ -38,6 +38,7 @@
     <!-- <plugin name="ORYX.Plugins.ServiceNodeEditor"/> -->
     <plugin name="ORYX.Plugins.NodeXMLViewer"/>
     <plugin name="ORYX.Plugins.Theme"/>
-    <externalloadurl protocol="http" host="localhost:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="admin"/>
+    <!-- TODO: use environment variables. jboss-brms.war failed to deploy after passing oryx.* system variables with JAVA_OPTS! Need to look into that -->
+    <externalloadurl protocol="http" host="127.4.31.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/>
   </profile>
 </profiles>
