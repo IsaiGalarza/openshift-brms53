@@ -40,6 +40,6 @@
     <plugin name="ORYX.Plugins.Theme"/>
     <!-- TODO: use environment variables. jboss-brms.war failed to deploy after passing oryx.* system variables with JAVA_OPTS! Need to look into that -->
     <!-- externalloadurl protocol="http" host="127.4.31.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/ -->
-		<externalloadurl protocol="http" host="${OPENSHIFT_APP_DNS}:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/>
+		<externalloadurl protocol="http" host="brms53-onthe.rhcloud.com:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/>
   </profile>
 </profiles>
