@@ -11,9 +11,9 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a jbossas-7.0 application
+Create a jbosseap-6.0 application
 
-    rhc app create -a brms53 -t jbossas-7.0
+    rhc app create -a brms53 -t jbosseap-6.0
 
 Add this upstream openshift-brms53 repo.
 
