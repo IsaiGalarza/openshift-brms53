@@ -38,8 +38,7 @@
     <!-- <plugin name="ORYX.Plugins.ServiceNodeEditor"/> -->
     <plugin name="ORYX.Plugins.NodeXMLViewer"/>
     <plugin name="ORYX.Plugins.Theme"/>
-    <!-- TODO: use environment variables. jboss-brms.war failed to deploy after passing oryx.* system variables with JAVA_OPTS! Need to look into that -->
-    <!-- externalloadurl protocol="http" host="127.4.31.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/ -->
-		<externalloadurl protocol="http" host="brms53-onthe.rhcloud.com:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/>
+		<!-- TODO: update host by ssh into your instance, run cmd 'export' and locate variable OPENSHIFT_INTERNAL_IP, fill in for host.  -->
+    <externalloadurl protocol="http" host="127.8.133.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/ -->
   </profile>
 </profiles>
