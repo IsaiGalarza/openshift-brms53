@@ -51,7 +51,7 @@ environment variables, on TODO list. For now you can find it in the UUID display
     Framework: jbossas-7
     Creation: 2012-06-24T08:44:30-04:00
     UUID: [some-big-number-here]
-    Git URL: ssh://669390da10374198ba87862d87aca1ef@brms53-onthe.rhcloud.com/~/git/brms53.git/
+    Git URL: ssh://[some-big-number-here]@brms53-onthe.rhcloud.com/~/git/brms53.git/
     Public URL: http://brms53-$your_domain.rhcloud.com/
     Embedded: None
 
@@ -65,8 +65,8 @@ configured only jboss-brms.war to deploy automatically. After jboss-brms.war is 
 'designer.war.dodeploy.delayed' to 'designer.war.dodeploy' to trigger the deployment of the designer app.
 
     $ ssh [UUID]@brms53-$your_domain.rhcloud.com
-    $ mv brms53/jbossas-7/standalone/deployments/designer.war.dodeploy.delayed     \
-        brms53/jbossas-7/standalone/deployments/designer.war.dodeploy
+    $ mv brms53/jbosseap-6.0/standalone/deployments/designer.war.dodeploy.delayed  /
+         brms53/jbosseap-6.0/standalone/deployments/designer.war.dodeploy
 
 You should see the web designer war deploy if you are watching the logs:
 
