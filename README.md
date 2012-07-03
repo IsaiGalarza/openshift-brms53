@@ -80,3 +80,5 @@ That is really it now, once it starts up your BRMS 5.3 product is available at:
 
     http://brms53-$your_domain.rhcloud.com/jboss-brms
 
+Finally, you can import the demo application by importing the file import_demo_to_brms.zip into the Administration -> Import Export
+tab from the console.
