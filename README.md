@@ -57,8 +57,12 @@ environment variables, on TODO list. For now you can find it in the UUID display
 
 So in this case, need to add in the UUID number to the componets.xml.
 
-2) You need modify the host ip in profiles/jbpm.xml in designer.war It should have the value of. $OPENSHIFT_INTERNAL_IP. 
-Again the variable did not resolve, so had to hard code, on TODO list.
+2) You need modify the host ip in profiles/jbpm.xml in designer.war It should have the value of $OPENSHIFT_INTERNAL_IP, which you
+can find by ssh'ing into the instance, then running cmd 'export' to find variable. Put that value in the host attribute:
+
+				<!-- update host, ssh into instance, run cmd 'export', locate variable OPENSHIFT_INTERNAL_IP, fill in for host.  -->
+        <externalloadurl protocol="http" host="127.8.133.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin"
+        pwd="brms"/ -->
 
 3) Due to memory issues, deploying jboss-brms.war and designer.war at the same time doesn't work. So by default, we have
 configured only jboss-brms.war to deploy automatically. After jboss-brms.war is deployed, you need to rename the file 
