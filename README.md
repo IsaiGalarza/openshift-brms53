@@ -42,14 +42,23 @@ Some steps:
 
 1) You need to specify the jackrabbit repo location in components.xml of jboss-brms.war. 
    It should be configured to use Openshift environment variables, on TODO list.
-   For now need to check logs with your git push for these lines:
+   For now you can find it in the UUID displayed in this command:
 
-  remote: Emptying tmp dir: /var/lib/stickshift/669390da10374198ba87862d87aca1ef/brms53/jbossas-7/standalone/tmp/auth
-  remote: Emptying tmp dir: /var/lib/stickshift/669390da10374198ba87862d87aca1ef/brms53/jbossas-7/standalone/tmp/vfs
-  remote: Emptying tmp dir: /var/lib/stickshift/669390da10374198ba87862d87aca1ef/brms53/jbossas-7/standalone/tmp/work
-  remote: Syncing Git deployments directory [/var/lib/stickshift/669390da10374198ba87862d87aca1ef/app-root/runtime/repo//deployments/]
+   $ rhc app show -a brms5.3
+   
+   Application Info
+   ================
+   brms53
+    Framework: jbossas-7
+     Creation: 2012-06-24T08:44:30-04:00
+         UUID: [some-big-number-here]
+      Git URL: ssh://669390da10374198ba87862d87aca1ef@brms53-onthe.rhcloud.com/~/git/brms53.git/
+   Public URL: http://brms53-$your_domain.rhcloud.com/
 
-  So in this case, need to add in the number following 'stickshift' to the componets.xml.
+   Embedded: 
+      None
+
+  So in this case, need to add in the UUID number to the componets.xml.
 
 2) You need modify the host ip in profiles/jbpm.xml in designer.war It should have the value of. $OPENSHIFT_INTERNAL_IP. 
    Again the variable did not resolve, so had to hard code, on TODO list.
@@ -57,6 +66,14 @@ Some steps:
 3) Due to memory issues, deploying jboss-brms.war and designer.war at the same time doesn't work. So by default, we have
    configured only jboss-brms.war to deploy automatically. After jboss-brms.war is deployed, you need to rename the file 
    'designer.war.dodeploy.delayed' to 'designer.war.dodeploy' to trigger the deployment of the designer app.
+
+   $ ssh [UUID]@brms53-$your_domain.rhcloud.com
+   $ mv brms53/jbossas-7/standalone/deployments/designer.war.dodeploy.delayed     \
+        brms53/jbossas-7/standalone/deployments/designer.war.dodeploy
+
+   You should see the web designer war deploy if you are watching the logs:
+
+   $ rhc-tail-files -a brms53
 
 That is really it now, once it starts up your BRMS 5.3 product is available at:
 
