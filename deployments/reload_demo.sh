@@ -12,10 +12,6 @@
 # ./[app-name]/jbosseap-6.0/standalone/configuration/reload_demo.sh
 ########################################################
 
-# set delay to wait for deployment.
-#
-sleep_delay="3m"
-
 echo "Setup for delay of BRMS Designer deployment."
 touch designer.war.dodeploy.delayed
 
@@ -23,7 +19,25 @@ echo "In a few minutes the BRMS BRM will be available."
 touch jboss-brms.war.dodeploy
 
 # delay until memory free again.
-sleep $sleep_delay
+sleep 20s
+echo "Wait for it..."
+sleep 20s
+echo "Wait for it..."
+sleep 20s
+echo "Wait for it..."
+sleep 20s
+echo "Almost there..."
+sleep 20s
+echo "Almost there..."
+sleep 20s
+echo "Almost there..."
+sleep 20s
+echo "Just about got it done..."
+sleep 20s
+echo "Are you ready for it..."
+sleep 20s
+echo "Here we go!"
+sleep 3s
 
 # start designer deployment.
 mv designer.war.dodeploy.delayed designer.war.dodeploy
