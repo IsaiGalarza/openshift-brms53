@@ -11,7 +11,7 @@
 # Then you need to execute this script located here:
 # ./[app-name]/jbosseap-6.0/standalone/configuration/reload_demo.sh
 ########################################################
-$deployhome=$HOME/brms53/jbosseap-6.0/standalone/deployments
+$deployhome="{$HOME}/brms53/jbosseap-6.0/standalone/deployments"
 
 echo "Checking if artifacts are already deployed."
 echo
