@@ -15,10 +15,10 @@ $deployhome=$HOME/brms53/jbosseap-6.0/standalone/deployments
 
 echo "Checking if artifacts are already deployed."
 echo
-if [ -e $deploydeployhome/designer.war.deployed ]; then
+if [ -e $deployhome/designer.war.deployed ]; then
 	echo "Found deployed designer.war, undeploying this artifact."
   echo
-	rm $deploydeployhome/designer.war.deployed
+	rm $deployhome/designer.war.deployed
 	sleep 5s
 	echo "Finished with undeploy!"
 	echo
