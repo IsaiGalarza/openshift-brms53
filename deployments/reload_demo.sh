@@ -11,23 +11,26 @@
 # Then you need to execute this script located here:
 # ./[app-name]/jbosseap-6.0/standalone/configuration/reload_demo.sh
 ########################################################
-$deployhome="{$HOME}/brms53/jbosseap-6.0/standalone/deployments"
+$deploy="./brms53/jbosseap-6.0/standalone/deployments"
+
+# start in the home dir.
+cd $OPENSHIFT_HOMEDIR
 
 echo "Checking if artifacts are already deployed."
 echo
-if [ -e $deployhome/designer.war.deployed ]; then
+if [ -e $deploy/designer.war.deployed ]; then
 	echo "Found deployed designer.war, undeploying this artifact."
   echo
-	rm $deployhome/designer.war.deployed
+	rm $deploy/designer.war.deployed
 	sleep 5s
 	echo "Finished with undeploy!"
 	echo
 fi
 
-if [ -e $deployhome/jboss-brms.war.deployed ]; then
+if [ -e $deploy/jboss-brms.war.deployed ]; then
 	echo "Found deployed jboss-brms.war, undeploying this artifact."
   echo
-	rm $deployhome/jboss-brms.war.deployed
+	rm $deploy/jboss-brms.war.deployed
 	sleep 4s
 	echo "Waiting for undeploy to finish..."
 	sleep 4s
@@ -38,14 +41,14 @@ if [ -e $deployhome/jboss-brms.war.deployed ]; then
 fi
 
 echo "Setup for delay of BRMS Designer deployment."
-touch $deployhome/designer.war.dodeploy.delayed
+touch $deploy/designer.war.dodeploy.delayed
 echo
 
 echo "In a few minutes the BRMS BRM will be available."
-if [ -e $deployhome/jboss-brms.war.undeployed ]; then
-	mv $deployhome/jboss-brms.war.undeployed $deployhome/jboss-brms.war.dodeploy
+if [ -e $deploy/jboss-brms.war.undeployed ]; then
+	mv $deploy/jboss-brms.war.undeployed $deploy/jboss-brms.war.dodeploy
 else
-	touch $deployhome/jboss-brms.war.dodeploy
+	touch $deploy/jboss-brms.war.dodeploy
 fi
 echo
 
@@ -74,7 +77,7 @@ echo
 sleep 3s
 
 # start designer deployment.
-mv $deployhome/designer.war.dodeploy.delayed $deployhome/designer.war.dodeploy
+mv $deploy/designer.war.dodeploy.delayed $deploy/designer.war.dodeploy
 
 echo "In a few minutes the BRMS Designer will be available."
 echo
