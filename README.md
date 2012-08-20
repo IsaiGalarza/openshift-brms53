@@ -76,6 +76,12 @@ You should see the web designer war deploy if you are watching the logs:
 
     $ rhc-tail-files -a brms53
 
+4) I have added a deployments/reload_demo.sh script that you can run to reset the deployed artifacts as they sometimes fail due to
+memory constraints. Just execute the following script and wait for it to complete:
+
+    $ ssh [UUID]@brms53-$your_domain.rhcloud.com
+		$ ./brms53/jbosseap-6.0/standalone/deployments/reload_demo.sh
+
 That is really it now, once it starts up your BRMS 5.3 product is available at:
 
     http://brms53-$your_domain.rhcloud.com/jboss-brms
