@@ -11,7 +11,7 @@
 # Then you need to execute this script located here:
 # ./[app-name]/jbosseap-6.0/standalone/configuration/reload_demo.sh
 ########################################################
-$deploy="./brms53/jbosseap-6.0/standalone/deployments"
+deploy="brms53/jbosseap-6.0/standalone/deployments"
 
 # start in the home dir.
 cd $OPENSHIFT_HOMEDIR
