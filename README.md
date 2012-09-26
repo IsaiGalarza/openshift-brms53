@@ -13,7 +13,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application
 
-    rhc app create -a brms53 -t jbosseap-6.0
+    rhc app create -a brms53 -t jbosseap-6.0 -g medium -s
 
 Add this upstream openshift-brms53 repo.
 
@@ -43,7 +43,7 @@ Some steps:
 1) You need to specify the jackrabbit repo location in components.xml of jboss-brms.war.  It should be configured to use Openshift
 environment variables, on TODO list. For now you can find it in the UUID displayed in this command:
 
-    rhc app show -a brms5.3
+    rhc app show -a brms53
    
     Application Info
     ================
