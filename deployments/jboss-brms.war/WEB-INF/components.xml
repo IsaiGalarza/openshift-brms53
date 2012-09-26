@@ -21,7 +21,7 @@
             <key>org.drools.repository.configurator</key><value>org.drools.repository.jackrabbit.JackrabbitRepositoryConfigurator</value>
             <!--  the root directory for the repo storage the directory must exist. -->
 		<!-- TODO: remove hardcoded path. Need to couple it to the OPENSHIFT_DATA_DIR variable-->
-            <key>repository.root.directory</key><value>/var/lib/stickshift/ee5252233327455285a73c4dcb7d458f/app-root/data/repository</value>
+            <key>repository.root.directory</key><value>/var/lib/stickshift/2c94f3504994417abb8730fe8adb18f/app-root/data/repository</value>
         </property>
 
         <!-- ModeShape 
