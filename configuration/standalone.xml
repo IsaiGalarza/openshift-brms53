@@ -15,7 +15,7 @@
         <extension module="org.jboss.as.jaxr"/>
         <extension module="org.jboss.as.jaxrs"/>
         <extension module="org.jboss.as.jdr"/>
-        <extension module="org.jboss.as.jmx"/>
+        <extension module="org.jboss.as.jmx"/>/
         <extension module="org.jboss.as.jpa"/>
         <extension module="org.jboss.as.jsr77"/>
         <extension module="org.jboss.as.logging"/>
