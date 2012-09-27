@@ -4,7 +4,7 @@ Build-Jdk: 1.6.0_33
 Built-By: mockbuild
 Bundle-Name: Process Designer
 Bundle-SymbolicName: designer
-Bundle-Version: 2.2.1.Final
+Bundle-Version: 2.3.1-DEV
 Created-By: Apache Maven
 
 Name: META-INF/BPMN20.xsd
@@ -15,13 +15,13 @@ Name: META-INF/LICENSE
 MD5-Digest: vzDFOcN8XoaGOHxut1k7ow==
 SHA1-Digest: 1KjBNzwSO6XX1GxLX4LxfP0/X4Q=
 
-Name: META-INF/maven/org.jboss.drools/process-designer/pom.properties
-MD5-Digest: hmU6SBubVnzIKoa0WhAOkA==
-SHA1-Digest: 9GSM1g8hU8n3mi6hzy0JzpiiDmk=
+Name: META-INF/maven/org.jboss.drools/jbpm-designer/pom.properties
+MD5-Digest: sJkdjEB5nJKoZPHbJefZRA==
+SHA1-Digest: BCrqSJGTnx2eCfexqGnGnPKzMzk=
 
-Name: META-INF/maven/org.jboss.drools/process-designer/pom.xml
-MD5-Digest: bUiV3gMkTQXKSLrDBysO1Q==
-SHA1-Digest: 1fQ+JMJz5yuCsFKMXp/wKoBgRoI=
+Name: META-INF/maven/org.jboss.drools/jbpm-designer/pom.xml
+MD5-Digest: fiUb0NsQy/K4Jc8GNWgEyw==
+SHA1-Digest: ZRY9v8b2tUv+Y9UZpYvzmyHA5zw=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/BpmnMarshallerHelper.cla
  ss
@@ -34,13 +34,13 @@ SHA1-Digest: aYwhGzkAqMtZU+164VUFInIExbY=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/impl/Bpmn2JsonMarshaller
  .class
-MD5-Digest: 2pGRzXQaOQtgKD7vKxEz6g==
-SHA1-Digest: sBSt6weEP/eRAmy1MzV3TJuMjOw=
+MD5-Digest: NsgE+VnTHF1U/W/0F5W+tA==
+SHA1-Digest: HPjPC9Gu245gzkomPmFVoBn40t0=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/impl/Bpmn2JsonUnmarshall
  er.class
-MD5-Digest: ryo+btAdPzlSkOFxlLDTVg==
-SHA1-Digest: YSfcpcF5ZwVJDGEUcciBUZfxvyI=
+MD5-Digest: BItM0Q/JzSSy2x7ENECkzQ==
+SHA1-Digest: O3JHpcEGACOPlGDsxBLUllpRQ9Q=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/resource/JBPMBpmn2Resour
  ceFactoryImpl.class
@@ -69,8 +69,8 @@ SHA1-Digest: c9XCEi4oWciVhWdfFZvVTxUSqnA=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/validation/BPMN2SyntaxCh
  ecker.class
-MD5-Digest: 2oDFLwiW/ZkqQ9qax6zgGg==
-SHA1-Digest: RbITYpLJXU7BxSqWMPvWPui9I8A=
+MD5-Digest: Dp+w6TRPxb1XBTJ8Q9vcEA==
+SHA1-Digest: irEHmwwMcSacSmCu3N/yje1Gl6Q=
 
 Name: WEB-INF/classes/org/jbpm/designer/bpmn2/validation/SyntaxChecker
  .class
@@ -127,12 +127,12 @@ MD5-Digest: u/xcnPfAcl/Pm90XlKxr6A==
 SHA1-Digest: Bdp35t4ds+tU/zJCT5U1INf4BZw=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EditorHandler.class
-MD5-Digest: AC1dg5knfavGvuWV/9YSig==
-SHA1-Digest: +TrbsA9Ndelr9OxgqIqTijdK2Ds=
+MD5-Digest: 9elo35wWdKeIsIUR8Yh13w==
+SHA1-Digest: izuflgP58BF/ZYTctVdVt0EymTQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/EngineProxy.class
-MD5-Digest: V9WTp9oLepZ1ea4kBdEpQA==
-SHA1-Digest: aUbifSeTR+eoBxHwfK8hdCQNipo=
+MD5-Digest: fTZZ5D4ZcurLfz68it41tg==
+SHA1-Digest: UZRz/b9wJ/SrKV6ttO1+4Kz/v5s=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/MultiDownloader.class
 MD5-Digest: zxkNVxiiILiWariV+B2lQA==
@@ -182,8 +182,8 @@ SHA1-Digest: BBPkXmEpztNq/QxdHbOsrXnnGig=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/SimpleStorageServlet.cl
  ass
-MD5-Digest: oBknJl3KNNS70BLMugdWfw==
-SHA1-Digest: 4o/P3eTCxOUhAVeNPPi0sz70eM0=
+MD5-Digest: bz7LTAcysqBKX4y9PjfR4w==
+SHA1-Digest: xmYurCt4icqkPFILCW4ECHAgEVE=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetExtensionGene
  rator.class
@@ -192,8 +192,8 @@ SHA1-Digest: lu0QD+9DdSwpgmaslKcK5qbqD/o=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetExtensionGene
  ratorServlet.class
-MD5-Digest: R0l3+WuJXVJyOdtrOKrkCw==
-SHA1-Digest: E6heXUPd1ORRwrKnw62VG51xRoM=
+MD5-Digest: MjR6S4h0hGHjHdCH8Dqwhw==
+SHA1-Digest: DCz2bfgpViRI/apzl+7AWm7SGlc=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/StencilSetJSONPServlet.
  class
@@ -231,8 +231,8 @@ SHA1-Digest: 4A2pAQlAcT3FupxbkCVptNDt9Ao=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/diagram/DiagramBuilder.
  class
-MD5-Digest: HQHlgOIdZHoi98xralWKIA==
-SHA1-Digest: 7Eq+sG/2f6rwdtCbB+p4NDYxqEk=
+MD5-Digest: jJM+9EZBRdR0d55j255ZwA==
+SHA1-Digest: mHPktW78tmVWgB2LL5IiX3sFcds=
 
 Name: WEB-INF/classes/org/jbpm/designer/server/diagram/JSONBuilder.cla
  ss
@@ -304,8 +304,8 @@ SHA1-Digest: 7EswJjVJ+pNU9/34WPylhiNeMlc=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/batikprotocolhandler/Guvno
  rParsedURLData.class
-MD5-Digest: XnRSCccDl6dTkQvaj6QVqg==
-SHA1-Digest: KVQMvWGXg/jvdWbzb7NrIPc+0Fg=
+MD5-Digest: iMe45UCu4m6Dl7WYIqBy7A==
+SHA1-Digest: k4sXO6wCLV66AJfMJYx1XnWW+VY=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/batikprotocolhandler/Guvno
  rParsedURLProtocolHandler.class
@@ -369,8 +369,8 @@ SHA1-Digest: znA7P4y88QdObWXFFZL07h4mpbU=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceI
  mpl.class
-MD5-Digest: n6ay62Y11oAwSHO/CoIRtQ==
-SHA1-Digest: P6U6Lc4cGr09nUXlovyz2xdmPAw=
+MD5-Digest: YSOeOVbLP3K7uH6G5zdgvw==
+SHA1-Digest: ljda3oANa2ccqSZogNZIw5ZoKcw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/plugin/impl/PluginServiceS
  ervlet.class
@@ -404,13 +404,13 @@ SHA1-Digest: 5JpB9/EoQ5UgaHF92rmTwd9J3xs=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
  processingUnit$ThemeInfo.class
-MD5-Digest: mp4PhrEJpLGzrYpKlM9oeA==
-SHA1-Digest: FtcpMUTYgFdZ5C/xqpuMFYU04Yk=
+MD5-Digest: vVKdT9SfJ3lf9VOY3wjmYg==
+SHA1-Digest: 6xgd2jo2bVr5OpPBryy69UGq2+U=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/JbpmPre
  processingUnit.class
-MD5-Digest: salJhWW9rDv/+QttSjFhwA==
-SHA1-Digest: ER23uxJuHDEhslsfW+9zAUdOGls=
+MD5-Digest: p3fMrhqj/zSPcJS0ilx8pw==
+SHA1-Digest: +1vlm/YRaxFcJZYd6sv3JDyGnDQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/preprocessing/impl/Preproc
  essingServiceImpl.class
@@ -454,8 +454,8 @@ SHA1-Digest: 6PA2aHCK7x5LWBN2kz5x0aaoKdQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/DefaultProfil
  eImpl.class
-MD5-Digest: MHFY8Da1jDmj49ikAiQJmQ==
-SHA1-Digest: xwYgHMUnf7xeMBawAm7Z1XUwUoA=
+MD5-Digest: wKSZqNPJ7qVOwtw4ONiEBA==
+SHA1-Digest: aHmh798bIBPji/BESOc2dcopqC0=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
  l$1.class
@@ -469,8 +469,8 @@ SHA1-Digest: 0QvRaw8LB1uzWgSSbclDoBZjfgw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/EpnProfileImp
  l.class
-MD5-Digest: 9tNRKbN78g6FRA0qcN156w==
-SHA1-Digest: oyOKqrNoKzL5esp0GYPEROUz168=
+MD5-Digest: MPm3GDmtPUzXtVZW1GdFEg==
+SHA1-Digest: Bzm3Y8L8OohNlHqcxJcRICgh4/Y=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/ExternalInfo.
  class
@@ -489,8 +489,8 @@ SHA1-Digest: pQ5B53VDVeCXZ7JyDzHlWvrWrWQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/JbpmProfileIm
  pl.class
-MD5-Digest: TLy5BsnWwHvKZQpB0t4bUg==
-SHA1-Digest: +STgKDZUZPmOEexH4vvDLnqzpD8=
+MD5-Digest: 0ha5hcBd2ZwP3jgbz6qQxA==
+SHA1-Digest: Mndxl9UXvFo2FxZ/aLkppm+Q9uw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/profile/impl/ProfileServic
  eImpl.class
@@ -519,42 +519,52 @@ SHA1-Digest: pwVAsuP5q+GMtbTqgPWYX/2dnfM=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/repository/impl/UUIDBasedJ
  bpmRepository.class
-MD5-Digest: oCGgB2V7k9ILkZ9A3F2Fgg==
-SHA1-Digest: Af4V1h6kv1Q2luQSVmWENpxKGz8=
+MD5-Digest: yE/hKA5eswUfNzDFlROl2g==
+SHA1-Digest: sdm7Zs5J8/FgBiMstc6bt6otUdg=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/CalledElementServle
  t.class
 MD5-Digest: BoaZjCsEsgsaZMPoZWGdmQ==
 SHA1-Digest: qH6fpDhYpxIV17qhiMtcp9piVQ4=
 
+Name: WEB-INF/classes/org/jbpm/designer/web/server/CustomEditorsServle
+ t.class
+MD5-Digest: hvFE3OEfguJdU0N6/XYOhQ==
+SHA1-Digest: ES6D6sMal3d0N1a6CZEw4AONoZI=
+
 Name: WEB-INF/classes/org/jbpm/designer/web/server/DictionaryServlet.c
  lass
-MD5-Digest: WCzC33/VRCUrMIoJhTC3CQ==
-SHA1-Digest: LJG+O0yGDDUImxe58pNkHBVOE84=
+MD5-Digest: F0LIKQXmww0RNAIgoc3R9w==
+SHA1-Digest: VEEZmJbHyyUBth62ruZGmHZwAiE=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/FileStoreServlet.cl
  ass
 MD5-Digest: ySVIzV28lFm59UMFKZeBiA==
 SHA1-Digest: vabAAqAN/Jt/zzKSkjPbtdK9ydw=
 
+Name: WEB-INF/classes/org/jbpm/designer/web/server/FormWidgetServlet.c
+ lass
+MD5-Digest: ZtZpgQiudmzIedjepLkE6A==
+SHA1-Digest: upxWRlYYmyEqTlIr+GVrVajQ//I=
+
 Name: WEB-INF/classes/org/jbpm/designer/web/server/JbpmServiceReposito
  ryServlet.class
-MD5-Digest: prTRUcqwLfAk05GYroXdlQ==
-SHA1-Digest: JbQ6GQMhUkaogTFN77lxSHRdZZA=
+MD5-Digest: cFyq4II/Pb9Fp6ikFurJmg==
+SHA1-Digest: ks/N0jhlB5l1GF7fUsDKnBh/ouk=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/ProcessDiffServiceS
  ervlet.class
-MD5-Digest: 5Ra4FBqTgH3NQSh8Z5tgIw==
-SHA1-Digest: KnJ54U6eplzPPzSTr3VxZydZAmQ=
+MD5-Digest: EVFQCN+OK3xjTzJm32bOrQ==
+SHA1-Digest: eS/C0P7fVNJdhO0d6GDDf42HJYw=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/ProcessInfoServlet.
  class
-MD5-Digest: zJ7TU4CShdbQukIV9hw14w==
-SHA1-Digest: v9rEEdGlZX4/yjF1K+gl+sDVSN0=
+MD5-Digest: 4HsxFb4S0DvpUjadu4K4Zw==
+SHA1-Digest: yhiCfPbUS6h4hoE3Tw/PNPnQ6Yc=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/ServletUtil.class
-MD5-Digest: rH4D7s3oprdLOh8vJZP76g==
-SHA1-Digest: Vqz5GSFtKI3cLbU8esM5deYw08w=
+MD5-Digest: yHfCaLkLHZIb8LwnM8DNRQ==
+SHA1-Digest: B8NED9fab568MZxmxiCjVwUDd38=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/SyntaxCheckerServle
  t.class
@@ -563,22 +573,22 @@ SHA1-Digest: BUxmWh80eoQbrhSkzcAImpP7oCE=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/TaskFormsEditorServ
  let.class
-MD5-Digest: rwrhUF5V7C4xT9UGgoeahg==
-SHA1-Digest: +f7aY9Ep7P89HLWgKBQvsSqsXi4=
+MD5-Digest: Ft+DNtLNWjhPMlTyuTmv/g==
+SHA1-Digest: vw4XA8p+BBRdkz2R7X5sdFxsmKk=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/TaskFormsServlet.cl
  ass
-MD5-Digest: CcdIotCoSSVwo4uEusA6sg==
-SHA1-Digest: gRutYYPOIqcwPJRZdA1bKbLK65k=
+MD5-Digest: /L+EIlAaknw4erVCABhj2g==
+SHA1-Digest: RAle36o9M6tctQZkPBE5TOAYenQ=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/ThemeServlet.class
-MD5-Digest: s40Q3pUf8WP/RVZVm0c3RQ==
-SHA1-Digest: 6i/oTIabTMP3uEpDi8jrp8tPa4I=
+MD5-Digest: Hz387cT/QLYdJGN174I7TA==
+SHA1-Digest: Mo17Ztc0TG1L8aiPRhp1PE7SQN0=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/TransformerServlet.
  class
-MD5-Digest: d5Mxd/SMURnnu2iZFtRyQw==
-SHA1-Digest: 4UZFb6zjCnjT1p3QJJVM0t6VUCQ=
+MD5-Digest: Tv1tusKBuscElTGPusv96Q==
+SHA1-Digest: dEMGeKZNJ+OKUszOD67efSLp18M=
 
 Name: WEB-INF/classes/org/jbpm/designer/web/server/UUIDBasedRepository
  Servlet$1.class
@@ -630,348 +640,388 @@ MD5-Digest: e12BEQTW7FNlarOVWh+azw==
 SHA1-Digest: 0zlwqyyu4hFiLZRGb9tDyU/+3wo=
 
 Name: WEB-INF/lib/SuperCSV-1.52.jar
-MD5-Digest: EhxgvOWPmeHwvyP59I8IvA==
-SHA1-Digest: yc1deESRZNNidVwtP1gEgBSVMjU=
+MD5-Digest: gbFOft4xN+AKrq+70Fa3tQ==
+SHA1-Digest: tY4Lb8SDttrWSXDWSkOA7IuEdxM=
+
+Name: WEB-INF/lib/abdera-i18n-1.1.2.jar
+MD5-Digest: xNvKSgvWLMXwktq4zYSk/g==
+SHA1-Digest: YXDHSySBF82DzMMAoapmz31lNxw=
 
 Name: WEB-INF/lib/activation-1.1.jar
-MD5-Digest: MoQOst15++GcTgqyaXkWGA==
-SHA1-Digest: ZzgQ3EDfMvgrnujn327GilyiWo0=
+MD5-Digest: BZFIUqEjkvgCqC6NpqXa5Q==
+SHA1-Digest: aBlpK5J21KxM4T62QgdygwOw/sA=
 
 Name: WEB-INF/lib/ant-1.8.2.jar
-MD5-Digest: KeeU3E5xd+Ycbzv+Mfcxww==
-SHA1-Digest: SavTx3gxvO/Tr5svU3pjQNNM3hw=
+MD5-Digest: c7mgYsIgdbK0LrMWGHcBhA==
+SHA1-Digest: u6vNSb86AydLc7G1L6sUkrtYKtw=
 
 Name: WEB-INF/lib/ant-launcher-1.8.2.jar
-MD5-Digest: np+aF4pydKAu4K3xquHSDQ==
-SHA1-Digest: 3QDApYXpSOz5nbUjVoYQvbVdtxQ=
+MD5-Digest: ulDa1gEJJIs1mB7rwjqCIA==
+SHA1-Digest: 9zvaZaC7exmh1T5gs+C2ibyP9Xk=
 
 Name: WEB-INF/lib/antlr-2.7.7.jar
-MD5-Digest: e8sQdF0H1brtpXTrNO357Q==
-SHA1-Digest: qGS0o0Ucu3TKaOT6nq8vbTrpCqw=
+MD5-Digest: WnNwKpnfvONyFAqScypdMg==
+SHA1-Digest: 4pD/7wNbTvRWWzk0DYS6asBpbCY=
 
 Name: WEB-INF/lib/antlr-3.3.jar
-MD5-Digest: /Mfx+QA3zVihjueHo2IO3Q==
-SHA1-Digest: qXeWpKPh9uYbr1ZM0ImCEqpbe+Y=
+MD5-Digest: wY1eybGXx0V5E/KZ8pGVVQ==
+SHA1-Digest: 2unU/SHKIK9fMv04qPGSW/EI0A0=
 
 Name: WEB-INF/lib/antlr-runtime-3.3.jar
-MD5-Digest: 4O5jGmgmrtKA1rXUdQyz7Q==
-SHA1-Digest: V45n1wZRcC0ws5ttdf7XnjDrBBo=
+MD5-Digest: yviI9Omz843+/R4zyxC6UQ==
+SHA1-Digest: jfdrKKLEVXcM7bdzasCicr4CW6E=
 
 Name: WEB-INF/lib/args4j-2.0.12.jar
-MD5-Digest: 9E3sutKhC9gvEBgdu+U88A==
-SHA1-Digest: TQT9GkZb9QlR4TkyUnig1wo/0AM=
+MD5-Digest: xGcvOXUPw7WLAgx8GEpKEQ==
+SHA1-Digest: VAfPormglYW2CIHquizdXu3DylQ=
 
 Name: WEB-INF/lib/atlas-1.0.0.jar
-MD5-Digest: yXQJyHqRO9yUfSJ1b9Znqw==
-SHA1-Digest: DrJsncAnYkByk1P/XQQgpDSCDRg=
+MD5-Digest: jTH8u1q9jwDoqwyjAWv0zQ==
+SHA1-Digest: sZhkNiCd43/mszE34/HNi8Qq00E=
 
 Name: WEB-INF/lib/avalon-framework-4.1.4.jar
-MD5-Digest: nnHcnKSvcZOPrQ6nuMok0A==
-SHA1-Digest: h1ukkzwfTTbupcSTg+074CD/sC0=
+MD5-Digest: 6yu7ekD2mOuxjUIHp4mRiQ==
+SHA1-Digest: ABKR0AYTwM/ysJjXcTf0MNfSeJI=
 
 Name: WEB-INF/lib/avalon-framework-api-4.3.1.jar
-MD5-Digest: HU2Bg82CZRNsaQ7y8kmoIA==
-SHA1-Digest: LZAV3KZ+AMgizEDBREEv0bbFjmA=
+MD5-Digest: tndZ1kDYSGQ4jF7B2rbLYg==
+SHA1-Digest: GF9KXpl/8tBUO8uT0ecCUnBeveQ=
 
 Name: WEB-INF/lib/batik-awt-util-1.6-1.jar
-MD5-Digest: YdSu3V/0FLalINEC/zvH7g==
-SHA1-Digest: 4Q0u+lghbUcxN4aEMRmUP5sKHSc=
+MD5-Digest: laTQBEO2r/5tFd/8yLVDnA==
+SHA1-Digest: ffKxIzMB6faiZUKvRjOqjxu68+A=
 
 Name: WEB-INF/lib/batik-bridge-1.6-1.jar
-MD5-Digest: Uh/nxkjky7seG6cBjZ7VSw==
-SHA1-Digest: Y0H5QWAJ/b425ry90ZP7kIkSqYI=
+MD5-Digest: 3SuOtacZ2dwIIJ7bEQkQMw==
+SHA1-Digest: GQmdSx8nhQr939oJp0MVTc9YeFM=
 
 Name: WEB-INF/lib/batik-css-1.6-1.jar
-MD5-Digest: iesvKOc2VfcCPj50GLWrJg==
-SHA1-Digest: AfROVoL0hhFb9Tqhv+LSL0ah/qQ=
+MD5-Digest: 5GvRHE160be+w/xw2053Dg==
+SHA1-Digest: iPwDdJi03Yw69c+Rr/DBP8CAXrk=
 
 Name: WEB-INF/lib/batik-dom-1.6-1.jar
-MD5-Digest: Q9fKqBF8wks0L0vo7g4Q+g==
-SHA1-Digest: Z29bdldXrTwn3HArWLaSP+DnOoM=
+MD5-Digest: HMkn1Ph2Du4FyG5thcS8rA==
+SHA1-Digest: 7k5vMlgSaIWCf0SBi9rNEKLiaxo=
 
 Name: WEB-INF/lib/batik-ext-1.6-1.jar
-MD5-Digest: nFdaA9lQzniZ0r/lLNo5IQ==
-SHA1-Digest: XKy7FAl/VSklSbeVAaXsZU1eeys=
+MD5-Digest: Fun/v9kgtJm+aqY32m3dZA==
+SHA1-Digest: ra2sbw6pfLQitxSFP7yoHwl+jX4=
 
 Name: WEB-INF/lib/batik-extension-1.6-1.jar
-MD5-Digest: t591MWtAEFRWhL39sUmZjA==
-SHA1-Digest: ZaXPBrGYP2smdLhFVNEuTYjoP6c=
+MD5-Digest: fAHzx0UzQsZvii4uNDJAbQ==
+SHA1-Digest: 8mJarYMgZNH+RruqHm5H+/lGinU=
 
 Name: WEB-INF/lib/batik-gvt-1.6-1.jar
-MD5-Digest: QbzgpsqUbuqIzO1M0HWg0Q==
-SHA1-Digest: W/QneSba0/GfQqzApXPcEUPaYMs=
+MD5-Digest: x5eIpKxUEslXS6AY+3dPwQ==
+SHA1-Digest: PNVkS1bPMlyZ7cc6huWHznxHJyg=
 
 Name: WEB-INF/lib/batik-parser-1.6-1.jar
-MD5-Digest: Zfbj7r+Kc21aF3SNqOAmFA==
-SHA1-Digest: T2yjUy1Rl9sSA88tG53Jkc7xff8=
+MD5-Digest: QMv695Lp63bk76u5Uy26xw==
+SHA1-Digest: lDAd0HF8dMpRf5/n/vxRcrd0Taw=
 
 Name: WEB-INF/lib/batik-script-1.6-1.jar
-MD5-Digest: BvfyHsSHuOi4g/VZ5Xo7sw==
-SHA1-Digest: xNhCLmwV71sbP5SqysYmSOklZcs=
+MD5-Digest: 9833YkicQPRfk1xMTGsv+g==
+SHA1-Digest: vS5+Y0fKD/dSnqmCxdt6fC0oyn4=
 
 Name: WEB-INF/lib/batik-svg-dom-1.6-1.jar
-MD5-Digest: 0VCUvuNV5b33rsEKQAKh5g==
-SHA1-Digest: neAE9co9diFqazwlmoXWXvevhLs=
+MD5-Digest: 1soF/0SVHzzgkJ7JEIMQWQ==
+SHA1-Digest: 7+80Iara5TgjygrZjaLJ454FMG4=
 
 Name: WEB-INF/lib/batik-svggen-1.6-1.jar
-MD5-Digest: cDY6E/OAE2IPoGpgC+XpHw==
-SHA1-Digest: Z9yhrT/pQajq7wVjaq1Mdb6TMZU=
+MD5-Digest: TTo/qu558fhEf0Xb/wVxkw==
+SHA1-Digest: LSreqBotT+lC0Ysqd6XFm37OtaU=
 
 Name: WEB-INF/lib/batik-transcoder-1.6-1.jar
-MD5-Digest: W26Bm38CbxGlKgIZWQK/PQ==
-SHA1-Digest: FTh9R/iaFhxxDpSdsD5nVSLAGbI=
+MD5-Digest: fy2cCd/+2fll49fTWbQAMQ==
+SHA1-Digest: 2var2ogjvdotcCM0Jb1OACYRwmM=
 
 Name: WEB-INF/lib/batik-util-1.6-1.jar
-MD5-Digest: IVO/Vxv8DIOjuwyeKhpzZQ==
-SHA1-Digest: hYOxSevwVBpruULZAerT0n2fjes=
+MD5-Digest: TDp2jOrDIzJehe9eNdTzOw==
+SHA1-Digest: 2m0Uon4geBy79p4FusrTj2tOpzE=
 
 Name: WEB-INF/lib/batik-xml-1.6-1.jar
-MD5-Digest: hlUkupn1SYCQTWJVmHW1LA==
-SHA1-Digest: tdV2aByAlqpHl/DW7tjKD69XE9o=
+MD5-Digest: y4QH2TKHsY6etWoaqPgSpw==
+SHA1-Digest: i0VBUVQGg35B8/w2AHsBg9h1W4c=
 
 Name: WEB-INF/lib/closure-compiler-r1741.jar
-MD5-Digest: og4ZSWKJypO3RNo71fifgw==
-SHA1-Digest: jQ6R/+P84KKjQSyl3LeFj7h5azw=
+MD5-Digest: Kb0crUX9lu/+jTNlFJHfsA==
+SHA1-Digest: oG2pkEmobXLIWd6CBxdevh8opCw=
+
+Name: WEB-INF/lib/commons-codec-1.5.jar
+MD5-Digest: /hHCFV3PMJF2FCO8+qyK4g==
+SHA1-Digest: UY5FwPTg6dT9h4gFVMkCp7Kya4c=
 
 Name: WEB-INF/lib/commons-collections-3.2.1.jar
-MD5-Digest: JDN0PqJGyrfz4zYKFVfphg==
-SHA1-Digest: TerKjAzr68EpgwgRri6VAUNbGpI=
+MD5-Digest: QXSgyenm+aGCeJjYp90zJg==
+SHA1-Digest: prwT3Z49SJJWx1tgepwELHZnjM8=
 
 Name: WEB-INF/lib/commons-compress-1.0.jar
-MD5-Digest: H+TlxEoxOb1Q4e0yNeNNTQ==
-SHA1-Digest: Zm5uDlHQxCtLRmnKB0rmya8moOE=
+MD5-Digest: cv431V700ytXXYFwBncawA==
+SHA1-Digest: Cwta5jdze3E4qoy54A34qRyJB8g=
 
 Name: WEB-INF/lib/commons-configuration-1.6.jar
-MD5-Digest: mbf052XjhHQMS3eRnkZW8A==
-SHA1-Digest: 1J3v+vW9Cbb3PDM12Zzdi+E4az8=
+MD5-Digest: ElH7Sq3xAax+da2tqDXdTA==
+SHA1-Digest: NTi29mWjh/smFq6Fw14mJavFyw8=
 
 Name: WEB-INF/lib/commons-exec-1.0.1.jar
-MD5-Digest: YIdEtYCZwffxuCCSN8W39Q==
-SHA1-Digest: Pdzj0+aCGq2TkyQwKXJ3wJUMybY=
+MD5-Digest: AHdxF/vBeFKFwrxAkVZbrw==
+SHA1-Digest: yqTSomVZjMKub+2a4q5IYDaJdcg=
 
 Name: WEB-INF/lib/commons-fileupload-1.2.1.jar
-MD5-Digest: C0hjVN1N3q9VvuuGmnoWig==
-SHA1-Digest: iCrcudqPZuXEjkSsdO23YmARXX8=
+MD5-Digest: H0wfVHx9RKZMMRRPYnmT2A==
+SHA1-Digest: 8iCD19Ktk9c8fjZ42wGpZ3ZY8RE=
 
 Name: WEB-INF/lib/commons-httpclient-3.1.jar
-MD5-Digest: HfYBC0lWB2PNIpQiP0wshg==
-SHA1-Digest: CdeQ3a1xOB1zsuFPr4uACt9/0b8=
+MD5-Digest: 4+WEwAzt7nlrMMJTzOYu6w==
+SHA1-Digest: N/Ye9mGRpfyY6sCCwMeuT78fUu0=
 
 Name: WEB-INF/lib/commons-io-1.4.jar
-MD5-Digest: wGRaCgD8tFD4cCl7/fMzrg==
-SHA1-Digest: n+pgVrOwKJIxCbBjpG542dR3UiU=
+MD5-Digest: dCS82UNlg1BNkz7Av3fYLg==
+SHA1-Digest: Y82iPWs5juxzs3V5sr0kLFIcOp0=
 
 Name: WEB-INF/lib/commons-lang-2.5.jar
-MD5-Digest: 7v9qrMN8KCYMrX3wukfsaA==
-SHA1-Digest: 9sSHk7FFq+xPD1qvxVLTNFt/lbU=
+MD5-Digest: Ozlwpr4vzKv1bcjYBB9BOQ==
+SHA1-Digest: 3Fqw8tr+bjtpcyW7GbdF23R722k=
 
 Name: WEB-INF/lib/commons-logging-1.0.4.jar
-MD5-Digest: Ua7LV7LwBHKyNI13YhLhvg==
-SHA1-Digest: kPHhiG+WJt9OCZ3B7+KN6W4wZK4=
+MD5-Digest: JO37q71pSA8+LmDTASac2w==
+SHA1-Digest: 775fIY+KWGxqYZ15aLMrsu+0O2g=
 
 Name: WEB-INF/lib/commons-net-2.0.jar
-MD5-Digest: hw+8/aq2PNhuWT7AGGEM4Q==
-SHA1-Digest: VYB3yyxNmi13P3cGvhcFcXzNwG8=
+MD5-Digest: AWZQpVZ4o+4DXh1WSIQ8+w==
+SHA1-Digest: Vu+qPkpnaseSSoYotGDJ2QR2a4I=
 
-Name: WEB-INF/lib/drools-compiler-5.3.0.BRMS.jar
-MD5-Digest: b94aWTNq8dVrPJRE0+Gguw==
-SHA1-Digest: 5uCliF/n2BXpwYvnqZWmx2vvjwQ=
+Name: WEB-INF/lib/drools-compiler-5.3.1.BRMS-ER1.jar
+MD5-Digest: vI3m5kRtkA9PT7jyUnDM+g==
+SHA1-Digest: 622OEc0qCnhJ8PHm3SgX9jQyE9E=
 
-Name: WEB-INF/lib/drools-core-5.3.0.BRMS.jar
-MD5-Digest: VEbKj0HHQFQ+nMtWQLgeow==
-SHA1-Digest: /yB6cO9dUmqGVn0FPpfM/9LnEOc=
+Name: WEB-INF/lib/drools-core-5.3.1.BRMS-ER1.jar
+MD5-Digest: rm5V5Fg7laUlYphQONS/1g==
+SHA1-Digest: dJc8v3vrH5cKgwg9hSiGvnRECew=
 
 Name: WEB-INF/lib/ecj-3.5.1.jar
-MD5-Digest: 2pK4EaMbQrHif+M8gOXBOw==
-SHA1-Digest: hiBRZfQfXaC+BUOM5yq/oSDfceA=
+MD5-Digest: ZD+i7zWEai7voJbVG67pmA==
+SHA1-Digest: PVnVFJ+ICgWdg+9hGNfOV7AXXeg=
 
 Name: WEB-INF/lib/fop-0.95.jar
-MD5-Digest: nbdKW9JFQ7EuYwX7GSZtXA==
-SHA1-Digest: cbkAPLgnoRMXEitttKylxDKObzE=
+MD5-Digest: Ft01Rrb1sVdhG/SVUxwfkA==
+SHA1-Digest: JVzHj37lKgBZ1gZyP85dRrmalIo=
+
+Name: WEB-INF/lib/geronimo-activation_1.0.2_spec-1.1.jar
+MD5-Digest: VQgGjmjtu+dw8iB5CSajHA==
+SHA1-Digest: eb/JWVaNT9VusnIOwT/PD7J+Jcc=
 
 Name: WEB-INF/lib/guava-10.0.1.jar
-MD5-Digest: 4z0peB6NUM6VExrMVgexSw==
-SHA1-Digest: dnjISe2zPQRhNlY5X6pgpmoWvhI=
+MD5-Digest: ElWfaNbF7HDE11eGhPxW8w==
+SHA1-Digest: AeXA4E6Qbs3apP6+MvVfXBJ9X4E=
 
 Name: WEB-INF/lib/jackson-core-asl-1.7.4.jar
-MD5-Digest: 4MgTnVSLskm3lmaPjnFVag==
-SHA1-Digest: C2UrQXl52YlUvv42In+UWVIWbbw=
+MD5-Digest: 0zdjDhGH07GKx+YDmk7/Vw==
+SHA1-Digest: wvRdckEL6Sxv9SmRLYf6iQpqop0=
 
 Name: WEB-INF/lib/jackson-mapper-asl-1.7.4.jar
-MD5-Digest: 2RPHM8fRC47gy87Zy/7JZQ==
-SHA1-Digest: IKOAmb/ICDkn+/BpBTtipGFG8pE=
+MD5-Digest: wVAHtpe2ONwjcMnKxQ8/zA==
+SHA1-Digest: N1ov8FsTATaTEXhMJ5pCl9Ar2wc=
 
 Name: WEB-INF/lib/jarjar-1.1.jar
-MD5-Digest: aQwOL+IOqaep6z+aJ5UfUg==
-SHA1-Digest: 2VxzIll5/CXqBVPUWjT4SUFi24Q=
+MD5-Digest: CdBzXdV6+nWuwtcaHjZA5g==
+SHA1-Digest: Hy4j/OZsjeBo+dTMnaMkU36H+oc=
 
 Name: WEB-INF/lib/jaxb-impl-2.2.jar
-MD5-Digest: efdmXaOlBT1zca7Spp4kig==
-SHA1-Digest: K+MEgSF7gsjXu6CacG4jGT7cPi4=
+MD5-Digest: nTKnUXr3AVOKQRCS9bBFyg==
+SHA1-Digest: ARHyrRTrYfknSd5HDKOR91q36SY=
 
 Name: WEB-INF/lib/jaxb1-impl-2.2.jar
-MD5-Digest: /wXBpnjE5Ej5YIKH6L7DTA==
-SHA1-Digest: XN4s5wIf31Us1GVoFzhJsvoKy84=
+MD5-Digest: Tif3vNr+FNOLlsoA6Ujdrw==
+SHA1-Digest: PAUjTcm0B087EhLUmwrs7IfPA2A=
 
-Name: WEB-INF/lib/jbpm-bpmn2-5.3.0.BRMS.jar
-MD5-Digest: kMjtw4C6/ABgvVcFmDtJ8Q==
-SHA1-Digest: D6wefENJhGEnKAV6gXp6m0p53p4=
+Name: WEB-INF/lib/jbpm-bpmn2-5.3.1.BRMS-ER1.jar
+MD5-Digest: xB8OCFGea9mw8x5mXXocwQ==
+SHA1-Digest: qRme+b1AJGfdm+dL4Z4N/gZwM3I=
 
-Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.0.BRMS.jar
-MD5-Digest: 0xxVV1v0xhdEnooUswTRuQ==
-SHA1-Digest: YXX8LW9avf5WQ+Lj0itXEQDdzKE=
+Name: WEB-INF/lib/jbpm-bpmn2-emfextmodel-5.3.1.BRMS-ER1.jar
+MD5-Digest: 9iJ3xB04WSrvgAR6JE25/A==
+SHA1-Digest: FYqgqxLDpFfC42O0XX5oslsbaBQ=
 
-Name: WEB-INF/lib/jbpm-flow-5.3.0.BRMS.jar
-MD5-Digest: HO0EfZtklVQkM7aJn5+riA==
-SHA1-Digest: RLqvHVNeVk9D6AYXL1gywt8ejPk=
+Name: WEB-INF/lib/jbpm-flow-5.3.1.BRMS-ER1.jar
+MD5-Digest: qCVZZTQHklGm0FETg7Msvw==
+SHA1-Digest: TzKXkMAVpWmlmTBWKFXeTuFapaI=
 
-Name: WEB-INF/lib/jbpm-flow-builder-5.3.0.BRMS.jar
-MD5-Digest: fy5PM112k56VqsEWh6pB0A==
-SHA1-Digest: z/PKFb72LwPUvNG72GrmQtA6Uso=
+Name: WEB-INF/lib/jbpm-flow-builder-5.3.1.BRMS-ER1.jar
+MD5-Digest: qtnPsiXBBxssdDT4gK43Ng==
+SHA1-Digest: NLqCMQ8ccF9VbYm5d1zelfaOJkk=
 
-Name: WEB-INF/lib/jbpm-workitems-5.3.0.BRMS.jar
-MD5-Digest: JeQGjqcDz91m4WG8oPXiag==
-SHA1-Digest: Fa15XsGjbPOTJbRmmOFQSI0gzRk=
+Name: WEB-INF/lib/jbpm-workitems-5.3.1.BRMS-ER1.jar
+MD5-Digest: Tnl4YMf+tiKW67iz/CI6tw==
+SHA1-Digest: 6WbivUTvysSpGvg3l/timRA+pOs=
 
 Name: WEB-INF/lib/jbpmmigration-0.11.jar
 MD5-Digest: 2rj6scmx+YazKDH7FUfdzw==
 SHA1-Digest: 9FmhMGBjacCSo7DX1ZsG/SH2YJ0=
 
 Name: WEB-INF/lib/jbpt-0.1.0.jar
-MD5-Digest: vqjbAtXGaDUM8gmJ5gK11A==
-SHA1-Digest: oCcUnJ4bFJY3CXw/At1YI1vL1hA=
+MD5-Digest: 96fdFO9hAnwaCqJ+REm/fQ==
+SHA1-Digest: gMcfL20DpyX2vT+VFL1EFeM7l+4=
 
 Name: WEB-INF/lib/jdom-1.1.jar
-MD5-Digest: 2QuRu/YmwQDAkoue+5TzqQ==
-SHA1-Digest: uZeI271F/N+5+7+V/6qdeSsOkrw=
+MD5-Digest: eXzQ0PNtDYAaKdJmvE+I2Q==
+SHA1-Digest: sZk8BxQ93AHRPHtHHGv3xtOBHYo=
+
+Name: WEB-INF/lib/joda-time-1.6.jar
+MD5-Digest: Q0gWP2cSflDqtU3BNKKCrA==
+SHA1-Digest: Wajgxf/o4q6bz5mA6GzuH58Y4UE=
 
 Name: WEB-INF/lib/js-1.7R2.jar
-MD5-Digest: Iio0LB7+1BRuexo7DZRwQA==
-SHA1-Digest: imrqB95ur9rUMiuZtfDKd5INoPw=
+MD5-Digest: 0rND2rpd6t7FPstBzSke6Q==
+SHA1-Digest: lwnrX9qSVIwzxY5vwBtUbGjXTZI=
 
 Name: WEB-INF/lib/json-20090211.jar
-MD5-Digest: KU5B86mzOCg7TGt28y0r+w==
-SHA1-Digest: Xr1sJXMHQMsiVh8hcMWsQOrSjoY=
+MD5-Digest: JcsongQwRGHRo6iCvBFUiA==
+SHA1-Digest: 5lJlldiq3RcBKS0FqOlzqXffkV4=
 
 Name: WEB-INF/lib/jsr305-1.3.9.jar
-MD5-Digest: ylxUkt77wspqZsyLSPscSQ==
-SHA1-Digest: ykfgZqen/Z8BBi+VEQ2vzMhMEEM=
+MD5-Digest: J3PQwGibOizWuIozftcDCw==
+SHA1-Digest: 6FxcMmfIX4JgU3QSfVl6PzOmAUU=
 
-Name: WEB-INF/lib/knowledge-api-5.3.0.BRMS.jar
-MD5-Digest: nWfGQ2ZpgHWUg9OS5uUTlQ==
-SHA1-Digest: pAI2fhJY167JgORSl5KsGv1BEh4=
+Name: WEB-INF/lib/knowledge-api-5.3.1.BRMS-ER1.jar
+MD5-Digest: s507zOG/GcluGEiafTmjOA==
+SHA1-Digest: fgkLXzdOtdsFlI9w+Nd+N33mPTs=
 
 Name: WEB-INF/lib/log4j-over-slf4j-1.5.8.jar
-MD5-Digest: L9yMEVjJc0vJq6RM6BlyPw==
-SHA1-Digest: smFa9y4pbwE+xjDGbjt2BcGI8Z4=
+MD5-Digest: Xj69UD+WB1nnZKT2JHA41A==
+SHA1-Digest: /Re8sh5oUWTDq7QAIoT7iU3uCpU=
 
 Name: WEB-INF/lib/mail-1.4.1.jar
-MD5-Digest: jQGzsosq/A8EDrkB8bdyYQ==
-SHA1-Digest: Gyrr32HHFy81J1hq9PAh0L31odw=
+MD5-Digest: a2q780Gg0VRnH6c/uSFGUQ==
+SHA1-Digest: OtO4neewrpc+OCmPYYp6PkferoA=
 
-Name: WEB-INF/lib/mvel2-2.1.0.drools16.jar
-MD5-Digest: sYMYCqghTwQ3WGx+Dl/MDA==
-SHA1-Digest: 3LsNTkLiycgkiBg4LF93GrqaRYY=
+Name: WEB-INF/lib/mvel2-2.1.1.Final.jar
+MD5-Digest: P61rk+3aN65dPt0gvk86rg==
+SHA1-Digest: nPZPHPGfQXmjqIgQnpazbN9YX3o=
 
 Name: WEB-INF/lib/org.eclipse.bpmn2-0.7.0.010.jar
-MD5-Digest: EbjQpcBWm+QLEEYLnZ40Rg==
-SHA1-Digest: 97L/TKK/VUsdjGyrl0aDlSn2JlA=
+MD5-Digest: sNr1iLU635JnvAWJWyqG9A==
+SHA1-Digest: NruJiz1vk6dH6BUcmUI/lLjeACE=
 
 Name: WEB-INF/lib/org.eclipse.emf.common-2.6.0.v20100614-1136.jar
-MD5-Digest: 50ozPoM5+u5jM/bWiVjAQA==
-SHA1-Digest: Rq9cjkS+bvYOcNkBNW7VtOUwXUQ=
+MD5-Digest: YCton6TcYrpA2KKo0jo2yQ==
+SHA1-Digest: Uowvs8TM2+ndQGqn/o1cPxMhsH0=
 
 Name: WEB-INF/lib/org.eclipse.emf.ecore-2.6.0.v20100614-1136.jar
-MD5-Digest: Fg2qEe/4VMBMIf8+FXuGuA==
-SHA1-Digest: kyXnOis619J06yoJNlN9LOr/vNk=
+MD5-Digest: TUJJKc6dhcHwDnF3+ntoOQ==
+SHA1-Digest: m5TtUa4BhA9HBWuwmMQBYUsz0G8=
 
 Name: WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846.jar
-MD5-Digest: aI7McDWr3pn70nNSyuOnGA==
-SHA1-Digest: RH9rageBrJmNxllBYSSfBFmWKBE=
+MD5-Digest: dkLNvOV3W2ekXMIP4DB83A==
+SHA1-Digest: mCYXF7sFw4R8Nay3j7Jn4Tswtns=
 
 Name: WEB-INF/lib/osgi-3.5.0.v20090520.jar
-MD5-Digest: e+5IRvPGJp+y1dbP5L/Hlg==
-SHA1-Digest: cood8ONMAcG9u1kL1Z3PybP0bJE=
+MD5-Digest: 2dBHpWFBlfI9E7/nUC1YQQ==
+SHA1-Digest: snZ+9tFDTcSBmd9h/v9bejHBra4=
 
 Name: WEB-INF/lib/protobuf-java-2.4.1.jar
-MD5-Digest: sGLcHRur79ta840nxi2dYQ==
-SHA1-Digest: TxR8oNAeERpqMhuoKy3ZSWI0ZLg=
+MD5-Digest: hK/FEZHpqOCXAbC72nUYUQ==
+SHA1-Digest: M7E8B/JamEPAADnHLiD1jzYM7uM=
 
 Name: WEB-INF/lib/rome-0.9.jar
-MD5-Digest: qqraDy0PaEOJqSoZcdlArg==
-SHA1-Digest: duiKhYboGr1MHTptLKABo7aa6fk=
+MD5-Digest: Eb9Vqsck/PaIdazNeR7uDw==
+SHA1-Digest: 2sUPVj0LTM5qTJu/qGd8g4qZqII=
 
 Name: WEB-INF/lib/serializer-2.7.1.jar
-MD5-Digest: 7wucm1zot80gQTaLYTbF/A==
-SHA1-Digest: w0pZWu+SsXaF9f4S7yNYKHtRhZA=
+MD5-Digest: QnvOXI5EHWfvJ9xPXPVGBg==
+SHA1-Digest: BDUkfWtFQTDxoE27AXaBdrd2sOQ=
 
 Name: WEB-INF/lib/slf4j-api-1.5.8.jar
-MD5-Digest: 6eyfqAYljzJ9HDYUdEsgjg==
-SHA1-Digest: 0E5dXzLZmDpdx4fMVCZYuZETVf4=
+MD5-Digest: Mw7/IBUt/gkxUNJ8MfGGpg==
+SHA1-Digest: qkgD0mTpILEbeUq5pdaCo9G62G0=
 
 Name: WEB-INF/lib/slf4j-jdk14-1.5.6.jar
-MD5-Digest: ULTbR+6Zs43/Bm29WAjXDQ==
-SHA1-Digest: BKkA4CllGtzvPBBzMrSZ9MeG6DI=
+MD5-Digest: cS9leYDe8OiGupJFo6DcSA==
+SHA1-Digest: yh4Ke6ekqmB3+feBCZOUH5bcKyQ=
 
-Name: WEB-INF/lib/smack-3.0.4.jar
-MD5-Digest: tWUjrIHFkhEDHesKlLAJsA==
-SHA1-Digest: TYuE0HdRTbAbwqFO0yuPN8TZYCU=
+Name: WEB-INF/lib/smack-3.1.0.jar
+MD5-Digest: NIP2KM9bA24HBihMgnXwzQ==
+SHA1-Digest: k/c3wbiId0MyDBaMwQChXf/bdvM=
 
 Name: WEB-INF/lib/stringtemplate-3.2.1.jar
-MD5-Digest: MkoJlTV3ZmBGtF05B9kEbQ==
-SHA1-Digest: 5vuAejM+9PwdemwTF38gg+sUu0E=
+MD5-Digest: rvam5jRKPcMyPvz7s8acLg==
+SHA1-Digest: gzdaFYkEXNqlGbAJtc9jlMTjf/g=
 
 Name: WEB-INF/lib/velocity-1.6.4.jar
-MD5-Digest: TzhxeXeysDsziOJdaK6n6g==
-SHA1-Digest: btrss8EGiHMiAX2QvtY/ZEi8SFE=
+MD5-Digest: GZnFjQgWWy8xNGP85AuibQ==
+SHA1-Digest: uNcO9W946kgkf4+q5hWBmaQ7JnY=
 
 Name: WEB-INF/lib/xalan-2.7.1.jar
-MD5-Digest: 2Xe6eOIe5fmah66DlIveeA==
-SHA1-Digest: Cc4ZEEo+8KBM8HKEEE6flhHs+wA=
+MD5-Digest: y5K2/Qs0lnBpNEEjWhxwOw==
+SHA1-Digest: kQZ3OV37u7I6lybdTSZis1ZUihY=
 
 Name: WEB-INF/lib/xercesImpl-2.9.1.jar
-MD5-Digest: GLGudFpCQ3+iG2ZOEAbY9g==
-SHA1-Digest: rtjXmH+rIIYEUCnkv9R/IGXQ/8M=
+MD5-Digest: MmJJddQc/Ptlcfui2SY/Bw==
+SHA1-Digest: dfh/RPBcwfb6rh6wm4mX1aKePjw=
 
 Name: WEB-INF/lib/xmappr-0.9.3.jar
-MD5-Digest: sLc6ttrd/oSm3Jtnm2UbLg==
-SHA1-Digest: KExR/+BvTAFg+duvkDMw71O3g28=
+MD5-Digest: K/emaeVH0sQEwAQP7tFfNw==
+SHA1-Digest: uUah7sOilWJd3hfUAG5aQXHYOFY=
 
 Name: WEB-INF/lib/xml-apis-1.3.04.jar
-MD5-Digest: fjKIPqvIjJZ5E4j7TLmB0A==
-SHA1-Digest: QVVHVc5EB/UjQdDkbklcfLAWSnU=
-
-Name: WEB-INF/lib/xmlParserAPIs-2.0.2.jar
-MD5-Digest: zgiNhBLsFJSg45/W3KM4WQ==
-SHA1-Digest: 87jAkKs/I04pZfvl+mxhhuF3EIg=
+MD5-Digest: 2jc7qitZyZKnpbNBRMnrKQ==
+SHA1-Digest: HOCgrRnnIWeun/nE7nox617oJOc=
 
 Name: WEB-INF/lib/xmlgraphics-commons-1.4.jar
-MD5-Digest: JAas8Hhwg9IU33CLmP8d/w==
-SHA1-Digest: cp6hgxCDzHrhQVHQxqcgG70GTCc=
+MD5-Digest: aWocCNNsHJJ/pLbFSHv49w==
+SHA1-Digest: eakIfj3zaUjOMtDLDk+v0zZch7k=
 
 Name: WEB-INF/lib/xstream-1.3.1.jar
-MD5-Digest: LKj+KjPQ5A6xihvbzU5Zzw==
-SHA1-Digest: KVO/fgLC1e+V6eN9bg7ZYOPcRLo=
+MD5-Digest: 7CtNPbzbBWdJtnhoV0QVjQ==
+SHA1-Digest: RZfHxHZpjMUPR4RJTfJjv2imJ+4=
 
 Name: WEB-INF/web.xml
-MD5-Digest: bPCkvB5m3wwfKaSu/poKnQ==
-SHA1-Digest: lIBSS6a1h+VkdJX9vIjmSWj+Mlk=
+MD5-Digest: iGPrINEyW1xnW2wbTfW22Q==
+SHA1-Digest: FZk6BjzGstQucC3qqDYnO2k3r5U=
+
+Name: css/cmdialog.css
+MD5-Digest: hLxxJFR4bGwjRmC2Ro3qKg==
+SHA1-Digest: zGRCTpb28b8y3HPQWTCz9X6Hwo4=
 
 Name: css/codemirror.css
-MD5-Digest: xkY60kRMZzoN0826kIRllA==
-SHA1-Digest: dm9qTtqOjoK+DJ1vXMZspSYrOXI=
+MD5-Digest: cV5cfeswplVeRCgUST6t5Q==
+SHA1-Digest: 989xEAd/AJha3s+lh0y+4n84vcU=
 
 Name: css/feedback.css
 MD5-Digest: pRLiyyv1yRvNWrdp6/5ViQ==
 SHA1-Digest: r9XLl7l7rXbjjc7w64HdqEON2Zk=
 
-Name: css/theme_norm.css
+Name: css/fullscreen.css
+MD5-Digest: a9rcnwE5s3kkxJV9PckKOA==
+SHA1-Digest: TrjSGeDky8X1Z2uuw+IEMWCcZ7U=
+
+Name: css/mic.css
+MD5-Digest: bpHMJMaFHUI697FH5DzjzQ==
+SHA1-Digest: IBnKihZ9njy+CTC4y027+8ZjhWI=
+
+Name: css/theme-default.css
 MD5-Digest: r5ZYXti22TK5yPvuMMtYyA==
 SHA1-Digest: 9QdI+7hQm9k8r1r/rHr2MEp1egE=
+
+Name: css/theme-olive.css
+MD5-Digest: MCPX17XoodS6eyswsVWZ0w==
+SHA1-Digest: ZZvHGcG/zJOIeK1nzWrwGsuRApU=
+
+Name: css/theme-purple.css
+MD5-Digest: RqBnHrorLyVfZPF/hDHrdg==
+SHA1-Digest: BmIVopFwlt7nklAXMGVECMTTItY=
+
+Name: css/theme-slickness.css
+MD5-Digest: VOhkI8IRYNHgwHfNB51W2w==
+SHA1-Digest: JllGCDrcPnsm8l3xRvQFlstq5t4=
 
 Name: css/xforms_default.css
 MD5-Digest: sEEprSE8RKg88pwepe73Mg==
 SHA1-Digest: 1eQ2Yx7xHHDuoPOko5O3dbEAfiQ=
+
+Name: customeditors/sampleactorseditor.html
+MD5-Digest: G9uT3V7JmoGERuxbT5Gp3g==
+SHA1-Digest: l5i2oxblBFapZWIN5t6r7Z2U13I=
 
 Name: defaults/BPMN2-DefaultProcess.json
 MD5-Digest: ACRi5qkL9EiSziC9s80JXw==
@@ -980,6 +1030,10 @@ SHA1-Digest: vW6QaSRYC5oGVj/xjwWx8dzM8z4=
 Name: defaults/WorkDefinitions.wid.st
 MD5-Digest: 31dvSsvfDs77EbmIOZ+mbQ==
 SHA1-Digest: P7o6UCTI5xvAHTJPBL0O2qpkfmU=
+
+Name: defaults/customeditors.json
+MD5-Digest: C4Gg50qvEB0yoEJqOj8icA==
+SHA1-Digest: uAPQKRyhejgeUkkMtkQGpNx3eoo=
 
 Name: defaults/defaultemailicon.gif
 MD5-Digest: IS45qZqFrlmcFrLLaPtBqQ==
@@ -993,13 +1047,109 @@ Name: defaults/defaultservicenodeicon.png
 MD5-Digest: m0HGJacxLu4HUiEEZ7UiqA==
 SHA1-Digest: jESOt8LQl+JMYzslu6+Nhj+aJFw=
 
+Name: defaults/formwidgets/backboneformsinclude.fw
+MD5-Digest: j2G2XVCflz7Ysy/WXhn0Bg==
+SHA1-Digest: gsKUE1yznwzIJDC+abijk1Ae2s0=
+
+Name: defaults/formwidgets/backbonejsinclude.fw
+MD5-Digest: VeaALi3gNkjY73tRWPpD2g==
+SHA1-Digest: JvpNkXBfuLXe6GKE/1E/0nIAw3Y=
+
+Name: defaults/formwidgets/cancelbutton.fw
+MD5-Digest: h+MiDE/ab17Mv7DeHIaKYA==
+SHA1-Digest: 1rbc78xrt2Tx6DXS/Thj6L3cQ0A=
+
+Name: defaults/formwidgets/checkbox.fw
+MD5-Digest: VAfaAF/JPPCTmZgDRm30VQ==
+SHA1-Digest: WvSiVZqwJ168+7Eouk3UT3sRrII=
+
+Name: defaults/formwidgets/div.fw
+MD5-Digest: SRt5ndhd5AiRV4n2ea4LyA==
+SHA1-Digest: 6b380CJdadcQew069pI4hI6H2nY=
+
+Name: defaults/formwidgets/dropdownmenu.fw
+MD5-Digest: FgYKeJNSaYjpF7x6I1zPZA==
+SHA1-Digest: Jash0B9xoyNB2E52wfqVfvjGQTk=
+
+Name: defaults/formwidgets/fieldset.fw
+MD5-Digest: 8sdh7ZsDvSL8A76AmBQrMg==
+SHA1-Digest: /MSii7KUZsm9v3tqVu2QVEsiYn0=
+
+Name: defaults/formwidgets/form.fw
+MD5-Digest: ZRFyAp+8M8MLL/5xw1xlCA==
+SHA1-Digest: 4F+Ekz6EESbulF8HFmwLCAv5wcM=
+
+Name: defaults/formwidgets/handlebarsinclude.fw
+MD5-Digest: dam3Q+UWZSQf2Hki81Bwew==
+SHA1-Digest: Yceq2IRfMIIFGNu77WW2T9Yh5vM=
+
+Name: defaults/formwidgets/htmlbasepage.fw
+MD5-Digest: g1hcPEBJ+JlCvpNlualkUg==
+SHA1-Digest: IBGEB4bWy9N+CAoLIedeVyM9XaQ=
+
+Name: defaults/formwidgets/image.fw
+MD5-Digest: 3hxJ1A5mU77m6Nsg51Xryw==
+SHA1-Digest: XKpceIh6McYgxqgisyNZXjyu9Yo=
+
+Name: defaults/formwidgets/jqueryinclude.fw
+MD5-Digest: +t6GEOhRF3ItweoeL3CsdQ==
+SHA1-Digest: MdzcQvv0nBbBqv19g55sgG11pv0=
+
+Name: defaults/formwidgets/jquerymobileinclude.fw
+MD5-Digest: hA9idaRUYkDA7Toz6s0+Bg==
+SHA1-Digest: zVHVjRN3YVm1tu8lsTi9SdqRy5A=
+
+Name: defaults/formwidgets/link.fw
+MD5-Digest: zINbQVNY5OsGSQhFsVzafQ==
+SHA1-Digest: 9wl7pXQYHFhUbiqT1ACAiNP8Em0=
+
+Name: defaults/formwidgets/mobilebasepage.fw
+MD5-Digest: foy85E9NHkAjBvfE2XKyaQ==
+SHA1-Digest: BIsaB7H0knB64ci20a5FJ+TWlGM=
+
+Name: defaults/formwidgets/orderedlist.fw
+MD5-Digest: nrob7Nt+HCqhxFkwdw79/w==
+SHA1-Digest: COxRTHRYuR0HEDGoVnS3JoDarqw=
+
+Name: defaults/formwidgets/passwordfield.fw
+MD5-Digest: C9+uuotgBUmNu38yVF4COA==
+SHA1-Digest: l/keAMfFNbVWjQA0cxUovXjiZPg=
+
+Name: defaults/formwidgets/radiobutton.fw
+MD5-Digest: 40MOsZAri467BYqEQO+ucA==
+SHA1-Digest: zN2PR4VN3LC7jvTBIPTAaxIoFDk=
+
+Name: defaults/formwidgets/script.fw
+MD5-Digest: 3T5K1yB4VO1oVuQn/XEzmA==
+SHA1-Digest: ZpXGZRv3EQGURRN3Z/hs/ZJXRxU=
+
+Name: defaults/formwidgets/submitbutton.fw
+MD5-Digest: /B0LrPMOdcgtUSMQFSicPA==
+SHA1-Digest: JjxpQ1qtczfBe+8ev6gVGMB+79g=
+
+Name: defaults/formwidgets/table.fw
+MD5-Digest: H5jn8ZFupd9VuTbKthV6wQ==
+SHA1-Digest: tO93yewY7HeNx95he0AxyH24G6w=
+
+Name: defaults/formwidgets/textarea.fw
+MD5-Digest: pOyF+YVLKjABQ3uzp1jIyQ==
+SHA1-Digest: iIcpb7GVPqoNmnXXWEMIhTws3wo=
+
+Name: defaults/formwidgets/textfield.fw
+MD5-Digest: RAC0HYzRYxgKR8suj4JmmA==
+SHA1-Digest: cp6W2CqDBg8mHRkH/iSaktrYWqs=
+
+Name: defaults/formwidgets/unorderedlist.fw
+MD5-Digest: UilY8EMQTvf3YPltGI6ATA==
+SHA1-Digest: UBE7CaiNO/Ar9tPXhIFCdV+v4uw=
+
 Name: defaults/themes.json
-MD5-Digest: BaVpPGKYDsAz2pKqB30JDw==
-SHA1-Digest: YCr+QMjAEk5bxs1ns8l3IPpjz/A=
+MD5-Digest: enjOETBQLL2Dd7rks0wmug==
+SHA1-Digest: cnHm761JpqJ4jRXprFAwfnX880I=
 
 Name: editor.html
-MD5-Digest: NQGQ7n5uhWcwa3JI7LfJ1w==
-SHA1-Digest: 2m6Hcw0GHykcGT+eVhskvdRbIsE=
+MD5-Digest: Vl/uD7Gy+qBUHKPRNd1Z0g==
+SHA1-Digest: xaWYbCpEwxiUCEzQnfZT9xX/TRM=
 
 Name: execution/bindings.xml
 MD5-Digest: BUqe/ayHm633iAVRdY4omw==
@@ -1018,8 +1168,8 @@ MD5-Digest: yRtc9X6W88BP5ztXER7tSg==
 SHA1-Digest: T9S9SOy9vdeOIqUH9wN5cOc6+/g=
 
 Name: i18n/translation_en.js
-MD5-Digest: RLN3LV/+SWHdjWlRBoPt5w==
-SHA1-Digest: 6kd7p5yTHyU+4cxDXK5eFVU+dm4=
+MD5-Digest: teTVYNw6Ux+sTra4lK7JLA==
+SHA1-Digest: e5oZRlWdubKdNi3+Q2YdR1g3+m8=
 
 Name: i18n/translation_es.js
 MD5-Digest: A9ev2Qbxlb4zhYNiACJ0EQ==
@@ -1156,6 +1306,10 @@ SHA1-Digest: ujrCjFIH9lRUukDyisuMwn6UQH0=
 Name: images/checker_validation.png
 MD5-Digest: ZvtulOkVKjCy1WLfbCmD0g==
 SHA1-Digest: ONqmj9NpTSQ1SCU3wNGLReRrnn0=
+
+Name: images/color_fill.png
+MD5-Digest: cTS/k3YbsYcLD9JEcyqE8A==
+SHA1-Digest: jNnDkAbNnsF4qYvF/jQCbwm6Nwc=
 
 Name: images/colorize.png
 MD5-Digest: g+ey10SAo9B7GC662tVCHg==
@@ -1385,6 +1539,10 @@ Name: images/folder_page_white.png
 MD5-Digest: mhgFzNi6YGJos5T/71T3bA==
 SHA1-Digest: nGBzLr84/MauDEdMUyzjbUbmBpc=
 
+Name: images/fullscreen.png
+MD5-Digest: n7OSUcB3Pi2arIPLqJF0+w==
+SHA1-Digest: a55AEtCf9bX5vpZCTHPbWYKNyKU=
+
 Name: images/header_bg.small.gif
 MD5-Digest: TWPL3DQtPAUFBDZqYZ5dHQ==
 SHA1-Digest: 8wVI3yTB9zsJfjvJU71rlyh05AI=
@@ -1417,10 +1575,6 @@ Name: images/information.png
 MD5-Digest: N1DHAdLsNaRdKJubnBoGZw==
 SHA1-Digest: BLSCNE110HMidXJ71zzOubBJ0nY=
 
-Name: images/intalio_connect.png
-MD5-Digest: jLdsTojM7ZTFGArowKDLOw==
-SHA1-Digest: TrfGUnchi16jPrCY92b9FPANMuY=
-
 Name: images/jbpm_logo.png
 MD5-Digest: S4wMEHGuiqo2N66fxvt1iQ==
 SHA1-Digest: PvYlOnrNqskASq5+FeZGF6GamkE=
@@ -1441,6 +1595,14 @@ Name: images/labs/script_add.png
 MD5-Digest: FrFFaSfwpCJ9s59vxtL3Jw==
 SHA1-Digest: S9F2NT/HpVO2p8j4UDDMYkO9JXM=
 
+Name: images/lightbulb.gif
+MD5-Digest: 9j+ncqElrXXzWjPtfOEeYQ==
+SHA1-Digest: J/XdNjWFGG0TvgNIhj8eH5UQMXQ=
+
+Name: images/lock.png
+MD5-Digest: JAJV8zUmoi1Jb1gKUU831Q==
+SHA1-Digest: 0ZA0qOQowzI+YpLdltdmmi9cP9M=
+
 Name: images/magnifier_zoom_in.png
 MD5-Digest: UwiHMGqiDTqvK1xhkb2vcg==
 SHA1-Digest: 2MRTptFMcOEgJAuglxxb+uZhoyg=
@@ -1456,6 +1618,194 @@ SHA1-Digest: P0/cHoc0dhBgBxyv+felJkV86m8=
 Name: images/moving2.png
 MD5-Digest: xgZSO/tDKC1P4e5TZpOUWQ==
 SHA1-Digest: YS52oDhCYGKiRmrToZgsLrFj4v8=
+
+Name: images/olive/button/btn-arrow.gif
+MD5-Digest: Tx0mrFkuk7hYLhcn9VRizw==
+SHA1-Digest: YUnYIf7UzFabFF9pRUzoIkBMLlg=
+
+Name: images/olive/button/btn-sprite.gif
+MD5-Digest: kU+6GYnGn0l7NFbihdNhsA==
+SHA1-Digest: idEOxLtakiLEycpQEROBxROkipE=
+
+Name: images/olive/form/clear-trigger.gif
+MD5-Digest: ncfmtjmKvp6ahUFvZV08cQ==
+SHA1-Digest: y1+Da0JtFiFWehCGdDg3qanA4ZM=
+
+Name: images/olive/form/date-trigger.gif
+MD5-Digest: BiiQBe+BnLaUBjuiS/RSMg==
+SHA1-Digest: EIvBewsMHPp70+9iEW7xnTlpgMQ=
+
+Name: images/olive/form/search-trigger.gif
+MD5-Digest: Lwm37lLoqSvXPPb0FZvNhg==
+SHA1-Digest: RduwBJTGjZ7kQiMOC/IxHGynqEc=
+
+Name: images/olive/form/trigger.gif
+MD5-Digest: x2A4SelX1cQ4NOtasAicbQ==
+SHA1-Digest: y12UW2GLDybQ1UxtgOeuIRD+hbU=
+
+Name: images/olive/grid/grid-hrow.gif
+MD5-Digest: INiiRVURzy6MLjVqj71Hsw==
+SHA1-Digest: Rvmh0wmV91Q85p+HyNqRghp/dRs=
+
+Name: images/olive/grid/grid-split.gif
+MD5-Digest: 9CmvTjlbAOWIOMbCrDMP1A==
+SHA1-Digest: rCCpK+1xcd9kGn1weB8tVFVk8qc=
+
+Name: images/olive/grid/grid3-hd-btn.gif
+MD5-Digest: 63GuZAYWa3n4lUXtxGuWng==
+SHA1-Digest: vDh/rdYiAZKFKIsGh9S02iEdqsw=
+
+Name: images/olive/grid/grid3-hrow-over.gif
+MD5-Digest: Swf06jHc85V1Fg0MuccuMA==
+SHA1-Digest: kuUIp92QFyeNYuoIKXmYJd3RJ3E=
+
+Name: images/olive/grid/grid3-hrow.gif
+MD5-Digest: l4gIw2n+xBQOaSRMlbEm2w==
+SHA1-Digest: fyefpmBSQDp5ZuGC7LYxR/Lm4L0=
+
+Name: images/olive/grid/grid3-special-col-bg.gif
+MD5-Digest: xeOUc8qG7mP+lpvYvqCKGQ==
+SHA1-Digest: sqNEv8qbz+t6nkJewFezJ0Ge+4c=
+
+Name: images/olive/grid/grid3-special-col-sel-bg.gif
+MD5-Digest: elCNvq0ozOrKxb8WTQcyjA==
+SHA1-Digest: 0+IPta7fO6ff6bCPatR4cBadmHo=
+
+Name: images/olive/grid/hd-pop.gif
+MD5-Digest: 5fJ6L2jMLROxHPQcRtKY3A==
+SHA1-Digest: ReRqIWr0mrDBOLKQRQKRWpIAtpE=
+
+Name: images/olive/grid/row-over.gif
+MD5-Digest: 00QXRa741aFYQV6pmQCN+g==
+SHA1-Digest: wyHUBCdxpgBC0w4ReiE8nTTo13g=
+
+Name: images/olive/menu/item-over.gif
+MD5-Digest: Jl5hN54KsGdorBItroCZyg==
+SHA1-Digest: fWHAzykIht3wgznukMV6EK816Fg=
+
+Name: images/olive/menu/menu.gif
+MD5-Digest: HjIsG1nSR01yCCcvysmy7A==
+SHA1-Digest: FskAUDWAZctPe+5FnOSn7jQ14hk=
+
+Name: images/olive/panel/corners-sprite.gif
+MD5-Digest: pppoQVvLzjrPwLcRPENh4A==
+SHA1-Digest: /Ty55camu5jJwlEeZKGhSfoK/lI=
+
+Name: images/olive/panel/left-right.gif
+MD5-Digest: xQd04iAfde6uGUfxjJpBmQ==
+SHA1-Digest: d/xoPIhPdoBPJtX3sGp0JD5QX/g=
+
+Name: images/olive/panel/light-hd.gif
+MD5-Digest: 6qwTPRGMVfpvuAORdqJzOQ==
+SHA1-Digest: JZR/3DBwx52ZLG1qsYCv3h4yIfs=
+
+Name: images/olive/panel/tool-sprites.gif
+MD5-Digest: zErdAGZ6V1LYIiJfB5VW7Q==
+SHA1-Digest: YNTvR5w73YdPdeheS2kaxWHmoW8=
+
+Name: images/olive/panel/top-bottom.gif
+MD5-Digest: +sC/uLYgpxkN/vR3twFMSA==
+SHA1-Digest: Kk2J86bk/DgvxpmzK1RaiqlTOaM=
+
+Name: images/olive/panel/white-top-bottom.gif
+MD5-Digest: IMk88SL2AP/K/t6HfTwFhg==
+SHA1-Digest: LCLUPHqeyc3QxxJa9OMMBHmDuRY=
+
+Name: images/olive/qtip/close.gif
+MD5-Digest: w+u5AfcZ9zR/dubiP7sxAA==
+SHA1-Digest: Pt5eJxuJWZEMa7Qpm10ho5P7VmA=
+
+Name: images/olive/qtip/tip-sprite.gif
+MD5-Digest: oRvLl1lo6Y2jUxZP8mLBwQ==
+SHA1-Digest: 5+DrCeE9fzTS1xQNQuglHVSjJcw=
+
+Name: images/olive/shared/glass-bg.gif
+MD5-Digest: lmonm6MKaitC7U3AHtwHnQ==
+SHA1-Digest: Rh8rtqOaC80CLHR9CR2DN4Bmmw0=
+
+Name: images/olive/shared/hd-sprite.gif
+MD5-Digest: KfpIynNG6nEGzOKusKup8A==
+SHA1-Digest: 4ZPBC63tv1thECsPiRWLv0QqUvM=
+
+Name: images/olive/shared/left-btn.gif
+MD5-Digest: 9eJw7/drFb31YoTivazS1w==
+SHA1-Digest: py56m7jZYAOEiX6easNhYNyeqvg=
+
+Name: images/olive/shared/right-btn.gif
+MD5-Digest: e6ni6T/X6hiFTMWApnNfVA==
+SHA1-Digest: vGk3fvFqx8NcdVLMhKa8z0j0c3E=
+
+Name: images/olive/tabs/scroll-left.gif
+MD5-Digest: IqSQT0mt/dsiU9aClRzuog==
+SHA1-Digest: WSoq4TH2inZsHrYKggV6YlOorOg=
+
+Name: images/olive/tabs/scroll-right.gif
+MD5-Digest: riGfTFeBbu5OqpSi3SjBOw==
+SHA1-Digest: r/g00K2dJw92ZdZmabwkNA+JFic=
+
+Name: images/olive/tabs/tab-btm-inactive-left-bg.gif
+MD5-Digest: /m4RFPL8A1HCN6OgSNUVvQ==
+SHA1-Digest: 7zIlVpkadIVPskHsPBfuWPMzKLM=
+
+Name: images/olive/tabs/tab-btm-inactive-right-bg.gif
+MD5-Digest: LUAqy/DW3aB2sdcAUvrzMA==
+SHA1-Digest: mPhG/pKlDmVZJvNazJl3dHLLFgI=
+
+Name: images/olive/tabs/tab-btm-left-bg.gif
+MD5-Digest: Z7+ukL8tccGBfIwrHIEo2A==
+SHA1-Digest: iAaBT98ZHkY64aCn77QxNldqq48=
+
+Name: images/olive/tabs/tab-btm-right-bg.gif
+MD5-Digest: 2o/NsircxFx4CD0ESE5Vug==
+SHA1-Digest: h1UJa8Du0E0y/kEzs1Wr2hx++Qc=
+
+Name: images/olive/tabs/tab-close.gif
+MD5-Digest: iXgrqNPYoZGoNP2fllMsOg==
+SHA1-Digest: VMyKV8oh2qY68Duh0jkTek+F3Aw=
+
+Name: images/olive/tabs/tab-strip-bg.gif
+MD5-Digest: wDhHJhUIuusYqCNbBImLaA==
+SHA1-Digest: eHw1Ed38OxyvF+PllCdDd9WtD3Y=
+
+Name: images/olive/tabs/tab-strip-btm-bg.gif
+MD5-Digest: ZjNVaNwVquryoKGbQxeofQ==
+SHA1-Digest: Tlkw/pl5d8LDolbkXbOWyafLOBU=
+
+Name: images/olive/tabs/tabs-sprite.gif
+MD5-Digest: Z+PpI4MbmLlr2j2sSqWOiw==
+SHA1-Digest: krJCOC1aAFgd4tqabGn3tKSNBl4=
+
+Name: images/olive/toolbar/bg.gif
+MD5-Digest: bRCzjmB5BmwLWuIctNpKNw==
+SHA1-Digest: tf7gGoNFGijXLR6u+KUpe/eEoEs=
+
+Name: images/olive/toolbar/btn-arrow-light.gif
+MD5-Digest: pGQoUfUKdbQGyCWGXM4q0Q==
+SHA1-Digest: trV05PWqVPzNlLeQ+jooLh8AJWM=
+
+Name: images/olive/toolbar/btn-arrow.gif
+MD5-Digest: JSvIfgehmOuEpzazCeIB4g==
+SHA1-Digest: NvY6Cnz9dcifYL8wMWpBw/7QEWI=
+
+Name: images/olive/toolbar/tb-btn-sprite.gif
+MD5-Digest: vBkps3s5HJ1I+0Q9mVl/GQ==
+SHA1-Digest: k0x+jsTAXAnqB/VmCmE1GvXNwQU=
+
+Name: images/olive/window/left-corners.png
+MD5-Digest: BUpyW3N5ezXUghkvMyTzcw==
+SHA1-Digest: 4s42Z0FGagODz0syfhTrlC43l8o=
+
+Name: images/olive/window/left-right.png
+MD5-Digest: tCjWrbb+tvC/IBSoggqsAg==
+SHA1-Digest: B0wwyq6XVbi07S8Sbanep+0EMes=
+
+Name: images/olive/window/right-corners.png
+MD5-Digest: UspUj2fERb1CVhiHWAExCQ==
+SHA1-Digest: 3WI2Fy1uiyqCDhfs0DwK4jFO1aI=
+
+Name: images/olive/window/top-bottom.png
+MD5-Digest: T6H2IlCVhh4Q0sxJSnPidQ==
+SHA1-Digest: 6z+QlcMFsoQvxZTZerOfdHgrmDM=
 
 Name: images/originals/new_act.bmp
 MD5-Digest: 3qXwxN9uvGsahRSWNN5Z2A==
@@ -1581,6 +1931,10 @@ Name: images/page_world.png
 MD5-Digest: 7KIsAzi03fkUWaM5s2KJTw==
 SHA1-Digest: eJboRQDA9OBg5gmuClkPUV3U7r0=
 
+Name: images/path.png
+MD5-Digest: hpRJuh3c4ualYSeIUQTQ/Q==
+SHA1-Digest: /xfJQ0iI+lv0Di4ryYvaBYNDNdY=
+
 Name: images/pdf.gif
 MD5-Digest: ZWVA5WEPzJST2mPOVQgH+g==
 SHA1-Digest: zTqba6CBHqMt1q7l7eb4g3vX+Fo=
@@ -1608,6 +1962,186 @@ SHA1-Digest: 8u45JGWPaWjR+DJpayT55Drco3g=
 Name: images/processimagepreview.png
 MD5-Digest: dYvSg8jwLTW0WvGQgwZ2wA==
 SHA1-Digest: gqKOWy8uEB6SWV4YcI5ZEqZ5llM=
+
+Name: images/purple/button/btn-arrow.gif
+MD5-Digest: la8/OQPPxUjCL6LE8yqWEg==
+SHA1-Digest: /P+p2nPly58tCiDLgUth4nKu20w=
+
+Name: images/purple/button/btn-sprite.gif
+MD5-Digest: 5sUs2F7r1/c1XLek3GUFMg==
+SHA1-Digest: r3yKmvNAIYa/rgfi0X0lR+anl70=
+
+Name: images/purple/form/clear-trigger.gif
+MD5-Digest: yQwhDtxYMysj6fngh2ufCQ==
+SHA1-Digest: MaaAOTHqmHgD/cYUflsSpXYhctQ=
+
+Name: images/purple/form/date-trigger.gif
+MD5-Digest: t78QIOx77S9Zqu2a90SJHg==
+SHA1-Digest: z/slBLpMwr6mT+aLgAZ8ahwLAho=
+
+Name: images/purple/form/search-trigger.gif
+MD5-Digest: qrsvN0a70ooYc4YDsnmhAg==
+SHA1-Digest: dwRgfmCtETLsRhD6ZtBFa0VtCoM=
+
+Name: images/purple/form/trigger.gif
+MD5-Digest: dZy66FCvJybB8BX6iHrYeA==
+SHA1-Digest: pCuS2LViqRzFCdQabQFJ+GABUQM=
+
+Name: images/purple/grid/grid-hrow.gif
+MD5-Digest: taPqjNjnZ5IzBBrqbQZxEQ==
+SHA1-Digest: Dy2ikLavMHvFIez0VxBqF8Iz2xc=
+
+Name: images/purple/grid/grid-split.gif
+MD5-Digest: vRCeKRukwQYVM19p4tff0w==
+SHA1-Digest: j3xAL08xiiPejQ95Kym1xdbORu4=
+
+Name: images/purple/grid/grid3-hd-btn.gif
+MD5-Digest: 8zw7jMyI3HU6TcetDc3UvA==
+SHA1-Digest: cgpvwjGoyAGfoYu5wU4XaeXbxNE=
+
+Name: images/purple/grid/grid3-hrow-over.gif
+MD5-Digest: xYkQnZl8LtCCmXbl7INrUw==
+SHA1-Digest: 19UK7xVgxLg96zEHPjpvmQiSILw=
+
+Name: images/purple/grid/grid3-hrow.gif
+MD5-Digest: rgSROMp9qJo1LU3pNVBnsg==
+SHA1-Digest: h9isUUeLMFJ4067F6ESG+4SuAhY=
+
+Name: images/purple/grid/grid3-special-col-bg.gif
+MD5-Digest: xOjp3okUHymtWe02MpZ+2Q==
+SHA1-Digest: mKOo0BTAzzpNL/hxfK5nWzqinIs=
+
+Name: images/purple/grid/grid3-special-col-sel-bg.gif
+MD5-Digest: J0awGHpZaK0cdJnSG/egYA==
+SHA1-Digest: sriqfpkrI+f8EKaxxC8tweu+0MY=
+
+Name: images/purple/grid/hd-pop.gif
+MD5-Digest: 1jOiT/Ds/Toba3kOiHsKmw==
+SHA1-Digest: BHto9dmsYXjDQLPsUNC8IxVB9Kc=
+
+Name: images/purple/grid/row-over.gif
+MD5-Digest: 9lUwV8nDDS+j1nUqDp2ZMQ==
+SHA1-Digest: cHucHh1IJf561ty/wcXclNLnXBQ=
+
+Name: images/purple/menu/item-over.gif
+MD5-Digest: KsMtDn6bhtn15T7RmUb3qA==
+SHA1-Digest: VW1eAYeP1E7EvCXbYKJCjhu20dQ=
+
+Name: images/purple/menu/menu.gif
+MD5-Digest: sdMNxCDQPFqlNa2rvXkBkA==
+SHA1-Digest: jLVJmdNIjlGOdtzkDMqxoOrOesQ=
+
+Name: images/purple/panel/corners-sprite.gif
+MD5-Digest: IivevbikzTS9aitx1/hQng==
+SHA1-Digest: tSwBvdYaVamfsgSucP2vi6BQ6sg=
+
+Name: images/purple/panel/left-right.gif
+MD5-Digest: FfEgg+AGGatIRm7qQHRkMQ==
+SHA1-Digest: 4XNrnFUo6134yOCaTkMmT5QnN3Y=
+
+Name: images/purple/panel/light-hd.gif
+MD5-Digest: keV8MFHNNSpii11kWQTMVw==
+SHA1-Digest: uaeUlF63tNWgyqHnD3cPNIYz+Ps=
+
+Name: images/purple/panel/tool-sprites.gif
+MD5-Digest: 5uFVXf1LfW0VZCbMMpslrg==
+SHA1-Digest: ETagTdrV7/XDqtLRzTNv1da5qLM=
+
+Name: images/purple/panel/white-top-bottom.gif
+MD5-Digest: 7vEDr4cDC1LGwwmZztezGQ==
+SHA1-Digest: DMlik6LW/DvTU3te5L97ixhkuok=
+
+Name: images/purple/qtip/close.gif
+MD5-Digest: 8qmby2zqvfXR+83JcADxWA==
+SHA1-Digest: FBheVLAPUKaNhbQ9M4ZOtyF2z/k=
+
+Name: images/purple/qtip/tip-sprite.gif
+MD5-Digest: /PuIx1MB47qxgfIIjWxYpw==
+SHA1-Digest: qDn5Kx9nhm9yDUqqdYiCQzRPUJ0=
+
+Name: images/purple/shared/glass-bg.gif
+MD5-Digest: O+em9mL1J4W9RffjueiZHA==
+SHA1-Digest: EkQqIqdbVh+1v1/j7tt2C4vdpSQ=
+
+Name: images/purple/shared/left-btn.gif
+MD5-Digest: pVc0s+8hnMeo1PWtoPPPtw==
+SHA1-Digest: dtw1mh+FcjJ7eFQR1uSvUR3swrc=
+
+Name: images/purple/shared/right-btn.gif
+MD5-Digest: FMpJpsO83D9AHCPQ+sTGag==
+SHA1-Digest: iPHPsPLf0OLUuIuNtaVqfFl89gU=
+
+Name: images/purple/tabs/scroll-left.gif
+MD5-Digest: Z/d8Cqd5FtpdHomSrncy9Q==
+SHA1-Digest: DhOFsqFn4w7s7FjkNvXy0ZhEXCw=
+
+Name: images/purple/tabs/scroll-right.gif
+MD5-Digest: P0cZfY+uzvm+nTq9fHgOtQ==
+SHA1-Digest: 2idnUr7nwgrJy+ThsYGlYoL470k=
+
+Name: images/purple/tabs/tab-btm-inactive-left-bg.gif
+MD5-Digest: 37w7AVo+nTDUka8KdK2b+g==
+SHA1-Digest: CzYJo7LGNVo5DELVyNe16KA/Xgk=
+
+Name: images/purple/tabs/tab-btm-inactive-right-bg.gif
+MD5-Digest: DVkkdmOFwZeMiavpGC1dbw==
+SHA1-Digest: pbJV1JYd9tbK3KKseeLVp9aqKAs=
+
+Name: images/purple/tabs/tab-btm-left-bg.gif
+MD5-Digest: yj9ptTgcvFLKLs+ZZDzPtg==
+SHA1-Digest: DKad3mlKvb9HpXII/oaNKHWfVN0=
+
+Name: images/purple/tabs/tab-btm-right-bg.gif
+MD5-Digest: 0AWHuZRd48ETyswWtRx02w==
+SHA1-Digest: enP45iGzjKSUd8aX2FPJU12lZ20=
+
+Name: images/purple/tabs/tab-close.gif
+MD5-Digest: 1CLWhXIiaKeXkwacP6wTkw==
+SHA1-Digest: lLUTVV4LKs8t6QPmupv2m/zZVE4=
+
+Name: images/purple/tabs/tab-strip-bg.gif
+MD5-Digest: Lj5/WJs6isvvQxObQNkeXg==
+SHA1-Digest: pnyMHbud1+vaTI/tSz+MQdrchoM=
+
+Name: images/purple/tabs/tab-strip-btm-bg.gif
+MD5-Digest: et+CQ9rkkqePg8yLfivDZQ==
+SHA1-Digest: OBWLVr1ea1el0cUGHoJH8XOeZOQ=
+
+Name: images/purple/tabs/tabs-sprite.gif
+MD5-Digest: 8NExBCVkSxx0PlJGh5HNiA==
+SHA1-Digest: 7j4rdT3PMmS4Ud3/Y6/TndTRUUA=
+
+Name: images/purple/toolbar/bg.gif
+MD5-Digest: uRRphhI45Pxp/e0yAR6KPg==
+SHA1-Digest: YT9NFS/nPCTpq0MNXWBm65OhBbA=
+
+Name: images/purple/toolbar/btn-arrow-light.gif
+MD5-Digest: ckViI+0OSv1oUNpFQ4a/yw==
+SHA1-Digest: /d12M/LUkaIx0in3y/mZsykm320=
+
+Name: images/purple/toolbar/btn-arrow.gif
+MD5-Digest: qaDqI+SXPWJONbWXKUjbyA==
+SHA1-Digest: PP3iUFp3BMdEUxkOhT8jCjRBYCs=
+
+Name: images/purple/toolbar/tb-btn-sprite.gif
+MD5-Digest: jfhVKeYmHIsaVkfbQMPqOA==
+SHA1-Digest: 9zcd8gjbi51dGTXSqsvrAOg5lUo=
+
+Name: images/purple/window/left-corners.png
+MD5-Digest: 0xQxyyeOMNMK73CNG4RFvA==
+SHA1-Digest: j2nuRivR5F4N587OJQSD4ZS7kaQ=
+
+Name: images/purple/window/left-right.png
+MD5-Digest: 6JdvI3PxVwjtu/BmShxb/g==
+SHA1-Digest: iP4pccOSIz3aX0N1ryEo9DVwel0=
+
+Name: images/purple/window/right-corners.png
+MD5-Digest: R5Pp4f3YKowH34+X5yc3Uw==
+SHA1-Digest: 80JwrF/RTH0qCybmSu7hWisdm3w=
+
+Name: images/purple/window/top-bottom.png
+MD5-Digest: 5FND9ZrAmxuB2gh/BDh4QA==
+SHA1-Digest: osh9iT70gFB0U6OFkj13wqhzfE0=
 
 Name: images/readme.html
 MD5-Digest: 9r3eX6tyZ4qWsGEl4vljow==
@@ -1709,6 +2243,266 @@ Name: images/share.gif
 MD5-Digest: DkWsKh6G+6Yn9QLYeMjASQ==
 SHA1-Digest: 7eth/oqGjmLsoBnqTVswTw8ouhY=
 
+Name: images/slickness/button/btn-sprite.gif
+MD5-Digest: 2zXotjFZtHDerpbtI5ESVQ==
+SHA1-Digest: Qs7e55Q9Y7LEmoRVlxsMKXmhSbE=
+
+Name: images/slickness/editor/tb-sprite.gif
+MD5-Digest: QvY/oqThcvcytyy6AY06Cg==
+SHA1-Digest: s2Dh4FfdWNGvXC7dt/IMaeSyd5U=
+
+Name: images/slickness/form/clear-trigger.gif
+MD5-Digest: S2yzC8Xn3j+KcYHtIb/ZSA==
+SHA1-Digest: 8vB+R3Zam70D2qNSpIYHyJAJqeI=
+
+Name: images/slickness/form/date-trigger.gif
+MD5-Digest: jFzyzAT5MqsxjvXJ1Sb9bQ==
+SHA1-Digest: EjPPERy1xGBJTs6jR3kDtWrCsXA=
+
+Name: images/slickness/form/error-tip-corners.gif
+MD5-Digest: WfxPkK+xbGWediPrSkSJfg==
+SHA1-Digest: s4R3BI6xwtegX0XsaKemZ7l5ETU=
+
+Name: images/slickness/form/exclamation.gif
+MD5-Digest: /fz4KEWGeetpmeF+fiA4Cg==
+SHA1-Digest: /NvXfQy98cpYTUdE2czabgpqBuA=
+
+Name: images/slickness/form/search-trigger.gif
+MD5-Digest: GwiM/DO/4shOUE1PL2Q1pw==
+SHA1-Digest: 1Cd1ey/EANtoLF5LeUoAnBktEHg=
+
+Name: images/slickness/form/trigger.gif
+MD5-Digest: iWuMa6F5baKuDMe09WiLqA==
+SHA1-Digest: sjRcwfz5UU8/iJt0mzXGS7ZZx0w=
+
+Name: images/slickness/grid/grid-hrow.gif
+MD5-Digest: HK/eXWKnathEZkDtQ3CbjQ==
+SHA1-Digest: cv1AGp8m5Ish7CZGdhhk5V1pF+Q=
+
+Name: images/slickness/grid/grid-split.gif
+MD5-Digest: dVyCh0vssfYsJXKe4N38kw==
+SHA1-Digest: vB66XJDxEpRYt18bMtW4Hx/1ofk=
+
+Name: images/slickness/grid/grid3-hd-btn.gif
+MD5-Digest: jN51bKGijJBmdzc28pk4Fg==
+SHA1-Digest: d/oGMb5o4ycS9LkR6jr/Zet6AVY=
+
+Name: images/slickness/grid/grid3-hrow-over.gif
+MD5-Digest: dOTuzuLK6ALlgNuZCKRlLw==
+SHA1-Digest: NoOCSzjtsjogxwrgDKaRnXb5RuM=
+
+Name: images/slickness/grid/grid3-hrow.gif
+MD5-Digest: eJIYON/YqtHlVo/LwarUKg==
+SHA1-Digest: 3q2cEOb/PR8OWSYmvyfDEPeUM6c=
+
+Name: images/slickness/grid/grid3-special-col-bg.gif
+MD5-Digest: YldthSecjUI2Orthc5oWKQ==
+SHA1-Digest: D/nIr/Yj/v0SxwHgkoD/5V8yWpU=
+
+Name: images/slickness/grid/grid3-special-col-sel-bg.gif
+MD5-Digest: tlXbjjmS0O9Zfk2d5OyYWg==
+SHA1-Digest: 6di8pjM+pv6/Oawg3cSE2PS78yg=
+
+Name: images/slickness/grid/hd-pop.gif
+MD5-Digest: 5fJ6L2jMLROxHPQcRtKY3A==
+SHA1-Digest: ReRqIWr0mrDBOLKQRQKRWpIAtpE=
+
+Name: images/slickness/grid/hmenu-asc.gif
+MD5-Digest: 4x0gQPNeB5EXPEw6Gn6ekw==
+SHA1-Digest: D248WHfpajaFzh7EWon04IXgCBM=
+
+Name: images/slickness/grid/hmenu-desc.gif
+MD5-Digest: gqgdNnOto7vGXrgVPTjJNA==
+SHA1-Digest: JWoCnLHKG1DWQdnAo0v5wl2f8bM=
+
+Name: images/slickness/grid/row-check-sprite.gif
+MD5-Digest: /qoRDs2MBoRWFbQ/kG7NIw==
+SHA1-Digest: IrMfC1sO0HixgDAKfKcP0GJzpxY=
+
+Name: images/slickness/grid/row-over.gif
+MD5-Digest: 9jkJS9BWCu+ryG5RqCXyPQ==
+SHA1-Digest: 0O/NaA8YuTz4nwUgpw7RepAi010=
+
+Name: images/slickness/grid/sort_asc.gif
+MD5-Digest: B7U3Kfb0MzZCrPaeA0wwPA==
+SHA1-Digest: rox/IsvT3+rcjd2UwYSmX6QvC98=
+
+Name: images/slickness/grid/sort_desc.gif
+MD5-Digest: fSCzGoshDCBnuTtwqvK/WQ==
+SHA1-Digest: MmBvOQZxiP/NVfhwG7jGRcg1AVY=
+
+Name: images/slickness/menu/checked.gif
+MD5-Digest: EMuQNHgJeE5+auFCk4i04A==
+SHA1-Digest: f+70n4zWDgqq6PX+0X7/m6Bfaj4=
+
+Name: images/slickness/menu/group-checked.gif
+MD5-Digest: FGZF6K8nwgF71cKaVZWDbw==
+SHA1-Digest: cLkXU44Z0IKZWYmIBGT9U8D/Zp0=
+
+Name: images/slickness/menu/group-unchecked.gif
+MD5-Digest: SFFp4hXEPlBgjQYQc6UNzg==
+SHA1-Digest: nD/hb64L0xT4LtwApRCT9G+RLfA=
+
+Name: images/slickness/menu/item-over.gif
+MD5-Digest: hizDp/OIV90fC57dPrTMZw==
+SHA1-Digest: rM3csAkn99GPZ94Uc8GKPbG0fBM=
+
+Name: images/slickness/menu/item-selected.gif
+MD5-Digest: VjWXh/C3Ba9gWJh1hCfeUw==
+SHA1-Digest: lhVrON+MQ9n9RCb5hHieZvjDcPM=
+
+Name: images/slickness/menu/menu.gif
+MD5-Digest: BQV+1h+b3KdsGEjtUTlioA==
+SHA1-Digest: 7JiMuwWx+BIOwA2jWVRS2/SsOIw=
+
+Name: images/slickness/menu/unchecked.gif
+MD5-Digest: 98n2M/KWE7FICSNMlZePRw==
+SHA1-Digest: aMPvGjMvVeE028QLcBnZAsqdZkk=
+
+Name: images/slickness/panel/corners-sprite.gif
+MD5-Digest: UPi1GNkTwiHNDLqJL7UYwA==
+SHA1-Digest: nvf6G6Lalu5kc8MNLw8VoZ4eWKk=
+
+Name: images/slickness/panel/header-sprites.gif
+MD5-Digest: o/E8kYwH2kXc4szHqoMp3g==
+SHA1-Digest: q4wHoaT32ce8E5Maxyky6muqfPs=
+
+Name: images/slickness/panel/left-right.gif
+MD5-Digest: kcV43PW+S1MSnz0ORpH25w==
+SHA1-Digest: Ol2AwtdzSKW/rH8XIE9KxowEqN0=
+
+Name: images/slickness/panel/light-hd.gif
+MD5-Digest: vIGPdaCFwBZNKTrZOrmwwA==
+SHA1-Digest: jMhlA4n7CirMQf59U/y0VM1yjE8=
+
+Name: images/slickness/panel/tool-sprites.gif
+MD5-Digest: Gouth9nomChhm4yhGn4Bvg==
+SHA1-Digest: k/9GZQqhkc6DXJ0KVUIrN+3BIkY=
+
+Name: images/slickness/panel/top-bottom.gif
+MD5-Digest: Nebuxhw4s0qUot/LC3gmHQ==
+SHA1-Digest: wMfSA15jBaKskuNPnJfFWK4Qh4Y=
+
+Name: images/slickness/panel/white-top-bottom.gif
+MD5-Digest: lpNSMYvxl1MllQOd3CTfPg==
+SHA1-Digest: HgxEQsjHdHmSUB2olynkKLyovqw=
+
+Name: images/slickness/progress/progress-bg.gif
+MD5-Digest: B9e1T3g6+49t4tgpZCl/xg==
+SHA1-Digest: BbPY0vtf3wlXWEZMjopf6NLI7aM=
+
+Name: images/slickness/progress/progress-ind.gif
+MD5-Digest: VMu1l36tD378GBYwSmG+hw==
+SHA1-Digest: XedCKhnDPteqRNdkKwybqnwdMAA=
+
+Name: images/slickness/qtip/close.gif
+MD5-Digest: fphoq9Neqva+VJKsRDpLHQ==
+SHA1-Digest: yACfjXfqilejzw2Ene4a7Jhy6v0=
+
+Name: images/slickness/qtip/tip-sprite.gif
+MD5-Digest: JPMNhezlVZfqwK1x9RqziA==
+SHA1-Digest: nkk7Ye70BVXXwiKKGU71eA9YLRE=
+
+Name: images/slickness/shared/glass-bg.gif
+MD5-Digest: vBn87vd1yVBRSEDwnKm6oQ==
+SHA1-Digest: HwOExbSl9d0tBkHggQtMzD3h+8M=
+
+Name: images/slickness/shared/hd-sprite.gif
+MD5-Digest: ejqr2DU7jSyiHPMTrPyIIw==
+SHA1-Digest: VaXilgEX7kmxa8aRKfStaxmL5jA=
+
+Name: images/slickness/shared/left-btn.gif
+MD5-Digest: fD8bLHlmFQ4iOi6u2NMzJw==
+SHA1-Digest: jhC0cJwRAgqcZTUg1SSS51ghmp0=
+
+Name: images/slickness/shared/right-btn.gif
+MD5-Digest: Tw3jfYJ6WHHnyNJeh3W+2A==
+SHA1-Digest: O8zvDyoyChAlQFdgu/fDb1eA6HU=
+
+Name: images/slickness/tabs/scroll-left.gif
+MD5-Digest: E7iuTMmNuqu4Iph1V2BpJw==
+SHA1-Digest: 4xqTUEEAI8bh52UTGzFRdde1DUk=
+
+Name: images/slickness/tabs/scroll-right.gif
+MD5-Digest: IMYIattl/fAo1mTjq4PO4A==
+SHA1-Digest: /tpYKdS6xF/uPYHQITzxvWjstNQ=
+
+Name: images/slickness/tabs/tab-btm-inactive-left-bg.gif
+MD5-Digest: ukZyPeAdaxqREvsAlktECw==
+SHA1-Digest: NyqfeVJEkoHFrf9NxoFwNji2iew=
+
+Name: images/slickness/tabs/tab-btm-inactive-right-bg.gif
+MD5-Digest: k8HJ1xrHFLwSyinrIIdyVQ==
+SHA1-Digest: I+NLtSDcQkkM7MDMRHsrfCib5Z4=
+
+Name: images/slickness/tabs/tab-btm-left-bg.gif
+MD5-Digest: kIyEsqtFIwzZUbk82X/2Ew==
+SHA1-Digest: rUvxDhgrmhjYFy4UlBx7/rjmLB4=
+
+Name: images/slickness/tabs/tab-btm-right-bg.gif
+MD5-Digest: 5ec4AF7V20YSR38z3e6MJA==
+SHA1-Digest: J7e5Jwi9a8Biup3B+DTC2pTifN8=
+
+Name: images/slickness/tabs/tab-close.gif
+MD5-Digest: +SEHzGtMt4rwhGSKYo4B0g==
+SHA1-Digest: i1Avsw6LO+OGZ4lTMWWh39Zxz+8=
+
+Name: images/slickness/tabs/tab-strip-bg.gif
+MD5-Digest: fq3c6x6DecgpFNq4l0zktA==
+SHA1-Digest: dAHTLSbSATk8U7Xo6HEwh2ezars=
+
+Name: images/slickness/tabs/tab-strip-btm-bg.gif
+MD5-Digest: W1G59wqrkAbjYsJb9s+3tg==
+SHA1-Digest: nm8E0vt0bz3/YE0P/9fuVIRMg6k=
+
+Name: images/slickness/tabs/tabs-sprite.gif
+MD5-Digest: PNLrf6HEKtxvIVtSwYh3AQ==
+SHA1-Digest: WxuIo9ZQtR1kFg65vlYpjzrNxcA=
+
+Name: images/slickness/toolbar/bg.gif
+MD5-Digest: DuYpkG6qCq2Laa8MvWS5Hg==
+SHA1-Digest: cT1s4F8BB6oG0fQs5kmx3YjuJaE=
+
+Name: images/slickness/toolbar/btn-arrow-light.gif
+MD5-Digest: tyIXyI/m33SQCtIwNadb+w==
+SHA1-Digest: FDmHacE7bKQPuHjSj/6qyafu6po=
+
+Name: images/slickness/toolbar/tb-btn-sprite.gif
+MD5-Digest: f36RGhBWdhTmx/+QqrmTjw==
+SHA1-Digest: EJOpMUm7SAfN5m/7zY0xLi0smN4=
+
+Name: images/slickness/window/icon-error.gif
+MD5-Digest: GNHB7asjPs/3w/Swx7U8bg==
+SHA1-Digest: gaLAEDJEmHXZWBhtsM46HqhwXpE=
+
+Name: images/slickness/window/icon-info.gif
+MD5-Digest: F62XffGuyi1N6MZ8Vl5JGA==
+SHA1-Digest: EEgF96FYXttbsZ5XuNzHZPEl8rM=
+
+Name: images/slickness/window/icon-question.gif
+MD5-Digest: QpMnHaWAsP8fYKU4ohCWKQ==
+SHA1-Digest: 9bm9u4dYVq6kwmrQUOuAi8Dps+Y=
+
+Name: images/slickness/window/icon-warning.gif
+MD5-Digest: ZOnJUhlMx/pLo5BPPzIkQg==
+SHA1-Digest: 8G/o15U0I0p6y83DuL1OdtC0i0I=
+
+Name: images/slickness/window/left-corners.png
+MD5-Digest: WDbNs5ESgUv90lCDb72n9Q==
+SHA1-Digest: F6EjsXb4xUVdjZPr6FVxfZHNriA=
+
+Name: images/slickness/window/left-right.png
+MD5-Digest: vFBpUTlez4JUW7y1N39PrA==
+SHA1-Digest: Qya8C/4dhueAIqAnXwjc010JQ5w=
+
+Name: images/slickness/window/right-corners.png
+MD5-Digest: agszA/lEQIUPM/+NkP9LkA==
+SHA1-Digest: zL1sVxkrAkZ4nread6tyUVAnbec=
+
+Name: images/slickness/window/top-bottom.png
+MD5-Digest: 9qtEOOfk+fiaLETkGHbfdg==
+SHA1-Digest: jMTqTrDUdAWAqP/Amj4k+n5UZXQ=
+
 Name: images/sod+.png
 MD5-Digest: UCwdaqy7TcorcdevREm/yw==
 SHA1-Digest: SbEYs1PM7Z+T6MmtaTEnA2wnuXw=
@@ -1768,6 +2562,10 @@ SHA1-Digest: 5gdhOLAG5OulZvRnD58mZcttM+g=
 Name: images/toolbar_prev.png
 MD5-Digest: 4SLOFoO0/MUaiiCUBHbYsA==
 SHA1-Digest: yz10q93EX7KJYxZyHFM+N3iKfa8=
+
+Name: images/unlock.png
+MD5-Digest: MgPWKAGYLEh/YaSGN3igkg==
+SHA1-Digest: LtIwN+0zaH8+6cwpT2pDPTyNcYk=
 
 Name: images/vector_add.png
 MD5-Digest: oL5GUcnm6Ii43H94PM+lZg==
@@ -1858,8 +2656,8 @@ MD5-Digest: 4I0xQMnEtheh4vIRhKk4hQ==
 SHA1-Digest: jCmsTEWURRlHi+sRDLLUTF9HIUM=
 
 Name: js/Core/StencilSet/property.js
-MD5-Digest: E8IhNJer26rVkrd1Riut7g==
-SHA1-Digest: fyAPtVxqD6FarxHDx6h41Kb/Hzc=
+MD5-Digest: lOpho63dZ/drApjz7+xDUg==
+SHA1-Digest: 6s3txxXlgIkgHQ78TNBKFs4ivDM=
 
 Name: js/Core/StencilSet/propertyitem.js
 MD5-Digest: F2BdlPFpr0ujTsWv/AAjnQ==
@@ -1870,8 +2668,8 @@ MD5-Digest: 7myVVOQQxGucddV94P1dzw==
 SHA1-Digest: ehnsJ5XeszglfvXbz7nBfQ2GsOg=
 
 Name: js/Core/StencilSet/stencil.js
-MD5-Digest: LY12EUfS+pcXG7uU63q6AQ==
-SHA1-Digest: ckaDFEvV/N0LwYKqLoo46ekBwNI=
+MD5-Digest: OxZYRe5V5XlCJcWR68dDfA==
+SHA1-Digest: 8DCUrWkl+23IxDSWBx0ckT9BtNQ=
 
 Name: js/Core/StencilSet/stencilset.js
 MD5-Digest: cKfNXxHzKCrxv4jnrWhW9A==
@@ -1902,24 +2700,24 @@ MD5-Digest: DXJbo+AWl718/yr90fg/Rg==
 SHA1-Digest: dwnMosucDYaVsdAE6cUgnAxAwzA=
 
 Name: js/Core/canvas.js
-MD5-Digest: /M7ykvcvgs3NqJwSxRc7og==
-SHA1-Digest: crYR5Vx34NgRXg0sf/i+O3bosQQ=
+MD5-Digest: p9CmrnAwuv7XXkl3q3N+8A==
+SHA1-Digest: OZRsBYC+lvLQcV333AlMWjcwa14=
 
 Name: js/Core/command.js
 MD5-Digest: jMAmXWUMETX28wNo6bDi4A==
 SHA1-Digest: DDvIj/ZoWkb731iKxulPHIU2Wjg=
 
 Name: js/Core/edge.js
-MD5-Digest: T/1DSm2plcrhCMt4qiaDjg==
-SHA1-Digest: tJJICbxGjQZ1Y/0CJKMbgEAJZ0A=
+MD5-Digest: kuK37QgvoKRp/wuQoYXqyQ==
+SHA1-Digest: PHpydOoZ+ZBxzlDSTWyVqMqGJvs=
 
 Name: js/Core/main.js
 MD5-Digest: KGt3XA0NfTeOn4TJEqLvZw==
 SHA1-Digest: ZNecDTyRmYLpMDbxZZbOL10aNO0=
 
 Name: js/Core/node.js
-MD5-Digest: UxqrX/1bW8mH+2PxS8CEAw==
-SHA1-Digest: kGMzB4IgyaNQMSr6TOgJBjaA0YM=
+MD5-Digest: hqyqdcv7rJROD6UE9D+J0g==
+SHA1-Digest: eZfmAquEv4YF2Gze4+hZI3K4nno=
 
 Name: js/Core/shape.js
 MD5-Digest: qHP7rpPLjKaYVcCIaB2+zQ==
@@ -2266,12 +3064,12 @@ MD5-Digest: uWuF3E17umY2zrnkdixq3w==
 SHA1-Digest: zCz8uel2ywgV4n7qdSiEVSfAKm4=
 
 Name: js/Plugins/dragdropresize.js
-MD5-Digest: J1UNKCJw89YSuHugOgmiSA==
-SHA1-Digest: GBybT7xHrhyfSA3jW/Ib4lZpOW8=
+MD5-Digest: nsGo/NAaOmsnm3ySlYQ+Ow==
+SHA1-Digest: P4R5BerR+jUP6fqMaZGhplAyvMo=
 
 Name: js/Plugins/edit.js
-MD5-Digest: BwF5E0z3/4ianmDEhtkyjw==
-SHA1-Digest: +g3YB0by1Fn44uFkSiE/7pcfSCE=
+MD5-Digest: ua3ziQsS0MaQgiozv+I3rQ==
+SHA1-Digest: oCVfg8xIgT7Gy1sLB+UkfRb3TwE=
 
 Name: js/Plugins/enforceabilityOverlay.js
 MD5-Digest: pJjY1z+lpRIcLceRgWW9iA==
@@ -2322,8 +3120,8 @@ MD5-Digest: ViNs4MoV69k0HBcGs4IXPg==
 SHA1-Digest: 6c2Dg6hmwsmnpaGlEVzJyUoDC5M=
 
 Name: js/Plugins/inlinetaskformeditor.js
-MD5-Digest: IoU4DyxyjSbEfW7yrhUxkA==
-SHA1-Digest: Du7KSRRLWlsE4imzbfA5LoBeqQA=
+MD5-Digest: BRMhb05by0Hpy2GoUTNkkQ==
+SHA1-Digest: 4tWruPOhBiuToDHrPrbiLqSDYZ8=
 
 Name: js/Plugins/jpdlSupport.js
 MD5-Digest: C9ckL9v1K30o3L76wygUdQ==
@@ -2349,9 +3147,13 @@ Name: js/Plugins/loading.js
 MD5-Digest: HeFIao53wCt7bQ2bdUejag==
 SHA1-Digest: +dukIEIuomGBi+r6pa6XXR0Dknw=
 
+Name: js/Plugins/locknode.js
+MD5-Digest: UcGgnVtQsrdR+wK9Upv/yQ==
+SHA1-Digest: I2f9l+naCF8IXlaO9Y+Y5tgTECs=
+
 Name: js/Plugins/nodeXMLViewer.js
-MD5-Digest: VkS28EbP0khKHXixgu5H8w==
-SHA1-Digest: doOwUM3xV9lskjVo5we2bf5QSKE=
+MD5-Digest: dnP6XaeclI2coQbFgPjwTg==
+SHA1-Digest: eshFe8NDuDE57wNbfK/PrlCH5XU=
 
 Name: js/Plugins/overlay.js
 MD5-Digest: oQcjoxuFGBTiNmt08AOmsg==
@@ -2374,8 +3176,8 @@ MD5-Digest: sQrmo3xV4fuuB4U9qsoi2Q==
 SHA1-Digest: pRnXqSudp/6rjTDo9qBwij0K7V0=
 
 Name: js/Plugins/plugins.xml
-MD5-Digest: URmsNwxwy+v22EkBfSM4jQ==
-SHA1-Digest: 2zE+7/VzHJh/ZyTCmQl3Z1kAAXE=
+MD5-Digest: I3s4Ki4A+N6Lp6cYU0PXNA==
+SHA1-Digest: cq2Japp9taG9yPr6UFiV3pZEuwo=
 
 Name: js/Plugins/pnmlexport.js
 MD5-Digest: 4zAWI37PbjhaV1kK5bTBUA==
@@ -2394,8 +3196,8 @@ MD5-Digest: nK9DeIMg6+IDWoT0clswNA==
 SHA1-Digest: kUlpM7KiER+KUI2c+ovT/V2CqCs=
 
 Name: js/Plugins/propertywindow.js
-MD5-Digest: a5e3f1bx+DPRKNhenjfGAQ==
-SHA1-Digest: Um6ZeXVl1MZNt+zERj0CswtFyPg=
+MD5-Digest: rtPZfNlP5lVOvliD9hQBtg==
+SHA1-Digest: f/nff3gWebhDE8aFh4wFhtryrYk=
 
 Name: js/Plugins/queryResultHighlighter.js
 MD5-Digest: Dw//iPXNVxozg6QKO8J1Tg==
@@ -2414,8 +3216,8 @@ MD5-Digest: g+5sGAy1bWOaH4G2fGuFGw==
 SHA1-Digest: jqazgtmhMKVg0sIwMDKmo9ADJ2Q=
 
 Name: js/Plugins/renameShapes.js
-MD5-Digest: enHYHcntO59HE8oTzYnvxg==
-SHA1-Digest: NtSZfXWme63COXJBlfLXu+GuhyM=
+MD5-Digest: X5I2aqE03hP4DzWSV6Z6GQ==
+SHA1-Digest: EoiZl6n09oCL2rIN7I4gLtspsHI=
 
 Name: js/Plugins/rowlayouting.js
 MD5-Digest: njPYZVqTQJRgMNTkrY6eYg==
@@ -2442,16 +3244,16 @@ MD5-Digest: KRqGaEmErs8ZvY3D4CjoGg==
 SHA1-Digest: 5c4sc4Lm5Oztf5zbkOO9ex7RdtE=
 
 Name: js/Plugins/shapeHighlighting.js
-MD5-Digest: Djv+X7JJNa8KgvmG+WsSsg==
-SHA1-Digest: YZzPYT6HPYCwRBQhSemp+42Jss4=
+MD5-Digest: cwHtfucE7aj+om133rGmwQ==
+SHA1-Digest: 3uOieo410DfqLU5aCuszl46i7d0=
 
 Name: js/Plugins/shapemenu.js
-MD5-Digest: 7+V8IRgt60Wp/pCK9l8ZmQ==
-SHA1-Digest: Fh2SbR79mB6LhPWLHEDH7/RXdFk=
+MD5-Digest: 9tUWWj73ZF3bKECIRX6IiQ==
+SHA1-Digest: Y07l0U4Ltqq6fej4urusVFqw+qI=
 
 Name: js/Plugins/shaperepository.js
-MD5-Digest: sQfxnCoHZ1OuFo8XXhJGJQ==
-SHA1-Digest: GL1DNRTbGiMpsVIXnrleUFsIB+8=
+MD5-Digest: ZaeEmYtj/cUKcudDqguGCg==
+SHA1-Digest: j9b6XtG8TlI0P6zP7cY09SwRiks=
 
 Name: js/Plugins/simplepnmlexport.js
 MD5-Digest: SkYugLECExbmZW4+VLkc9Q==
@@ -2465,17 +3267,21 @@ Name: js/Plugins/syntaxchecker.js
 MD5-Digest: 0f8JQW52K5JP+jLNpbaoWA==
 SHA1-Digest: Mivh0FBHTHmybVSA739qambEuDQ=
 
+Name: js/Plugins/taskpropertiesupdater.js
+MD5-Digest: 0lPB8VX7N5eH7xySptvk+g==
+SHA1-Digest: 6pW7nYN65JCjNDiroqBTUXACZGU=
+
 Name: js/Plugins/tbpmsupport.js
 MD5-Digest: 38AZ1lKkSyfq0Nq+H0KKIw==
 SHA1-Digest: IOkE5MThI9+RE9NEumk50ObqdWo=
 
 Name: js/Plugins/theme.js
-MD5-Digest: WUhZ0vankJcsFJqkDyX6+g==
-SHA1-Digest: Po3qXDoAMJCnR+TH7djiZZIbKwQ=
+MD5-Digest: /AcnjM/dAkGuI6RbSgpX8w==
+SHA1-Digest: T+XXk6zazS1ZOVpobS7xobryEmg=
 
 Name: js/Plugins/toolbar.js
-MD5-Digest: dM50npHxNpB0s5Dp1gYXlA==
-SHA1-Digest: 1ZPfqVPaX97mxdH4fJHJVBXw118=
+MD5-Digest: O/Dabjg5jE1NQeL1FqcK9g==
+SHA1-Digest: 0Yg5iu3IzDzYGgnVpetXb0LpnbE=
 
 Name: js/Plugins/transformationDownloadDialog.js
 MD5-Digest: AF1GPtD7PCioawaTP02fJw==
@@ -2510,8 +3316,12 @@ MD5-Digest: wNG+Z57RvbRUHP1SrY/uaA==
 SHA1-Digest: fQ1SRGZ0bsMIj0gyXUGJLqD/XCk=
 
 Name: js/Plugins/view.js
-MD5-Digest: Cf++tV8XiyhzUODocTALeQ==
-SHA1-Digest: gzEqC1xlzCW31R6nBabHBkRhgps=
+MD5-Digest: 2C0tdHtyOCzTZxLGkiQp8A==
+SHA1-Digest: CXCUWX2IULjyT4+eS/aq0qt0oCg=
+
+Name: js/Plugins/voicecommand.js
+MD5-Digest: P41r7XGiljm0iYesYSDaYg==
+SHA1-Digest: P3sQnmPtwRkC53zC8/fdb819iZI=
 
 Name: js/Plugins/workflownets.js
 MD5-Digest: rsp9pueZruJFQBwY8HoqFA==
@@ -2557,6 +3367,14 @@ Name: js/cmcss.js
 MD5-Digest: OoR9Gw6H0nqmbNIJyjOlHw==
 SHA1-Digest: 8Y45QTEJs7vbqTwo+gvfJf5lUR0=
 
+Name: js/cmdialog.js
+MD5-Digest: RESD1alKPDOuBbrR5/TYMA==
+SHA1-Digest: S2+KbKC4vrwz2jUYhaBmshxPrVs=
+
+Name: js/cmfold.js
+MD5-Digest: Kcg3v2RheW+ODzzQZMaJew==
+SHA1-Digest: SFUk6t3PkwNS2qJjKQ71OxpaPbE=
+
 Name: js/cmhtmlmixed.js
 MD5-Digest: hHFz5OWJObTlvItJ1NqKDA==
 SHA1-Digest: 3rUlrABcUL2aEvKKFJ8d43h8CYg=
@@ -2565,13 +3383,21 @@ Name: js/cmjs.js
 MD5-Digest: B3kcRFQeuPtxRoc0XTyP1A==
 SHA1-Digest: FLfoEPtCMueE2xncUW5bIMLAOMU=
 
+Name: js/cmsearch.js
+MD5-Digest: ySMEGXf8j6w2ro3TErvBfQ==
+SHA1-Digest: smHaR3+zh5hcnYvgwrQRMORbUO0=
+
+Name: js/cmsearchcursor.js
+MD5-Digest: AIOrZ5GCUsnFvIRAbEAOFw==
+SHA1-Digest: 6TUhv5IA9B4h7xNdhM061bksvnQ=
+
 Name: js/cmxml.js
 MD5-Digest: 7HELfTLuvcoLRa2jd2qeVg==
 SHA1-Digest: w392BRtifdmHjE2O3x12VXwiGIA=
 
 Name: js/config.js
-MD5-Digest: D2FDrQ3nrkDHz8jBNVBC0w==
-SHA1-Digest: QyiBliAUfEoFkV9HdxJHB1YrEsw=
+MD5-Digest: q34lqyuQgs2s6/79ucYS+A==
+SHA1-Digest: 7FkXV4mLawGiUubLJHiVkL+0qU4=
 
 Name: js/datamanager.js
 MD5-Digest: 0h9Ux/tT/ROak68KuUEf/Q==
@@ -2598,8 +3424,8 @@ MD5-Digest: FYntmTHAMg+aV+A48SCX4g==
 SHA1-Digest: uummSJ+DJqe9p490j5nrUNIyH54=
 
 Name: js/hintjbpm.js
-MD5-Digest: AGVu3lBT+SQr9f7Iw5barg==
-SHA1-Digest: N+xEGmsdPp639D3Gq89asXIxHYA=
+MD5-Digest: mNSZMOgAmHFpaF2ZaQegAQ==
+SHA1-Digest: FI8CXnL8rPYvGEbikNLWXCM7Rog=
 
 Name: js/imageviewer.js
 MD5-Digest: m98FHSoCWbLdBjjUBviPRQ==
@@ -2637,6 +3463,18 @@ Name: jsc/README
 MD5-Digest: nWFRjwoC3qxuLPrxK5aAIQ==
 SHA1-Digest: kgCFPeZxhvRYZhRkYWm6XXAIfoU=
 
+Name: lib/backbone-forms-default.css
+MD5-Digest: F50f+lpi2QfINJTMtP3Ycw==
+SHA1-Digest: OvKtpCEuytJG1nlaCF2Y05d2sQs=
+
+Name: lib/backbone-forms-list-min.js
+MD5-Digest: pL6kcerkTao81R5BQT3Fag==
+SHA1-Digest: O+TjwRit/uB4hxEoYtSUPc8t6fQ=
+
+Name: lib/backbone-forms-min.js
+MD5-Digest: p3/lixc5LDuIvS6NwShNig==
+SHA1-Digest: 70f1F7MRmiasU22Zh3i7x7BHpPc=
+
 Name: lib/bpmn20/BPMN20.xsd
 MD5-Digest: 7OjI11jG6jwKc3u4m0xlvQ==
 SHA1-Digest: su/WZMVx5TfqbCEqZM7cxZeoaQ8=
@@ -2656,6 +3494,10 @@ SHA1-Digest: +Lj3dbnBcQCX/1U8tTVyyY7+9Ok=
 Name: lib/bpmn20/Semantic.xsd
 MD5-Digest: /2elrnkDispBCYjg1W32uA==
 SHA1-Digest: LI51eQHtiZLcoPQemH1BEoL9zkA=
+
+Name: lib/d3.v2.min.js
+MD5-Digest: 8IpUi/j9osN4gk3vgsnaxQ==
+SHA1-Digest: XG3Fv2or7K8EY2fwHVFJ95UG7+8=
 
 Name: lib/ext-2.0.2/CHANGES.txt
 MD5-Digest: gQJo1JpN0fv/FHjP6dcJvA==
@@ -4052,6 +4894,14 @@ Name: lib/extract-rdf.xsl
 MD5-Digest: jtw+VS2rLQbC/RzZIrqbUQ==
 SHA1-Digest: F7BHh1Cc3R+gunBumxY/brfbpXk=
 
+Name: lib/handlebars-1.0.0.beta.6.js
+MD5-Digest: yk3X6loz0TwJNHz4Fq9wqQ==
+SHA1-Digest: 7AIWK/jMZpKsBjYeHC6LJKovZr8=
+
+Name: lib/jquery-1.7.2.min.js
+MD5-Digest: KTq19TexAs02pcdcndXs4w==
+SHA1-Digest: czp5aJFFRr2NIPol6P1RNrdPNCw=
+
 Name: lib/path_parser.js
 MD5-Digest: UPjTuJ3Dx0XvAxqHcdjjWg==
 SHA1-Digest: MBOEChWLRktr4G9bGYztzzvp2Bw=
@@ -4069,8 +4919,8 @@ MD5-Digest: nqQUyle/MgfEYJpItsakEg==
 SHA1-Digest: gqFw/hHK/alW4/M5jgR2cpDmnjQ=
 
 Name: profiles/jbpm.xml
-MD5-Digest: qZbhbv+nOD/Th/X84qek1A==
-SHA1-Digest: VW2sWnOdr0VvtnbzNtkRuFICteM=
+MD5-Digest: 3gbanv9XVSy06r9CmIHt7g==
+SHA1-Digest: SUhGgLLXeyZFIijJuwrvg1HtdwY=
 
 Name: repository/README
 MD5-Digest: B+GuwoAu5E/YmShzUqbyoA==
@@ -4473,8 +5323,8 @@ MD5-Digest: m2TnGD4FEXupWD2Vwflk2g==
 SHA1-Digest: w9vLPHhzMS+I6cgQUBJpfu2u4cM=
 
 Name: stencilsets/bpmn2.0jbpm/stencildata/bpmn2.0jbpm.orig
-MD5-Digest: D9jmqfnqH2efOhe+Sw4AJQ==
-SHA1-Digest: VgLgk4G4gR+GTExty2BkNy3W500=
+MD5-Digest: eZ6uVD7S0jwsCWITNH5gbQ==
+SHA1-Digest: B5mL4uZMGQKZ3k651EQ5L5CwNKY=
 
 Name: stencilsets/bpmn2.0jbpm/view/activity/event.subprocess.collapsed
  .svg
@@ -4510,39 +5360,39 @@ MD5-Digest: cjABpEC2FjsozFDOs1gSNQ==
 SHA1-Digest: lUs2BE44DH5f/1PMh45TJ+1lRck=
 
 Name: stencilsets/bpmn2.0jbpm/view/activity/workitems/workitem.orig
-MD5-Digest: zsrWtLvObT9BBBfyNggKNg==
-SHA1-Digest: yXQ/07F4csLA2JnBCVEFEwyk11A=
+MD5-Digest: Toy3HxxjLbsJC0r3IemmtQ==
+SHA1-Digest: kvRpp+Wep6e34F9XHurRbw5PAMU=
 
 Name: stencilsets/bpmn2.0jbpm/view/artifact/group.svg
 MD5-Digest: LpPClIHIe1V0wZj+8iJHtA==
 SHA1-Digest: bBSNdKIdCPpiAYbobWxboG0wBI0=
 
 Name: stencilsets/bpmn2.0jbpm/view/artifact/text.annotation.svg
-MD5-Digest: 7U2sHS6Dt0JOAiIdtEjbZw==
-SHA1-Digest: lbG5r9qykbtr5RhJY4hbR1kYMtk=
+MD5-Digest: A9rV5d3YlIJaJo8zxbXmMQ==
+SHA1-Digest: JrvhBGH2W4fbaWEdh3vLH1YEMDQ=
 
 Name: stencilsets/bpmn2.0jbpm/view/connector/association.bidirectional
  .svg
-MD5-Digest: 5WE9cNhFkhSJXlaRI9nqFw==
-SHA1-Digest: axX+vqiieuvjZQ2VVQWiu6SD1FE=
+MD5-Digest: L+hSTjyJnj5B1El7supE9A==
+SHA1-Digest: A0PueOFYAw01aax6ImIh7Vj25qg=
 
 Name: stencilsets/bpmn2.0jbpm/view/connector/association.undirected.sv
  g
-MD5-Digest: bFjS/vcNDqN5V0hy7qSJsA==
-SHA1-Digest: FcD0Gxf3X6p25MFvoC5pTuJLQiI=
+MD5-Digest: xOYl9RV71Qpn04yCv4MSaQ==
+SHA1-Digest: RaF/mcL94O91SAqWC41LwJgszZ4=
 
 Name: stencilsets/bpmn2.0jbpm/view/connector/association.unidirectiona
  l.svg
-MD5-Digest: yWrX6B6dhOu14/AiYHSXgQ==
-SHA1-Digest: cZHdRFcPhj2ebiBYPu7r7zW7DGk=
+MD5-Digest: h+wh+MMQd0C4fyA5NfKA1w==
+SHA1-Digest: Nnar4FL/lneTXQOGJpnBhMvIRdo=
 
 Name: stencilsets/bpmn2.0jbpm/view/connector/messageflow.svg
 MD5-Digest: ol3Zc2H8Z0otgiQtvCMtAw==
 SHA1-Digest: woaTxLKscwNZ1brXd8RxmGDvJ+A=
 
 Name: stencilsets/bpmn2.0jbpm/view/connector/sequenceflow.svg
-MD5-Digest: Fd5TRl9rGXkOS5F4AESVUw==
-SHA1-Digest: QEH3nt242BXlM2Wz8nt5kRa79GI=
+MD5-Digest: 5VO45qv10jdD577f+IgU2g==
+SHA1-Digest: HRvbs4viSQSQsJ3Y1qKG3Oxg1sE=
 
 Name: stencilsets/bpmn2.0jbpm/view/conversations/communication.svg
 MD5-Digest: RB2Z0H3t6h7EsD3uP7oAZw==
@@ -4866,8 +5716,8 @@ SHA1-Digest: 1fgiFlss2zTkMJ3ZIyCBR/L599g=
 
 Name: stencilsets/extensions/bpmn2.0jbpmminimal/bpmn2.0jbpmminimalsubs
  et.json
-MD5-Digest: tlt0Wh9nBd4daDiAUNJ+7Q==
-SHA1-Digest: 5ZPuyJlHUlJOJoV1BcALjlf79io=
+MD5-Digest: 9ng6sFkWTAr16r5K9LrgaQ==
+SHA1-Digest: Q4VYSDLpvZ0L1wWk9DFmerxZ0vM=
 
 Name: stencilsets/extensions/extensions.json
 MD5-Digest: 9Yhsyc5YKRKDn5OrlfCxSQ==

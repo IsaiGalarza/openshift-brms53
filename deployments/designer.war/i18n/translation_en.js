@@ -228,11 +228,11 @@ if(!ORYX.I18N.Edit) ORYX.I18N.Edit = {};
 
 ORYX.I18N.Edit.group = "Edit";
 ORYX.I18N.Edit.cut = "Cut";
-ORYX.I18N.Edit.cutDesc = "Cut the selection into an Oryx clipboard";
+ORYX.I18N.Edit.cutDesc = "Cut the selection into a Designer clipboard";
 ORYX.I18N.Edit.copy = "Copy";
-ORYX.I18N.Edit.copyDesc = "Copy the selection into an Oryx clipboard";
+ORYX.I18N.Edit.copyDesc = "Copy the selection into an Designer clipboard";
 ORYX.I18N.Edit.paste = "Paste";
-ORYX.I18N.Edit.pasteDesc = "Paste the Oryx clipboard to the canvas";
+ORYX.I18N.Edit.pasteDesc = "Paste the Designer clipboard to the canvas";
 ORYX.I18N.Edit.del = "Delete";
 ORYX.I18N.Edit.delDesc = "Delete all selected shapes";
 
@@ -821,8 +821,9 @@ ORYX.I18N.SyntaxChecker.MULT_ERRORS = "Multiple Errors";
 
 /** New Language Properties: 08.09.2009*/
 if(!ORYX.I18N.PropertyWindow) ORYX.I18N.PropertyWindow = {};
-ORYX.I18N.PropertyWindow.oftenUsed = "Often used";
-ORYX.I18N.PropertyWindow.moreProps = "More Properties";
+ORYX.I18N.PropertyWindow.oftenUsed = "Common";
+ORYX.I18N.PropertyWindow.moreProps = "Extra";
+ORYX.I18N.PropertyWindow.simulationProps = "Simulation";
 
 /** New Language Properties: 17.09.2009*/
 if(!ORYX.I18N.Bpmn2_0Serialization) ORYX.I18N.Bpmn2_0Serialization = {};

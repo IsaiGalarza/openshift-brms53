@@ -49,6 +49,10 @@
    <param-name>designer.locale</param-name>
    <param-value>en</param-value>
   </init-param>
+  <init-param>
+   <param-name>designer.skin</param-name>
+   <param-value>default</param-value>
+  </init-param>
  </servlet>
  <servlet>
   <display-name>UUID Based Repository</display-name>
@@ -78,6 +82,16 @@
   <display-name>Themes</display-name>
   <servlet-name>ThemesServlet</servlet-name>
   <servlet-class>org.jbpm.designer.web.server.ThemeServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>CustomEditors</display-name>
+  <servlet-name>CustomEditorsServlet</servlet-name>
+  <servlet-class>org.jbpm.designer.web.server.CustomEditorsServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>FormWidget</display-name>
+  <servlet-name>FormWidgetServlet</servlet-name>
+  <servlet-class>org.jbpm.designer.web.server.FormWidgetServlet</servlet-class>
  </servlet>
  <servlet>
   <display-name>CalledElement</display-name>
@@ -167,6 +181,14 @@
  <servlet-mapping>
   <servlet-name>ThemesServlet</servlet-name>
   <url-pattern>/themes</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CustomEditorsServlet</servlet-name>
+  <url-pattern>/customeditors</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>FormWidgetServlet</servlet-name>
+  <url-pattern>/formwidget</url-pattern>
  </servlet-mapping>
  <servlet-mapping>
   <servlet-name>CalledElementServlet</servlet-name>

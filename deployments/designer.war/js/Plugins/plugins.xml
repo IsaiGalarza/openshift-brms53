@@ -80,9 +80,7 @@
 		<plugin source="addDocker.js" name="ORYX.Plugins.AddDocker">
 			<notUsesIn namespace="http://b3mn.org/stencilset/xforms#" />
 		</plugin>
-		<plugin source="shapeConnector.js" name="ORYX.Plugins.ShapeConnector">
-			<notUsesIn namespace="http://b3mn.org/stencilset/xforms#" />
-		</plugin>
+		<plugin source="shapeConnector.js" name="ORYX.Plugins.ShapeConnector"/>
 		<plugin source="addssextension.js" name="ORYX.Plugins.SSExtensionLoader" />
 
 		<plugin source="selectionframe.js" name="ORYX.Plugins.SelectionFrame">
@@ -335,10 +333,13 @@
 		
 		<plugin source="dictionary.js" name="ORYX.Plugins.Dictionary"/>
 		<plugin source="canvastitle.js" name="ORYX.Plugins.CanvasTitle"/>
+		<plugin source="taskpropertiesupdater.js" name="ORYX.Plugins.TaskPropertiesUpdater"/>
 		<plugin source="inlinetaskformeditor.js" name="ORYX.Plugins.InlineTaskFormEditor"/>
 		<plugin source="processinfo.js" name="ORYX.Plugins.ProcessInfo"/>
 		<plugin source="servicenodeeditor.js" name="ORYX.Plugins.ServiceNodeEditor"/>
 		<plugin source="theme.js" name="ORYX.Plugins.Theme"/>
+		<plugin source="locknode.js" name="ORYX.Plugins.LockNode"/>
+		<plugin source="voicecommand.js" name="ORYX.Plugins.VoiceCommand"/>
 		
 		<!-- <plugin source="stencilsetmanipulator.js" name="ORYX.Plugins.StencilSetManipulator" 
 			/> -->

@@ -32,6 +32,30 @@
 					"length":"",
 					"wrapLines":true,
 					"popular" : true
+				},
+				{
+					"id":"isselectable",
+					"type":"Choice",
+					"title":"Selectable",
+					"value":"true",
+					"default": "true",
+					"description":"This attribute is used to set selectable properties for every node and edges.",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"popular" : true,
+					"items":[
+						{
+							"id":"c1",
+							"title":"true",
+							"value":"true"
+						},
+						{
+							"id":"c2",
+							"title":"false",
+							"value":"false"
+						}
+					]
 				}
  			]
  		},
@@ -180,13 +204,13 @@
 					"items": [
 						{
 							"id": "c1",
-							"title":"false",
-							"value":"false"
+							"title":"true",
+							"value":"true"
 						},
 						{
 							"id": "c2",
-							"title": "true",
-							"value": "true"
+							"title": "false",
+							"value": "false"
 						}
 					]                                               
 				}
@@ -233,7 +257,7 @@
 				},
 				{
 					"id":"dataoutput",
-					"type":"Dataoutput",
+					"type":"Dataoutputsingle",
 					"title":"DataOutput",
 					"value":"",
 					"description":"The Data Associations of the catch Event.",
@@ -299,7 +323,7 @@
 				},
 				{
 					"id":"datainput",
-					"type":"String",
+					"type":"Datainputsingle",
 					"title":"Data Input",
 					"value":"",
 					"description":"The Data Associations of the throw Event.",
@@ -705,6 +729,7 @@
 					"description_ja":"InputSetは、データ入力の有効なセットを合わせて定義するDataInputエレメントのコレクションです。",
 					"readonly":false,
 					"optional":true,
+					"fortasktypes":"None|Send|Receive|User|Manual|Service"
 					/** "complexItems": [
 						{
 							"id":"name",
@@ -741,6 +766,7 @@
 					"description_ja":"OutputSet は、アクティビティまたはイベントの出力としてまとめて生成されるDataOutputs要素のコレクションです。",
 					"readonly":false,
 					"optional":true,
+					"fortasktypes":"None|Send|Receive|User|Manual|Service"
 					/** "complexItems": [
 						{
 							"id":"name",
@@ -815,6 +841,7 @@
 					"description":"",
 					"readonly":false,
 					"optional":true,
+					"fortasktypes":"None|Send|Receive|User|Manual|Service"					
 					/** "complexItems": [
 						{
 							"id":"to",
@@ -1655,9 +1682,10 @@
 					"readonly":false,
 					"optional":false,
 					"refToView":"",
-					"length":"50"
+					"length":"50",
+					"fortasktypes":"None|Send|Receive"
 				},
-				{
+				/**{
 					"id":"operationref",
 					"type":"String",
 					"title":"OperationRef",
@@ -1666,8 +1694,8 @@
 					"description_ja":"オペレーションの定義へのID参照。",
 					"readonly":false,
 					"optional":true
-				},
-				{
+				},**/
+				/**{
 					"id":"instantiate",
 					"type":"Boolean",
 					"title":"Instantiate",
@@ -1676,7 +1704,7 @@
 					"readonly":false,
 					"optional":false,
 					"refToView":""
-				},
+				},**/
 				{
 					"id":"script",
 					"type":"Expression",
@@ -1685,7 +1713,8 @@
 					"description":"Script that can be run when the Task is performed. Related to the Script TaskType, if a script is not included, then the Task will act equivalent to a TaskType of None.",
 					"description_ja":"タスクを実行するときに実行可能なスクリプト。スクリプトのTaskTypeに関連して、スクリプトが含まれない場合は、タスクはTaskTypeがNoneである場合と同じように動作します。",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Script"
 				},
 				{
 					"id":"script_language",
@@ -1696,6 +1725,7 @@
 					"description_ja":"スクリプト言語を定義します。スクリプトを使用する場合は、スクリプト言語を指定する必要があります。",
 					"readonly":false,
 					"optional":true,
+					"fortasktypes":"None|Send|Receive|User|Manual|Service|Script",
 					"items": [
 						{
 							"id": "c1",
@@ -1709,7 +1739,7 @@
 						}
 					]                                               
 				},
-				{
+				/**{
 					"id":"inmessagetype",
 					"type":"String",
 					"title":"In Message",
@@ -1718,8 +1748,8 @@
 					"description_ja":"入力メッセージのタイプ",
 					"readonly":false,
 					"optional":true
-				},
-				{
+				},**/
+				/**{
 					"id":"outmessagetype",
 					"type":"String",
 					"title":"Out Message",
@@ -1728,7 +1758,7 @@
 					"description_ja":"出力メッセージのタイプ",
 					"readonly":false,
 					"optional":true
-				},
+				},**/
 				/**{
 					"id":"servicename",
 					"type":"String",
@@ -1739,7 +1769,7 @@
 					"readonly":false,
 					"optional":true
 				},**/
-				{
+				/**{
 					"id":"namespace",
 					"type":"String",
 					"title":"Namespace",
@@ -1749,7 +1779,7 @@
 					"readonly":false,
 					"optional":true,
 					"length":"50"
-				},
+				},**/
 				{
 					"id":"operation",
 					"type":"String",
@@ -1758,7 +1788,8 @@
 					"description":"operation",
 					"description_ja":"オペレーション",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Service"
 				},
 				/**{
 					"id":"porttype",
@@ -2895,6 +2926,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Activities").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -2905,6 +2947,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Activities").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -2927,7 +2980,8 @@
 					"description":"ruleFlowGroup",
 					"description_ja":"ruleFlowGroup",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Business Rule"
 				},
 				{
 					"id":"onEntryActions",
@@ -2937,7 +2991,8 @@
 					"description":"on entry actions",
 					"description_ja":"アクション開始時",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Send|Receive|User|Manual|Service|Script"
 				},
 				{
 					"id":"onExitActions",
@@ -2947,7 +3002,8 @@
 					"description":"on exit actions",
 					"description_ja":"アクション終了時",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Send|Receive|User|Manual|Service|Script"
 				},
 				{
 					"id":"taskname",
@@ -2957,7 +3013,8 @@
 					"description":"Task Name",
 					"description_ja":"タスク名",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|User"
 				},
 				{
 					"id":"interface",
@@ -2967,7 +3024,8 @@
 					"description":"Interface",
 					"description_ja":"インターフェイス",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Service"
 				},
 				{
 					"id":"operation",
@@ -2977,7 +3035,8 @@
 					"description":"Operation",
 					"description_ja":"オペレーション",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|Service"
 				},
 				{
 					"id":"actors",
@@ -2987,7 +3046,8 @@
 					"description":"Comma-separated list of actors",
 					"description_ja":"アクターのカンマ区切りのリスト",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|User"
 				},
 				{
 					"id":"groupid",
@@ -2997,7 +3057,8 @@
 					"description":"he group id that is responsible for executing the human task",
 					"description_ja":"ヒューマンタスクを担当するグループID",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|User"
 				},
 				{
 					"id":"comment",
@@ -3007,7 +3068,8 @@
 					"description":"Comment",
 					"description_ja":"コメント",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|User"
 				},
 				{
 					"id":"content",
@@ -3017,7 +3079,8 @@
 					"description":"The data associated with this task",
 					"description_ja":"このタスクに関連付けられているデータ",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|User"
 				},
 				{
 					"id":"skippable",
@@ -3028,6 +3091,7 @@
 					"description_ja":"ヒューマンタスクをスキップできるかどうかを指定します",
 					"readonly":false,
 					"optional":true,
+					"fortasktypes":"None|User",
 					"items": [
 						{
 							"id": "c1",
@@ -3049,7 +3113,8 @@
 					"description":"An integer indicating the priority of the human task",
 					"description_ja":"ヒューマンタスクの優先度を示す整数",
 					"readonly":false,
-					"optional":true
+					"optional":true,
+					"fortasktypes":"None|User"
 				}
 			]
 		},
@@ -3098,6 +3163,17 @@
 					"stroke":false
 				\},
 				\{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Service Tasks").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				\},
+				\{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -3108,6 +3184,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				\},
+				\{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Service Tasks").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				\},
 				\{
 					"id":"fontcolor",
@@ -3259,6 +3346,30 @@
 							"value":"Script",
 							"icon" : "activity/list/type.script.png",
 							"refToView":"scriptTask"
+						\}
+					]
+				\},
+				\{
+					"id":"isselectable",
+					"type":"Choice",
+					"title":"Selectable",
+					"value":"true",
+					"default": "true",
+					"description":"This attribute is used to set selectable properties for every node and edges.",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"popular" : true,
+					"items":[
+						\{
+							"id":"c1",
+							"title":"true",
+							"value":"true"
+						\},
+						\{
+							"id":"c2",
+							"title":"false",
+							"value":"false"
 						\}
 					]
 				\},
@@ -3417,6 +3528,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Activities").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -3427,6 +3549,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Activities").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -3668,6 +3801,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Activities").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -3678,6 +3822,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Activities").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -3907,6 +4062,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Activities").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -3917,6 +4083,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Activities").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -4127,6 +4304,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Activities").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -4137,6 +4325,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Activities").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -4714,6 +4913,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Gateways").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -4724,6 +4934,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Gateways").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -4742,7 +4963,7 @@
 					"id":"gatewaytype",
 					"type":"String",
 					"title":"Gateway type",
-					"title":"Gateway-Typ",
+					"title":"Gateway-Type",
 					"value":"XOR",
 					"description":"",
 					"readonly":true,
@@ -4845,6 +5066,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Gateways").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -4855,6 +5087,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Gateways").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -4942,6 +5185,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Gateways").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -4952,6 +5206,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Gateways").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -5016,6 +5281,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Gateways").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -5026,6 +5302,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Gateways").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -5097,7 +5384,7 @@
 				"GatewaysMorph"
 			]
 		},
-		{
+		/** {
 			"type": "node",
 			"id":"ComplexGateway",
 			"title":"Complex Gateway",
@@ -5126,6 +5413,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Gateways").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -5136,6 +5434,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Gateways").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -5203,7 +5512,7 @@
 				"fromtoall",
 				"GatewaysMorph"
 			]
-		},
+		}, **/
 		
 		// Swimlanes
 		/** {
@@ -5404,6 +5713,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Swimlanes").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -5414,6 +5734,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Swimlanes").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -5575,6 +5906,17 @@
 					"stroke":true
 				},
 				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Artifacts").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"fontcolor",
 					"type":"Color",
 					"title":"Font Color",
@@ -5694,18 +6036,6 @@
 			],
 			"properties" : 		[
 				{
-					"id":"text",
-					"type":"String",
-					"title":"Text",
-					"value":"",
-					"description":"",
-					"readonly":false,
-					"optional":true,
-					"refToView":"text",
-					"length":"",
-					"wrapLines":true
-				},
-				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -5716,6 +6046,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Artifacts").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -5864,6 +6205,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Data Objects").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -5874,6 +6226,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Data Objects").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6375,6 +6738,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6385,6 +6759,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6449,6 +6834,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6459,6 +6855,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6553,6 +6960,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6563,6 +6981,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6661,6 +7090,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6671,6 +7111,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6755,6 +7206,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6765,6 +7227,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6858,6 +7331,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6868,6 +7352,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -6933,6 +7428,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -6943,6 +7449,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7016,6 +7533,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Start Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7026,6 +7554,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Start Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7142,6 +7681,7 @@
 			"icon":"catching/message.png",
 			"propertyPackages":[
 				"baseAttributes",
+				"catchEventAttributes",
 				"interrupting",
 				"boundaryevent",
 				"bgColor"
@@ -7174,6 +7714,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Catching Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7184,6 +7735,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Catching Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7265,6 +7827,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Catching Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7275,6 +7848,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Catching Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7397,6 +7981,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Catching Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7407,6 +8002,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Catching Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7490,6 +8096,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Catching Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7500,6 +8117,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Catching Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7644,6 +8272,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Catching Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7654,6 +8293,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Catching Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7814,6 +8464,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Catching Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -7824,6 +8485,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Catching Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -7992,6 +8664,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Throwing Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8002,6 +8685,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Throwing Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8067,6 +8761,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Throwing Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8077,6 +8782,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Throwing Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8150,6 +8866,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Throwing Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8160,6 +8887,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Throwing Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8314,6 +9052,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Throwing Intermediate Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8324,6 +9073,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Throwing Intermediate Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8437,6 +9197,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8447,6 +9218,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8510,6 +9292,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8520,6 +9313,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8590,6 +9394,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8600,6 +9415,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8672,6 +9498,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8682,6 +9519,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8755,6 +9603,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8765,6 +9624,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8829,6 +9699,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8839,6 +9720,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -8901,6 +9793,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -8911,6 +9814,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -9020,6 +9934,17 @@
 					"stroke":false
 				},
 				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("End Events").bgColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				},
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
@@ -9030,6 +9955,17 @@
 					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("End Events").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
@@ -9172,79 +10108,58 @@
 					"optional":false,
 					"visible":false,
 					"refToView":"conditional"
-				}
-			]
-		},
-		{
-			"type": "edge",
-			"id":"Association_Undirected",
-			"title":"Association (undirected)",
-			"description":"Attaching a data object with an Undirected Association to a sequence flow indicates hand-over of information between the activities involved.",
-			"groups":["Connecting Objects"],
-			"view":"connector/association.undirected.svg",
-			"icon":"connector/association.undirected.png",
-			"roles": [
-				"all",
-				"ConnectingObjectsMorph"
-			],			
-			"propertyPackages" : [
-			    "dataAssociation"
-			],
-			"properties" : [
+				},
 				{
-					"id":"type",
-					"type":"Choice",
-					"title":"Responsibilities",
-					"value":"none",
-					"description":"Describes the type of the responsibility according to RACI.",
+					"id":"bgcolor",
+					"type":"Color",
+					"title":"BackgroundColor",
+					"value":"$colortheme.("Connecting Objects").bgColor$", 
+					"description":"",
+					"readonly":false,
+					"optional":false,
+					"refToView": ["start", "end", "frame2"],
+					"fill":true,
+					"stroke":false
+				},
+				{
+					"id":"origbgcolor",
+					"type":"Color",
+					"title":"Original Background Color",
+					"value":"$colortheme.("Connecting Objects").bgColor$",
+					"description":"",
 					"readonly":false,
 					"optional":true,
-					"refToView":"name",
-					"items": [
-						{
-							"id":"c1",
-							"title":"",
-							"value":"none"
-						},
-						{
-							"id":"c2",
-							"title":"responsible",
-							"value":"performs"
-						},
-						{
-							"id":"c3",
-							"title":"accountable",
-							"value":"approves"
-						},
-						{
-							"id":"c4",
-							"title":"consulted",
-							"value":"consulted"
-						},
-						{
-							"id":"c5",
-							"title":"informed",
-							"value":"isNotified"
-						}
-					]
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
-					"value":"#000000",
+					"value":"$colortheme.("Connecting Objects").borderColor$",
 					"description":"",
 					"readonly":false,
 					"optional":false,
-					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
+					"refToView": ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "start", "conditional", "default", "end", "frame2"],
 					"fill":false,
 					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Connecting Objects").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				},
 				{
 					"id":"fontcolor",
 					"type":"Color",
 					"title":"Font Color",
-					"value":"#000000",
+					"value":"$colortheme.("Connecting Objects").fontColor$",
 					"description":"Font color",
 					"description_ja":"フォントの色",
 					"readonly":false,
@@ -9326,6 +10241,86 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"type": "edge",
+			"id":"Association_Undirected",
+			"title":"Association (undirected)",
+			"description":"Attaching a data object with an Undirected Association to a sequence flow indicates hand-over of information between the activities involved.",
+			"description_ja":"データオブジェクトが無方向関連でシーケンスフローにアタッチされている場合、関与するアクティビティ間で情報の受け渡しがあることを表します。",
+			"groups":["Connecting Objects"],
+			"view":"connector/association.undirected.svg",
+			"icon":"connector/association.undirected.png",
+			"roles": [
+				"all",
+				"ConnectingObjectsMorph"
+			],			
+			"propertyPackages" : [
+			    "baseAttributes"
+			],
+			"properties" : [
+				{
+					"id":"type",
+					"type":"Choice",
+					"title":"Responsibilities",
+					"value":"none",
+					"description":"Describes the type of the responsibility according to RACI.",
+					"description_ja":"RACIに従って責任のタイプを記述します。",
+					"readonly":false,
+					"optional":true,
+					"refToView":"name",
+					"items": [
+						{
+							"id":"c1",
+							"title":"",
+							"value":"none"
+						},
+						{
+							"id":"c2",
+							"title":"responsible",
+							"value":"performs"
+						},
+						{
+							"id":"c3",
+							"title":"accountable",
+							"value":"approves"
+						},
+						{
+							"id":"c4",
+							"title":"consulted",
+							"value":"consulted"
+						},
+						{
+							"id":"c5",
+							"title":"informed",
+							"value":"isNotified"
+						}
+					]
+				},
+				{
+					"id":"bordercolor",
+					"type":"Color",
+					"title":"BorderColor",
+					"value":"$colortheme.("Connecting Objects").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":false,
+					"refToView": ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "start", "conditional", "default", "end", "frame2"],
+					"fill":false,
+					"stroke":true
+				},
+				{
+					"id":"origbordercolor",
+					"type":"Color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Connecting Objects").borderColor$",
+					"description":"",
+					"readonly":false,
+					"optional":true,
+					"hidden":true,
+					"visible":false
+				}
            ]
 		},
 		{
@@ -9343,7 +10338,7 @@
 				"Directed_Association"
 			],
 			"propertyPackages" : [
-			    "dataAssociation"
+			    "baseAttributes"
 			],
 			"properties" : [
                 {
@@ -9359,101 +10354,28 @@
                     "wrapLines":true,
 					"popular":true
                 },
-                {
+				{
 					"id":"bordercolor",
 					"type":"Color",
 					"title":"BorderColor",
-					"value":"#000000",
+					"value":"$colortheme.("Connecting Objects").borderColor$",
 					"description":"",
 					"readonly":false,
 					"optional":false,
-					"refToView": ["edge", "fill_border", "bg_frame", "frame", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7", "frame8", "frame9", "frame10", "frame11", "frame12", "frame13", "frame14", "frame15", "frame16", "frame17", "frame18", "frame19", "frame20", "frame21", "frame22", "frame23", "frame24", "frame25", "frame26", "border"],
+					"refToView": ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "start", "conditional", "default", "end", "frame2"],
 					"fill":false,
 					"stroke":true
 				},
 				{
-					"id":"fontcolor",
+					"id":"origbordercolor",
 					"type":"Color",
-					"title":"Font Color",
-					"value":"#000000",
-					"description":"Font color",
+					"title":"Original Border Color",
+					"value":"$colortheme.("Connecting Objects").borderColor$",
+					"description":"",
 					"readonly":false,
-					"optional":false,
-					"refToView": ["text_name"],
-					"fill":true,
-					"stroke":false
-				},
-				{
-					"id":"fontsize",
-					"type":"Choice",
-					"title":"Font Size",
-					"value":"",
-					"description":"The Font Size",
-					"readonly":false,
-					"optional":false,
-					"refToView":"text_name",
-					"items":[
-						{
-							"id":"c1",
-							"title":"8",
-							"value":"8"
-						},
-						{
-							"id":"c2",
-							"title":"9",
-							"value":"9"
-						},
-						{
-							"id":"c3",
-							"title":"10",
-							"value":"10"
-						},
-						{
-							"id":"c4",
-							"title":"11",
-							"value":"11"
-						},
-						{
-							"id":"c5",
-							"title":"12",
-							"value":"12"
-						},
-						{
-							"id":"c6",
-							"title":"14",
-							"value":"14"
-						},
-						{
-							"id":"c7",
-							"title":"18",
-							"value":"18"
-						},
-						{
-							"id":"c8",
-							"title":"20",
-							"value":"20"
-						},
-						{
-							"id":"c9",
-							"title":"24",
-							"value":"24"
-						},
-						{
-							"id":"c10",
-							"title":"36",
-							"value":"36"
-						},
-						{
-							"id":"c11",
-							"title":"48",
-							"value":"48"
-						},
-						{
-							"id":"c12",
-							"title":"72",
-							"value":"72"
-						}
-					]
+					"optional":true,
+					"hidden":true,
+					"visible":false
 				}
            ]
 		},
@@ -9598,6 +10520,10 @@
 					},
 					{
 						"from":"Subprocess",
+						"to":["IntermediateEventOnSubprocessBoundary"]
+					},
+					{
+						"from":"ReusableSubprocess",
 						"to":["IntermediateEventOnSubprocessBoundary"]
 					}
 				]

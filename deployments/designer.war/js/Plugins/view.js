@@ -44,11 +44,17 @@ ORYX.Plugins.View = {
 
 	construct: function(facade, ownPluginData) {
 		this.facade = facade;
+		
+		// registered voice commands
+		this.facade.registerOnEvent(ORYX.CONFIG.VOICE_COMMAND_GENERATE_FORMS, this.generateTaskForms.bind(this));
+		this.facade.registerOnEvent(ORYX.CONFIG.VOICE_COMMAND_GENERATE_IMAGE, this.showAsPNG.bind(this));
+		this.facade.registerOnEvent(ORYX.CONFIG.VOICE_COMMAND_VIEW_SOURCE, this.showProcessBPMN.bind(this));
+		
 		//Standard Values
 		this.zoomLevel = 1.0;
 		this.maxFitToScreenLevel=1.5;
-		this.minZoomLevel = 0.1;
-		this.maxZoomLevel = 2.5;
+		this.minZoomLevel = 0.4;
+		this.maxZoomLevel = 2.0;
 		this.diff=5; //difference between canvas and view port, s.th. like toolbar??
 		
 		//Read properties
@@ -113,13 +119,34 @@ ORYX.Plugins.View = {
 		});
 		
 		/* Register popout to model */
+//		this.facade.offer({
+//			'name':ORYX.I18N.View.showInPopout,
+//			'functionality': this.showInPopout.bind(this),
+//			'group': ORYX.I18N.View.jbpmgroup,
+//			'icon': ORYX.PATH + "images/popup.gif",
+//			'description': ORYX.I18N.View.showInPopoutDesc,
+//			'index': 1,
+//			'minShape': 0,
+//			'maxShape': 0,
+//			'isEnabled': function(){
+//				profileParamName = "profile";
+//				profileParamName = profileParamName.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+//				regexSa = "[\\?&]"+profileParamName+"=([^&#]*)";
+//		        regexa = new RegExp( regexSa );
+//		        profileParams = regexa.exec( window.location.href );
+//		        profileParamValue = profileParams[1]; 
+//				return profileParamValue == "jbpm";
+//			}.bind(this)
+//		});
+		
+		/* Register full screen to model */
 		this.facade.offer({
-			'name':ORYX.I18N.View.showInPopout,
-			'functionality': this.showInPopout.bind(this),
+			'name':'Show in full screen',
+			'functionality': this.showInFullScreen.bind(this),
 			'group': ORYX.I18N.View.jbpmgroup,
-			'icon': ORYX.PATH + "images/popup.gif",
-			'description': ORYX.I18N.View.showInPopoutDesc,
-			'index': 1,
+			'icon': ORYX.PATH + "images/fullscreen.png",
+			'description': 'Show in full screen mode',
+			'index': 2,
 			'minShape': 0,
 			'maxShape': 0,
 			'isEnabled': function(){
@@ -141,7 +168,7 @@ ORYX.Plugins.View = {
 			'group': ORYX.I18N.View.jbpmgroup,
 			'icon': ORYX.PATH + "images/human_task.gif",
 			'description': ORYX.I18N.View.generateTaskFormsDesc,
-			'index': 2,
+			'index': 3,
 			'minShape': 0,
 			'maxShape': 0,
 			'isEnabled': function(){
@@ -439,6 +466,10 @@ ORYX.Plugins.View = {
 
         uuidParamValue = uuidParams[1]; 
         window.open (ORYX.EXTERNAL_PROTOCOL + "://" + ORYX.EXTERNAL_HOST + "/" + ORYX.EXTERNAL_SUBDOMAIN  + "/org.drools.guvnor.Guvnor/standaloneEditorServlet?assetsUUIDs=" + uuidParamValue + "&client=oryx" , "Process Editor","status=0,toolbar=0,menubar=0,resizable=0,location=no,width=1400,height=1000");
+	},
+	
+	showInFullScreen : function() {
+		this.goFullscreen('jbpmdesigner');
 	},
 	
 	/**
@@ -1085,10 +1116,12 @@ ORYX.Plugins.View = {
 						}]
 			});
 		win.show();
+		this.foldFunc = CodeMirror.newFoldFunction(CodeMirror.tagRangeFinder);
 		var sourceEditor = CodeMirror.fromTextArea(document.getElementById("svgSourceTextArea"), {
 			  mode: "application/xml",
 			  lineNumbers: true,
-			  lineWrapping: true
+			  lineWrapping: true,
+			  onGutterClick: this.foldFunc
 			});
 	},
 	
@@ -1120,10 +1153,12 @@ ORYX.Plugins.View = {
 						}]
 			});
 		win.show();
+		this.foldFunc = CodeMirror.newFoldFunction(CodeMirror.tagRangeFinder);
 		var sourceEditor = CodeMirror.fromTextArea(document.getElementById("erdfSourceTextArea"), {
  			  mode: "application/xml",
  			  lineNumbers: true,
- 			  lineWrapping: true
+ 			  lineWrapping: true,
+ 			  onGutterClick: this.foldFunc
  			});
 	},
 	
@@ -1154,10 +1189,12 @@ ORYX.Plugins.View = {
 			}]
 			});
 		win.show();
+		this.foldFunc = CodeMirror.newFoldFunction(CodeMirror.braceRangeFinder);
 		var sourceEditor = CodeMirror.fromTextArea(document.getElementById("jsonSourceTextArea"), {
  			  mode: "application/json",
  			  lineNumbers: true,
- 			  lineWrapping: true
+ 			  lineWrapping: true,
+ 			  onGutterClick: this.foldFunc
  			});
 	},
 	
@@ -1247,10 +1284,12 @@ ORYX.Plugins.View = {
 						}]
     	   				});
     	   			win.show();
+    	   			this.foldFunc = CodeMirror.newFoldFunction(CodeMirror.tagRangeFinder);
     	   			var sourceEditor = CodeMirror.fromTextArea(document.getElementById("bpmnSourceTextArea"), {
     	   			  mode: "application/xml",
     	   			  lineNumbers: true,
-    	   			  lineWrapping: true
+    	   			  lineWrapping: true,
+    	   			  onGutterClick: this.foldFunc
     	   			});
     	   		}catch(e){
     	   			Ext.Msg.alert("Converting to BPMN2 Failed :\n"+e);
@@ -1462,7 +1501,7 @@ ORYX.Plugins.View = {
 	_checkSize:function(){
 		var canvasParent=this.facade.getCanvas().getHTMLContainer().parentNode;
 		var minForCanvas= Math.min((canvasParent.parentNode.getWidth()/canvasParent.getWidth()),(canvasParent.parentNode.getHeight()/canvasParent.getHeight()));
-		return 1.05 > minForCanvas;
+		return 0.7 > minForCanvas;
 		
 	},
 	/**
@@ -1483,6 +1522,41 @@ ORYX.Plugins.View = {
 		
 		if(this.zoomLevel > this.maxZoomLevel) {
 			this.zoomLevel = this.maxZoomLevel;			
+		}
+	},
+	goFullscreen : function(id) {
+		if(parent && parent.frames) {
+			if(parent.frames.length < 2) {
+				if(document.getElementById(id).requestFullScreen) {
+					document.getElementById(id).requestFullScreen();
+				} else if(document.getElementById(id).mozRequestFullScreen) {
+					document.getElementById(id).mozRequestFullScreen();
+				} else if(document.getElementById(id).webkitRequestFullScreen) {
+					document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+				} else {
+					Ext.Msg.minWidth = 400;
+	        		Ext.Msg.alert("Browser does not support full screen mode.");
+				}
+			} else {
+				for (var i = 0;i < parent.frames.length;i++) {
+					if(parent.frames[i].ORYX) {
+						parent.frames[i].frameElement.setAttribute('allowFullScreen', 'true');
+						parent.frames[i].frameElement.setAttribute('mozallowfullscreen', 'true');
+						parent.frames[i].frameElement.setAttribute('webkitallowfullscreen', 'true');
+						if(parent.frames[i].frameElement.contentDocument.getElementById(id).requestFullScreen) {
+							parent.frames[i].frameElement.contentDocument.getElementById(id).requestFullScreen();
+						} else if(parent.frames[i].frameElement.contentDocument.getElementById(id).mozRequestFullScreen) {
+							parent.frames[i].frameElement.contentDocument.getElementById(id).mozRequestFullScreen();
+						} else if(parent.frames[i].frameElement.contentDocument.getElementById(id).webkitRequestFullScreen) {
+							parent.frames[i].frameElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+						} else {
+							Ext.Msg.minWidth = 400;
+			        		Ext.Msg.alert("Browser does not support full screen mode.");
+						}
+					}
+				}
+			}
+			
 		}
 	}
 };

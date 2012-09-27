@@ -38,7 +38,10 @@
     <!-- <plugin name="ORYX.Plugins.ServiceNodeEditor"/> -->
     <plugin name="ORYX.Plugins.NodeXMLViewer"/>
     <plugin name="ORYX.Plugins.Theme"/>
-		<!-- TODO: update host by ssh into your instance, run cmd 'export' and locate variable OPENSHIFT_INTERNAL_IP, fill in for host.  -->
-		<externalloadurl protocol="http" host="127.2.112.129:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="brms"/>
+    <plugin name="ORYX.Plugins.LockNode"/>
+    <plugin name="ORYX.Plugins.DockerCreation"/>
+    <plugin name="ORYX.Plugins.TaskPropertiesUpdater"/>
+    <plugin name="ORYX.Plugins.VoiceCommand"/>
+   <externalloadurl protocol="http" host="localhost:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="admin"/>
   </profile>
 </profiles>

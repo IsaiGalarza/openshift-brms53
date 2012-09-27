@@ -48,7 +48,16 @@ ORYX.Plugins.ShapeRepository = {
 			rootVisible: false,
 			lines: false,
 			anchors: '0, -30'
-		})
+		});
+		
+		var sorter = new Ext.tree.TreeSorter(panel, {
+		    folderSort: true,
+		    dir: "asc",
+		    sortType: function(node) {
+		        return node.text;
+		    }
+		});
+		
 		var region = this.facade.addToRegion("west", panel, ORYX.I18N.ShapeRepository.title);
 		
 		Ext.Ajax.request({
@@ -184,6 +193,8 @@ ORYX.Plugins.ShapeRepository = {
 					
 				}).bind(this));
 				
+				
+				
 				// If there is no group
 				if(groups.length == 0) {
 					// Create the Stencil-Tree-Node
@@ -242,7 +253,6 @@ ORYX.Plugins.ShapeRepository = {
 	},
 	
 	drop: function(dragZone, target, event) {
-		
 		this._lastOverElement = undefined;
 		
 		// Hide the highlighting
@@ -305,8 +315,6 @@ ORYX.Plugins.ShapeRepository = {
 					this.parent.add(this.shape);
 				}
 					
-				
-				
 				if( this.canAttach &&  this.currentParent instanceof ORYX.Core.Node && this.shape.dockers.length > 0){
 					
 					var docker = this.shape.dockers[0];
@@ -342,12 +350,9 @@ ORYX.Plugins.ShapeRepository = {
 			}
 		});
 							
-		var position = this.facade.eventCoordinates( event.browserEvent );	
-					
+		var position = this.facade.eventCoordinates( event.browserEvent );
 		var command = new commandClass(option, this._currentParent, this._canAttach, position, this.facade);
-		
 		this.facade.executeCommands([command]);
-		
 		this._currentParent = undefined;
 	},
 
