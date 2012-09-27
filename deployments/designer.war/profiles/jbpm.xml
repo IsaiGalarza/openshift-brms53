@@ -42,6 +42,7 @@
     <plugin name="ORYX.Plugins.DockerCreation"/>
     <plugin name="ORYX.Plugins.TaskPropertiesUpdater"/>
     <plugin name="ORYX.Plugins.VoiceCommand"/>
-   <externalloadurl protocol="http" host="localhost:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="admin"/>
+		<!-- update host, ssh into instance, run cmd 'export', locate variable OPENSHIFT_INTERNAL_IP, fill in for host.  -->
+   <externalloadurl protocol="http" host="127.2.112.129:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin" pwd="admin"/>
   </profile>
 </profiles>
