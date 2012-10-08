@@ -13,7 +13,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application
 
-    rhc app create -a brms53 -t jbosseap-6.0 -g medium -s
+    rhc app create -a brms53 -t jbosseap-6.0 -g medium
 
 Add this upstream openshift-brms53 repo.
 
