@@ -35,6 +35,11 @@
         <extension module="org.jboss.as.weld"/>
     </extensions>
 
+		<!-- logging fix for per-deployment so that jboss-brms.war can deploy. -->
+		<system-properties>
+			<property name="org.jboss.as.logging.per-deployment" value="false"/>
+		</system-properties>
+
     <management>
         <management-interfaces>
             <native-interface>
@@ -105,7 +110,7 @@
                       <password>${env.OPENSHIFT_DB_PASSWORD}</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:jboss/datasources/PostgreSQLDS" enabled="${postgresql.enabled}" use-java-context="true" pool-name="PostgreSQLDS" use-ccm="true">
+                <datasource jndi-name="java:jboss/datasources/brms53DS" enabled="${postgresql.enabled}" use-java-context="true" pool-name="PostgreSQLDS" use-ccm="true">
                     <connection-url>jdbc:postgresql://${env.OPENSHIFT_DB_HOST}:${env.OPENSHIFT_DB_PORT}/${env.OPENSHIFT_GEAR_NAME}</connection-url>
                     <driver>postgresql</driver>
                     <security>
@@ -458,6 +463,15 @@
                         </login-module>
                     </authentication>
                 </security-domain>
+								<!-- OpenShift need to add EAPL6 security domain. -->
+								<security-domain name="brms" cache-type="default">
+									  <authentication>
+												<login-module code="UsersRoles" flag="required">
+														<module-option name="usersProperties" value="${env.OPENSHIFT_HOMEDIR}jbosseap-6.0/jbosseap-6.0/standalone/configuration/brms-users.properties"/>
+														<module-option name="rolesProperties" value="${env.OPENSHIFT_HOMEDIR}jbosseap-6.0/jbosseap-6.0/standalone/configuration/brms-roles.properties"/>
+												</login-module>
+										</authentication>
+								</security-domain>
             </security-domains>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:threads:1.1"/>
