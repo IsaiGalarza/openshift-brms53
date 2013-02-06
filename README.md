@@ -13,18 +13,8 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application
 
-    rhc app create -a brms53 -t jbosseap-6.0 -g medium
-
-Add this upstream openshift-brms53 repo.
-
-    cd brms53
-    git remote add upstream -m master https://github.com/eschabell/openshift-brms53.git
-    git pull -s recursive -X theirs upstream master
+    rhc app create -a brms53 -t jbosseap-6.0 -g medium --from-code https://github.com/eschabell/openshift-brms53.git
     
-Then push the repo upstream
-
-    git push
-
 That's it, you can now checkout your gear homepage at:
 
     http://brms53-$your_domain.rhcloud.com
