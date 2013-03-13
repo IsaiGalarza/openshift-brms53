@@ -49,5 +49,3 @@ See the tagged releases for the following versions:
 
 - v1.0 is EAP 6 cartridge running BRMS 5.3.1 deployable jboss-brms + designer only.
 
-- v1.1 is EAP 6 cartridge running BRMS 5.3.1 deployable jboss-brms + designer + business-central server.
-
