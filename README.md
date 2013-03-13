@@ -32,6 +32,8 @@ can find by ssh'ing into the instance, then running cmd 'export' to find variabl
         <externalloadurl protocol="http" host="127.8.133.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin"
         pwd="brms"/ -->
 
+Same for business-central-server.war/WEB-INF/classes/jbpm.console.properties
+
 That is really it now, once it starts up your BRMS 5.3 product is available at:
 
     http://brms53-$your_domain.rhcloud.com/jboss-brms
