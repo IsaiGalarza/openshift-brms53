@@ -38,3 +38,13 @@ That is really it now, once it starts up your BRMS 5.3 product is available at:
 
 Finally, you can import the demo application by importing the file import_demo_to_brms.zip into the Administration -> Import Export
 tab from the console.
+
+
+Released Versions
+-----------------
+
+See the tagged releases for the following versions:
+
+- v1.0 is EAP 6 cartridge running BRMS 5.3.1 deployable jboss-brms + designer only.
+
+- v1.1 is EAP 6 cartridge running BRMS 5.3.1 deployable jboss-brms + designer + businesss-central.
