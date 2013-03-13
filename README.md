@@ -1,6 +1,6 @@
-JBoss BRMS 5.3 product: BRM component & Web Designer OpenShift 
+JBoss Business Rules Management System puts BPM in the Cloud
 ==============================================================
-Want to play with the JBoss BRMS 5.3 product, it has never been easier!
+Want to play with the JBoss BRMS product, it has never been easier!
 
 This git repository helps you get up and running quickly with the BRMS 
 BRM and Web Designer components in OpenShift. Easy to demo or just test
@@ -13,11 +13,11 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application
 
-    rhc app create -a brms53 -t jbosseap-6.0 -g medium --from-code https://github.com/eschabell/openshift-brms53.git
+    rhc app create -a brms5 -t jbosseap-6.0 -g medium --from-code https://github.com/eschabell/openshift-brms53.git
     
 That's it, you can now checkout your gear homepage at:
 
-    http://brms53-$your_domain.rhcloud.com
+    http://brms5-$your_domain.rhcloud.com
 
 But you are not done... there is a configuration step needed right now until we sort out 
 the OpenShift variable needed to identify this gears among a few other things. See the 
@@ -36,7 +36,7 @@ Same for business-central-server.war/WEB-INF/classes/jbpm.console.properties
 
 That is really it now, once it starts up your BRMS 5.3 product is available at:
 
-    http://brms53-$your_domain.rhcloud.com/jboss-brms
+    http://brms5-$your_domain.rhcloud.com/jboss-brms
 
 Finally, you can import the demo application by importing the file import_demo_to_brms.zip into the Administration -> Import Export
 tab from the console.
