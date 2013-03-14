@@ -32,7 +32,9 @@ can find by ssh'ing into the instance, then running cmd 'export' to find variabl
         <externalloadurl protocol="http" host="127.8.133.1:8080" subdomain="jboss-brms/org.drools.guvnor.Guvnor/oryxeditor" usr="admin"
         pwd="brms"/ -->
 
-Same for business-central-server.war/WEB-INF/classes/jbpm.console.properties
+Note: should you want to play with adding in business central and/or human task server, then you need to ssh into your instance and 
+change the .skipdeploy to .dodeploy by hand right now (protects memory usage). You will need to adjust localhost settings in
+components like business-central-server.war/WEB-INF/classes/jbpm.console.properties.
 
 That is really it now, once it starts up your BRMS 5.3 product is available at:
 
